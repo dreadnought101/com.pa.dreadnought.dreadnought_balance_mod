@@ -5,8 +5,8 @@
     "splash_radius": 5,
     "full_damage_splash_radius": 2,
     "initial_velocity": 225.0,
-    "max_velocity": 140.0,
-    "lifetime": 3,
+    "max_velocity": 225.0,
+    "lifetime": 4.5,
     "events": {
         "died": {
             "effect_spec": "/pa/units/sea/battleship/battleship_hit.pfx"

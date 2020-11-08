@@ -22,6 +22,7 @@
 -Health decreased 80000 to 50000
 -secondary weapons range increased 220 to 350
 -secondary weapons velocity increased 140 to 225
+-secondary weapons lifetime increased 3.0 to 4.5
 
 ~Energy Storage
 -HP Reduced from 7500 to 5000
@@ -56,13 +57,15 @@ Advanced Metal Extractor (T2)
 (Dev Idea: General T2 defense buffs)
 -HP reduced 2000 to 1700
 -Metal cost reduced 900 to 750
--Range increased 120 to 130
+-Range increased 120 to 150
 
 ~Storm (T2 Vehicle)
 (Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
--range increased 100 to 130
+-range increased 100 to 120
 -damage decreased 4x15 to 4x10
 -Splash decreased 10 to 7
+-velocity increased 100 to 120
+-lifetime increased 15 to 18
 
 ~Hornet (T2 Air bomber)
 -range increase 180 to 200
