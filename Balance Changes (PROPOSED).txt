@@ -1,6 +1,6 @@
 ~Stryker (T1 Vehicle)
 -Range decreased 80 to 70
--Damage decreased 15x2 to 14x2
+-Damage decreased 15x2 to 13x2
 
  ~Grenadier (T1 Bot)
 -Range decreased  145 to 140
@@ -57,12 +57,15 @@ Advanced Metal Extractor (T2)
 -Range increased 120 to 130
 
 ~Storm (T2 Vehicle)
-(Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game
+(Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
 -range increased 100 to 130
 -damage decreased 4x15 to 4x10
+-Splash decreased 10 to 7
 
 ~Hornet (T2 Air bomber)
 -range increase 180 to 200
+-vision radius increase 200 to 210
+-underwater vision radius 200 to 210
 
 ~Piranha (T1 Naval)
 (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent)
@@ -73,8 +76,8 @@ Advanced Metal Extractor (T2)
 ~Narwhal (T1 Naval)
 (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
 -Metal cost decreased 450 to 400
--AA Weapon firerate 0.67s to 0.80s
--AA Weapon damage decerased 50 to 40
+-AA Weapon firerate 3.0/s to 2.4/s
+-AA Weapon damage decerased 25 to 20
 
 ~Barnacle (T1 Naval)
 (Dev Idea: Quality of life changes to let the Barnacle's speed match Orcas/Narwhals at 11 and allows it to repair more safely and consistently.  Extra note, build range may be to big but want to try something extreme, will likely be 90 after)
