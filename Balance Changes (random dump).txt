@@ -1,0 +1,5 @@
+
+~Omega (Advanced Orbital)
+(Dev Idea: Make them actually counter avengers)
+--Full Damage radius: 1 
+--Splash: 10x2 damage, radius 3

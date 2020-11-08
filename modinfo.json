@@ -1,0 +1,38 @@
+{
+    "context": "server",
+    "identifier": "com.pa.dreadnought.dreadnought_balance_mod",
+    "display_name": "Dreadnought Balance Mod",
+    "description": "Makes various balance changes to units for testing and theory crafting, specific details on forums or in notepad info",
+    "author": "Dreadnought",
+    "version": "1.0.8",
+    "signature": " meh ",
+    "priority": 100,
+    "enabled": true,
+    "icon": "https://i.imgur.com/OUDONTO.png",
+    "forum": "https://forums.planetaryannihilation.com/threads/wip-server-dreadnought-balance-mod.73524/ ",
+    "date": "2020-11-16",
+    "build": "115013",
+    "fileSystem": false,
+    "searchable": [
+        "adjustments",
+        "units",
+        "change",
+        "stats",
+        "balance",
+        "dreadnought"
+    ],
+    "sort": "Dreadnought Balance Mod",
+    "authors": [
+		"Dreadnought"
+    ],
+    "dependencies": [],
+    "companions": [],
+    "scenes": {},
+    "framework": false,
+    "available": true,
+    "titansOnly": true,
+    "classicOnly": false,
+    "classic": false,
+    "titans": true,
+    "conflicts": {}
+}

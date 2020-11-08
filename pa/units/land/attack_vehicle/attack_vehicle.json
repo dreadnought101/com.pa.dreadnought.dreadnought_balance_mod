@@ -1,0 +1,90 @@
+{
+    "TEMP_texelinfo": 6.12932,
+    "attachable": {
+        "offsets": {
+            "head": [0, 1, 4.1],
+            "root": [0, 0, 0]
+        }
+    },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/veh/attack_vehicle_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/veh/attack_vehicle"
+        }
+    },
+    "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+    "build_metal_cost": 55,
+    "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface targets.",
+    "display_name": "Stryker",
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/veh"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Veh",
+            "effect_scale": 1.0
+        },
+        "fired": {
+            "audio_cue": "/SE/Weapons/veh/attack_vehicle_fire",
+            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle02"
+        }
+    },
+    "guard_layer": "WL_AnySurface",
+    "max_health": 60,
+    "mesh_bounds": [3.8, 5, 3.5],
+    "model": {
+        "animations": {
+            "run": "/pa/units/land/attack_vehicle/attack_vehicle_anim_run.papa"
+        },
+        "animtree": "/pa/anim/anim_trees/attack_vehicle_anim_tree.json",
+        "filename": "/pa/units/land/attack_vehicle/attack_vehicle.papa",
+        "walk_speed": 12
+    },
+    "navigation": {
+        "acceleration": 150,
+        "brake": 150,
+        "move_speed": 20,
+        "turn_speed": 180,
+        "type": "land-small"
+    },
+    "physics": {
+        "radius": 3.5
+    },
+    "recon": {
+        "observer": {
+            "items": [{
+                    "channel": "sight",
+                    "layer": "surface_and_air",
+                    "radius": 110,
+                    "shape": "capsule"
+                }, {
+                    "channel": "sight",
+                    "layer": "underwater",
+                    "radius": 110,
+                    "shape": "capsule"
+                }
+            ]
+        }
+    },
+    "selection_icon": {
+        "diameter": 10.0
+    },
+    "tools": [{
+            "aim_bone": "bone_pivot",
+            "muzzle_bone": ["socket_muzzle01", "socket_muzzle02"],
+            "projectiles_per_fire": 2,
+            "spec_id": "/pa/units/land/attack_vehicle/attack_vehicle_tool_weapon.json"
+        }
+    ],
+    "transportable": {
+        "size": 1
+    },
+    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Offense"]
+}
