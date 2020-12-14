@@ -1,0 +1,127 @@
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115050]
+~Stryker (T1 Vehicle)
+-Range decreased 80 to 70
+-Damage decreased 15x2 to 13x2
+-Movement Speed Increased 18 to 20
+
+~Spinner (T1 Vehicle)
+-Rate of Fire increased 2.4 to 3.0 per second
+
+~Grenadier (T1 Bot)
+-Range decreased  145 to 140
+-Firerate decreased 2.00 to 2.80 seconds (fires 40% less often, or 0.5 to 0.3 shots per second, and decreases 20dps to 14dps)
+-vision decrease 125 to 120
+
+~Spark (T1 Bot)
+-Decreased range 70 to 65
+
+~Locust (T2 Bot)
+-Deleted from the game
+...kidding.
+-build cost increased 260 metal to 265
+
+~Colonel (T2 Bot)
+-Metal cost reduced 7000 to 6500
+
+~Storm (T2 Vehicle)
+(Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
+-range increased 100 to 120
+-damage decreased 4x15 to 4x10
+-Splash decreased 10 to 7
+-velocity increased 100 to 120
+-lifetime increased 15 to 18
+
+~Hornet (T2 Air bomber)
+-range increase 180 to 200
+-vision radius increase 200 to 210
+-underwater vision radius 200 to 210
+
+~Piranha (T1 Naval)
+(Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent)
+-range decreased 130 to 110
+-metal cost increased 150 to 160
+-damage increased 20 to 24
+
+~Barracuda (T1 Naval)
+-No Longer has radar stealth
+
+~Narwhal (T1 Naval)
+(Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
+-Metal cost decreased 450 to 400
+-AA Weapon firerate 3.0/s to 2.4/s
+-AA Weapon damage decerased 25 to 20
+
+~Barnacle (T1 Naval)
+(Dev Idea: Quality of life changes to let the Barnacle's speed match Orcas/Narwhals at 11 and allows it to repair more safely and consistently.  Extra note, build range may be to big but want to try something extreme, will likely be 90 after)
+-speed increased 10 to 11
+-build range increased 65 to 120
+
+~Atlas (Titan)
+-Health increased 40000 to 60000
+-full Damage radius decreased 80 to 60
+-splash damage raidus decreased 135 to 120 (damage still 8000)
+
+~ARES (Titan)
+(Dev Idea: Makes killing it easier, and gives a real use to secondary guns)
+-Health decreased 80000 to 50000
+-secondary weapons range increased 220 to 350
+-secondary weapons velocity increased 140 to 225
+-secondary weapons lifetime increased 3.0 to 4.5
+
+~Typhoon (T2 Naval)
+(Dev Idea: Typhoons launch squalls a little to quickly and even overwhelms units that should counter typhoons, but if enough squals build up, it should still be punishing)
+-Squal launchrate 2.0/s to 1.8/s
+
+~Omega (Advanced Orbital)
+(Dev Idea: Make them actually counter avengers)
+-cost reduced 14000 to 12500
+-Add splash to anti-orbital weapons (2x65 damage every 1.00 seconds)
+-Increase max range from 150 to 175
+
+~Solar Array (Advanced Orbital energy producer)
+(Dev Idea: Solar-power is GREEN! and best!)
+-HP Increase 1000 to 6000
+-Metal cost increased 1600 to 5000
+-Energy production increased 2500/s to  9000/s
+-Added 100,000 energy storage (from 0)
+
+~Jig (Orbital Gas Giant Extractor)
+(Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
+-Removed 50,000 energy storage (to 0)
+-Removed 7,500 energy production (to 0)
+
+~Energy Storage
+-HP Reduced from 7500 to 5000
+-Metal Cost reduced 450 to 250
+-Storage increased 100,000 to 250,000
+
+Advanced Metal Extractor (T2)
+-Metal Cost reduced 2000 to 1800
+
+~Single Laser Defense Tower (1 barrel)
+(Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
+-Metal Cost decreased 225 to 175
+-Range decreased 100 to 90
+-damage decreased 40 to 35
+
+~Advanced Laser Defense Tower (T2 triple barrel)
+(Dev Idea: General T2 defense buffs)
+-Metal cost reduced 900 to 875
+-Range increased 120 to 140
+
+~Flak Cannon (T2)
+(Dev Idea: General T2 defense buffs)
+-HP reduced 2000 to 1700
+-Metal cost reduced 900 to 750
+-Range increased 120 to 150
+
+~Advanced Torpedo Launcher (T2)
+(Dev Idea: General T2 defense buffs)
+-metal cost reduced 1000 to 950
+-range increased 210 to 340
+-torpedo lifetime increased 5 to 8
+-Vision radius increased from 210 to 320
+-Underwater vision radius increased 200 to 320
+-Radar radius increased 210 to 340
+-Sonar radius increased 210 to 320
+

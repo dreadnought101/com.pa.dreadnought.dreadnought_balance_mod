@@ -1,0 +1,12 @@
+Fix pirhannas being hit by torpedoes
+
+jig explosion 
+
+Lob dox to squall
+
+Vanguard
+Radar 260 to 300
+remove jamming
+
+Narwhal
+Add torpedoes from classic

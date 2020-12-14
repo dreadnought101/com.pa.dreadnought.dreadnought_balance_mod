@@ -1,0 +1,10 @@
+Patch 1.11
+~Solar Array
+Added 100,000 energy storage
+
+~Jig
+Removed 50,000 energy storage
+Removed 7,500 energy production
+
+~Colonel
+Metal cost reduced 7000 to 6500
