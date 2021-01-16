@@ -1,26 +1,48 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115186]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447]
+
 ~Stryker (T1 Vehicle)
 (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 -Range decreased 80 to 70
 -Damage decreased 15x2 to 13x2
 -Movement Speed Increased 18 to 20
 
+~Ant (T1 Vehicle)
+(Dev Idea: Matches spark vision and better supports high range+low vision units)
+-Vision radius increased 100 to 130
+
 ~Spinner (T1 Vehicle)
--Rate of Fire increased 2.4 to 3.0 per second
+-Rate of Fire increased 2.4 to 2.7 per second
 
 ~Dox (T1 Bot)
 (Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd)
 -Acceleration decreased from 180 to 50
+-Move Speed decreased 19 to 18
 
 ~Grenadier (T1 Bot)
-(General nerfs, mostly focused on firerate)
+(Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more)
+-Metal cost increased 100 to 140
+-HP increased 80 to 100
+-vision increase 115 to 120
 -Range decreased  145 to 140
--Firerate decreased 2.00 to 2.80 seconds (fires 40% less often, or 0.5 to 0.3 shots per second, and decreases 20dps to 14dps)
--vision decrease 125 to 120
+-Firerate decreased 2.00 to 4.20 seconds
+-dps decreased roughly to 32
+-Damage increased 40x2 to 62x2
+-Splash damage increased 30x2 to 46x2
+
 
 ~Spark (T1 Bot)
 (Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
 -Decreased range 70 to 65
+
+~New AA bot Unit - Spinner (T1 Bot)
+ (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
+~HP 140
+~Metal Cost 140
+~Vision 130
+~Range 180
+~Damage 95
+~Rate of Fire 0.33 (1 shot every 3 seconds)
+~DPS 32
 
 ~Locust (T2 Bot)
 -Deleted from the game
@@ -37,6 +59,10 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115186]
 -Splash decreased 10 to 7
 -velocity increased 100 to 120
 -lifetime increased 15 to 18
+
+~Vanguard (T2 Vehicle)
+-Radar increased 260 to 300
+-Jamming removed
 
 ~Hornet (T2 Air bomber)
 -range increase 180 to 200
@@ -127,9 +153,10 @@ Advanced Metal Extractor (T2)
 ~Advanced Torpedo Launcher (T2)
 (Dev Idea: General T2 defense buffs)
 -metal cost reduced 1000 to 950
--range increased 210 to 340
--torpedo lifetime increased 5 to 8
--Vision radius increased from 210 to 320
--Underwater vision radius increased 200 to 320
--Radar radius increased 210 to 340
--Sonar radius increased 210 to 320
+-range increased 210 to 300
+-Rate of fire decreased 2.5 to 2.0/s
+-torpedo lifetime increased 5 to 7
+-Vision radius increased from 210 to 260
+-Underwater vision radius increased 200 to 260
+-Radar radius increased 210 to 310
+-Sonar radius increased 210 to 310

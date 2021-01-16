@@ -19,7 +19,6 @@
 ~Fire rate 2.00 [2.8s] decreased to 4.2s
 ~Damage increased 40x2 to 62x2
 ~Splash damage increased 30x2 to 46x2
-~Model size increased  
 
 -Vanguard
 ~Radar increased 260 to 300
