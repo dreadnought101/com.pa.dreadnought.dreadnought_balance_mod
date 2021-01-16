@@ -1,5 +1,6 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115050]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115186]
 ~Stryker (T1 Vehicle)
+(Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 -Range decreased 80 to 70
 -Damage decreased 15x2 to 13x2
 -Movement Speed Increased 18 to 20
@@ -7,12 +8,18 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115050]
 ~Spinner (T1 Vehicle)
 -Rate of Fire increased 2.4 to 3.0 per second
 
+~Dox (T1 Bot)
+(Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd)
+-Acceleration decreased from 180 to 50
+
 ~Grenadier (T1 Bot)
+(General nerfs, mostly focused on firerate)
 -Range decreased  145 to 140
 -Firerate decreased 2.00 to 2.80 seconds (fires 40% less often, or 0.5 to 0.3 shots per second, and decreases 20dps to 14dps)
 -vision decrease 125 to 120
 
 ~Spark (T1 Bot)
+(Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
 -Decreased range 70 to 65
 
 ~Locust (T2 Bot)
@@ -57,6 +64,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115050]
 -build range increased 65 to 120
 
 ~Atlas (Titan)
+(Dev Idea: General buffs to health but makes them slightly less devestating when they reach your frontline, would love to give more options of attacking later)
 -Health increased 40000 to 60000
 -full Damage radius decreased 80 to 60
 -splash damage raidus decreased 135 to 120 (damage still 8000)
@@ -91,6 +99,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115050]
 -Removed 7,500 energy production (to 0)
 
 ~Energy Storage
+(Decrease cost so its easier to build earlier on and increase storage amount to be impactful)
 -HP Reduced from 7500 to 5000
 -Metal Cost reduced 450 to 250
 -Storage increased 100,000 to 250,000
@@ -124,4 +133,3 @@ Advanced Metal Extractor (T2)
 -Underwater vision radius increased 200 to 320
 -Radar radius increased 210 to 340
 -Sonar radius increased 210 to 320
-

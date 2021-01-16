@@ -1,4 +1,3 @@
-Fix pirhannas being hit by torpedoes
 
 jig explosion 
 
@@ -10,3 +9,19 @@ remove jamming
 
 Narwhal
 Add torpedoes from classic
+
+Grenadier Changes
+
+
+Stinger (AA Bot) changes
+
+hp 80 to 140
+90 metal to 140
+Vision 100 to 130
+
+WEAPON
+maximum range 100 to 180
+damage 25 to 95
+Rate 0.5s to 3.0s
+
+Dps 50 to 32

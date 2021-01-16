@@ -1,10 +1,25 @@
-Patch 1.11
-~Solar Array
-Added 100,000 energy storage
+~Patch 1.20
 
-~Jig
-Removed 50,000 energy storage
-Removed 7,500 energy production
+-Fixed an issue with the spinner not having proper targetting priorities
 
-~Colonel
-Metal cost reduced 7000 to 6500
+-Added the Spinner AA bot.
+~HP 140
+~Metal Cost 140
+~Vision 130
+;WEAPON
+~Range 180
+~Damage 95
+~Rate of Fire 0.33 (1 shot every 3 seconds)
+~DPS 32
+
+-Significant Grenedier changes
+~Metal cost increased 100 to 140
+~HP increased 80 to 100
+~Fire rate 2.00 [2.8s] decreased to 4.2s
+~Damage increased 40x2 to 62x2
+~Splash damage increased 30x2 to 46x2
+~Model size increased  
+
+-Vanguard
+~Radar increased 260 to 300
+~Jamming removed
