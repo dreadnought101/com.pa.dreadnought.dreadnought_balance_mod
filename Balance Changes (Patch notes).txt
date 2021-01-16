@@ -28,3 +28,10 @@
 -Ant
 (Dev Idea: Matches spark vision and better supports high range+low vision units)
 ~Increase Vision 100 to 130
+
+-Advanced Torpedo Launcher
+~Decreased range from 350 to 300
+~Decreased Vision from 320 to 260
+~Decreased Radar from 340 to 310
+~Decreased Torpedo Lifetime 8 to 7
+~Decreased Rate of fire from 2.5 to 2.0

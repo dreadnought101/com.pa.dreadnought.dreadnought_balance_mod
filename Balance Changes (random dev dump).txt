@@ -12,7 +12,7 @@ Add torpedoes from classic
 
 Grenadier Changes
 (WIP increasing model size)
-(Add ammo bar)
+(possibly add ammo bar)
 
 Spinner
 Increase model size
