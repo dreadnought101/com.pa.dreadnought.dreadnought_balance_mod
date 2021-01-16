@@ -1,8 +1,9 @@
 ~Patch 1.20
 
--Fixed an issue with the spinner not having proper targetting priorities
+-Fixed an issue with the spinner not having proper targeting priorities
 
--Added the Spinner AA bot.
+-Added the T1 Spinner AA bot.
+(Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
 ~HP 140
 ~Metal Cost 140
 ~Vision 130
@@ -23,3 +24,7 @@
 -Vanguard
 ~Radar increased 260 to 300
 ~Jamming removed
+
+-Ant
+(Dev Idea: Matches spark vision and better supports high range+low vision units)
+~Increase Vision 100 to 130
