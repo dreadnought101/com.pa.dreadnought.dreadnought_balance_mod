@@ -7,7 +7,7 @@
     "build_metal_cost": 950,
     "atrophy_rate": 30.0,
     "atrophy_cool_down": 15.0,
-    "spawn_layers": "WL_WaterSurface",
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_separation": 18,
     "unit_types": ["UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Naval", "UNITTYPE_Defense", "UNITTYPE_FabAdvBuild"],
     "guard_layer": "WL_AnySurface",
@@ -24,13 +24,22 @@
             "effect_scale": 0.75
         }
     },
-    "model": {
-        "filename": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.papa",
-        "animations": {
-            "idle": "/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
-        },
-        "animtree": "/pa/anim/anim_trees/torpedo_launcher_adv_anim_tree.json"
-    },
+    "model": [{
+            "layer": "WL_LandHorizontal",
+            "filename": "/pa/units/land/torpedo_launcher_adv/torpedo_launcher_adv.papa",
+            "animations": {
+                "idle": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv_anim_idle.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/torpedo_launcher_adv_anim_tree.json"
+        }, {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.papa",
+            "animations": {
+                "idle": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv_anim_idle.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/torpedo_launcher_adv_anim_tree.json"
+        }
+    ],
     "recon": {
         "observer": {
             "items": [{
@@ -67,5 +76,5 @@
         "diameter": 30.0
     },
     "TEMP_texelinfo": 14.1009,
-    "mesh_bounds": [15, 9, 5]
+    "mesh_bounds": [15, 15, 8]
 }
