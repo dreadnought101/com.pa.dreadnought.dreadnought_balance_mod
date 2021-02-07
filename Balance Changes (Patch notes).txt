@@ -1,36 +1,8 @@
-~Patch 1.20
+Patch 1.21
 
--Fixed an issue with the spinner not having proper targeting priorities
+~Stryker
+-Weapon Muzzle Velocity Decreased 140 to 135
+-Health Decreased 60 to 50
 
--Added the T1 Spinner AA bot.
-(Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
-~HP 140
-~Metal Cost 140
-~Vision 130
-;WEAPON
-~Range 180
-~Damage 95
-~Rate of Fire 0.33 (1 shot every 3 seconds)
-~DPS 32
-
--Significant Grenedier changes
-~Metal cost increased 100 to 140
-~HP increased 80 to 100
-~Fire rate 2.00 [2.8s] decreased to 4.2s
-~Damage increased 40x2 to 62x2
-~Splash damage increased 30x2 to 46x2
-
--Vanguard
-~Radar increased 260 to 300
-~Jamming removed
-
--Ant
-(Dev Idea: Matches spark vision and better supports high range+low vision units)
-~Increase Vision 100 to 130
-
--Advanced Torpedo Launcher
-~Decreased range from 350 to 300
-~Decreased Vision from 320 to 260
-~Decreased Radar from 340 to 310
-~Decreased Torpedo Lifetime 8 to 7
-~Decreased Rate of fire from 2.5 to 2.0
+~Dox
+-Weapon Muzzle Velocity Increased 130 to 135

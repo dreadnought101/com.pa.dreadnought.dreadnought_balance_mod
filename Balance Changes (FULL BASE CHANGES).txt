@@ -2,9 +2,11 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 
 ~Stryker (T1 Vehicle)
 (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
+-Health decreased 60 to 50
 -Range decreased 80 to 70
 -Damage decreased 15x2 to 13x2
 -Movement Speed Increased 18 to 20
+-Weapon Muzzle Velocity Decreased 140 to 135
 
 ~Ant (T1 Vehicle)
 (Dev Idea: Matches spark vision and better supports high range+low vision units)
@@ -17,6 +19,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 (Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd)
 -Acceleration decreased from 180 to 50
 -Move Speed decreased 19 to 18
+-Weapon Muzzle Velocity Increased 130 to 135
 
 ~Grenadier (T1 Bot)
 (Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more)

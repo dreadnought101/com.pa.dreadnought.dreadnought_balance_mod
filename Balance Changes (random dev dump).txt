@@ -3,10 +3,6 @@ jig explosion
 
 Lob dox to squall
 
-Vanguard
-Radar 260 to 300
-remove jamming
-
 Narwhal
 Add torpedoes from classic
 
@@ -14,5 +10,9 @@ Grenadier Changes
 (WIP increasing model size)
 (possibly add ammo bar)
 
-Spinner
+Stinger (AA bot)
 Increase model size
+
+Stryker 
+
+Dox
