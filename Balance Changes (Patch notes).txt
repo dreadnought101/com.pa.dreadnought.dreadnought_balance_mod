@@ -1,8 +1,6 @@
-Patch 1.21
+Patch 1.22
 
-~Stryker
--Weapon Muzzle Velocity Decreased 140 to 135
--Health Decreased 60 to 50
+~Stinger
+-Reduced vision radius from 130 to 100
 
-~Dox
--Weapon Muzzle Velocity Increased 130 to 135
+-Angel can now counteract T1 Bot-AA Stinger's shots.

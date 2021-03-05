@@ -3,9 +3,6 @@ jig explosion
 
 Lob dox to squall
 
-Narwhal
-Add torpedoes from classic
-
 Grenadier Changes
 (WIP increasing model size)
 (possibly add ammo bar)
@@ -13,6 +10,12 @@ Grenadier Changes
 Stinger (AA bot)
 Increase model size
 
-Stryker 
+Skitter firefly (broken)
+Stealth
 
-Dox
+Icarus changes
+Add different weapon type (same ammo drain) for air
+Increase air version to much further range
+
+Hummingbird air fighter
+decrease weapon damage from 80 to 70 (3 shots instead of 2 to kill)

@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Narwhal",
-    "description": "!LOC:Frigate - Durable. Rapid-fire. Attacks land, air, and sea targets.",
+    "description": "!LOC:Frigate - Durable. Rapid-fire. Attacks land, air, and sea targets, long range-weak torpedo tubes",
     "max_health": 750,
     "build_metal_cost": 400,
     "spawn_layers": "WL_WaterSurface",
@@ -26,12 +26,12 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 180
+                    "radius": 200
                 }, {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 180
+                    "radius": 200
                 }
             ]
         }
@@ -44,7 +44,7 @@
     "tools": [{
             "spec_id": "/pa/units/sea/frigate/frigate_tool_weapon_shell.json",
             "aim_bone": "bone_pitch01",
-            "record_index": 0,
+            "record_index": 2,
             "fire_event": "fired0",
             "muzzle_bone": ["socket_muzzle01"]
         }, {
@@ -53,6 +53,14 @@
             "record_index": 1,
             "fire_event": "fired1",
             "muzzle_bone": ["socket_rightMuzzle02", "socket_leftMuzzle02"]
+        }
+		, {
+            "spec_id": "/pa/units/sea/frigate/frigate_tool_weapon_torpedo.json",
+            "record_index": 0,
+            "aim_bone": "bone_root",
+            "muzzle_bone": "bone_root",
+            "fire_event": "fired2",
+            "show_range": false
         }
     ],
     "events": {

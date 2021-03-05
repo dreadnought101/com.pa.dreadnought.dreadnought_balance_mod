@@ -1,5 +1,11 @@
 FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447]
 
+~Firefly (T1 Air Scout)
+-Added Radar Stealth
+
+~Skitter (T1 Vehicle Scout)
+-Added Radar Stealth
+
 ~Stryker (T1 Vehicle)
 (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 -Health decreased 60 to 50
@@ -31,7 +37,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 -dps decreased roughly to 32
 -Damage increased 40x2 to 62x2
 -Splash damage increased 30x2 to 46x2
-
+-Added ammo bars for visual clarity 
 
 ~Spark (T1 Bot)
 (Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
@@ -41,7 +47,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
  (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
 ~HP 140
 ~Metal Cost 140
-~Vision 130
+~Vision 100
 ~Range 180
 ~Damage 95
 ~Rate of Fire 0.33 (1 shot every 3 seconds)
@@ -82,10 +88,17 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 -No Longer has radar stealth
 
 ~Narwhal (T1 Naval)
-(Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
+(Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression.  Added weak but long range torpedo launchers to give it a small bit of presence against orcas+subs)
+-Vision+underwater increased 180 to 200
 -Metal cost decreased 450 to 400
 -AA Weapon firerate 3.0/s to 2.4/s
 -AA Weapon damage decerased 25 to 20
+-Added Torpedo Launchers
+- -50 damage
+- -225 range
+- -0.2 Firerate (fires 1 shot every 5.00 seconds)
+- -Velocity 5.0 (same speed as barracuda/orca)
+- -Lifetime 7 (how long the torpedo lasts before fizzling out)
 
 ~Barnacle (T1 Naval)
 (Dev Idea: Quality of life changes to let the Barnacle's speed match Orcas/Narwhals at 11 and allows it to repair more safely and consistently.  Extra note, build range may be to big but want to try something extreme, will likely be 90 after)
