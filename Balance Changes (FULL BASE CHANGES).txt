@@ -176,3 +176,7 @@ Advanced Metal Extractor (T2)
 -Underwater vision radius increased 200 to 260
 -Radar radius increased 210 to 310
 -Sonar radius increased 210 to 310
+
+
+-All Advanced Fabricators [Vehicle/Bot/Air/Naval] can now build all types of Titans [Atlas/Ares/Zues]
+(Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)

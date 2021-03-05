@@ -16,6 +16,10 @@ Stealth
 Icarus changes
 Add different weapon type (same ammo drain) for air
 Increase air version to much further range
+maybe decrease ground range from 80 to 70
+Ground damage 20
+Air damage 30
+
 
 Hummingbird air fighter
 decrease weapon damage from 80 to 70 (3 shots instead of 2 to kill)

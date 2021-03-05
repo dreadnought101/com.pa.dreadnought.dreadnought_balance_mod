@@ -4,3 +4,4 @@ Patch 1.22
 -Reduced vision radius from 130 to 100
 
 -Angel can now counteract T1 Bot-AA Stinger's shots.
+-All Advanced Fabricators [Vehicle/Bot/Air/Naval] can now build all types of Titans [Atlas/Ares/Zues]
