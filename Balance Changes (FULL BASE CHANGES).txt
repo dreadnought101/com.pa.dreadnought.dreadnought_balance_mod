@@ -1,7 +1,11 @@
 FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447]
 
 ~Firefly (T1 Air Scout)
--Added Radar Stealth
+-Added Radar Stealth (currently broken)
+
+~Hummingbird (T1 Air Fighter)
+-reduced damage from 80 to 75.
+Dev Idea: Allows for easier partial heals from damage for both fireflies and Pheonix and reduces Fireflies impact slightly on heavy health T2 Air and Titan.  May change to 70 which will have more significant ramifications for air fights.
 
 ~Skitter (T1 Vehicle Scout)
 -Added Radar Stealth
@@ -9,7 +13,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 ~Stryker (T1 Vehicle)
 (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 -Health decreased 60 to 50
--Range decreased 80 to 70
+-Range decreased 80 to 75
 -Damage decreased 15x2 to 13x2
 -Movement Speed Increased 18 to 20
 -Weapon Muzzle Velocity Decreased 140 to 135
@@ -24,7 +28,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 ~Dox (T1 Bot)
 (Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd)
 -Acceleration decreased from 180 to 50
--Move Speed decreased 19 to 18
+-Move Speed increased 19 to 20
 -Weapon Muzzle Velocity Increased 130 to 135
 
 ~Grenadier (T1 Bot)
@@ -37,7 +41,6 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 -dps decreased roughly to 32
 -Damage increased 40x2 to 62x2
 -Splash damage increased 30x2 to 46x2
--Added ammo bars for visual clarity 
 
 ~Spark (T1 Bot)
 (Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
@@ -73,6 +76,12 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 -Radar increased 260 to 300
 -Jamming removed
 
+~Pheonix (T2 Air Fighter)
+-range increased 120 to 145
+-damage decreased 150 to 50
+-rate of fire increased 0.33 to 0.15 (fires 7.5 shots per second instead of 3)
+Dev Idea: Experimental changes. Will likely revert or reduce.
+
 ~Hornet (T2 Air bomber)
 -range increase 180 to 200
 -vision radius increase 200 to 210
@@ -90,7 +99,8 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 ~Narwhal (T1 Naval)
 (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression.  Added weak but long range torpedo launchers to give it a small bit of presence against orcas+subs)
 -Vision+underwater increased 180 to 200
--Metal cost decreased 450 to 400
+-Health reduced 750 to 550
+-Metal cost decreased 450 to 350
 -AA Weapon firerate 3.0/s to 2.4/s
 -AA Weapon damage decerased 25 to 20
 -Added Torpedo Launchers

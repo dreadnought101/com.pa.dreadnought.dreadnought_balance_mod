@@ -1,17 +1,12 @@
-
 jig explosion 
 
 Lob dox to squall
 
 Grenadier Changes
 (WIP increasing model size)
-Remove ammo from Gren
 
 Stinger (AA bot)
 Increase model size
-
-Skitter firefly (broken)
-Stealth
 
 Icarus changes
 Add different weapon type (same ammo drain) for air
