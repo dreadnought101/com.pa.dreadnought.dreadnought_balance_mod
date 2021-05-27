@@ -5,7 +5,7 @@ Lob dox to squall
 
 Grenadier Changes
 (WIP increasing model size)
-(possibly add ammo bar)
+Remove ammo from Gren
 
 Stinger (AA bot)
 Increase model size
@@ -20,6 +20,19 @@ maybe decrease ground range from 80 to 70
 Ground damage 20
 Air damage 30
 
+Test Spark lifetime ammo
+
 
 Hummingbird air fighter
 decrease weapon damage from 80 to 70 (3 shots instead of 2 to kill)
+
+Stryker changes to match dox
+
+Dox Movespeed 18 to 20
+
+Stryker range 70 to 75
+
+Test radar stealth again with more air
+
+Narwhal metal 400 to 350
+Health 750 to 550
