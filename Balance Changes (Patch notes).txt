@@ -1,32 +1,17 @@
-Patch 1.22
+Patch 1.24
 
-~Stinger
--Reduced vision radius from 130 to 100
+~Lob (T1 Structure)
+-Uses Squals (Drone) instead of Dox
+Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.
 
--Angel can now counteract T1 Bot-AA Stinger's shots.
--All Advanced Fabricators [Vehicle/Bot/Air/Naval] can now build all types of Titans [Atlas/Ares/Zues]
+~T2 factories. (Vehicle/Bot/Air/Naval)
+-Cost reduced from 4800 to 4500
 
-Patch 1.23 
+~Orbital Launcher (T1 orbital constructor)
+-Cost increased 600 to 1000
 
-~Hummingbird (T1 Air Fighter)
--reduced damage from 80 to 75.
-Dev Idea: Allows for easier partial heals from damage for both fireflies and Pheonix and reduces Fireflies impact slightly on heavy health T2 Air and Titan.  May change to 70 which will have more significant ramifications for air fights.
+~Unit Cannon
+-Metal cost reduced 10000 to 9500
+-HP increased 18000 to 40000
+Dev Idea: Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games.  
 
-~Pheonix (T2 Air Fighter)
--range increased 120 to 145
--damage decreased 150 to 50
--rate of fire increased 0.33 to 0.15 (fires 7.5 shots per second instead of 3)
-Dev Idea: Experimental changes. Will likely revert or reduce.
-
-~Stryker (T1 vehicle)
--Range increased 70 to 75 (base game 80)
-
-~Dox (T1 bot)
--speed increased 18 to 20 (base game 19)
-
-~Narwhal (T1 Naval)
--Metal cost reduced 400 to 350 (base game 450)
--health reduced 750 to 550
-
-~Grenadier (T1 bot)
--Removed cosmetic ammo bar to reduce visual clutter.
