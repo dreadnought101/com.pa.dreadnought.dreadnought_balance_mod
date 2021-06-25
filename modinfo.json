@@ -1,6 +1,6 @@
 {
     "context": "server",
-    "identifier": "com.pa.dreadnought.dreadnought_balance_mod-dev",
+    "identifier": "com.pa.dreadnought.dreadnought_balance_mod",
     "display_name": "Dreadnought Balance Mod",
     "description": "Makes various balance changes to units for testing and theory crafting, specific details on forums or in notepad info",
     "author": "Dreadnought",
