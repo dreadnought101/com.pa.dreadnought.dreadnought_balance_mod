@@ -1,7 +1,7 @@
 FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447]
 
 ~Firefly (T1 Air Scout)
--Added Radar Stealth (currently broken)
+-Added Radar Stealth 
 
 ~Hummingbird (T1 Air Fighter)
 -reduced damage from 80 to 75.
@@ -35,7 +35,6 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 (Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more)
 -Metal cost increased 100 to 140
 -HP increased 80 to 100
--vision increase 115 to 120
 -Range decreased  145 to 140
 -Firerate decreased 2.00 to 4.20 seconds
 -dps decreased roughly to 32
@@ -45,16 +44,19 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 ~Spark (T1 Bot)
 (Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
 -Decreased range 70 to 65
+-Vision increased 120 to 130
 
-~New AA bot Unit - Spinner (T1 Bot)
+~Spinner (T1 AA Bot)
  (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
-~HP 140
-~Metal Cost 140
-~Vision 100
-~Range 180
-~Damage 95
-~Rate of Fire 0.33 (1 shot every 3 seconds)
-~DPS 32
+~HP 130 to 140
+~Metal Cost 120 to 140
+~Vision 100 (same)
+~Range 90 to 180
+~Damage 30 damage to 95
+~Rate of Fire 1.0 reduced to 0.33 (1 shot every 1 second to every 3 seconds)
+~Added splash damage with radius of 0.75 and 35 damage
+~DPS 30 dps to 32
+~Bullet lifetime increase 1.0 to 1.1
 
 ~Locust (T2 Bot)
 -Deleted from the game
@@ -156,7 +158,7 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 -Metal Cost reduced 450 to 250
 -Storage increased 100,000 to 250,000
 
-Advanced Metal Extractor (T2)
+Advanced Metal Extractor (T2 Economy)
 -Metal Cost reduced 2000 to 1800
 
 ~Single Laser Defense Tower (1 barrel)
@@ -165,7 +167,11 @@ Advanced Metal Extractor (T2)
 -Range decreased 100 to 90
 -damage decreased 40 to 35
 
-~Advanced Laser Defense Tower (T2 triple barrel)
+~Lob (T1 Defense Structure)
+-Uses Squals (Drone) instead of Dox
+Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will probably change squal's effectivness or cost.
+
+~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
 (Dev Idea: General T2 defense buffs)
 -Metal cost reduced 900 to 875
 -Range increased 120 to 140
@@ -187,6 +193,16 @@ Advanced Metal Extractor (T2)
 -Radar radius increased 210 to 310
 -Sonar radius increased 210 to 310
 
+~T2 factories. (Vehicle/Bot/Air/Naval)
+-Cost reduced from 4800 to 4500
+
+~Orbital Launcher (T1)
+-Cost increased 600 to 1000
+
+~Unit Cannon (T2 Launcher Factory)
+-Metal cost reduced 10000 to 9500
+-HP increased 18000 to 40000
+Dev Idea: Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games. Will try to make it buildable on water later.
 
 -All Advanced Fabricators [Vehicle/Bot/Air/Naval] can now build all types of Titans [Atlas/Ares/Zues]
 (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)

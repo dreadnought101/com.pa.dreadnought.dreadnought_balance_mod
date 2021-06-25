@@ -1,17 +1,7 @@
-Patch 1.24
+-Patch 1.25 (Patch 115836 adjustments https://planetaryannihilation.com/news/fusion-updates/)
 
-~Lob (T1 Structure)
--Uses Squals (Drone) instead of Dox
-Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.
-
-~T2 factories. (Vehicle/Bot/Air/Naval)
--Cost reduced from 4800 to 4500
-
-~Orbital Launcher (T1 orbital constructor)
--Cost increased 600 to 1000
-
-~Unit Cannon
--Metal cost reduced 10000 to 9500
--HP increased 18000 to 40000
-Dev Idea: Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games.  
-
+-Added note that AA units did and do not prioritize Icarus.  Also adjusted Galata to keep things consistent.
+-underwater vision being tracked, unsure what units are affected in mod version and regular version or if it even matters.  Will keep an eye out, would like to be consistent with base game version perhaps.
+-Rejected spark vision reduction of 130 to 120
+-Accepted Grenadier vision decrease to 100 (down from 120 my version, 115 base game version)
+-Redid notes on stinger AA bot to include numbers from the base version, keeping significant differences intact.
