@@ -1,7 +1,14 @@
--Patch 1.25 (Patch 115836 adjustments https://planetaryannihilation.com/news/fusion-updates/)
+-Patch 1.26
 
--Added note that AA units did and do not prioritize Icarus.  Also adjusted Galata to keep things consistent.
--underwater vision being tracked, unsure what units are affected in mod version and regular version or if it even matters.  Will keep an eye out, would like to be consistent with base game version perhaps.
--Rejected spark vision reduction of 130 to 120
--Accepted Grenadier vision decrease to 100 (down from 120 my version, 115 base game version)
--Redid notes on stinger AA bot to include numbers from the base version, keeping significant differences intact.
+(AA Changes note - Mostly for icarus issues, since icarus bunch up its hard to click all individually in later stages when they are above 20+.  The AOE is not enough to affect figheters/other units in a regular box formation.)
+
+Spinner
+-Fixed unintended issue with range being set at 100 instead of 130.
+-Increased Splash Radius from 0.75 to 1.5
+-decreased fire-rate from 2.7 to 2.4
+
+Stinger
+-Increased Splash Radius from 0.75 to 1.5
+
+Under the hood dev stuff
+(Stinger selection icon Increased from 10 to 12)

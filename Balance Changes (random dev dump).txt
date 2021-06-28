@@ -16,8 +16,8 @@ Air damage 30
 Test Spark lifetime ammo
 
 Hummingbird air fighter
-decrease weapon damage from 80 to 70 (3 shots instead of 2 to kill)
+decrease weapon damage from 80 to 70 [now 75 to 70] (3 shots instead of 2 to kill)
 
-Gren vision 120 to 100
+AOE anti air, bigger radius, less damage.
 
-AA priorities removed Stinger, Spinner, Narwhal, Galata
+Spinner firerate 2.7 to 2.4

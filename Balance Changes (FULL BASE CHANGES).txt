@@ -3,12 +3,12 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447
 ~Firefly (T1 Air Scout)
 -Added Radar Stealth 
 
+~Skitter (T1 Vehicle Scout)
+-Added Radar Stealth
+
 ~Hummingbird (T1 Air Fighter)
 -reduced damage from 80 to 75.
 Dev Idea: Allows for easier partial heals from damage for both fireflies and Pheonix and reduces Fireflies impact slightly on heavy health T2 Air and Titan.  May change to 70 which will have more significant ramifications for air fights.
-
-~Skitter (T1 Vehicle Scout)
--Added Radar Stealth
 
 ~Stryker (T1 Vehicle)
 (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
@@ -47,7 +47,7 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 -Vision increased 120 to 130
 
 ~Spinner (T1 AA Bot)
- (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
+(Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
 ~HP 130 to 140
 ~Metal Cost 120 to 140
 ~Vision 100 (same)
@@ -169,7 +169,7 @@ Advanced Metal Extractor (T2 Economy)
 
 ~Lob (T1 Defense Structure)
 -Uses Squals (Drone) instead of Dox
-Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will probably change squal's effectivness or cost.
+Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will likely change squal's effectivness or cost soon.
 
 ~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
 (Dev Idea: General T2 defense buffs)
