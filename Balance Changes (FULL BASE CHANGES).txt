@@ -23,7 +23,7 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 -Vision radius increased 100 to 130
 
 ~Spinner (T1 Vehicle)
--Rate of Fire increased 2.4 to 2.7 per second
+-Increased Splash Radius from 0.75 to 1.5
 
 ~Dox (T1 Bot)
 (Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd)
@@ -46,17 +46,19 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 -Decreased range 70 to 65
 -Vision increased 120 to 130
 
-~Spinner (T1 AA Bot)
+~Stinger (T1 AA Bot)
 (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
 ~HP 130 to 140
 ~Metal Cost 120 to 140
+~Move Speed 12 to 10
 ~Vision 100 (same)
 ~Range 90 to 180
 ~Damage 30 damage to 95
 ~Rate of Fire 1.0 reduced to 0.33 (1 shot every 1 second to every 3 seconds)
-~Added splash damage with radius of 0.75 and 35 damage
+~Added splash damage with radius of 1.5 and 35 damage
 ~DPS 30 dps to 32
 ~Bullet lifetime increase 1.0 to 1.1
+(Stinger selection icon Increased from 10 to 12)
 
 ~Locust (T2 Bot)
 -Deleted from the game

@@ -1,14 +1,15 @@
 -Patch 1.26
 
-(AA Changes note - Mostly for icarus issues, since icarus bunch up its hard to click all individually in later stages when they are above 20+.  The AOE is not enough to affect figheters/other units in a regular box formation.)
+(AA Changes note - Mostly for mass icarus issues, since an icarus quirk is that they bunch up its hard to click all individually in later stages when they are above 20+ the AOE will exploit it.  The AOE is not enough to affect figheters/other units in a regular box formation.)
 
 Spinner
 -Fixed unintended issue with range being set at 100 instead of 130.
 -Increased Splash Radius from 0.75 to 1.5
--decreased fire-rate from 2.7 to 2.4
+-decreased fire-rate from 2.7 to 2.4 (base game value)
 
 Stinger
 -Increased Splash Radius from 0.75 to 1.5
+-Decreased move speed from 12 to 10
 
 Under the hood dev stuff
 (Stinger selection icon Increased from 10 to 12)
