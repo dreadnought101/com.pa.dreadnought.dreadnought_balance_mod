@@ -22,6 +22,11 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 (Dev Idea: Matches spark vision and better supports high range+low vision units)
 -Vision radius increased 100 to 130
 
+~Drifter (T1 Vehicle)
+(Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action)
+-Damage reduced 125 to 120
+-HP reduced 250 to 240
+
 ~Spinner (T1 Vehicle)
 -Increased Splash Radius from 0.75 to 1.5
 
@@ -40,11 +45,13 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 -dps decreased roughly to 32
 -Damage increased 40x2 to 62x2
 -Splash damage increased 30x2 to 46x2
+-Model size increased by 50%
 
 ~Spark (T1 Bot)
 (Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
 -Decreased range 70 to 65
 -Vision increased 120 to 130
+-Projectile lifetime decreased 1.0 to 0.55
 
 ~Stinger (T1 AA Bot)
 (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
@@ -58,6 +65,7 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 ~Added splash damage with radius of 1.5 and 35 damage
 ~DPS 30 dps to 32
 ~Bullet lifetime increase 1.0 to 1.1
+~Model size increased by 50%
 (Stinger selection icon Increased from 10 to 12)
 
 ~Locust (T2 Bot)
@@ -93,7 +101,7 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 
 ~Piranha (T1 Naval)
 (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent)
--range decreased 130 to 110
+-range decreased 120 to 110
 -metal cost increased 150 to 160
 -damage increased 20 to 24
 
@@ -103,16 +111,21 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 ~Narwhal (T1 Naval)
 (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression.  Added weak but long range torpedo launchers to give it a small bit of presence against orcas+subs)
 -Vision+underwater increased 180 to 200
--Health reduced 750 to 550
+-Health reduced 750 to 525
 -Metal cost decreased 450 to 350
 -AA Weapon firerate 3.0/s to 2.4/s
 -AA Weapon damage decerased 25 to 20
+-AA Weapon AOE radius increased from 0.75 to 1.5
 -Added Torpedo Launchers
 - -50 damage
 - -225 range
+- -25 AOE radius (full damage)
 - -0.2 Firerate (fires 1 shot every 5.00 seconds)
 - -Velocity 5.0 (same speed as barracuda/orca)
 - -Lifetime 7 (how long the torpedo lasts before fizzling out)
+
+~Orca (T1 Naval)
+-Removed AOE component of torpedo weapon
 
 ~Barnacle (T1 Naval)
 (Dev Idea: Quality of life changes to let the Barnacle's speed match Orcas/Narwhals at 11 and allows it to repair more safely and consistently.  Extra note, build range may be to big but want to try something extreme, will likely be 90 after)
@@ -162,12 +175,17 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 
 Advanced Metal Extractor (T2 Economy)
 -Metal Cost reduced 2000 to 1800
+-Metal production increased 16 to 17
+
+~Galata (T1 AA structure)
+-Increased AA Splash Radius from 0.75 to 1.5
 
 ~Single Laser Defense Tower (1 barrel)
 (Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
--Metal Cost decreased 225 to 175
+-Metal Cost decreased 225 to 165
 -Range decreased 100 to 90
--damage decreased 40 to 35
+-Damage decreased 40 to 35
+-Vision radius (+underwater vision) reduced from 130 to 110
 
 ~Lob (T1 Defense Structure)
 -Uses Squals (Drone) instead of Dox
@@ -177,6 +195,7 @@ Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift
 (Dev Idea: General T2 defense buffs)
 -Metal cost reduced 900 to 875
 -Range increased 120 to 140
+-Health increased 4000 to 4250
 
 ~Flak Cannon (T2)
 (Dev Idea: General T2 defense buffs)
@@ -204,7 +223,8 @@ Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift
 ~Unit Cannon (T2 Launcher Factory)
 -Metal cost reduced 10000 to 9500
 -HP increased 18000 to 40000
-Dev Idea: Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games. Will try to make it buildable on water later.
+(Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games. Will try to make it buildable on water later.
+-Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
 
 -All Advanced Fabricators [Vehicle/Bot/Air/Naval] can now build all types of Titans [Atlas/Ares/Zues]
 (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)

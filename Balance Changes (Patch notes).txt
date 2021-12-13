@@ -1,15 +1,53 @@
--Patch 1.26
+-Patch 1.27
 
-(AA Changes note - Mostly for mass icarus issues, since an icarus quirk is that they bunch up its hard to click all individually in later stages when they are above 20+ the AOE will exploit it.  The AOE is not enough to affect figheters/other units in a regular box formation.)
+Narwhal and Galata AA
+-Increased AA Splash Radius from 0.75 to 1.5
+(Added AOE to overlooked AA units to be homogenized with stingers and spinners from previous patch)
 
-Spinner
--Fixed unintended issue with range being set at 100 instead of 130.
--Increased Splash Radius from 0.75 to 1.5
--decreased fire-rate from 2.7 to 2.4 (base game value)
+Narwhal
+-Health reduced 550 to 525
+Narwhal
+-Added AOE component to torpedo
+-Radius 25
+-Damage = full
+(Allows T1 naval to have a sort of answer for large groups of naval units, especially submarines, but requires many narwhals or careful kiting [in which narwhals are slower than subs] in order to be effective.  The HP nerf is designed to not change orca and barracuda attacks, but to focus on air vs narwhal concerns)
+
+Orca
+-Removed AOE component of torpedo
+
+Spark 
+-Projectile lifetime decreased 1.0 to 0.55 
+(Looking to add explosion at end of lifetime, so even when spark misses, it can hit something else, which at current range is a few units past the target)
 
 Stinger
--Increased Splash Radius from 0.75 to 1.5
--Decreased move speed from 12 to 10
+-Model size increased by 50%
+-(Dev stuff) Selection Icon increased 10 to 12
 
-Under the hood dev stuff
-(Stinger selection icon Increased from 10 to 12)
+Grenadier
+-Model size increased by 50%
+
+Drifter
+(Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action)
+-Damage reduced 125 to 120
+-HP reduced 250 to 240
+
+Ant
+-Weapon firerate increased 0.5 to 0.55 (1 shot every 2 seconds to 1.8 seconds, 42 to 46 dps)
+
+Orca
+-AOE component of torpedos removed
+
+Unit Cannon
+-Inferno, Drifter, Skitter, Storm are now buildable
+(-Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+
+Advanced Metal Extractor
+-Metal production increased 16 to 17
+
+Single laser turret
+-Metal cost reduced 175 to 165 (Vanilla 225)
+-Health decreased 350 to 325
+-Vision radius (+underwater vision) reduced from 130 to 110
+
+Triple laser turret
+-Health increased 4000 to 4250

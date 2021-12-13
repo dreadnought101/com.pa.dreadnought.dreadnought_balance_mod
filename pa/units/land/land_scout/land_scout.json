@@ -11,7 +11,7 @@
         }
     },
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Use"],
-    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],
+    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "transportable": {
         "size": 1
     },

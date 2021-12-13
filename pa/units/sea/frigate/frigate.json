@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Narwhal",
     "description": "!LOC:Frigate - Durable. Rapid-fire. Attacks land, air, and sea targets, long range-weak torpedo tubes",
-    "max_health": 550,
+    "max_health": 525,
     "build_metal_cost": 350,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [6, 15, 8],

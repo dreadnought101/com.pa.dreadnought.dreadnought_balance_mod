@@ -7,7 +7,7 @@
     "attachable": {
         "offsets": {
             "root": [0, 0, 0],
-            "head": [0, 0.3, 3.0]
+            "head": [0, 0.45000002, 4.5]
         }
     },
     "unit_types": ["UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_AirDefense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable"],
@@ -23,7 +23,7 @@
         "turn_speed": 720
     },
     "physics": {
-        "radius": 2.25
+        "radius": 3.375
     },
     "recon": {
         "observer": {
@@ -37,19 +37,22 @@
         }
     },
     "model": {
-        "filename": "/pa/units/land/bot_aa/bot_aa.papa",
+        "filename": "/pa/units/land/bot_aa/bot_aaX.papa",
         "animations": {
-            "death01": "/pa/units/land/bot_aa/bot_aa_anim_death01.papa",
-            "walk": "/pa/units/land/bot_aa/bot_aa_anim_run.papa",
-            "idle": "/pa/units/land/bot_aa/bot_aa_anim_idle.papa",
-            "aim_up": "/pa/units/land/bot_aa/bot_aa_anim_aimUp.papa",
-            "aim_down": "/pa/units/land/bot_aa/bot_aa_anim_aimDown.papa"
+            "death01": "/pa/units/land/bot_aa/bot_aa_anim_death01X.papa",
+            "walk": "/pa/units/land/bot_aa/bot_aa_anim_runX.papa",
+            "idle": "/pa/units/land/bot_aa/bot_aa_anim_idleX.papa",
+            "aim_up": "/pa/units/land/bot_aa/bot_aa_anim_aimUpX.papa",
+            "aim_down": "/pa/units/land/bot_aa/bot_aa_anim_aimDownX.papa"
         },
         "animtree": "/pa/anim/anim_trees/bot_aa_anim_tree.json",
         "walk_speed": 11.2,
         "arrows": 5
     },
     "nearby_target_tick_update_interval": 3,
+    "selection_icon": {
+        "diameter": 12.0
+    },
     "tools": [{
             "spec_id": "/pa/units/land/bot_aa/bot_aa_tool_weapon.json",
             "aim_bone": "bone_turret",
@@ -58,15 +61,17 @@
     ],
     "events": {
         "build_complete": {
-            "audio_cue": "/SE/Build_Complete/bot"
+            "audio_cue": "/SE/Build_Complete/bot",
+            "effect_scale": 1.5
         },
         "fired": {
             "audio_cue": "/SE/Weapons/bot/bot_aa_fire",
-            "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
+            "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle",
+            "effect_scale": 1.5
         },
         "died": {
             "audio_cue": "/SE/Death/bot",
-            "effect_scale": 0.6
+            "effect_scale": 0.90000004
         }
     },
     "audio": {
@@ -79,9 +84,6 @@
             }
         }
     },
-	"selection_icon": {
-        "diameter": 12.0
-    },
     "TEMP_texelinfo": 5.47132,
-    "mesh_bounds": [4.5, 3, 3.8]
+    "mesh_bounds": [6.75, 4.5, 5.7]
 }

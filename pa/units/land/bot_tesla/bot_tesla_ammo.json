@@ -6,7 +6,7 @@
     "full_damage_splash_radius": 2,
     "initial_velocity": 180.0,
     "max_velocity": 180.0,
-    "lifetime": 1,
+    "lifetime": 0.55,
     "fx_trail": {
       "offset": [
         0.0,
@@ -26,6 +26,6 @@
       "radius": 1,
       "gravity_scalar": 8,
       "add_to_spatial_db": false,
-      "allow_underground": true
+      "allow_underground": true      
     }
   }

@@ -3,7 +3,7 @@
     "unit_name": "Advanced Laser Defense Tower",
     "display_name": "!LOC:Advanced Laser Defense Tower",
     "description": "!LOC:Advanced Turret - Equipped with direct fire anti-land, and anti-ship defenses.",
-    "max_health": 4000,
+    "max_health": 4250,
     "build_metal_cost": 875,
     "atrophy_rate": 15.0,
     "atrophy_cool_down": 15.0,

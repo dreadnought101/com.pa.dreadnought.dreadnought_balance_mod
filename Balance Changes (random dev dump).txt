@@ -1,23 +1,78 @@
-jig explosion 
+--Todo when mods get fixed
 
-Grenadier Changes
-(WIP increasing model size)
+(Added AOE to overlooked AA units to be homogenized with stingers and spinners from previous patch)
 
-Stinger (AA bot)
-Increase model size
+(Looking to add explosion at end of lifetime, so even when spark misses, it can hit something else, which at current range is a few units past the target)
 
-Icarus changes
-Add different weapon type (same ammo drain) for air
-Increase air version to much further range
-maybe decrease ground range from 80 to 70
-Ground damage 20
-Air damage 30
+(Makes drifters more punishable by ants if caught, making the exchange 3 for 3 both ways.)
 
-Test Spark lifetime ammo
+
+--DONE
+
+Adv laser turret health 4000 to 4250
+
+single laser tower 175 to 165 (vanilla 225)
+health 350 to 325
+vision and underwater 130 to 110
+
+Adv metal extract 16 to 17
+
+
+-ant firerate 0.5 to 0.55  (1 shot every 2 seconds to 1.8 seconds) 42 dps to 46
+
+-galata and narwhal aoe from 0.75 to 1.5
+
+-Narwhal health reduced 550 to 525
+
+-Stinger under the hood dev stuff selection icon 9 to 12
+-size increased by 50%
+
+-Grenedier size increased by 50%
+selection icon 10 to 12
+
+-Unit Cannon
+Add inferno, drifter, skitter, storm
+
+(3 shots ants, maintains 2 shot drifters each)
+-Drifter damage 125 to 120
+-Drifter HP from 250 to 240
+
+-Spark lifetime ammo  1 to 0.55
+
+---
+
+--EZ STUFF
 
 Hummingbird air fighter
 decrease weapon damage from 80 to 70 [now 75 to 70] (3 shots instead of 2 to kill)
 
-AOE anti air, bigger radius, less damage.
+-Horseflies can shoot air
+-Horseflies (Add command assist and change break rate for old micro)
+-nerf health and damage maybe
 
-Spinner firerate 2.7 to 2.4
+Remove Orca AOE
+reduce orca torp damage and range?
+Add extreme AOE to narwhal
+
+jig explosion (building only)
+
+Ares ground pound (building only)
+
+--HARD STUFF
+
+Spark - added a 'die_here' command which well have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
+
+add 4 individual weapons to pheonix for cleave
+
+Icarus changes
+Add different weapon type (same ammo drain) for air
+Increase air weapon version to much further range
+maybe decrease ground range from 80 to 70
+Ground damage 20
+Air damage 30
+
+
+
+
+
+
