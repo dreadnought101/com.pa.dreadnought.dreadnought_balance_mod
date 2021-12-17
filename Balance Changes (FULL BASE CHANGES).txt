@@ -99,6 +99,11 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 -vision radius increase 200 to 210
 -underwater vision radius 200 to 210
 
+~Horsefly (T2 Air strafer)
+(Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
+-Added Anti-Air component to flak cannon [Prioritises Anti-Air ground units first]
+-Changed air damage modifier from 0.5 to 1.0 [Horseflies do full damage vs air]
+
 ~Piranha (T1 Naval)
 (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent)
 -range decreased 120 to 110
@@ -131,6 +136,10 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 (Dev Idea: Quality of life changes to let the Barnacle's speed match Orcas/Narwhals at 11 and allows it to repair more safely and consistently.  Extra note, build range may be to big but want to try something extreme, will likely be 90 after)
 -speed increased 10 to 11
 -build range increased 65 to 120
+
+-Stingray (T2 Naval)
+(Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
+Added Anti-Air component to cruise missile [No priority]
 
 ~Atlas (Titan)
 (Dev Idea: General buffs to health but makes them slightly less devestating when they reach your frontline, would love to give more options of attacking later)

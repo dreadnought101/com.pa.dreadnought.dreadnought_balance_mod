@@ -1,53 +1,12 @@
--Patch 1.27
+-Patch 1.28
 
-Narwhal and Galata AA
--Increased AA Splash Radius from 0.75 to 1.5
-(Added AOE to overlooked AA units to be homogenized with stingers and spinners from previous patch)
+-Stingray
+(Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
+Added Anti-Air component to cruise missile [No priority]
 
-Narwhal
--Health reduced 550 to 525
-Narwhal
--Added AOE component to torpedo
--Radius 25
--Damage = full
-(Allows T1 naval to have a sort of answer for large groups of naval units, especially submarines, but requires many narwhals or careful kiting [in which narwhals are slower than subs] in order to be effective.  The HP nerf is designed to not change orca and barracuda attacks, but to focus on air vs narwhal concerns)
+-Hosefly
+(The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
+-Added Anti-Air component to flak cannon [Prioritises Anti-Air ground units first]
+-Changed air damage modifier from 0.5 to 1.0 [Horseflies do full damage vs air]
 
-Orca
--Removed AOE component of torpedo
-
-Spark 
--Projectile lifetime decreased 1.0 to 0.55 
-(Looking to add explosion at end of lifetime, so even when spark misses, it can hit something else, which at current range is a few units past the target)
-
-Stinger
--Model size increased by 50%
--(Dev stuff) Selection Icon increased 10 to 12
-
-Grenadier
--Model size increased by 50%
-
-Drifter
-(Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action)
--Damage reduced 125 to 120
--HP reduced 250 to 240
-
-Ant
--Weapon firerate increased 0.5 to 0.55 (1 shot every 2 seconds to 1.8 seconds, 42 to 46 dps)
-
-Orca
--AOE component of torpedos removed
-
-Unit Cannon
--Inferno, Drifter, Skitter, Storm are now buildable
-(-Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
-
-Advanced Metal Extractor
--Metal production increased 16 to 17
-
-Single laser turret
--Metal cost reduced 175 to 165 (Vanilla 225)
--Health decreased 350 to 325
--Vision radius (+underwater vision) reduced from 130 to 110
-
-Triple laser turret
--Health increased 4000 to 4250
+-(Dev stuff, added various unit effects from pewpewpew mostly for my own sanity, but in turn created insanity inducing moments where the mod would crash instantly, has been fixed, but note to others, don't add Ammo Trails)

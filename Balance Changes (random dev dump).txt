@@ -1,9 +1,5 @@
---Todo when mods get fixed
+--Todo
 
-Added Air targetting to Stingray cruise missile 
-
-Added Air targetting to Horseflies...teeheee
-damage vs air change from 50% effect to 100%
 
 
 ---
