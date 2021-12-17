@@ -66,7 +66,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/bot/assault_fire",
-            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
+            "effect_spec": "/pa/effects/specs/assault_bot_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/assault_bot_muzzle_flash.pfx socket_leftMuzzle"
         }
     },
     "audio": {

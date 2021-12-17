@@ -1,43 +1,10 @@
 --Todo when mods get fixed
 
-(Added AOE to overlooked AA units to be homogenized with stingers and spinners from previous patch)
+Added Air targetting to Stingray cruise missile 
 
-(Looking to add explosion at end of lifetime, so even when spark misses, it can hit something else, which at current range is a few units past the target)
+Added Air targetting to Horseflies...teeheee
+damage vs air change from 50% effect to 100%
 
-(Makes drifters more punishable by ants if caught, making the exchange 3 for 3 both ways.)
-
-
---DONE
-
-Adv laser turret health 4000 to 4250
-
-single laser tower 175 to 165 (vanilla 225)
-health 350 to 325
-vision and underwater 130 to 110
-
-Adv metal extract 16 to 17
-
-
--ant firerate 0.5 to 0.55  (1 shot every 2 seconds to 1.8 seconds) 42 dps to 46
-
--galata and narwhal aoe from 0.75 to 1.5
-
--Narwhal health reduced 550 to 525
-
--Stinger under the hood dev stuff selection icon 9 to 12
--size increased by 50%
-
--Grenedier size increased by 50%
-selection icon 10 to 12
-
--Unit Cannon
-Add inferno, drifter, skitter, storm
-
-(3 shots ants, maintains 2 shot drifters each)
--Drifter damage 125 to 120
--Drifter HP from 250 to 240
-
--Spark lifetime ammo  1 to 0.55
 
 ---
 
@@ -46,17 +13,21 @@ Add inferno, drifter, skitter, storm
 Hummingbird air fighter
 decrease weapon damage from 80 to 70 [now 75 to 70] (3 shots instead of 2 to kill)
 
+~Omega (Advanced Orbital)
+(Dev Idea: Make them actually counter avengers)
+-Add splash to anti-orbital weapons (2x65 damage every 1.00 seconds)
+--Full Damage radius: 1
+--Splash: 10x2 damage, radius 3
+
+~Horseflies
 -Horseflies can shoot air
 -Horseflies (Add command assist and change break rate for old micro)
 -nerf health and damage maybe
 
-Remove Orca AOE
-reduce orca torp damage and range?
-Add extreme AOE to narwhal
+-jig explosion (building only)
 
-jig explosion (building only)
-
-Ares ground pound (building only)
+~Ares
+-Ground pound AOE only affects structures
 
 --HARD STUFF
 
@@ -71,8 +42,18 @@ maybe decrease ground range from 80 to 70
 Ground damage 20
 Air damage 30
 
+~Lob
+(Dev Idea: The lob's current role is a 1-dimensional factory, not a defensive structure, this will change its role to units that have a limited life-span but have more impact)
+-Atm have lobs firing typhoon drone, but considering something else
 
 
 
+CONSIDERING (some ideas that may or not be implemented)
 
-
+-Lob revamp
+-Horsefly buffs and nerfs
+-Icarus revamp to have seperate air and ground weapons,
+-Omega AOE component
+- Jig explosion only affects buildings, Ares ground pound only affects buildings
+-Spark projectile always explodes
+-Hummingbird nerfs, Pheonix cleave changes

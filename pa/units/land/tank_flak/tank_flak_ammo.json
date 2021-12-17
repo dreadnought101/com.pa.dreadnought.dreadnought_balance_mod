@@ -13,7 +13,7 @@
     "burn_damage": 0,
     "burn_radius": 0,
     "fx_trail": {
-        "filename": "/pa/effects/specs/shell_proj_trail.pfx",
+        "filename": "/pa/effects/specs/tank_flak_ammo_trail.pfx",
         "offset": [0.0, 0.8, 0.0]
     },
     "events": {
