@@ -13,7 +13,7 @@
     "production": {
         "energy": 175
     },
-    "unit_types": ["UNITTYPE_Air", "UNITTYPE_EnergyProduction", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Economy"],
+    "unit_types": ["UNITTYPE_Air", "UNITTYPE_EnergyProduction", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Economy", "UNITTYPE_Offense"],
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/air"

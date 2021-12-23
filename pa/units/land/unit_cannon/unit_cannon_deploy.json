@@ -43,7 +43,7 @@
         "allow_underground": true
     },
     "fx_trail": {
-        "filename": "/pa/units/air/unit_shell/unit_shell_trail.pfx"
+        "filename": "/pa/units/air/unit_shell/unit_cannon_deploy_trail.pfx"
     },
     "events": {
         "collided": {

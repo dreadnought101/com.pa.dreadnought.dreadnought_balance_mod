@@ -1,12 +1,34 @@
--Patch 1.28
+-Patch 1.29
 
--Stingray
-(Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
-Added Anti-Air component to cruise missile [No priority]
+~Commander
+(Allows commander walking to be more common and push out on the map. I also want to put wall damage to 150% but WIP)
+-Increased move speed from 6 to 8
+-increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot, commander vs commander 0.25 unchanged)
 
--Hosefly
-(The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
--Added Anti-Air component to flak cannon [Prioritises Anti-Air ground units first]
--Changed air damage modifier from 0.5 to 1.0 [Horseflies do full damage vs air]
+~Drifter
+-Increased Metal Cost 225 to 230
 
--(Dev stuff, added various unit effects from pewpewpew mostly for my own sanity, but in turn created insanity inducing moments where the mod would crash instantly, has been fixed, but note to others, don't add Ammo Trails)
+~Typhoon
+-Increased squall launch rate from 1.8 to 2.0 (Vanilla value)
+
+~Pelican (T1 Transport)
+-Decreased metal cost from 160 to 140
+
+~Vanguard
+(Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base)
+-Increased range 30 to 60
+-Decreased damage from 2000 to 500 (Including splash)
+-Increased fire rate from 0.5 to 1.0 (Fires 1 shot every 1 second, instead of 1 shot every 2 seconds)
+
+~Stitch
+(General combat fab buffs to help a relatively expensive unit survive a mere stray shot)
+-Health increased 50 to 125
+
+~Mend
+-Health increased 150 to 350
+
+~Slammer
+-Torpedo Fire rate increased 0.25 to 0.75 (Fires three times more often)
+
+(Under the hood dev stuff)
+-Added combat tags to Icarus, Angel, Firefly, Skitter and removed combat tag from combat fabbers due to associated mods not working with this server mod.

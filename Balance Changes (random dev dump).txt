@@ -1,6 +1,6 @@
 --Todo
 
-
+-Figure out how to have commander damage do 150%, take off of structure damage
 
 ---
 
@@ -9,14 +9,8 @@
 Hummingbird air fighter
 decrease weapon damage from 80 to 70 [now 75 to 70] (3 shots instead of 2 to kill)
 
-~Omega (Advanced Orbital)
-(Dev Idea: Make them actually counter avengers)
--Add splash to anti-orbital weapons (2x65 damage every 1.00 seconds)
---Full Damage radius: 1
---Splash: 10x2 damage, radius 3
 
 ~Horseflies
--Horseflies can shoot air
 -Horseflies (Add command assist and change break rate for old micro)
 -nerf health and damage maybe
 

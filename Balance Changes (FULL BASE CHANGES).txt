@@ -21,6 +21,7 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 ~Ant (T1 Vehicle)
 (Dev Idea: Matches spark vision and better supports high range+low vision units)
 -Vision radius increased 100 to 130
+-Weapon firerate increased 0.5 to 0.55 (1 shot every 2 seconds to 1.8 seconds, 42 to 46 dps)
 
 ~Drifter (T1 Vehicle)
 (Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action)
@@ -232,8 +233,9 @@ Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift
 ~Unit Cannon (T2 Launcher Factory)
 -Metal cost reduced 10000 to 9500
 -HP increased 18000 to 40000
+-Drifters, Infernos, Storms, 
 (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games. Will try to make it buildable on water later.
--Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+(-Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
 
 -All Advanced Fabricators [Vehicle/Bot/Air/Naval] can now build all types of Titans [Atlas/Ares/Zues]
 (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
