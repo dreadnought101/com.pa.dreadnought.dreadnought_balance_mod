@@ -4,7 +4,7 @@
     "display_name": "!LOC:Advanced Fabrication Ship",
     "description": "!LOC:Advanced Fabricator - Builds basic and advanced naval structures.",
     "max_health": 600,
-    "build_metal_cost": 2400,
+    "build_metal_cost": 2150,
     "spawn_layers": "WL_WaterSurface",
     "attachable": {
         "offsets": {

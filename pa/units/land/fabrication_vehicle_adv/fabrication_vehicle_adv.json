@@ -4,14 +4,14 @@
     "display_name": "!LOC:Advanced Fabrication Vehicle",
     "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures. Durable. More powerful than other fabricators.",
     "max_health": 400,
-    "build_metal_cost": 2025,
+    "build_metal_cost": 1850,
     "attachable": {
         "offsets": {
             "root": [0, 0, 0],
             "head": [0, 0.5, 5]
         }
     },
-    "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Bot | Air | Naval)",
+    "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & Bot | Titan & (Tank | Bot | Air | Naval)",
     "unit_types": ["UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {

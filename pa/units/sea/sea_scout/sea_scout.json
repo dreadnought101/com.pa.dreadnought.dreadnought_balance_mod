@@ -48,7 +48,8 @@
             "audio_cue": "/SE/Build_Complete/sea"
         },
         "fired": {
-            "audio_cue": "/SE/Weapons/sea/sea_scout_fire"
+            "audio_cue": "/SE/Weapons/sea/sea_scout_fire",
+			"effect_spec": "/pa/units/sea/sea_scout/sea_scout_muzzle_flash.pfx socket_muzzle"
         },
         "died": {
             "audio_cue": "/SE/Death/Sea",
