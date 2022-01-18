@@ -1,0 +1,26 @@
+{
+    "ammo_id": [{
+            "id": "/pa/units/land/bot_grenadier/bot_grenadier_torpedo_water_ammo.json",
+            "layer": "WL_Seafloor"
+        }, {
+            "id": "/pa/units/land/bot_grenadier/bot_grenadier_torpedo_land_ammo.json",
+            "layer": "WL_LandHorizontal"
+        }
+    ],
+    "auto_attack": true,
+    "base_spec": "/pa/tools/base_torpedo_turret/base_torpedo_turret.json",
+    "exclude_unit_types": "Hover | WaterHover",
+    "firing_arc_pitch": 360,
+    "firing_arc_yaw": 360,
+    "max_range": 160,
+    "yaw_rate": 1080,
+    "pitch_range": 360,
+    "pitch_rate": 1080,
+    "rate_of_fire": 0.5,
+    "spread_fire": true,
+    "target_layers": [
+        "WL_WaterSurface",
+        "WL_Underwater",
+        "WL_Seafloor"
+    ]
+}

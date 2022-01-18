@@ -1,9 +1,9 @@
 {
   "base_spec": "/pa/ammo/base_bullet/base_bullet.json",
-  "damage": 62,
-  "splash_damage": 46,
-  "splash_radius": 5,
-  "full_damage_splash_radius": 2,
+  "damage": 36,
+  "splash_damage": 24,
+  "splash_radius": 1.5,
+  "full_damage_splash_radius": 0.25,
   "initial_velocity": 80.0,
   "max_velocity": 90.0,
   "lifetime": 5,
