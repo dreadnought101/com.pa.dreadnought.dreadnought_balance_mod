@@ -40,7 +40,7 @@
     ],
     "events": {
         "died": {
-            "effect_spec": "/pa/units/sea/battleship/battleship_hit.pfx"
+            "effect_spec": "/pa/units/sea/battleship/missile_ship_ammo_hit.pfx"
         }
     },
     "audio_loop": "/SE/Movement/missile/missileship_fly_loop"
