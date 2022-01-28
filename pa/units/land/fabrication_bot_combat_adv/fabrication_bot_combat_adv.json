@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Mend",
     "description": "!LOC:Advanced Combat Fabricator - Repairs much faster and auto reclaims wreckage. Can build teleporters and defences in addition to mines.",
-    "max_health": 300,
+    "max_health": 325,
     "spawn_layers": "WL_LandHorizontal",
     "build_metal_cost": 1000,
     "attachable": {
