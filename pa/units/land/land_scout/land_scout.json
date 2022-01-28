@@ -2,29 +2,35 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Skitter",
     "description": "!LOC:Scout - Fast. Can see far away and detects mines. Does not attack.  Radar Stealth",
-    "max_health": 10,
-    "build_metal_cost": 75,
+    "max_health": 15,
+    "build_metal_cost": 55,
     "attachable": {
         "offsets": {
             "root": [0, 0, 0],
             "head": [0, -0.2, 1.6]
         }
     },
-    "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Use"],
+    "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Use", "ORDER_Attack"],
     "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Offense"],
     "transportable": {
         "size": 1
     },
     "navigation": {
         "type": "land-small",
+        "aggressive_behavior": "follow",
         "acceleration": 250,
         "brake": 250,
-        "move_speed": 25,
-        "turn_speed": 360
+        "move_speed": 32,
+        "turn_speed": 360,
+        "group_preference": "back"
     },
     "physics": {
         "radius": 3
     },
+	"tools": [{
+            "spec_id": "/pa/units/land/land_scout/land_scout_weapon"
+        }
+    ],
     "recon": {
         "observable": {
             "ignore_radar": true
