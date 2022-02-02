@@ -1,11 +1,11 @@
 {
     "base_spec": "/pa/ammo/torpedo/torpedo.json",
-    "damage": 50,
+    "damage": 100,
+    "splash_damage": 100,
     "initial_velocity": 5.0,
     "max_velocity": 50.0,
-	"splash_damage": 50,
-	"splash_radius": 25,
-	"full_damage_splash_radius": 25,
+    "splash_radius": 2,
+    "full_damage_splash_radius": 2,
     "lifetime": 7,
     "turn_rate": 180,
     "model": {

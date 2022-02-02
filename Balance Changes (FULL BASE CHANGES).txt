@@ -32,12 +32,14 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 
 ~Ant (T1 Vehicle)
 (Dev Idea: Matches spark vision and better supports high range+low vision units)
+(-Ants a long time ago had a turn rate of 90. I intend to do 105, but want to see how this old, more predictive type of micro handles in the modern era. At the moment I believe ants are too responsive and reactive for the lumbering tank persona, and in gameplay terms they are good at kiting backwards quickly and I want to see if this helps fast units+projectiles catch out ants better)
+-Turn rate decreased 120 to 90
 -Vision radius increased 100 to 130
--Weapon firerate increased 0.5 to 0.55 (1 shot every 2 seconds to 1.8 seconds, 42 to 46 dps)
+-Weapon firerate increased 0.5 to 0.525 (1 shot every 2 seconds to 1.9 seconds, 42 to 44 dps)
 
 ~Drifter (T1 Vehicle)
 (Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action.  Overall goal is to make them less able to operate alone, and be more reliant on support units)
--Metal cost increased 225 to 235
+-Metal cost increased 225 to 230
 -HP reduced 250 to 240
 -Damage reduced 125 to 120
 -Bullet velocity decreased 150 to 140
@@ -60,19 +62,18 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 -Model size increased by 30%
 ~Main Weapon
 - -Firerate decreased 2.00 to 4.20 seconds
-- -dps decreased roughly to roughly 34
+- -dps increased from roughly 40 to 57
 - -Fires 4 shots instead of 2 a volley
-- -Damage increased 40x2 to 36x4
+- -Damage increased 40x2 to 60x4
 - -Splash damage increased 30x2 to 24x4
-- -Full damage splash radius reduced 2 to 0.25
-- -Partial damage splash radius reduced 5 to 1.5
+- -Full damage splash radius reduced 2 to 0.75
+- -Partial damage splash radius reduced 5 to 2.0
 -Torpedo Weapon added (Attacks water units, excluding hover units)
 - -Damage 50
 - -Firerate 0.5 (Fires 1 shot every 2 seconds)
 - -Range 60
 - -Land speed Velocity 70
 - - Water speed Velocity 40
-
 
 ~Spark (T1 Bot)
 (Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
@@ -106,7 +107,6 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 ~Leveler (T2 Vehicle)
 (I think the leveler range is fine for MLA specifically, but I'm interested in balancing bugs and legion, and find levelers to be downright insane against them. Additionally this will help grenadiers counter levelers with a range difference as was seen with 145 to 140 ratio, and also accounts for my own metal+unit size increases that changes this matchup)
 -Range 140 to 130
-
 
 ~Storm (T2 Vehicle)
 (Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
@@ -160,9 +160,8 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 -AA Weapon damage decerased 25 to 20
 -AA Weapon AOE radius increased from 0.75 to 1.5
 -Added Torpedo Launchers
-- -50 damage
+- -100 damage
 - -225 range
-- -25 AOE radius (full damage)
 - -0.2 Firerate (fires 1 shot every 5.00 seconds)
 - -Velocity 5.0 (same speed as barracuda/orca)
 - -Lifetime 7 (how long the torpedo lasts before fizzling out)
@@ -189,8 +188,11 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 ~ARES (Titan)
 (Dev Idea: Makes killing it easier, and gives a real use to secondary guns)
 -Health decreased 80000 to 40000
+-main guns
+- -Primary AOE radius reduced 5 to 2
+- -Partial AOE radius reduced 15 to 2
 -secondary weapons 
-- -range increased 220 to 360
+- -Range increased 220 to 360
 - -Firerate increased 0.7 to 1.0 a second
 - -Projectile speed increased 140 to 225 
 - -Projectile lifetime increased 3.0 to 4.5
@@ -221,7 +223,6 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 ~Naval - 2400 to 2150
 ~Each can now build all types of Titans [Atlas/Ares/Zues]
 
-
 ~Solar Array (Advanced Orbital energy producer)
 (Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
 -HP Increase 1000 to 6000
@@ -233,6 +234,7 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 (Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
 -Removed 50,000 energy storage (to 0)
 -Removed 7,500 energy production (to 0)
+-Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)
 
 ~Energy Storage
 (Decrease cost so its easier to build earlier on and increase storage amount to be impactful)

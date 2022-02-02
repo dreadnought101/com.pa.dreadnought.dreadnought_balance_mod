@@ -2,7 +2,7 @@
     "base_spec": "/pa/tools/base_torpedo_turret/base_torpedo_turret.json",
     "ammo_id": "/pa/units/sea/destroyer/destroyer_torpedo_ammo.json",
     "rate_of_fire": 0.2,
-    "max_range": 145,
+    "max_range": 140,
     "yaw_rate": 180,
     "pitch_rate": 180,
     "yaw_range": 2,
