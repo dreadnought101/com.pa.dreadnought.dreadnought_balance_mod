@@ -10,7 +10,7 @@
             "head": [0, 0, 5.4]
         }
     },
-    "buildable_types": "CombatFabBuild",
+    "buildable_types": "(CombatFabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
 	"unit_types": ["UNITTYPE_Fabber",
 	"UNITTYPE_Construction",
 	"UNITTYPE_Bot",	

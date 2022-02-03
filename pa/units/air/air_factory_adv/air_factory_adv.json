@@ -7,7 +7,7 @@
     "build_metal_cost": 4400,
     "atrophy_rate": 80.0,
     "atrophy_cool_down": 15.0,
-    "buildable_types": "Air & Mobile & FactoryBuild",
+    "buildable_types": "(Air & Mobile & FactoryBuild) - Custom1 - Custom2 - Custom3 - Custom4",
     "rolloff_dirs": [[1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, -1, 0]],
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "wait_to_rolloff_time": 0,

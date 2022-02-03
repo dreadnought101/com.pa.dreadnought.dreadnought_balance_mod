@@ -17,7 +17,7 @@
     "transportable": {
         "size": 1
     },
-    "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Bot | Air | Naval)",
+    "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Bot | Air | Naval)) - Custom1 - Custom2 - Custom3 - Custom4",
     "physics": {
         "shape": "sphere",
         "radius": 6,

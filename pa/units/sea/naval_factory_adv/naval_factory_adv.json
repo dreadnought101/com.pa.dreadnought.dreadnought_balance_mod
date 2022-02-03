@@ -8,7 +8,7 @@
     "atrophy_rate": 80.0,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_DeepWater",
-    "buildable_types": "Naval & Mobile & FactoryBuild",
+    "buildable_types": "(Naval & Mobile & FactoryBuild) - Custom1 - Custom2 - Custom3 - Custom4",
     "rolloff_dirs": [[0, 1, 0], [0, -1, 0]],
     "wait_to_rolloff_time": 0,
     "factory_cooldown_time": 9,

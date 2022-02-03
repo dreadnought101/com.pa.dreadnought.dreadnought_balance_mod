@@ -5,14 +5,15 @@
 -Increased move speed from 6 to 8
 -increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot, commander vs commander 0.25 unchanged)
 
-~Drifter
--Increased Metal Cost 225 to 230
+~Jig
+-Explosion damage only affects structures. 
+(and 0.001% damage, or 4 health points to orbital units but who's counting?)
 
-~Typhoon
--Increased squall launch rate from 1.8 to 2.0 (Vanilla value)
-
-~Pelican (T1 Transport)
--Decreased metal cost from 160 to 140
+~Orca 
+(Nerfs orca torpedos dramatically so Orcas do not trade effeciently against subs but amps up anti-spam+stacking components again)
+-Torpeo range decreased 145 to 140 (vanilla 150)
+-Torpedo damage decreased 250 to 50
+-Re-added Torpedo AOE (Full 50 damage, 10 to 25 Radius)
 
 ~Vanguard
 (Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base)
@@ -20,15 +21,32 @@
 -Decreased damage from 2000 to 500 (Including splash)
 -Increased fire rate from 0.5 to 1.0 (Fires 1 shot every 1 second, instead of 1 shot every 2 seconds)
 
-~Stitch
-(General combat fab buffs to help a relatively expensive unit survive a mere stray shot)
--Health increased 50 to 125
-
-~Mend
--Health increased 150 to 350
-
 ~Slammer
 -Torpedo Fire rate increased 0.25 to 0.75 (Fires three times more often)
 
-(Under the hood dev stuff)
--Added combat tags to Icarus, Angel, Firefly, Skitter and removed combat tag from combat fabbers due to associated mods not working with this server mod.
+~Pheonix 
+(I want to differentiate the T2 fighter more from its T1 counterpart, as the T2 fighter feels like a direct upgrade upgrade without its own quirks unlike most other T1 to T2 versions)
+-Split Pheonix weapon from 2 firing points to 4, and added seperate sockets so each fires individually rather than in succession.
+-Firerate decreased from 7.5 to 1.0 x4 (each weapon gets their own firing timer now)
+-missile speed increased 150 to 250
+-Bullet lifetime 2.0 to 1.5
+-range increased 145 to 150 (Vanilla 120)
+
+-(Under the hood dev stuff) "nearby_target_tick_update_interval": 0.2, (Main)
+-"firing_standard_deviation": 25, (Weapon)
+
+~Omega
+>Orbital Guns (4 turrets, 2 barrels each)
+-added ammo file (it currently uses the same file associated with the Anchor)
+-Reduced Orbital gun range from 175 to 150 [Vanilla 150] 
+-Added anti-ground/air/sea to orbital guns. [Adjusted Turret Pitch_Range from 60 to 90 in order to properly hit ground]  (Does not attack seafloor)
+-Omega will prioritize other orbital units first.
+-Damage 65 to 40x2 perr turret.
+-Added AOE Splash component of 5x2 damage, 4 radius per turret.
+>Anti-Ground Lazer
+-Main anti-ground gun can now target seafloor units.
+-Added auto attack component 
+
+
+
+

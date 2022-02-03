@@ -1,0 +1,78 @@
+--Dev done
+
+-Increase Omega firerate 1.75x  (1.0 to 1.75)
+
+
+--Todo
+
+
+-increase Adv naval fab build range
+
+Increase omega metal cost? or look at its stats more
+
+fix orca effects cannons  (Fixed, must test)
+
+Increase gren damage maybe
+
+Legion Support
+Added Commander and adv factories
+will need to do fabs/orbital stuff I think
+Don't need to add reg factories hopefully
+
+
+
+(Slammer torpedo accidently made it in, ignore)
+
+~Commander Torpedo damage does less, 30 or 50%
+Figure out how to have commander damage do 150% to walls, take off of structure damage
+
+Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
+
+Icarus changes
+Add different weapon type (same ammo drain) for air
+Increase air weapon version to much further range
+maybe decrease ground range from 80 to 70
+Ground damage 20
+Air damage 30
+-Additional ideas, remove ammo from air component or increase drain
+Would be a dream if ground had a projectile or reduce speed
+-Also a charge up mechanic...?
+
+~Lob
+(Dev Idea: The lob's current role is a 1-dimensional factory, not a defensive structure, this will change its role to units that have a limited life-span but have more impact)
+-Atm have lobs firing typhoon drone, but considering something else
+
+
+
+
+UNDER THE HOOD DEV STUFF
+
+from WL_LandHorizontal to WL_AnySurface
+Ant, Inferno, Vanguard, Drifter, Leveler, Boom ,Locust, manhattan ,Leviathan, Piranha 
+
+Ignoring Manhattan, Levi, Pirhanna
+
+~Skitter
+(Command Caps)
+add "ORDER_Attack"  (Removed this)
+
+
+
+
+KNOWN ISSUES
+
+Grenadier torpedos sometimes firing in a random direction when coming in range of a naval unit
+MLA fabricators and factories will build Legion stuff if the mod is enabled
+
+CONSIDERING (some ideas that may or not be implemented)
+
+-Lob revamp
+-Horsefly buffs and nerfs
+-Icarus revamp to have seperate air and ground weapons,
+-Omega AOE component
+-Jig explosion only affects buildings, Ares ground pound only affects buildings
+-Spark projectile always explodes
+-Hummingbird nerfs, Pheonix cleave changes
+
+(Under the hood dev stuff)
+-Added combat tags to Icarus, Angel, Fire

@@ -8,7 +8,7 @@
     "atrophy_rate": 90.0,
     "atrophy_cool_down": 15.0,
     "wreckage_health_frac": 0.0,
-    "buildable_types": "Orbital & FactoryBuild",
+    "buildable_types": "(Orbital & FactoryBuild) - Custom1 - Custom2 - Custom3 - Custom4",
     "enable_orbital_shell": true,
     "rolloff_dirs": [[0, 1, 0], [0, -1, 0]],
     "spawn_layers": "WL_Orbital",

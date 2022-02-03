@@ -9,7 +9,7 @@
     "atrophy_cool_down": 15.0,
     "factory_cooldown_time": 3.0,
     "wait_to_rolloff_time": 3.0,
-    "buildable_types": "CannonBuildable",
+    "buildable_types": "(CannonBuildable) - Custom1 - Custom2 - Custom3 - Custom4",
     "factory": {
         "deploy_projectile": "/pa/units/land/unit_cannon/unit_cannon_deploy.json",
         "store_units": true,
