@@ -1,18 +1,26 @@
 FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447]
 
+~Commander
+The torpedo change increases commander kill time for sea based engagements, due to it being significantly higher than land engagements that are around 204 dps including uber cannons, while sea based engagements are at 400 dps)
+-Increased move speed from 6 to 8
+-increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot. Commander vs commander 0.25 is unchanged)
+-decreased commander Torpedo weapon vs commanders from 100% to 50%
+(Dev Idea: Allows commander walking to be more common and push out on the map. I also want to put wall damage to 150% but WIP.  
+Dev Note: The torpedo change increases commander kill time for sea based engagements, due to it being significantly higher than land engagements that are around 204 dps including uber cannons, while sea based engagements are at 400 dps)
+
 ~Firefly (T1 Air Scout)
-(Dev note: Rewards lone positioning and scouting in mid to late game)
 -Added Radar Stealth 
 
 ~Skitter (T1 Vehicle Scout)
-(Dev notes~The movespeed buff allows skitters when built before the first fabs to reach the enemy base on small, and some medium maps before an air scout and icarus can be built and makes a ground only opener struggle.
-~the health increase is to tank a shot from dox or strykers [they fire 2, so its only for partial hits],
-~the metal cost is to bring it below the firefly, and between dox and stryker.
-~Overall buffs to skitters are generally risk free due to the utility, non-combat nature of this unit and I want to reward positioning and scouting after the early game.)
 -Added Radar Stealth
 -Move speed 25 to 32
 -Metal cost 75 to 55
 -Health 10 to 15
+(Dev Idea: Rewards lone positioning and scouting in mid to late game)
+(Dev notes: The movespeed buff allows skitters when built before the first fabs to reach the enemy base on small, and some medium maps before an air scout and icarus can be built and makes a ground only opener struggle.
+~the health increase is to tank a shot from dox or strykers [they fire 2, so its only for partial hits],
+~the metal cost is to bring it below the firefly, and between dox and stryker.
+~Overall buffs to skitters are generally risk free due to the utility, non-combat nature of this unit and I want to reward positioning and scouting after the early game.)
 
 ~Hummingbird (T1 Air Fighter)
 -reduced damage from 80 to 75.
@@ -103,10 +111,14 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 
 ~Colonel (T2 Bot)
 -Metal cost reduced 7000 to 6500
+-build arm range 20->30
+-turn rate 90->180
+-remove "turn_in_place":false
+(Dev Note: General quality of life changes)
 
 ~Leveler (T2 Vehicle)
-(I think the leveler range is fine for MLA specifically, but I'm interested in balancing bugs and legion, and find levelers to be downright insane against them. Additionally this will help grenadiers counter levelers with a range difference as was seen with 145 to 140 ratio, and also accounts for my own metal+unit size increases that changes this matchup)
 -Range 140 to 130
+(I think the leveler range is fine for MLA specifically, but I'm interested in balancing bugs and legion, and find levelers to be downright insane against them. Additionally this will help grenadiers counter levelers with a range difference as was seen with 145 to 140 ratio, and also accounts for my own metal+unit size increases that changes this matchup)
 
 ~Storm (T2 Vehicle)
 (Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
@@ -211,36 +223,40 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 -Increased health from 50 to 65
 
 ~Mend (Adv combat fab)
-(General combat fab buffs to help a relatively expensive unit survive a mere stray shot. Barnacles and Angels do not fall under this concern)
 -Health increased from 150 to 325
+(Dev Idea: General combat fab buffs to help a relatively expensive unit survive a mere stray shot. Barnacles and Angels do not fall under this concern)
 
 ~Advanced Fabricators [Vehicle/Bot/Air/Naval] 
-(Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
-(Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
 ~Bot - 1800 to 1650
 ~Vehicle - 2025 to 1850
 ~Air - 2200 to 2000
 ~Naval - 2400 to 2150
 ~Each can now build all types of Titans [Atlas/Ares/Zues]
+(Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
+(Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
+
+~Advanced Naval Fabricator
+-Build range increased 30 to 50
+(Dev Note: This is mostly intended to be a quality of life change to help the adv ship build structures on land, as it does not have water-hover and can't get as close to shore as its basic naval fabricator counterpart)
 
 ~Solar Array (Advanced Orbital energy producer)
-(Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
 -HP Increase 1000 to 6000
 -Metal cost increased 1600 to 5000
 -Energy production increased 2500/s to  9000/s
 -Added 100,000 energy storage (from 0)
+(Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
 
 ~Jig (Orbital Gas Giant Extractor)
-(Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
 -Removed 50,000 energy storage (to 0)
 -Removed 7,500 energy production (to 0)
 -Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)
+(Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
 
 ~Energy Storage
-(Decrease cost so its easier to build earlier on and increase storage amount to be impactful)
 -HP Reduced from 7500 to 5000
 -Metal Cost reduced 450 to 250
 -Storage increased 100,000 to 250,000
+(Dev Idea: Decrease cost so its easier to build earlier on and increase storage amount to be impactful)
 
 Advanced Metal Extractor (T2 Economy)
 -Metal Cost reduced 2000 to 1800
@@ -250,11 +266,11 @@ Advanced Metal Extractor (T2 Economy)
 -Increased AA Splash Radius from 0.75 to 1.5
 
 ~Single Laser Defense Tower (1 barrel)
-(Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
 -Metal Cost decreased 225 to 165
 -Range decreased 100 to 90
 -Damage decreased 40 to 35
 -Vision radius (+underwater vision) reduced from 130 to 110
+(Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
 
 ~Lob (T1 Defense Structure)
 -Uses Squals (Drone) instead of Dox
@@ -267,13 +283,12 @@ Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift
 -Health increased 4000 to 4250
 
 ~Flak Cannon (T2)
-(Dev Idea: General T2 defense buffs)
 -HP reduced 2000 to 1700
 -Metal cost reduced 900 to 750
 -Range increased 120 to 150
+(Dev Idea: General T2 defense buffs)
 
 ~Advanced Torpedo Launcher (T2)
-(Dev Idea: General T2 defense buffs)
 -metal cost reduced 1000 to 950
 -range increased 210 to 300
 -Rate of fire decreased 2.5 to 2.0/s
@@ -282,6 +297,7 @@ Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift
 -Underwater vision radius increased 200 to 260
 -Radar radius increased 210 to 310
 -Sonar radius increased 210 to 310
+(Dev Idea: General T2 defense buffs)
 
 ~T2 factories. (Vehicle/Bot/Air/Naval)
 (Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
@@ -316,12 +332,12 @@ Roll off time - 6 to 9
 -Cost increased 600 to 1000
 
 ~Orbital Factory
-(The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
 -Cost reduced 6000 to 4000
+(Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
 
 ~Unit Cannon (T2 Launcher Factory)
 -Metal cost reduced 10000 to 7200
 -HP increased 18000 to 40000
 -Drifters, Infernos, Storms, 
 (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games. Will try to make it buildable on water later.
-(-Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+(Dev Note: -Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)

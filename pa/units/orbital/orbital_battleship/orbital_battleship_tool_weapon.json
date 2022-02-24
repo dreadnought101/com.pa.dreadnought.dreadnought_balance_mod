@@ -1,14 +1,17 @@
 {
-	"base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
-	"ammo_id": "/pa/units/orbital/defense_satellite/defense_satellite_ammo_orbital.json",
-	"rate_of_fire": 1,
-	"max_range": 150,
-	"yaw_rate": 360,
-	"pitch_rate": 360,
-	"yaw_range": 100,
-	"pitch_range": 60,
-	"auto_attack": true,
-	"target_layers": [
-		"WL_Orbital"
-	]
+    "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
+    "ammo_id": "/pa/units/orbital/orbital_battleship/orbital_battleship_ammo_orbital.json",
+    "rate_of_fire": 1.5,
+    "max_range": 150,
+    "yaw_rate": 360,
+    "pitch_rate": 360,
+    "yaw_range": 100,
+    "pitch_range": 90,
+	"target_priorities": [
+		"Orbital",  "Air & Land & Naval & Structure" 
+	],
+    "auto_attack": true,
+    "target_layers": [
+        "WL_Orbital", "WL_Air", "WL_LandHorizontal", "WL_WaterSurface"
+    ]
 }

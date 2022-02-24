@@ -1,30 +1,29 @@
 --Dev done
 
--Increase Omega firerate 1.75x  (1.0 to 1.75)
 
+Fixed Orca/Vangaurd effects
+
+from WL_LandHorizontal to WL_AnySurface
+Ant, Inferno, Vanguard, Drifter, Leveler, Boom ,Locust
 
 --Todo
 
+Locust health from 60 to 75
+Reduce cost from 265 to 255 [Vanilla 260]
+(Dev Note: Locust became weaker due to factory changes, this is to adjust)
 
--increase Adv naval fab build range
+"Galata remove AT_Orbital damage modifier
 
-Increase omega metal cost? or look at its stats more
+Manhattan
+speed 7 -> 10
+turn rate 45 -> 60
+turn acceleration 15 -> 30
 
-fix orca effects cannons  (Fixed, must test)
-
-Increase gren damage maybe
 
 Legion Support
 Added Commander and adv factories
 will need to do fabs/orbital stuff I think
 Don't need to add reg factories hopefully
-
-
-
-(Slammer torpedo accidently made it in, ignore)
-
-~Commander Torpedo damage does less, 30 or 50%
-Figure out how to have commander damage do 150% to walls, take off of structure damage
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
 

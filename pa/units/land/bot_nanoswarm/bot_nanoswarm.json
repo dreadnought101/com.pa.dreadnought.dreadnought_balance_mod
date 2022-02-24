@@ -2,9 +2,9 @@
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Locusts",
     "description": "!LOC:Nanobot Swarm - Extremely Fast. Cheap. Close range. Devastating damage. Hover. Attacks land and sea targets.",
-    "max_health": 60,
+    "max_health": 75,
     "spawn_layers": "WL_LandHorizontal",
-    "build_metal_cost": 265,
+    "build_metal_cost": 255,
     "attachable": {
         "offsets": {
             "root": [0, 0, 0],
