@@ -52,7 +52,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/structure/laser_defense_ADV_fire",
-            "effect_spec": "/pa/effects/specs/laser_defense_adv_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/laser_defense_adv_muzzle_flash.pfx socket_centerMuzzle /pa/effects/specs/laser_defense_adv_muzzle_flash.pfx socket_leftMuzzle"
+            "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_centerMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
         },
         "died": {
             "audio_cue": "/SE/Death/structure_small",
@@ -62,7 +62,7 @@
     "selection_icon": {
         "diameter": 15.0
     },
-    "mesh_bounds": [8, 8, 23],
+    "mesh_bounds": [8, 8, 19],
     "area_build_separation": 18,
     "TEMP_texelinfo": 15.3609
 }

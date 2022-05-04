@@ -1,29 +1,9 @@
 --Dev done
 
 
-Fixed Orca/Vangaurd effects
-
-from WL_LandHorizontal to WL_AnySurface
-Ant, Inferno, Vanguard, Drifter, Leveler, Boom ,Locust
-
 --Todo
 
-Locust health from 60 to 75
-Reduce cost from 265 to 255 [Vanilla 260]
-(Dev Note: Locust became weaker due to factory changes, this is to adjust)
 
-"Galata remove AT_Orbital damage modifier
-
-Manhattan
-speed 7 -> 10
-turn rate 45 -> 60
-turn acceleration 15 -> 30
-
-
-Legion Support
-Added Commander and adv factories
-will need to do fabs/orbital stuff I think
-Don't need to add reg factories hopefully
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
 
@@ -37,26 +17,15 @@ Air damage 30
 Would be a dream if ground had a projectile or reduce speed
 -Also a charge up mechanic...?
 
+
+
+~Add PPBAOE to bombers+wyrms
+
+
 ~Lob
 (Dev Idea: The lob's current role is a 1-dimensional factory, not a defensive structure, this will change its role to units that have a limited life-span but have more impact)
 -Atm have lobs firing typhoon drone, but considering something else
-
-
-
-
-UNDER THE HOOD DEV STUFF
-
-from WL_LandHorizontal to WL_AnySurface
-Ant, Inferno, Vanguard, Drifter, Leveler, Boom ,Locust, manhattan ,Leviathan, Piranha 
-
-Ignoring Manhattan, Levi, Pirhanna
-
-~Skitter
-(Command Caps)
-add "ORDER_Attack"  (Removed this)
-
-
-
+-Try mini unit cannon?
 
 KNOWN ISSUES
 

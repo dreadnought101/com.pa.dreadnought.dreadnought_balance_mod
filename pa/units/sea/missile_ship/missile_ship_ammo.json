@@ -9,7 +9,7 @@
     "max_velocity": 80.0,
     "cruise_height": 60,
     "turn_rate": 0,
-    "lifetime": 60,
+    "lifetime": 15,
     "influence_radius": 400,
     "physics": {
         "radius": 1,

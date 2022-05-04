@@ -1,12 +1,12 @@
 FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1151447]
 
 ~Commander
-The torpedo change increases commander kill time for sea based engagements, due to it being significantly higher than land engagements that are around 204 dps including uber cannons, while sea based engagements are at 400 dps)
+[TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
 -Increased move speed from 6 to 8
 -increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot. Commander vs commander 0.25 is unchanged)
 -decreased commander Torpedo weapon vs commanders from 100% to 50%
-(Dev Idea: Allows commander walking to be more common and push out on the map. I also want to put wall damage to 150% but WIP.  
-Dev Note: The torpedo change increases commander kill time for sea based engagements, due to it being significantly higher than land engagements that are around 204 dps including uber cannons, while sea based engagements are at 400 dps)
+  (Dev Idea: Allows commander walking to be more common and push out on the map. I also want to put wall damage to 150% but WIP.) 
+  (Dev Note: The torpedo change increases commander kill time for sea based engagements, due to it being significantly higher than land engagements that are around 204 dps including uber cannons, while sea based engagements are at 400 dps)
 
 ~Firefly (T1 Air Scout)
 -Added Radar Stealth 
@@ -16,7 +16,7 @@ Dev Note: The torpedo change increases commander kill time for sea based engagem
 -Move speed 25 to 32
 -Metal cost 75 to 55
 -Health 10 to 15
-(Dev Idea: Rewards lone positioning and scouting in mid to late game)
+  (Dev Idea: Rewards lone positioning and scouting in mid to late game)
 (Dev notes: The movespeed buff allows skitters when built before the first fabs to reach the enemy base on small, and some medium maps before an air scout and icarus can be built and makes a ground only opener struggle.
 ~the health increase is to tank a shot from dox or strykers [they fire 2, so its only for partial hits],
 ~the metal cost is to bring it below the firefly, and between dox and stryker.
@@ -24,46 +24,46 @@ Dev Note: The torpedo change increases commander kill time for sea based engagem
 
 ~Hummingbird (T1 Air Fighter)
 -reduced damage from 80 to 75.
-Dev Idea: Allows for easier partial heals from damage for both fireflies and Pheonix and reduces Fireflies impact slightly on heavy health T2 Air and Titan.  May change to 70 which will have more significant ramifications for air fights.
+-Increased health 120 to 150
+  (Dev Idea: Allows for easier partial heals from damage for both fireflies and Pheonix and reduces Fireflies impact slightly on heavy health T2 Air and Titan.  May change to 70 which will have more significant ramifications for air fights.
+Update: Base game reduced from 150 to 120, rejected change as it felt it made an already fragile air problematic)
 
 ~Pelican (T1 Transport)
-(Transports are a utility based unit, and are difficult to use and mass up in most parts of the game. I am concerned with their early game potential in rushing, so I am starting with a smaller tweak first.)
 -Decreased metal cost from 160 to 140
+  (Dev Idea: Transports are a utility based unit, and are difficult to use and mass up in most parts of the game. I am concerned with their early game potential in rushing, so I am starting with a smaller tweak first.)
 
 ~Stryker (T1 Vehicle)
-(Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 -Health decreased 60 to 50
--Range decreased 80 to 75
 -Damage decreased 15x2 to 13x2
--Movement Speed Increased 18 to 20
+-Movement Speed Increased 17 to 20
 -Weapon Muzzle Velocity Decreased 140 to 135
+  (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 
 ~Ant (T1 Vehicle)
-(Dev Idea: Matches spark vision and better supports high range+low vision units)
-(-Ants a long time ago had a turn rate of 90. I intend to do 105, but want to see how this old, more predictive type of micro handles in the modern era. At the moment I believe ants are too responsive and reactive for the lumbering tank persona, and in gameplay terms they are good at kiting backwards quickly and I want to see if this helps fast units+projectiles catch out ants better)
 -Turn rate decreased 120 to 90
 -Vision radius increased 100 to 130
--Weapon firerate increased 0.5 to 0.525 (1 shot every 2 seconds to 1.9 seconds, 42 to 44 dps)
+-Weapon firerate increased 0.55 to 0.525 (1 shot every 2 seconds to 1.9 seconds, 42 to 44 dps)
+  (Dev Idea: Matches spark vision and better supports high range+low vision units)
+  (-Ants a long time ago had a turn rate of 90. I intend to do 105, but want to see how this old, more predictive type of micro handles in the modern era. At the moment I believe ants are too responsive and reactive for the lumbering tank persona, and in gameplay terms they are good at kiting backwards quickly and I want to see if this helps fast units+projectiles catch out ants better)
 
 ~Drifter (T1 Vehicle)
-(Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action.  Overall goal is to make them less able to operate alone, and be more reliant on support units)
 -Metal cost increased 225 to 230
 -HP reduced 250 to 240
--Damage reduced 125 to 120
+-Range increased 110 to 115
 -Bullet velocity decreased 150 to 140
 -Vision range reduced 100 to 90
+  (Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action.  Overall goal is to make them less able to operate alone, and be more reliant on support units)
 
 ~Spinner (T1 Vehicle)
 -Increased Splash Radius from 0.75 to 1.5
 
 ~Dox (T1 Bot)
-(Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd)
--Acceleration decreased from 180 to 50
--Move Speed increased 19 to 20
 -Weapon Muzzle Velocity Increased 130 to 135
+  (Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd
+Dev Update 2: Muzzle velocity to match strykers)
 
 ~Grenadier (T1 Bot)
-(Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more against large or static units, and less powerful against small, fast units)
+[TLDR: They get torpedos, are more expensive and bigger, small aoe and fires 4 projectiles, hit harder]
 -Metal cost increased 100 to 150
 -HP increased 80 to 120
 -Vision range reduced 100 to 90
@@ -82,89 +82,106 @@ Dev Idea: Allows for easier partial heals from damage for both fireflies and Phe
 - -Range 60
 - -Land speed Velocity 70
 - - Water speed Velocity 40
+  (Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more against large or static units, and less powerful against small, fast units)
 
-~Spark (T1 Bot)
-(Dev Idea: Decrease range allows for more micro opportunities for strykers+dox to play around Sparks but still makes sparks strong if unmicrod.  Also allows ants+drifters more control against them)
--Decreased range 70 to 65
+~Spark (T1 assault bot)
 -Vision increased 120 to 130
 -Projectile lifetime decreased 1.0 to 0.55
+  (Dev Idea: Allows sparks to have some use later in the game with a small edge in utility)
 
 ~Stinger (T1 AA Bot)
-(Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
-~HP 130 to 140
-~Metal Cost 120 to 140
-~Move Speed 12 to 10
-~Vision 100 (same)
-~Range 90 to 180
-~Damage 30 damage to 95
-~Rate of Fire 1.0 reduced to 0.33 (1 shot every 1 second to every 3 seconds)
-~Added splash damage with radius of 1.5 and 35 damage
-~DPS 30 dps to 32
-~Bullet lifetime increase 1.0 to 1.1
-~Model size increased by 50%
-(Stinger selection icon Increased from 10 to 12)
+[TLDR: Makes it a stronger, long range, high damage yet low firerate AA]
+-HP 130 to 140
+-Metal Cost 120 to 140
+-Move Speed 16 to 10
+-Vision 100 (same)
+-Range 90 to 180
+-Damage 30 damage to 95
+-Rate of Fire 1.0 reduced to 0.33 (1 shot every 1 second to every 3 seconds)
+-Added splash damage with radius of 1.5 and 35 damage
+-DPS 30 dps to 32
+-Bullet lifetime increase 1.0 to 1.1
+-Model size increased by 50%
+-Stinger selection icon Increased from 10 to 12)
+  (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
 
 ~Locust (T2 Bot)
 -Deleted from the game
 ...kidding.
--build cost increased 260 metal to 265
+-build cost increased 260 metal to 255
+-health increased 60 to 75
+  (Dev Note: Adjusted for factory changes weakening the unit incidentally)
 
 ~Colonel (T2 Bot)
--Metal cost reduced 7000 to 6500
--build arm range 20->30
--turn rate 90->180
--remove "turn_in_place":false
-(Dev Note: General quality of life changes)
-
-~Leveler (T2 Vehicle)
--Range 140 to 130
-(I think the leveler range is fine for MLA specifically, but I'm interested in balancing bugs and legion, and find levelers to be downright insane against them. Additionally this will help grenadiers counter levelers with a range difference as was seen with 145 to 140 ratio, and also accounts for my own metal+unit size increases that changes this matchup)
+-Metal cost increased 6000 to 6500
+-Health increased 6000 to 8000
+-build arm range 30->35
+  (Dev Note: Older vanilla stats but combined with a build arm range buff)
 
 ~Storm (T2 Vehicle)
-(Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
 -range increased 100 to 120
 -damage decreased 4x15 to 4x10
 -Splash decreased 10 to 7
 -velocity increased 100 to 120
 -lifetime increased 15 to 18
+  (Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
 
 ~Vanguard (T2 Vehicle)
+-Increased range 50 to 60
+-Decreased damage from 2000 to 750 (Including splash)
+-Increased fire rate from 0.5 to 1.0 (Fires 1 shot every 1 second, instead of 1 shot every 2 seconds)
 -Radar increased 260 to 300
 -Jamming removed
+  (Dev Idea: Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base as well as remove jamming and give them a little more of a defined radar role in ranged warfare)
 
 ~Pheonix (T2 Air Fighter)
--range increased 120 to 145
--damage decreased 150 to 50
--rate of fire increased 0.33 to 0.15 (fires 7.5 shots per second instead of 3)
-Dev Idea: Experimental changes. Will likely revert or reduce.
+[TLDR: Longer range, fires 4 individual shots instead of 1]
+-health increased 240 to 300
+-range increased 120 to 150
+-damage decreased 150 to 50x4
+-Split Pheonix weapon from 2 firing points to 4, and added seperate sockets so each fires individually rather than in succession.
+-Firerate decreased from 0.33 to 1.0 x4 (each weapon gets their own firing timer now)
+-missile speed increased 150 to 250
+-Bullet lifetime 2.0 to 1.5
+-range increased 120 to 150 
+  (Dev Notes: I want to differentiate the T2 fighter more from its T1 counterpart and give it cleave, as the T2 fighter feels like a direct upgrade upgrade without its own quirks unlike most other T1 to T2 versions)
+
+~Kestral (T2 Gunship)
+-Increased health 250 to 300
+-Range increased 60 to 80
+-Damage reduced 20 to 15
+   (Dev Note: This is an older version from before a patch in the base game.  I prefer this over the new one as the range makes kestrals feel better, as well as prefer more consistency instead of snowballing)
 
 ~Hornet (T2 Air bomber)
-(Gives some small buffs to ease this paper-plane into prominence)
--range increase 180 to 200
+-health reduced 600 to 250
+-move speed increased 30 to 40
+-metal cost 3200 to 1500
+-fire rate reduced in half from 0.5 to 0.25
+-range increase 190 to 200
 -vision radius increase 200 to 210
 -underwater vision radius 200 to 210
--Health increased 200 to 250
+-Health decreased 200 to 250
+  (Dev Idea: Gives some small buffs to ease this paper-plane into prominence
+Update: Major changes made hornets essentially double in strength for double the cost.  This version makes for a more precise macro element on how many a player uses and lets them get into hornets more quickly, as well as not overlap the Wyrm as much.  However the projectile speed is nice, so that is added in.)
 
 ~Horsefly (T2 Air strafer)
-(Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
 -Added Anti-Air component to flak cannon [Prioritises Anti-Air ground units first]
 -Changed air damage modifier from 0.5 to 1.0 [Horseflies do full damage vs air]
+  (Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
 
 ~Naval Basic Fabricator
-(Dev note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
 -Health increased 100 to 200
+  (Dev note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
 
 ~Piranha (T1 Naval)
-(Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent)
--range decreased 120 to 110
+-range increased 105 to 110
 -metal cost increased 150 to 160
 -damage increased 20 to 24
-
-~Barracuda (T1 Naval)
--No Longer has radar stealth
+  (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent
+Update: Patch decreased )
 
 ~Narwhal (T1 Naval)
-(Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression.  Added weak but long range torpedo launchers to give it a small bit of presence against orcas+subs)
+[TLDR: Gets a long range, low damage, high AOE torpedo.  Narwhals also get a cost reduction and nerfs, making them more spammable]
 -Vision+underwater increased 180 to 200
 -Health reduced 750 to 525
 -Metal cost decreased 450 to 350
@@ -177,29 +194,34 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 - -0.2 Firerate (fires 1 shot every 5.00 seconds)
 - -Velocity 5.0 (same speed as barracuda/orca)
 - -Lifetime 7 (how long the torpedo lasts before fizzling out)
+  (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression.  Added weak but long range torpedo launchers to give it a small bit of presence against orcas+subs)
 
 ~Orca (T1 Naval)
--Removed AOE component of torpedo weapon
+-Added torpedo component
+  -100 damage
+  -AOE radius 25
+  -140 range
+  -Firerate 0.2 (1 every 5 seconds)
+  (Dev Idea: Allows Orcas to hit Barracudas, but only trades in large numbers)
 
 ~Barnacle (T1 Naval)
-(Dev Idea: Quality of life changes to let the Barnacle's speed match Orcas/Narwhals at 11 and allows it to repair more safely and consistently.  Extra note, build range may be to big but want to try something extreme, will likely be 90 after)
--speed increased 10 to 11
--build range increased 65 to 120
+-build range increased 65 to 95
+  (Dev Idea:  allows it to repair more safely and consistently.)
 
 -Stingray (T2 Naval)
-(Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
 -Added Anti-Air component to cruise missile [No priority]
 -Increased AA-weapon (not cruise weapon) splash radius from 0.75 to 1.5
+  (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies
+Update: Removes priority to increase skill factor)
 
 ~Atlas (Titan)
-(Dev Idea: General buffs to health but makes them slightly less devestating when they reach your frontline, would love to give more options of attacking later)
--Health increased 40000 to 60000
 -full Damage radius decreased 80 to 60
 -splash damage raidus decreased 135 to 120 (damage still 8000)
+  (Dev Idea: General buffs to health but makes them slightly less devestating when they reach your frontline, would love to give more options of attacking later)
 
 ~ARES (Titan)
-(Dev Idea: Makes killing it easier, and gives a real use to secondary guns)
--Health decreased 80000 to 40000
+[TLDR: Weakened it mostly, Ground Pound only damages structures, secondary weapons buffed however]
+-Health decreased 50000 to 40000
 -main guns
 - -Primary AOE radius reduced 5 to 2
 - -Partial AOE radius reduced 15 to 2
@@ -209,22 +231,31 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 - -Projectile speed increased 140 to 225 
 - -Projectile lifetime increased 3.0 to 4.5
 - -(Turret pitch range increased 15 to 45 to help     turret utilize full range)
+-ground crush (aoe around Titan)
+-  -Does full damage to structures only [does inconsequential 2 damage to other things]
+  (Dev Idea: Makes killing it easier, yet also gives a real use to secondary guns, ground pound only affecting structures allows melee units to counter ares)
 
-~Astraeus
-(Intended to change capacity from 1 to 5. Despite actually working, was causing problems and was clunky. Health buff is a leftover change that makes it so air takes 3 shots to snipe an astraeus instead of 2)
+~Astraeus (Orbital Lander)
 -health 150 to 225
+  (Dev Note: Intended to change capacity from 1 to 5. Despite actually working, was causing problems and was clunky. Health buff is a leftover change that makes it so air takes 3 shots to snipe an astraeus instead of 2)
 
 ~Omega (Advanced Orbital Battleship)
-(Dev Idea: Make them actually counter avengers)
+[TLDR: Its laser guns can hit ground and general quality of life buffs]
 -cost reduced 14000 to 12500
+>Orbital Guns (4 turrets, 2 barrels each)
+-added ammo file (it currently uses the same file associated with the Anchor)
+-Reduced Orbital gun range from 175 to 150 [Vanilla 150] 
+-Added anti-ground/air/sea to orbital guns. [Adjusted Turret Pitch_Range from 60 to 90 in order to properly hit ground]  (Does not attack seafloor)
+-Omega will prioritize other orbital units first.
+-Firerate decreased 2.0 to 1.5 (fires 1.5 times a second)
+>Anti-Ground Lazer
+-Main anti-ground gun can now target seafloor units.
+-Added auto attack component 
+  (Dev Idea: Make them actually counter avengers and more dangerous against ground targets, as well as add quality of life changes)
 
-~Stitch (combat fab)
-(Lets them take 2 stray shots from grenadier and slightly bulks up the unit but is still fragile to most things directly)
+~Stitch (Combat Fab)
 -Increased health from 50 to 65
-
-~Mend (Adv combat fab)
--Health increased from 150 to 325
-(Dev Idea: General combat fab buffs to help a relatively expensive unit survive a mere stray shot. Barnacles and Angels do not fall under this concern)
+  (Dev Idea: Lets them take 2 stray shots from grenadier and slightly bulks up the unit but is still fragile to most things directly)
 
 ~Advanced Fabricators [Vehicle/Bot/Air/Naval] 
 ~Bot - 1800 to 1650
@@ -232,112 +263,16 @@ Dev Idea: Experimental changes. Will likely revert or reduce.
 ~Air - 2200 to 2000
 ~Naval - 2400 to 2150
 ~Each can now build all types of Titans [Atlas/Ares/Zues]
-(Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
+  (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
 (Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
 
 ~Advanced Naval Fabricator
 -Build range increased 30 to 50
-(Dev Note: This is mostly intended to be a quality of life change to help the adv ship build structures on land, as it does not have water-hover and can't get as close to shore as its basic naval fabricator counterpart)
+  (Dev Note: This is mostly intended to be a quality of life change to help the adv ship build structures on land, as it does not have water-hover and can't get as close to shore as its basic naval fabricator counterpart)
 
 ~Solar Array (Advanced Orbital energy producer)
 -HP Increase 1000 to 6000
 -Metal cost increased 1600 to 5000
--Energy production increased 2500/s to  9000/s
+-Energy production increased 3200/s to 9000/s
 -Added 100,000 energy storage (from 0)
-(Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
-
-~Jig (Orbital Gas Giant Extractor)
--Removed 50,000 energy storage (to 0)
--Removed 7,500 energy production (to 0)
--Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)
-(Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
-
-~Energy Storage
--HP Reduced from 7500 to 5000
--Metal Cost reduced 450 to 250
--Storage increased 100,000 to 250,000
-(Dev Idea: Decrease cost so its easier to build earlier on and increase storage amount to be impactful)
-
-Advanced Metal Extractor (T2 Economy)
--Metal Cost reduced 2000 to 1800
--Metal production increased 16 to 17
-
-~Galata (T1 AA structure)
--Increased AA Splash Radius from 0.75 to 1.5
-
-~Single Laser Defense Tower (1 barrel)
--Metal Cost decreased 225 to 165
--Range decreased 100 to 90
--Damage decreased 40 to 35
--Vision radius (+underwater vision) reduced from 130 to 110
-(Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
-
-~Lob (T1 Defense Structure)
--Uses Squals (Drone) instead of Dox
-Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will likely change squal's effectivness or cost soon.
-
-~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
-(Dev Idea: General T2 defense buffs)
--Metal cost reduced 900 to 875
--Range increased 120 to 140
--Health increased 4000 to 4250
-
-~Flak Cannon (T2)
--HP reduced 2000 to 1700
--Metal cost reduced 900 to 750
--Range increased 120 to 150
-(Dev Idea: General T2 defense buffs)
-
-~Advanced Torpedo Launcher (T2)
--metal cost reduced 1000 to 950
--range increased 210 to 300
--Rate of fire decreased 2.5 to 2.0/s
--torpedo lifetime increased 5 to 7
--Vision radius increased from 210 to 260
--Underwater vision radius increased 200 to 260
--Radar radius increased 210 to 310
--Sonar radius increased 210 to 310
-(Dev Idea: General T2 defense buffs)
-
-~T2 factories. (Vehicle/Bot/Air/Naval)
-(Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
-
--All Advanced Factory costs reduced from 4800 to 4400
-
-Adv Bot Factory
--Metal Build Rate increased 45 to 60
-Energy draw per second 1500 to 1800
-30 energy per metal
-Roll off timer increased 3 seconds to 5
-
-Adv Vehicle Factory
-Metal build rate (60) unchanged
-Energy 2025 to 1800
-30 E/M
-Roll off time - 4 to 6.5
-
-Adv Air Factory
-Metal 45 to 60
-Energy 1500 to 1800
-30 E/M
-Roll off time - 2 to 5
-
-Adv Naval Factory
-Metal 60 to 72
-Energy 1750 to 2015
-28 E/M
-Roll off time - 6 to 9
-
-~Orbital Launcher (T1)
--Cost increased 600 to 1000
-
-~Orbital Factory
--Cost reduced 6000 to 4000
-(Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
-
-~Unit Cannon (T2 Launcher Factory)
--Metal cost reduced 10000 to 7200
--HP increased 18000 to 40000
--Drifters, Infernos, Storms, 
-(Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games. Will try to make it buildable on water later.
-(Dev Note: -Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+  (Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)

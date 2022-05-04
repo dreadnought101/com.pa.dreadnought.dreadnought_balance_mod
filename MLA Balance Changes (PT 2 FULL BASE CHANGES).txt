@@ -1,0 +1,104 @@
+FULL MLA BASE CHANGES STRUCTURES
+
+
+~Jig (Orbital Gas Giant Extractor)
+-Removed 3,750 energy production (to 0)
+-Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)
+  (Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
+
+~Energy Storage
+-HP Reduced from 7500 to 5000
+-Metal Cost reduced 450 to 250
+-Storage increased 300,000 to 250,000
+  (Dev Idea: Decrease cost so its easier to build earlier on)
+
+Advanced Metal Extractor (T2 Economy)
+-Health increased 3000 to 5000
+-Metal production decreased 18 to 17
+(Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment
+
+~Galata (T1 AA structure)
+-Increased AA Splash Radius from 0.75 to 1.5
+
+~Single Laser Defense Tower (1 barrel)
+-Metal Cost decreased 225 to 165
+-Health Decreased 400 to 350
+-Range decreased 100 to 90
+-Damage decreased 60 to 35
+-Vision radius (+underwater vision) reduced from 130 to 110
+  (Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
+
+~Lob (T1 Defense Structure)
+-Fire rate increased 3 to 4.5
+-Metal Cost per shot increased 50 to 60
+-Ammo capacity increased 445 to 500
+-Ammo demand increased 13 to 15
+-Uses Squals (Drone) instead of Dox
+  (Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will likely change squal's effectivness or cost soon.
+Update:  Uses old numbers before april balance patch)
+
+~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
+-Metal cost reduced 900 to 875
+-Range increased 130 to 140
+-Health increased 4000 to 4250
+  (Dev Idea: General T2 defense buffs)
+
+~Flak Cannon (T2)
+-HP reduced 2000 to 1700
+-Metal cost reduced 900 to 750
+-Range increased 120 to 150
+  (Dev Idea: General T2 defense buffs)
+
+~Advanced Torpedo Launcher (T2)
+-metal cost reduced 1000 to 950
+-range increased 210 to 300
+-Rate of fire decreased 2.5 to 2.0/s
+-torpedo lifetime increased 5 to 7
+-Vision radius increased from 210 to 260
+-Underwater vision radius increased 200 to 260
+-Radar radius increased 210 to 310
+-Sonar radius increased 210 to 310
+  (Dev Idea: General T2 defense buffs)
+
+~T2 factories. (Vehicle/Bot/Air/Naval)
+(Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
+
+-All Advanced Factory costs reduced from 4800 to 4400
+
+Adv Bot Factory
+-Metal Build Rate increased 45 to 60
+Energy draw per second 1500 to 1800
+30 energy per metal
+Roll off timer increased 3 seconds to 5
+
+Adv Vehicle Factory
+Metal build rate (60) unchanged
+Energy 2025 to 1800
+30 E/M
+Roll off time - 4 to 6.5
+
+Adv Air Factory
+Metal 45 to 60
+Energy 1500 to 1800
+30 E/M
+Roll off time - 2 to 5
+
+Adv Naval Factory
+Metal 60 to 72
+Energy 1750 to 2015
+28 E/M
+Roll off time - 6 to 9
+
+~Orbital Launcher (T1)
+-Cost increased 600 to 1000
+
+~Orbital Factory
+-Cost reduced 6000 to 4000
+  (Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
+
+~Unit Cannon (T2 Launcher Factory)
+-Metal cost increased 6800 to 7200
+-HP increased 18000 to 40000
+-Drifters, Infernos
+  (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games)
+  (Dev Note: -Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
