@@ -1,4 +1,21 @@
-Patch 1.45
+Patch 1.44
 
-Stingray Cruise Missile Lifetime reduced 60 to 15
+~Stingray 
+Cruise Missile Lifetime reduced 60 to 15
 (Dev Comment:  Massive lifetime made avoiding cruise missiles by fast air units time consuming.  This is still a long lifetime)
+
+~Spinner 
+-health reduced 160 to 130
+-Speed increased from 10 to 13
+-Attack speed reduced 2.4/s to 2.2 
+(Dev Comment: General AA speed increases to help with non-air oponer viability with health, damage, vision nerfs as compensation)
+
+~Stinger
+-health reduced 140 to 115
+-Speed increased from 10 to 14
+-vision reduced 100 to 90
+(Same notes as Spinner)
+
+~T2 Radar
+-Added 50 radius jamming
+(Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar.  Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)

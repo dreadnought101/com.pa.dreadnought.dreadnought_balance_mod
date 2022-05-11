@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Spinner",
     "description": "!LOC:Mobile Anti-Air - Equipped with homing missiles. Only attacks air.",
-    "max_health": 160,
+    "max_health": 130,
     "build_metal_cost": 150,
     "attachable": {
         "offsets": {
@@ -19,7 +19,7 @@
         "type": "land-small",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 10,
+        "move_speed": 13,
         "turn_speed": 180
     },
     "physics": {

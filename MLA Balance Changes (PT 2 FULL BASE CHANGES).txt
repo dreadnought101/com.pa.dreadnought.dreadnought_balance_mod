@@ -60,6 +60,10 @@ Update:  Uses old numbers before april balance patch)
 -Sonar radius increased 210 to 310
   (Dev Idea: General T2 defense buffs)
 
+~Advanced Radar (T2)
+-Added 50 radius jamming
+(Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar. Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)
+
 ~T2 factories. (Vehicle/Bot/Air/Naval)
 (Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
 

@@ -55,7 +55,11 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
   (Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action.  Overall goal is to make them less able to operate alone, and be more reliant on support units)
 
 ~Spinner (T1 Vehicle)
+-health reduced 160 to 130
+-Speed increased from 10 to 13
+-Attack speed reduced 2.4/s to 2.2
 -Increased Splash Radius from 0.75 to 1.5
+(Dev Comment: General AA speed increases to help with non-air oponer viability with health, damage, vision nerfs as compensation.  The AOE aspect is for anti-icarus)
 
 ~Dox (T1 Bot)
 -Weapon Muzzle Velocity Increased 130 to 135
@@ -91,10 +95,10 @@ Dev Update 2: Muzzle velocity to match strykers)
 
 ~Stinger (T1 AA Bot)
 [TLDR: Makes it a stronger, long range, high damage yet low firerate AA]
--HP 130 to 140
+-HP 130 to 115
 -Metal Cost 120 to 140
--Move Speed 16 to 10
--Vision 100 (same)
+-Move Speed 16 to 13
+-Vision 100 to 90 
 -Range 90 to 180
 -Damage 30 damage to 95
 -Rate of Fire 1.0 reduced to 0.33 (1 shot every 1 second to every 3 seconds)
