@@ -10,15 +10,16 @@ Reduce Anti-Missile building cost, increase individual missile
 Sheller changes, slower projectile, lower AOE radius, more accurate
 
 Leveler 
-300 to 250 damage (2x250)
+300 to 225 damage (2x225)
 Partial Radius 3 to 2 (Full 1 unchanged)
 
 Icarus
 Ground 20 damage (unchanged fire-rate 1/s)
 Range unchanged
-Air 30 damage (fire-rate every 3/s)
+Air 30 damage (fire-rate every 3/s, also drains energy ammo 100 /s)
 Range 70 to 150
-300 to 600 energy per shot
+add 
+"guard_layer": "WL_AnyLayer",
 
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)

@@ -5,6 +5,7 @@
     "max_health": 40,
     "build_metal_cost": 125,
     "usable": true,
+	"guard_layer": "WL_AnyLayer",
     "attachable": {
         "offsets": {
             "root": [0, 0, 0]
@@ -84,9 +85,13 @@
         "animtree": "/pa/anim/anim_trees/solar_drone_anim_tree.json"
     },
     "tools": [{
-            "spec_id": "/pa/units/air/solar_drone/solar_drone_tool_weapon.json",
+            "spec_id": "/pa/units/air/solar_drone/solar_drone_tool_ground_weapon.json",
             "aim_bone": "bone_root",
-            "muzzle_bone": ["bone_leftWing01", "bone_rightWing01"]
+            "muzzle_bone": ["Ground_Muzzle"]
+        }, {
+            "spec_id": "/pa/units/air/solar_drone/solar_drone_tool_air_weapon.json",
+            "aim_bone": "bone_root",
+            "muzzle_bone": ["Air_Muzzle"]
         }
     ],
     "TEMP_texelinfo": 10.4837,
