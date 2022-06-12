@@ -1,25 +1,9 @@
 --Dev done
 
 
-Locust Buff 5 metal reduc 5 health
-255 to 250 [Vanilla 260]
-75 to 80 [Vanilla 60]
-
-Kraken torpedo weapons
-range 150 to 210
-firerate 0.6 to 0.3
-250 damage to 500
-lifetime 4 to 5s
-
-
-Pheonix - 300 to 225 (Vanilla 240)
-
 --Todo
 
-Pheonix range decrease 150 to 120 [Vanilla 120]
-firerate 1.0 to 0.36 [Vanilla 0.33]
-missile speed 250 to 150 [vanilla 150]
-bullet lifetime 1.5 to 2.0 [vanilla 2.0]
+Fix PBAOE
 
 Icarus AA damage 30 to 25
 range decreased 150 to 90
