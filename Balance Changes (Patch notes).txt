@@ -1,21 +1,26 @@
-Patch 1.44
+Patch 1.46
 
-~Stingray 
-Cruise Missile Lifetime reduced 60 to 15
-(Dev Comment:  Massive lifetime made avoiding cruise missiles by fast air units time consuming.  This is still a long lifetime)
+Locust
+-Metal cost reduced 255 to 250 [Vanilla 260]
+-Health Increased 75 to 80 [Vanilla 60]
 
-~Spinner 
--health reduced 160 to 130
--Speed increased from 10 to 13
--Attack speed reduced 2.4/s to 2.2 
-(Dev Comment: General AA speed increases to help with non-air oponer viability with health, damage, vision nerfs as compensation)
+Kraken
+~Kraken torpedo weapons
+-range 150 to 210
+-firerate 0.6 to 0.3
+-250 damage to 500
+-lifetime 4 to 5s
+(I wanted to give a little more dynamic power to their torpedos against vulnerable units, while simultaneously making them weaker against their sub counter, increasing their time to kill from 
 
-~Stinger
--health reduced 140 to 115
--Speed increased from 10 to 14
--vision reduced 100 to 90
-(Same notes as Spinner)
+Pheonix 
+-Health decreased from 300 to 225 (Vanilla 240)
+-Pheonix range decrease 150 to 120 [Vanilla 120]
+-firerate 1.0 to 0.36 [Vanilla 0.33]
+-missile speed 250 to 150 [vanilla 150]
+-bullet lifetime 1.5 to 2.0 [vanilla 2.0]
+(Allows them to be 3 shot by Hummingbirds, as well as revert some more experimental changes, though I'll be keeping the 4x shot in due to PAPA edits and see how it plays out)
 
-~T2 Radar
--Added 50 radius jamming
-(Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar.  Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)
+Wyrm/Bumblebee
+-Changed explosions to PBAOE 
+-Added a 0.05 armor modifier against air/orbital, full for everything else.
+(PBAOE is to help bombers consistently hit deep-water naval targets.  The 0.2 is PURELY for testing purposes to see if PBAOE can affect air/orbital targets and WILL be reverted)

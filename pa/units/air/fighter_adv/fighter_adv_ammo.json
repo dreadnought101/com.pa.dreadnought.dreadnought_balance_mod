@@ -6,8 +6,8 @@
   "splash_radius": 0.75,
   "full_damage_splash_radius": 0.75,
   "initial_velocity": 50.0,
-  "max_velocity": 250.0,
-  "lifetime": 1.5,
+  "max_velocity": 150.0,
+  "lifetime": 2.0,
   "model": {
     "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
   },

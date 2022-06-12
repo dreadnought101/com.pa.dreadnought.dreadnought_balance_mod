@@ -3,7 +3,7 @@
     "display_name": "Phoenix",
     "description": "!LOC:Advanced Interplanetary Fighter - Stronger fighter. Can move between planets. Can only attack air targets.",
     "build_metal_cost": 720,
-    "max_health": 300,
+    "max_health": 225,
     "system_velocity_multiplier": 15.0,
     "gravwell_velocity_multiplier": 6.0,
     "unit_types": ["UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],

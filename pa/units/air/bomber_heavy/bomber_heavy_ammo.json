@@ -1,5 +1,10 @@
 {
     "base_spec": "/pa/ammo/base_bomb/base_bomb.json",
+    "ammo_type": "PBAOE",
+    "armor_damage_map": {
+        "AT_Orbital": 0.0,
+        "AT_Air": 0.0
+    },
     "damage": 5000,
     "splash_damage": 5000,
     "splash_radius": 20,

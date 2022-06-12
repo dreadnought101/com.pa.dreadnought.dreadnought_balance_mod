@@ -1,39 +1,57 @@
 --Dev done
 
 
+Locust Buff 5 metal reduc 5 health
+255 to 250 [Vanilla 260]
+75 to 80 [Vanilla 60]
+
+Kraken torpedo weapons
+range 150 to 210
+firerate 0.6 to 0.3
+250 damage to 500
+lifetime 4 to 5s
+
+
+Pheonix - 300 to 225 (Vanilla 240)
+
 --Todo
+
+Pheonix range decrease 150 to 120 [Vanilla 120]
+firerate 1.0 to 0.36 [Vanilla 0.33]
+missile speed 250 to 150 [vanilla 150]
+bullet lifetime 1.5 to 2.0 [vanilla 2.0]
+
+Icarus AA damage 30 to 25
+range decreased 150 to 90
+
+Skitter scout speed increased 32 to 35
+
+Increase spinner fire-rate to 2.4 
+
+Icarus air damage 30 to 25, cost increase by 5, speed decrease by 5. air range decrease?
+
+Drifter 125 damage, but 2.5 firerate to 3.0
+or 3.2 and 160 damage
+5 metal increase again
+
+Increase T2 fab cost slightly, but not to original
+
+Reduce firerate of T3 turret slightly, and range?
+
+Typhoon changes to torpedos
+
+Increase speed of naval fab/s and add water-hover to T2 fab
+
+Readd priority to Stingray
+
+Decrease missile launcher cost, increase missile cost
 
 
 Increase speed of dox slightly?
-Reduce leveler damage a bit
-Reduce Anti-Missile building cost, increase individual missile 
-Sheller changes, slower projectile, lower AOE radius, more accurate
-
-Leveler 
-300 to 225 damage (2x225)
-Partial Radius 3 to 2 (Full 1 unchanged)
-
-Icarus
-Ground 20 damage (unchanged fire-rate 1/s)
-Range unchanged
-Air 30 damage (fire-rate every 3/s, also drains energy ammo 100 /s)
-Range 70 to 150
-add 
-"guard_layer": "WL_AnyLayer",
-
+Sheller changes, lower AOE radius, more accurate (Still considering)
+Nerf T2 fighter?
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
-
-Icarus changes
-Add different weapon type (same ammo drain) for air
-Increase air weapon version to much further range
-maybe decrease ground range from 80 to 70
-Ground damage 20
-Air damage 30
--Additional ideas, remove ammo from air component or increase drain
-Would be a dream if ground had a projectile or reduce speed
--Also a charge up mechanic...?
-
 
 
 ~Add PPBAOE to bombers+wyrms
@@ -42,7 +60,7 @@ Would be a dream if ground had a projectile or reduce speed
 ~Lob
 (Dev Idea: The lob's current role is a 1-dimensional factory, not a defensive structure, this will change its role to units that have a limited life-span but have more impact)
 -Atm have lobs firing typhoon drone, but considering something else
--Try mini unit cannon?
+-Try mini T1 unit cannon?
 
 KNOWN ISSUES
 
@@ -51,13 +69,10 @@ MLA fabricators and factories will build Legion stuff if the mod is enabled
 
 CONSIDERING (some ideas that may or not be implemented)
 
--Lob revamp
 -Horsefly buffs and nerfs
--Icarus revamp to have seperate air and ground weapons,
 -Omega AOE component
 -Jig explosion only affects buildings, Ares ground pound only affects buildings
 -Spark projectile always explodes
--Hummingbird nerfs, Pheonix cleave changes
 
 (Under the hood dev stuff)
--Added combat tags to Icarus, Angel, Fire
+-Added combat tags to Icarus, Angel, Air Scout
