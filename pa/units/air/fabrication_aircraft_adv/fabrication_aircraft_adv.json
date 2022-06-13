@@ -4,7 +4,7 @@
     "display_name": "!LOC:Advanced Fab Aircraft",
     "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures.",
     "max_health": 100,
-    "build_metal_cost": 2000,
+    "build_metal_cost": 2075,
     "buildable_types": "(Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & (Tank | Bot | Air | Naval))- Custom1 - Custom2 - Custom3 - Custom4",
     "attachable": {
         "offsets": {

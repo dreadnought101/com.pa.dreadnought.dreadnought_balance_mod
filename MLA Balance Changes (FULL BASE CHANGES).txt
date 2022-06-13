@@ -181,7 +181,7 @@ Update: Patch decreased )
 ~Vanguard (T2 Vehicle)
 -Increased range 50 to 60
 -Decreased damage from 2000 to 750 (Including splash)
--Increased fire rate from 0.5 to 1.0 (Fires 1 shot every 1 second, instead of 1 shot every 2 seconds)
+-Increased fire rate from 0.5 to 1.0 (Fires 1 shot vvvvvvvvvvvvvvvvevery 1 second, instead of 1 shot every 2 seconds)
 -Radar increased 260 to 300
 -Jamming removed
   (Dev Idea: Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base as well as remove jamming and give them a little more of a defined radar role in ranged warfare)

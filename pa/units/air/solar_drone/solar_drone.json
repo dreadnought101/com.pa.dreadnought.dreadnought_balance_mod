@@ -3,7 +3,7 @@
     "display_name": "Icarus",
     "description": "!LOC:Solar Drone - Produces energy. Mobile but slow. Weak. Attacks land, air, and sea targets.",
     "max_health": 40,
-    "build_metal_cost": 125,
+    "build_metal_cost": 130,
     "usable": true,
 	"guard_layer": "WL_AnyLayer",
     "attachable": {

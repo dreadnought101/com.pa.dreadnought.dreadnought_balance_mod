@@ -1,44 +1,57 @@
 --Dev done
 
+Icarus air damage 30 to 25, cost increase by 5, speed decrease by 5. air range decrease???
 
---Todo
-
-Fix PBAOE
-
-Icarus AA damage 30 to 25
-range decreased 150 to 90
-
-Skitter scout speed increased 32 to 35
+Skitter
+-Move Speed Increased 32 to 35 [Vanilla 25]
 
 Increase spinner fire-rate to 2.4 
-
-Icarus air damage 30 to 25, cost increase by 5, speed decrease by 5. air range decrease?
 
 Drifter 125 damage, but 2.5 firerate to 3.0
 or 3.2 and 160 damage
 5 metal increase again
 
-Increase T2 fab cost slightly, but not to original
+fab costs
 
 Reduce firerate of T3 turret slightly, and range?
+Firerate 5.0 to 4.5
+Damage 150 to 175
+
+Readd priority to Stingray
+
+Nuke Launcher
+-Structure cost reduced 14400 to 9600
+-Missile cost increased 30000 to 34000
+-Metal Build Rate increased 90 to 120
+-Energy draw increased 6000 to 7500
+
+--Todo
+
+333s to 330
+
+Nuke
+Building 14400 - 10100  (4300)
+Nuke 30000 - 33500  (3500) 10.5%
+
+44400
+314400 x10
+
+43600  (400)
+345100 x10 (30700)
+
+
 
 Typhoon changes to torpedos
 
 Increase speed of naval fab/s and add water-hover to T2 fab
-
-Readd priority to Stingray
 
 Decrease missile launcher cost, increase missile cost
 
 
 Increase speed of dox slightly?
 Sheller changes, lower AOE radius, more accurate (Still considering)
-Nerf T2 fighter?
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
-
-
-~Add PPBAOE to bombers+wyrms
 
 
 ~Lob
@@ -48,8 +61,7 @@ Spark - added a 'die_here' command which will have projectile explode after life
 
 KNOWN ISSUES
 
-Grenadier torpedos sometimes firing in a random direction when coming in range of a naval unit
-MLA fabricators and factories will build Legion stuff if the mod is enabled
+Grenadier torpedos sometimes firing in a random direction when coming in range of a naval unit.
 
 CONSIDERING (some ideas that may or not be implemented)
 
@@ -60,3 +72,4 @@ CONSIDERING (some ideas that may or not be implemented)
 
 (Under the hood dev stuff)
 -Added combat tags to Icarus, Angel, Air Scout
+-Legion Combatible

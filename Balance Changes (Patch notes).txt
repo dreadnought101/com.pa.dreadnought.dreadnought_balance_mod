@@ -1,26 +1,41 @@
-Patch 1.46
+Patch 1.47
 
-Locust
--Metal cost reduced 255 to 250 [Vanilla 260]
--Health Increased 75 to 80 [Vanilla 60]
+Icarus 
+-AA damage decreased 30 to 25
+-Metal Cost increased 125 to 130 
+-Movement Speed decreased 50 to 45
 
-Kraken
-~Kraken torpedo weapons
--range 150 to 210
--firerate 0.6 to 0.3
--250 damage to 500
--lifetime 4 to 5s
-(I wanted to give a little more dynamic power to their torpedos against vulnerable units, while simultaneously making them weaker against their sub counter, increasing their time to kill from 
+Skitter
+-Move Speed Increased 32 to 35 [Vanilla 25]
 
-Pheonix 
--Health decreased from 300 to 225 (Vanilla 240)
--Pheonix range decrease 150 to 120 [Vanilla 120]
--firerate 1.0 to 0.36 [Vanilla 0.33]
--missile speed 250 to 150 [vanilla 150]
--bullet lifetime 1.5 to 2.0 [vanilla 2.0]
-(Allows them to be 3 shot by Hummingbirds, as well as revert some more experimental changes, though I'll be keeping the 4x shot in due to PAPA edits and see how it plays out)
+Spinner
+-Increased Fire-Rate from 2.2 to 2.4 [Vanilla 2.4]
 
-Wyrm/Bumblebee
--Changed explosions to PBAOE 
--Added a 0.05 armor modifier against air/orbital, full for everything else.
-(PBAOE is to help bombers consistently hit deep-water naval targets.  The 0.2 is PURELY for testing purposes to see if PBAOE can affect air/orbital targets and WILL be reverted)
+Drifter
+-Increased Metal Cost from 230 to 235 [Vanilla 225]
+-Increased Damage from 125 to 160 [Vanilla 120]
+-Decreased Fire-Rate from 1 shot 2.5s to 3.2s
+
+T2 Fabricators - Increased Metal Cost
+-Bot 1650 to 1700 [Vanilla 1800]
+-Vehicle 1850 to 1900 [Vanilla 2025]
+-Air 2000 to 2075 [Vanilla 2200]
+-Naval 2150 to 2225 [Vanilla 2400]
+
+T3 Turret
+-Health decreased 4250 to 3750 [Vanilla 4000]
+-Range decreased 140 to 130 [Vanilla 130]
+-Firerate increased 2.5 to 4.5 [Vanilla 5.0]
+-Damage increased 150 to 175
+(Metal cost is at 875, down from 900.  Adjusting turret health and increasing firerate to near new vanilla rates.  Removing anti-Grenadier capabilities)
+
+Stingray
+-Added back priorities for cruiser missile against horseflies/wyrms.  
+(am also considering adding horseflies for cruiser priorities)
+
+Nuke Launcher
+-Structure cost reduced 14400 to 9600
+-Missile cost increased 30000 to 34000
+-Metal Build Rate increased 90 to 120
+-Energy draw increased 6000 to 7500
+(Slightly reduces first shot by 400, but increases cost of follow up by 3000 as the second shot tends to nearly always finish an opponent before they can recover if the first lands.  Also spiced up build rate to devalue boosting)
