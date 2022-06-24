@@ -14,7 +14,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115444]
 
 ~Skitter (T1 Vehicle Scout)
 -Added Radar Stealth
--Move speed 25 to 32
+-Move speed 25 to 35
 -Metal cost 75 to 55
 -Health 10 to 15
   (Note 1: Rewards lone positioning and scouting in mid to late game)
@@ -38,9 +38,11 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115444]
   (Dev Idea: Ants a long time ago had a turn rate of 90. I intend to do 105, but want to see how this old, more predictive type of micro handles in the modern era. At the moment I believe ants are too responsive and reactive for the lumbering tank persona, and in gameplay terms they are good at kiting backwards quickly and I want to see if this helps fast units+projectiles catch out ants better)
 
 ~Drifter (T1 Vehicle)
--Metal cost increased 225 to 230
--HP reduced 250 to 240
+-Metal cost increased 225 to 235
+-HP reduced 250 to 225
+-Damage increased 120 to 160
 -Range increased 110 to 115
+-Decreased firerate from 2.5 to 3.2 (Fires once every 3.2 seconds)
 -Bullet velocity decreased 150 to 140
 -Vision range reduced 100 to 90
   (Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action.  Overall goal is to make them less able to operate alone, and be more reliant on support units)
@@ -48,7 +50,6 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115444]
 ~Spinner (T1 Vehicle)
 -health reduced 160 to 130
 -Speed increased from 10 to 13
--Attack speed reduced 2.4/s to 2.2
 -Increased Splash Radius from 0.75 to 1.5
 (Dev Comment: General AA speed increases to help with non-air oponer viability with health, damage, vision nerfs as compensation.  The AOE aspect is for anti-icarus)
 
@@ -108,8 +109,10 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 
 ~Icarus  (T1 Solar Gunship)
 [Split Laser beam into two separate weapons, removed targetting from AA sources such as spinners and galata]
+-Metal Cost increased 125 to 130
+-Movement Speed Decreased 50 to 45
 -Ground Damage decreased from 25 to 20
--Air Damage increased 25 to 30
+-Air Damage unchanged [25]
 -Air gun range increased 70 to 150
 -Air gun fires 1 every 3 seconds
 -Air gun also has its own energy bar/drain rate of 100e/s but without 'banking'
@@ -136,13 +139,8 @@ Update: Patch decreased )
 -AA Weapon firerate 3.0/s to 2.4/s
 -AA Weapon damage decerased 25 to 20
 -AA Weapon AOE radius increased from 0.75 to 1.5
--Added Torpedo Launchers
-- -100 damage
-- -225 range
-- -0.2 Firerate (fires 1 shot every 5.00 seconds)
-- -Velocity 5.0 (same speed as barracuda/orca)
-- -Lifetime 7 (how long the torpedo lasts before fizzling out)
-  (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression.  Added weak but long range torpedo launchers to give it a small bit of presence against orcas+subs)
+-Torpedo Weapon damage decreased 250 to 150
+  (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
 
 ~Orca (T1 Naval)
 -Added torpedo component
@@ -224,8 +222,7 @@ Update: Major changes made hornets essentially double in strength for double the
 -Stingray (T2 Naval)
 -Increased AA-weapon (not cruise weapon) splash radius from 0.75 to 1.5
 -Decreased missile lifetime 60 to 15
-  (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies
-Update: Removes priority to increase skill factor)
+  (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
 
 ~Atlas (Titan)
 -full Damage radius decreased 80 to 60

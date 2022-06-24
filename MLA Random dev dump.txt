@@ -1,55 +1,24 @@
 --Dev done
 
-Icarus air damage 30 to 25, cost increase by 5, speed decrease by 5. air range decrease???
-
-Skitter
--Move Speed Increased 32 to 35 [Vanilla 25]
-
-Increase spinner fire-rate to 2.4 
-
-Drifter 125 damage, but 2.5 firerate to 3.0
-or 3.2 and 160 damage
-5 metal increase again
-
-fab costs
-
-Reduce firerate of T3 turret slightly, and range?
-Firerate 5.0 to 4.5
-Damage 150 to 175
-
-Readd priority to Stingray
-
-Nuke Launcher
--Structure cost reduced 14400 to 9600
--Missile cost increased 30000 to 34000
--Metal Build Rate increased 90 to 120
--Energy draw increased 6000 to 7500
 
 --Todo
 
-333s to 330
-
-Nuke
-Building 14400 - 10100  (4300)
-Nuke 30000 - 33500  (3500) 10.5%
-
-44400
-314400 x10
-
-43600  (400)
-345100 x10 (30700)
+Orbital
 
 
+
+T3 Turret 130 to 135
 
 Typhoon changes to torpedos
 
 Increase speed of naval fab/s and add water-hover to T2 fab
 
-Decrease missile launcher cost, increase missile cost
+Narwhal torp changes
+decrease range, Lifetime, firerate adjustment, damage 100 to 150
 
 
 Increase speed of dox slightly?
-Sheller changes, lower AOE radius, more accurate (Still considering)
+Sheller changes, lower AOE radius, more accurate (Still considering) Its actually perfectly accurate
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
 

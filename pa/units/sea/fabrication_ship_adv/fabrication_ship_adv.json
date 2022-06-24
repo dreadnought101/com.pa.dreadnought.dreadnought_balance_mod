@@ -24,7 +24,7 @@
         "allow_pushing": true
     },
     "navigation": {
-        "type": "deepwater",
+        "type": "water-hover",
         "acceleration": 100,
         "brake": 100,
         "move_speed": 10,

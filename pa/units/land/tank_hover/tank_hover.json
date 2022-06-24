@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Drifter",
     "description": "!LOC:Hover Tank - Fast. Can cross water and lava. Attacks land and sea targets.",
-    "max_health": 240,
+    "max_health": 225,
     "build_metal_cost": 235,
     "armor_type": "AT_Hover",
     "attachable": {

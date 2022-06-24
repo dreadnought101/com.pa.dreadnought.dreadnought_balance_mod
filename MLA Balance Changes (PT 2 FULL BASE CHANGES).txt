@@ -1,6 +1,5 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS
 
-
 ~Barnacle (T1 Naval)
 -build range increased 65 to 95
   (Dev Idea:  allows it to repair more safely and consistently)
@@ -11,17 +10,20 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 
 ~Naval Basic Fabricator
 -Health increased 100 to 200
-  (Dev note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
+-Move speed increased 10 to 12
+  (Dev Note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
+(Dev Note2: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point
 
-~Naval Advance Fabricator
+~Naval Advanced Fabricator
 -Build range increased 30 to 50
+-Changed deepwater to water-hover
   (Dev Note: This is mostly intended to be a quality of life change to help the adv ship build structures on land, as it does not have water-hover and can't get as close to shore as its basic naval fabricator counterpart)
 
 ~Advanced Fabricators [Vehicle/Bot/Air/Naval] 
-~Bot - 1800 to 1650
-~Vehicle - 2025 to 1850
-~Air - 2200 to 2000
-~Naval - 2400 to 2150
+~Bot - 1800 to 1700
+~Vehicle - 2025 to 1900
+~Air - 2200 to 2075
+~Naval - 2400 to 2225
 ~Each can now build all types of Titans [Atlas/Ares/Zues]
   (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
 (Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
@@ -70,11 +72,12 @@ Update:  Uses old numbers before april balance patch)
 
 ~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
 -Metal cost reduced 900 to 875
--Range increased 130 to 140
--Health increased 4000 to 4250
-  (Dev Idea: General T2 defense buffs)
+-Health increased 4000 to 3500
+-Damage increased 150 to 200
+-Fire-rate decreased 5.0 to 3.5
+  (Dev Idea: I feel this turret obsoletes other turrets with its fire-rate, and would prefer it hurt higher health targets, while mass attacks favors a comprehensive turret line)
 
-~Flak Cannon (T2)
+~Flak Cannon (T2 AA)
 -HP reduced 2000 to 1700
 -Metal cost reduced 900 to 750
 -Range increased 120 to 150
@@ -94,6 +97,13 @@ Update:  Uses old numbers before april balance patch)
 ~Advanced Radar (T2)
 -Added 100 radius jamming
 (Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar. Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)
+
+~Orbital Launcher (T1)
+-Cost increased 600 to 1000
+
+~Orbital Factory
+-Cost reduced 6000 to 4000
+  (Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
 
 ~T2 factories. (Vehicle/Bot/Air/Naval)
 -All Advanced Factory costs reduced from 4800 to 4400
@@ -124,6 +134,13 @@ Roll off time - 6 to 9
 
 (Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
 
+~Unit Cannon (T2 Launcher Factory)
+-Metal cost increased 6800 to 7200
+-HP increased 18000 to 40000
+-Added Drifters, Infernos
+  (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games)
+  (Dev Note: -Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+
 ~Anti-nuke launcher
 -Decreased building cost from 12000 to 5000
 -Increased anti-missile cost from 5000 to 9000
@@ -131,16 +148,9 @@ Roll off time - 6 to 9
 -Increased Energy Drain from 4000 to 6120 (roughly the same 66.7 energy per metal)
 (Dev Comment: Helps decrease reaction time/cost for the first missile from 17000 to 14000 but increases fully 3 equipped from 27000 to 32000. Also buildrate is increased to keep non-boosted silo build-times the same at around 80 seconds per shot)
 
-~Orbital Launcher (T1)
--Cost increased 600 to 1000
-
-~Orbital Factory
--Cost reduced 6000 to 4000
-  (Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
-
-~Unit Cannon (T2 Launcher Factory)
--Metal cost increased 6800 to 7200
--HP increased 18000 to 40000
--Added Drifters, Infernos
-  (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games)
-  (Dev Note: -Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+~Nuke Launcher
+-Structure cost reduced 14400 to 9600
+-Missile cost increased 30000 to 34000
+-Metal Build Rate increased 90 to 120
+-Energy draw increased 6000 to 7500
+(Slightly reduces first shot by 400, but increases cost of follow up by 3000 as the second shot tends to nearly always finish an opponent before they can recover if the first lands.  Also spiced up build rate to devalue boosting)
