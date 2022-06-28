@@ -1,25 +1,73 @@
-Patch 1.48
+Patch 1.50  --Orbital Patch [TLDR Increases speed and attack range of many orbital units and hemogenizes movement speed between planets]
 
-T3 Turret
--Firerate 4.5 to 3.5 [Vanilla 5.0]
--damage 175 to 200 [Vanilla 150]
--Health decreased 3750 to 3500 [Vanilla 4000]
-(Dev Note:Not a fan of the T2 turret obsoleting the other turrets with both its fire-rate and damage. Encourages players to invest in a comprehensive turret line to handle swarms of units.  Would like T2 turrets to be more tanky as well compared to T3) 
+Orbital Navigation (Increases arrival spread to a planet)
+-"orbital_arrival_radius": 100, to 300
+-"orbital_arrival_unit_radius": 7.5, to 22.5-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
+-Most units have been hemogenized to have identical movement between planets with some exceptions.
+>Hermes and Nuke remains extremely fast
+>Avenger/Astraeus have been increased to be faster than normal
+>Solar array has been increased to average speed
+>Unit Cannon has been slowed to average speed
+>Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
 
-Drifter
--Health decreased 240 to 225 [Vanilla 250]
+Astraeus
+-Movespeed/Brake/Accel 25 to 50
+-Health reduced 225 to 150 [Vanilla 150]
+-System multiplier 10.0 to 16.75
+-gravwell multiplier 5.0 to 7.0
+-Orbital Arrival delay reduced 3.0 to 2.0
+(Orbital Movement has been increased roughly 20% from slower than other orbital units to faster)
 
-~Narwhal
--Torpedo Launchers
--  -100 to 150 damage [Vanilla 250]
--  -225 to 150 range [Vanilla 150]
--  -0.2 to 0.4 firerate [Vanilla 0.4]
--  -7 to 5 Lifetime [Vanilla 5]
-(Reverting experimental torpedo changes)
+Anchor 
+-150 orbital range 150 to 200 (25%)
 
-T1 naval fab 
--Move speed increased 10 to 12
-(Dev Note: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point)
+Hermes
+-Speed/brake/accel 75 to 100
+-Orbital Arrival delay reduced 3.0 to 2.0
 
-T2 Naval fab
-Changed T2 naval fab from deepwater to water-hover (Dev Note: movespeed 10 unchanged.  The water-hover change is for pure quality of life in building on land and will likely have little impact on balance)
+Avenger  
+-HP increased 50 to 90 
+-Speed/Accel 65 to 90 (brake 20 to 25)
+-System multiplier 15.0 to 18.75
+-gravwell multiplier 6.0 to 8.0
+-100 weapon range to 135 (36%)
+-weapon projectile speed - 300 to 400
+-Orbital Arrival delay reduced 3.0 to 2.0
+(gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
+
+Orbital Fabricator
+(Unchanged)
+
+ARKYD basic orbital radar
+-Speed/break/accel 15 to 20
+
+Artemis
+-Speed 30 to 50 (brake/accel 10 to 20)
+-350 range to 450 (23.3%)
+
+SXX
+-Speed/break/accel 25 to 45
+
+Omega
+-Speed 15 to 25 (brake 80 to 120, acceleration 30 to 45)
+-Turret Pitch Range 90 to 92.5 [Vanilla 120]
+(Turret change allows for all 4 turrets to hit things directly beneath omega, but only 2-3 turrets will attack things on the edge)
+
+Advanced Radar Sattelite
+(Unchanged)
+
+Solar Array
+-Gravwell_veloc 3.0 to 6.0
+
+Helios
+(Unchanged)
+
+Nuke
+(Unchanged)
+
+Unit Cannon
+-System Multi 20.0 to 15.0
+-Gravwell 10.0 to 6.0
+
+Pheonix T2 Air Fighter
+(Unchanged)

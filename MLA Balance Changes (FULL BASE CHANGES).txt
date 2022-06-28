@@ -132,8 +132,7 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 Update: Patch decreased )
 
 ~Narwhal (T1 Naval)
-[TLDR: Gets a long range, low damage, high AOE torpedo.  Narwhals also get a cost reduction and nerfs, making them more spammable]
--Vision+underwater increased 180 to 200
+[TLDR: Narwhals get cost reduction and nerfs, making them more spammable and better to afford early game]
 -Health reduced 750 to 525
 -Metal cost decreased 450 to 350
 -AA Weapon firerate 3.0/s to 2.4/s
@@ -254,11 +253,10 @@ Update: Major changes made hornets essentially double in strength for double the
 -cost reduced 14000 to 12500
 >Orbital Guns (4 turrets, 2 barrels each)
 -added ammo file (it currently uses the same file associated with the Anchor)
--Reduced Orbital gun range from 175 to 150 [Vanilla 150] 
--Added anti-ground/air/sea to orbital guns. [Adjusted Turret Pitch_Range from 60 to 90 in order to properly hit ground]  (Does not attack seafloor)
--Omega will prioritize other orbital units first.
--Firerate decreased 2.0 to 1.5 (fires 1.5 times a second)
->Anti-Ground Lazer
--Main anti-ground gun can now target seafloor units.
--Added auto attack component 
-  (Dev Idea: Make them actually counter avengers and more dangerous against ground targets, as well as add quality of life changes)
+-Decreased Laser-Weapons 65x2 to 45x2
+-Decreased Laser Turret Pitch Range from 120 to 95
+-Omega will now prioritize other orbital units first.
+-Laser Firerate decreased 2.0 to 1.5 (fires 1.5 times a second)
+>Anti-Ground Beam weapon
+-Main anti-ground beam-gun can now target seafloor units.
+  (Dev Idea: Reduces cost slightly due to increased orbital factory cost. Adds quality of life changes)

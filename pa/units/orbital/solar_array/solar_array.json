@@ -7,6 +7,7 @@
     },
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
     "build_metal_cost": 5000,
+	"gravwell_velocity_multiplier": 6.0,
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist"],
     "description": "!LOC:Economy - Orbital energy generation and storage.",
     "display_name": "!LOC:Solar Array",

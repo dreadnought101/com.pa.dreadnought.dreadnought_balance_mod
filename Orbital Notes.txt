@@ -1,0 +1,189 @@
+Orbital notes
+
+Base specs state 
+    "planetary_arrival_cooldown_time": 3.0,  !!
+    "gravwell_velocity_multiplier": 3.0,
+    "system_velocity_multiplier": 15.0,
+   
+(ONLY Astraeus, Hermes, and orbital fabs have system-multiplyers)
+
+Gravwell average seems to be manually set for the most part at 6.0
+Many System Velocity units are auto-given at 15.0.
+
+System-Multi affects units using the sun to move between planets.
+Gravwell_veloc affects units moving between planets, even if it uses a 2nd planet to get to a 3rd.
+
+Excluding Astraeus, Hermes, and Avengers which will play by their own targets, my total target is 6.0 and 15.0 are the baseline
+
+>Numbers put in parenthesis are auto-given, have no stat in the JSON file.
+>Numbers in brackets are my adjustments
+
+~Astraeus  (Doubled speed between planets? Or slower/same/slightly faster than others?)
+Speed 25  [50]
+System-Multi 10.0 [16.75]
+Gravwell_veloc 5.0 [7.0]
+Vertical-Speed 200  (Unchanged-must test)
+
+~Hermes 
+Speed 75 [100]
+System Multi is 22.0 
+Gravwell_veloc 9.0 
+
+~Avenger 
+Speed 65 [90]  (brake speed 20 to 25)
+System Multi (15.0) [19.0]
+Gravwell_veloc 6.0 [8.0]
+
+~Orbital Fabricator  (Decided unchanged speed for now]
+Speed 20 
+System Multi  15.0  (Yes, its given)
+Gravwell_veloc  6.0 
+
+~ARKYD Basic Radar  
+Speed 15 [20] 
+System Multi (15.0)
+Gravwell_veloc 6.0 
+
+~Artemis
+Speed 30 [50]  (brake/accel 10 to 20)
+System Multi  (15.0) 
+Gravwell_veloc  6.0 
+
+~SXX
+Speed 25 [45]
+System Multi  (15.0)
+Gravwell_veloc  6.0
+
+~Omega
+Speed 15 [25]  (brake 80 to 120, acceleration 30 to 45)
+System Multi (15.0) 
+Gravwell_veloc  6.0 
+
+~Advanced Radar Sat  (No change)
+Speed 10 
+System Multi (15.0) 
+Gravwell_veloc 6.0 
+
+~Solar Array  (Has no Gravwell nor system multi) [No change movespeed, just gravwell]
+Speed 10 
+System Multi  (15.0)
+Gravwell_veloc (3.0) [6.0]
+
+~Helios  (No Change)
+Speed  25
+System Multi (15.0) 
+Gravwell_veloc  6.0 
+
+~Nuke  (Tepid No Change)
+Speed  75
+System Multi 20.0
+Gravwell_veloc 10.0
+
+~Unit Cannon (The file itself is Unit_Cannon_Deploy)
+Speed 150 
+System Multi  20.0 [15.0]
+Gravwell_veloc 10.0 [6.0]
+
+~Pheonix T2 air fighter (No Change)
+Speed 80 
+System Multi 15.0 
+Gravwell_veloc  6.0 
+
+
+
+
+
+
+
+
+
+
+~~My Balance adjustments
+
+--Considerations
+
+Perhaps increase orbital fab health 100 to something higher due to anti-orbital changes and slower arival cooldown.
+
+Increase Omega range? Has direct impact on ground however
+
+Increase Umbrella weapon speed (1000), and missile projectile (catapult/stingray/bluehawk) speeds.  Been meaning to increase missile projectiles for a while alongside hornets (also nerf hornet projectile speed) and this is a nice crossover
+
+Perhaps Hemogenize Hermes/Avenger/Astraeus to 8.0 gravwell and 19.0 System Multi for simplicity, instead of the upscaling 7.0/8.0/9.0 and 16.75/18.75/22.0 which has compelling tactical dynamics, but may be superfluous to most except high levels for those in the know.
+
+Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
+
+
+--Done
+
+Orbital Navigation (Increases arrival spread to a planet)
+-"orbital_arrival_radius": 100, to 300
+-"orbital_arrival_unit_radius": 7.5, to 22.5
+-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
+-Most units have been hemogenized to have identical movement between planets with some exceptions.
+>Hermes and Nuke remains extremely fast
+>Avenger/Astraeus have been increased to be faster than normal
+>Solar array has been increased to average speed
+>Unit Cannon has been slowed to average speed
+>Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
+
+Astraeus
+-Movespeed/Brake/Accel 25 to 50
+-Health reduced 225 to 150 [Vanilla 150]
+-System multiplier 10.0 to 16.75
+-gravwell multiplier 5.0 to 7.0
+-Orbital Arrival delay reduced 3.0 to 2.0
+(Orbital Movement has been increased roughly 20% from slower than other orbital units to faster)
+
+Anchor 
+-150 orbital range 150 to 200 (25%)
+
+Hermes
+-Speed/brake/accel 75 to 100
+-Orbital Arrival delay reduced 3.0 to 2.0
+
+Avenger  
+-HP increased 50 to 90 
+-Speed/Accel 65 to 90 (brake 20 to 25)
+-System multiplier 15.0 to 18.75
+-gravwell multiplier 6.0 to 8.0
+-100 weapon range to 135 (36%)
+-weapon projectile speed - 300 to 400
+-Orbital Arrival delay reduced 3.0 to 2.0
+(gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
+
+Orbital Fabricator
+(Unchanged)
+
+ARKYD basic orbital radar
+-Speed/break/accel 15 to 20
+
+Artemis
+-Speed 30 to 50 (brake/accel 10 to 20)
+-350 range to 450 (23.3%)
+
+SXX
+-Speed/break/accel 25 to 45
+
+Omega
+-Speed 15 to 25 (brake 80 to 120, acceleration 30 to 45)
+-Turret Pitch Range 90 to 92.5 [Vanilla 120]
+(Turret change allows for all 4 turrets to hit things directly beneath omega, but only 2-3 turrets will attack things on the edge)
+
+Advanced Radar Sattelite
+(Unchanged)
+
+Solar Array
+-Gravwell_veloc 3.0 to 6.0
+
+Helios
+(Unchanged)
+
+Nuke
+(Unchanged)
+
+Unit Cannon
+-System Multi 20.0 to 15.0
+-Gravwell 10.0 to 6.0
+
+Pheonix T2 Air Fighter
+(Unchanged)

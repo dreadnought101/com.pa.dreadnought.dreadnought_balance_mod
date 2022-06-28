@@ -3,21 +3,21 @@
 
 --Todo
 
-Orbital
+Perhaps increase orbital fab health 100 to something higher due to anti-orbital changes and slower arival cooldown.
 
+Increase Omega range? Has direct impact on ground however
 
+Increase Umbrella weapon speed (1000), and missile projectile (catapult/stingray/bluehawk) speeds.  Been meaning to increase missile projectiles for a while alongside hornets (also nerf hornet projectile speed) and this is a nice crossover
 
-T3 Turret 130 to 135
+Perhaps Hemogenize Hermes/Avenger/Astraeus to 8.0 gravwell and 19.0 System Multi for simplicity, instead of the upscaling 7.0/8.0/9.0 and 16.75/18.75/22.0 which has compelling tactical dynamics, but may be superfluous to most except high levels for those in the know.
+
+Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
+
 
 Typhoon changes to torpedos
 
-Increase speed of naval fab/s and add water-hover to T2 fab
-
-Narwhal torp changes
-decrease range, Lifetime, firerate adjustment, damage 100 to 150
-
-
 Increase speed of dox slightly?
+
 Sheller changes, lower AOE radius, more accurate (Still considering) Its actually perfectly accurate
 
 Spark - added a 'die_here' command which will have projectile explode after lifetime completeion  (Looking to add explosion at end of lifetime, so even when spark misses, it can hit something, which at current range is a few units past the target)
