@@ -24,7 +24,7 @@
             "audio_cue": "/SE/Weapons/air/bomber_fire"
         }
     },
-    "max_health": 6000,
+    "max_health": 7000,
     "mesh_bounds": [50, 15, 6],
     "model": {
         "animations": {
@@ -48,7 +48,7 @@
         "radius": 8
     },
     "production": {
-        "energy": 9000
+        "energy": 11000
     },
 	"storage": {
         "energy": 100000

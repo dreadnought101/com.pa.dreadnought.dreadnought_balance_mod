@@ -3,15 +3,8 @@
 
 --Todo
 
-Perhaps increase orbital fab health 100 to something higher due to anti-orbital changes and slower arival cooldown.
 
-Increase Omega range? Has direct impact on ground however
 
-Increase Umbrella weapon speed (1000), and missile projectile (catapult/stingray/bluehawk) speeds.  Been meaning to increase missile projectiles for a while alongside hornets (also nerf hornet projectile speed) and this is a nice crossover
-
-Perhaps Hemogenize Hermes/Avenger/Astraeus to 8.0 gravwell and 19.0 System Multi for simplicity, instead of the upscaling 7.0/8.0/9.0 and 16.75/18.75/22.0 which has compelling tactical dynamics, but may be superfluous to most except high levels for those in the know.
-
-Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
 
 
 Typhoon changes to torpedos
@@ -27,6 +20,16 @@ Spark - added a 'die_here' command which will have projectile explode after life
 (Dev Idea: The lob's current role is a 1-dimensional factory, not a defensive structure, this will change its role to units that have a limited life-span but have more impact)
 -Atm have lobs firing typhoon drone, but considering something else
 -Try mini T1 unit cannon?
+
+--
+Perhaps increase orbital fab health 100 to something higher due to anti-orbital changes and slower arival cooldown.
+
+Increase Omega range? Has direct impact on ground however
+
+Perhaps Hemogenize Hermes/Avenger/Astraeus to 8.0 gravwell and 19.0 System Multi for simplicity, instead of the upscaling 7.0/8.0/9.0 and 16.75/18.75/22.0 which has compelling tactical dynamics, but may be superfluous to most except high levels for those in the know.
+
+Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
+--
 
 KNOWN ISSUES
 

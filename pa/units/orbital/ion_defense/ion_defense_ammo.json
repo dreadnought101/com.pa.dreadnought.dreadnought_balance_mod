@@ -4,9 +4,9 @@
     "damage": 100,
     "splash_damage": 0,
     "splash_radius": 0,
-    "initial_velocity": 1000.0,
-    "max_velocity": 1000.0,
-    "lifetime": 3,
+    "initial_velocity": 1250.0,
+    "max_velocity": 1250.0,
+    "lifetime": 2.4,
     "turn_rate": 45,
     "fx_trail": {
         "filename": "/pa/units/orbital/ion_defense/ion_defense_ammo_trail.pfx"

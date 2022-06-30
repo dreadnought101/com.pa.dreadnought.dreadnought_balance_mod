@@ -1,73 +1,46 @@
-Patch 1.50  --Orbital Patch [TLDR Increases speed and attack range of many orbital units and hemogenizes movement speed between planets]
+Patch 1.51  Missile Patch
 
-Orbital Navigation (Increases arrival spread to a planet)
--"orbital_arrival_radius": 100, to 300
--"orbital_arrival_unit_radius": 7.5, to 22.5-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
--Most units have been hemogenized to have identical movement between planets with some exceptions.
->Hermes and Nuke remains extremely fast
->Avenger/Astraeus have been increased to be faster than normal
->Solar array has been increased to average speed
->Unit Cannon has been slowed to average speed
->Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
+Jig 
+-HP increased 3000 to 6000
+-Cost decreased 4000 to 3750
+(Helps pad against orbital units, especially given their recent buffs where 25 avengers were able to kill a jig in 1 pass and also don't risk Jig explosion damage.  Will still cost slightly more than an advanced metal mex per production point at 125/m vs 106/m [and T1 still at the great 24/m])
 
-Astraeus
--Movespeed/Brake/Accel 25 to 50
--Health reduced 225 to 150 [Vanilla 150]
--System multiplier 10.0 to 16.75
--gravwell multiplier 5.0 to 7.0
--Orbital Arrival delay reduced 3.0 to 2.0
-(Orbital Movement has been increased roughly 20% from slower than other orbital units to faster)
+Solar Array 
+-Energy Production 9000 to 11000
+-health increased 6000 to 7000
+(Metal cost is 5000 in my version, so gives a 2.2 ratio of metal to energy production.  Advanced energy is 1.875, and Legion's is 2.4.  The slight health buff is in response to improved orbital mechanics)
 
-Anchor 
--150 orbital range 150 to 200 (25%)
+(Dev Note: I had been meaning to adjust these missiles for awhile, but the orbital speed buff has made it convenient.  The hornet, while not affecting orbital, has been too fast and will be reduced as well as my hornets being half cost/half fire-rate so overkill mechanics matter less.  Hemogenized missile stages to bluehawk stats as that does best in managing orbital dynamics fluidly)
 
-Hermes
--Speed/brake/accel 75 to 100
--Orbital Arrival delay reduced 3.0 to 2.0
+Hornet
+-Missile velocity increased 80 to 100 [Vanilla 160]
+-Missile lifetimes reduced 15 to 8
 
-Avenger  
--HP increased 50 to 90 
--Speed/Accel 65 to 90 (brake 20 to 25)
--System multiplier 15.0 to 18.75
--gravwell multiplier 6.0 to 8.0
--100 weapon range to 135 (36%)
--weapon projectile speed - 300 to 400
--Orbital Arrival delay reduced 3.0 to 2.0
-(gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
+Bluehawk 
+-Missile velocity increased 80 to 100
+-Missile lifetime reduced 15 to 8
+-Missile Cruise Height increased 20 to 65
+(Hopefully fixes a bug where bluehawk missiles would hover over a target, as well as allows pelicans to pick up units and dodge a missile immediately as it explodes beneath rather than circles below, allowing for specific counterplay with pickup/drops)
 
-Orbital Fabricator
-(Unchanged)
+Catapult 
+-Metal 2000 to 1750
+-Health 1500 to 1000
+-Missile velocity increased 80 to 100
+-Missile lifetime reduced 15 to 8
+-Firerate 0.4 to 0.2857 (Fires once every 3.5 seconds instead of 2.5)
+(Helps discourage constant catapult spam, but also allows for more strategic positions to be built with a metal cost reduction, and perhaps a vehicle push counter strategy)
 
-ARKYD basic orbital radar
--Speed/break/accel 15 to 20
+Stingray
+-Missile velocity increased 80 to 100
+-Missile lifetime reduced 15 to 8
+-Missile turn rate 0 to 45
+-Missile damage increased 1000 to 1250
+(5 to 4 shot typhoon and 6 to 5 leviathan.  Does not change 4 shot omega nor 3 shot wyrm)
 
-Artemis
--Speed 30 to 50 (brake/accel 10 to 20)
--350 range to 450 (23.3%)
+Umbrella 
+-Bullet Velocity increased 1000 to 1250
+-Lifetime 3 to 2.4
 
-SXX
--Speed/break/accel 25 to 45
-
-Omega
--Speed 15 to 25 (brake 80 to 120, acceleration 30 to 45)
--Turret Pitch Range 90 to 92.5 [Vanilla 120]
-(Turret change allows for all 4 turrets to hit things directly beneath omega, but only 2-3 turrets will attack things on the edge)
-
-Advanced Radar Sattelite
-(Unchanged)
-
-Solar Array
--Gravwell_veloc 3.0 to 6.0
-
-Helios
-(Unchanged)
-
-Nuke
-(Unchanged)
-
-Unit Cannon
--System Multi 20.0 to 15.0
--Gravwell 10.0 to 6.0
-
-Pheonix T2 Air Fighter
-(Unchanged)
+Basic Vehicle Fab
+-Speed increased 12 to 13
+(Dev Note: Gives vehicle 1st openers slightly better viability. Bot speed is still 16, and metal cost 150 vs 200 for distinct differences.  May increase energy drain or reduce health of vehicle fabs slightly.)

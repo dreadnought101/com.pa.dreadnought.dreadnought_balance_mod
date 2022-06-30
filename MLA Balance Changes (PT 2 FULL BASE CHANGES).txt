@@ -34,6 +34,7 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -Energy production increased 3200/s to 9000/s
 -Added 100,000 energy storage (from 0)
   (Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
+
 ~Jig (Orbital Gas Giant Extractor)
 -Removed 3,750 energy production (to 0)
 -Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)

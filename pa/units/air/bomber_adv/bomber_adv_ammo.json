@@ -5,9 +5,9 @@
   "splash_radius": 0,
   "cruise_height": 40,
   "initial_velocity": 20.0,
-  "max_velocity": 160.0,
+  "max_velocity": 100.0,
   "turn_rate": 360,
-  "lifetime": 15,
+  "lifetime": 8,
   "max_health": 1,
   "influence_radius": 400,
   "events": {

@@ -1,0 +1,73 @@
+
+Changed Bluehawk cruise height from 20 to 75 (Catapult level)
+
+-All stages are hemogenized to bluehawk.
+
+Bluehawk
+"stages": [{
+            "ignores_gravity": true,
+            "ignores_LOS": true,
+            "stage_duration": 200,
+            "stage_turn_rate": 0,
+            "rotates_to_velocity": true
+        }, {
+            "ignores_gravity": true,
+            "ignores_LOS": true,
+            "stage_duration": 0,
+            "stage_turn_rate": 75,
+            "stage_change_range": 50,
+            "rotates_to_velocity": true
+        }, {
+            "ignores_gravity": false,
+            "ignores_LOS": false,
+            "stage_duration": 5000,
+            "stage_turn_rate": 405,
+            "rotates_to_velocity": true
+        }
+    ]
+
+Catapult
+"stages": [{
+            "ignores_gravity": true,
+            "ignores_LOS": true,
+            "stage_duration": 450,
+            "stage_turn_rate": 0,
+            "rotates_to_velocity": true
+        }, {
+            "ignores_gravity": true,
+            "ignores_LOS": true,
+            "stage_duration": 0,
+            "stage_turn_rate": 120,
+            "stage_change_range": 80,
+            "rotates_to_velocity": true
+        }, {
+            "ignores_gravity": false,
+            "ignores_LOS": false,
+            "stage_duration": 5000,
+            "stage_turn_rate": 360,
+            "rotates_to_velocity": true
+        }
+    ]
+
+Stingray
+"stages": [{
+            "ignores_gravity": true,
+            "ignores_LOS": true,
+            "stage_duration": 100,
+            "stage_turn_rate": 0,
+            "rotates_to_velocity": true
+        }, {
+            "ignores_gravity": true,
+            "ignores_LOS": true,
+            "stage_duration": 0,
+            "stage_turn_rate": 360,
+            "stage_change_range": 30,
+            "rotates_to_velocity": true
+        }, {
+            "ignores_gravity": false,
+            "ignores_LOS": false,
+            "stage_duration": 5000,
+            "stage_turn_rate": 540,
+            "rotates_to_velocity": true
+        }
+   ]
