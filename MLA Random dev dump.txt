@@ -4,9 +4,6 @@
 --Todo
 
 
-
-
-
 Typhoon changes to torpedos
 
 Increase speed of dox slightly?

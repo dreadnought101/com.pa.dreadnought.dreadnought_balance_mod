@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115444]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115854]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
@@ -207,9 +207,10 @@ Update: Patch decreased )
 -metal cost 3200 to 1500
 -fire rate reduced in half from 0.5 to 0.25
 -range increase 190 to 200
+-Missile velocity decreased 160 to 100
+-Missile lifetimes reduced 15 to 8
 -vision radius increase 200 to 210
 -underwater vision radius 200 to 210
--Health decreased 200 to 250
   (Dev Idea: Gives some small buffs to ease this paper-plane into prominence
 Update: Major changes made hornets essentially double in strength for double the cost.  This version makes for a more precise macro element on how many a player uses and lets them get into hornets more quickly, as well as not overlap the Wyrm as much.  However the projectile speed is nice, so that is added in.)
 
@@ -219,9 +220,13 @@ Update: Major changes made hornets essentially double in strength for double the
   (Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
 
 -Stingray (T2 Naval)
+-Missile velocity increased 80 to 100
+-Missile lifetime reduced 15 to 8
+-Missile turn rate 0 to 45
+-Missile damage increased 1000 to 1250
 -Increased AA-weapon (not cruise weapon) splash radius from 0.75 to 1.5
--Decreased missile lifetime 60 to 15
   (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
+(Dev Note: 5 to 4 shot typhoon and 6 to 5 leviathan. Does not change 4 shot omega nor 3 shot wyrm)
 
 ~Atlas (Titan)
 -full Damage radius decreased 80 to 60
@@ -245,18 +250,40 @@ Update: Major changes made hornets essentially double in strength for double the
   (Dev Idea: Makes killing it easier, yet also gives a real use to secondary guns, ground pound only affecting structures allows melee units to counter ares)
 
 ~Astraeus (Orbital Transport)
--health 150 to 225
-  (Dev Note: Intended to change capacity from 1 to 5. Despite actually working, was causing problems and was clunky. Health buff is a leftover change that makes it so air takes 3 shots to snipe an astraeus instead of 2)
+-Speed increased 25 to 50
+-Increased orbital speed
+  (Dev Note: Intended to change capacity from 1 to 5. Despite actually working, was causing problems and was clunky)
+
+~Avenger (Orbital Fighter)
+-HP increased 50 to 90
+-Speed/Accel 65 to 90 (brake 20 to 25)
+-Increased orbital speed
+-100 weapon range to 135 (36%)
+-weapon projectile speed increased 300 to 400
+(gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
+
+~Hermes (Orbital Probe)
+-Speed/brake/accel 75 to 100
+
+~ARKYD (basic orbital radar)
+-Speed/break/accel 15 to 20
+
+~Artemis (advanced orbital railgun)
+-Speed 30 to 50 (brake/accel 10 to 20)
+-350 range to 450
+
+~SXX (orbital anti-ground laser)
+-Speed/break/accel 25 to 45
 
 ~Omega (Advanced Orbital Battleship)
 [TLDR: Its laser guns can hit ground and general quality of life buffs]
--cost reduced 14000 to 12500
+-Metal cost reduced 14000 to 12500
+-Speed increased 15 to 25 (brake 80 to 120, acceleration 30 to 45)
 >Orbital Guns (4 turrets, 2 barrels each)
 -added ammo file (it currently uses the same file associated with the Anchor)
 -Decreased Laser-Weapons 65x2 to 45x2
--Decreased Laser Turret Pitch Range from 120 to 95
+-Decreased Laser Turret Pitch Range from 120 to 92.5
 -Omega will now prioritize other orbital units first.
 -Laser Firerate decreased 2.0 to 1.5 (fires 1.5 times a second)
->Anti-Ground Beam weapon
--Main anti-ground beam-gun can now target seafloor units.
-  (Dev Idea: Reduces cost slightly due to increased orbital factory cost. Adds quality of life changes)
+-Main anti-ground beam-gun can now targets seafloor units.
+(Dev Idea: Reduces cost slightly due to increased orbital factory cost. Adds quality of life changes)

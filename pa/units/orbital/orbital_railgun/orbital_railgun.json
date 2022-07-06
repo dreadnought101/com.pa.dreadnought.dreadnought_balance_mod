@@ -17,9 +17,9 @@
     "guard_layer": "WL_Orbital",
     "navigation": {
         "type": "orbital",
-        "acceleration": 10,
-        "brake": 10,
-        "move_speed": 30,
+        "acceleration": 20,
+        "brake": 20,
+        "move_speed": 50,
         "turn_speed": 30,
         "circle_min_time": 2,
         "circle_max_time": 4,

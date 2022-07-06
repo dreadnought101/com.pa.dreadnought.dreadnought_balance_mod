@@ -1,5 +1,16 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS
 
+~Orbital Navigation
+(Increases arrival spread to a planet)
+-"orbital_arrival_radius": 100, to 300
+-"orbital_arrival_unit_radius": 7.5, to 22.5-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
+-Most units have been hemogenized to have identical movement between planets with some exceptions.
+>Hermes and Nuke remains extremely fast
+>Avenger/Astraeus have been increased to be faster than normal
+>Solar array has been increased to average speed
+>Unit Cannon has been slowed to average speed
+>Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
+
 ~Barnacle (T1 Naval)
 -build range increased 65 to 95
   (Dev Idea:  allows it to repair more safely and consistently)
@@ -8,11 +19,15 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -Increased health from 50 to 65
   (Dev Idea: Lets them take 2 stray shots from grenadier and slightly bulks up the unit but is still fragile to most things directly)
 
+~Vehicle Basic Fabricator
+-Speed increased 12 to 13
+  (Dev Note: Gives vehicle 1st openers slightly better viability. Bot speed is still 16, and metal cost 150 vs 200 for distinct differences. May increase energy drain or reduce health of vehicle fabs slightly.)
+
 ~Naval Basic Fabricator
 -Health increased 100 to 200
 -Move speed increased 10 to 12
   (Dev Note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
-(Dev Note2: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point
+  (Dev Note2: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point
 
 ~Naval Advanced Fabricator
 -Build range increased 30 to 50
@@ -25,20 +40,23 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 ~Air - 2200 to 2075
 ~Naval - 2400 to 2225
 ~Each can now build all types of Titans [Atlas/Ares/Zues]
-  (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
-(Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
+(Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
+  (Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
 
 ~Solar Array (Advanced Orbital energy producer)
--HP Increase 1000 to 6000
+-HP Increase 1000 to 7000
 -Metal cost increased 1600 to 5000
--Energy production increased 3200/s to 9000/s
+-Energy production increased 3200/s to 11000/s
 -Added 100,000 energy storage (from 0)
   (Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
 
 ~Jig (Orbital Gas Giant Extractor)
+-HP increased 3000 to 6000
+-Metal Cost decreased 4000 to 3750
 -Removed 3,750 energy production (to 0)
+-Added 10,000 metal storage
 -Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)
-  (Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and are strong for their value)
+  (Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and were too strong for its value)
 
 ~Energy Storage
 -HP Reduced from 7500 to 5000
@@ -49,7 +67,7 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 Advanced Metal Extractor (T2 Economy)
 -Health increased 3000 to 5000
 -Metal production decreased 18 to 17
-(Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment
+  (Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment
 
 ~Galata (T1 AA structure)
 -Increased AA Splash Radius from 0.75 to 1.5
@@ -70,6 +88,21 @@ Advanced Metal Extractor (T2 Economy)
 -Uses Squals (Drone) instead of Dox
   (Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will likely change squal's effectivness or cost soon.
 Update:  Uses old numbers before april balance patch)
+
+~Umbrella (Anti-Orbital Gun)
+-Bullet Velocity increased 1000 to 1250
+-Lifetime 3 to 2.4
+
+~Anchor (Orbital Defense)
+-150 orbital range increased 150 to 200
+
+~Catapult (Advanced Missile Defense)
+-Metal 2000 to 1750
+-Health 1500 to 1000
+-Missile velocity increased 80 to 100
+-Missile lifetime reduced 15 to 8
+-Firerate 0.4 to 0.2857 (Fires once every 3.5 seconds instead of 2.5)
+  (Helps discourage constant catapult spam, but also allows for more strategic positions to be built with a metal cost reduction, and perhaps a vehicle push counter strategy)
 
 ~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
 -Metal cost reduced 900 to 875
@@ -98,7 +131,7 @@ Update:  Uses old numbers before april balance patch)
 
 ~Advanced Radar (T2)
 -Added 100 radius jamming
-(Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar. Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)
+  (Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar. Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)
 
 ~Orbital Launcher (T1)
 -Cost increased 600 to 1000
@@ -134,7 +167,7 @@ Energy 1750 to 2015
 28 E/M
 Roll off time - 6 to 9
 
-(Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
+  (Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
 
 ~Unit Cannon (T2 Launcher Factory)
 -Metal cost increased 6800 to 7200
@@ -148,11 +181,11 @@ Roll off time - 6 to 9
 -Increased anti-missile cost from 5000 to 9000
 -Increased Build rate from 60 to 92
 -Increased Energy Drain from 4000 to 6120 (roughly the same 66.7 energy per metal)
-(Dev Comment: Helps decrease reaction time/cost for the first missile from 17000 to 14000 but increases fully 3 equipped from 27000 to 32000. Also buildrate is increased to keep non-boosted silo build-times the same at around 80 seconds per shot)
+  (Dev Comment: Helps decrease reaction time/cost for the first missile from 17000 to 14000 but increases fully 3 equipped from 27000 to 32000. Also buildrate is increased to keep non-boosted silo build-times the same at around 80 seconds per shot)
 
 ~Nuke Launcher
 -Structure cost reduced 14400 to 9600
 -Missile cost increased 30000 to 34000
 -Metal Build Rate increased 90 to 120
 -Energy draw increased 6000 to 7500
-(Slightly reduces first shot by 400, but increases cost of follow up by 3000 as the second shot tends to nearly always finish an opponent before they can recover if the first lands.  Also spiced up build rate to devalue boosting)
+  (Dev Note: Slightly reduces first shot by 400, but increases cost of follow up by 3000 as the second shot tends to nearly always finish an opponent before they can recover if the first lands.  Also spiced up build rate to devalue boosting)

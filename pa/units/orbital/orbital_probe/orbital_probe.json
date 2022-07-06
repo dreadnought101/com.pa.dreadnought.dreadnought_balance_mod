@@ -4,6 +4,7 @@
     "description": "!LOC:Space Probe - Fast. Cheap. Expendable. Provides ground vision. Does not attack.",
     "max_health": 50,
     "build_metal_cost": 200,
+	"planetary_arrival_cooldown_time": 2.0,
     "system_velocity_multiplier": 22.0,
     "gravwell_velocity_multiplier": 9.0,
     "attachable": {
