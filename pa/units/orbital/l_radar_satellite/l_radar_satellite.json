@@ -87,9 +87,9 @@
     "filename": "/pa/units/orbital/l_radar_satellite/l_radar_satellite.papa"
   },
   "navigation": {
-    "acceleration": 15,
-    "brake": 15,
-    "move_speed": 15,
+    "acceleration": 20,
+    "brake": 20,
+    "move_speed": 20,
     "turn_speed": 90
   },
   "recon": {

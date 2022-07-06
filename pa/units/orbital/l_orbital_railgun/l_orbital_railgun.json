@@ -78,12 +78,12 @@
     "filename": "/pa/units/orbital/l_orbital_railgun/l_orbital_railgun.papa"
   },
   "navigation": {
-    "acceleration": 10,
+    "acceleration": 20,
     "bank_factor": 1,
-    "brake": 10,
+    "brake": 20,
     "circle_max_time": 4,
     "circle_min_time": 2,
-    "move_speed": 30,
+    "move_speed": 50,
     "turn_in_place": true,
     "turn_speed": 30
   },
