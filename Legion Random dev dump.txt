@@ -116,6 +116,7 @@ Basic Metal Extractor
 
 --TODO
 
+Increase air fab buildrate+cost+slight hp buff
 
 Nerf that marauder
 

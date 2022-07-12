@@ -23,6 +23,10 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -Speed increased 12 to 13
   (Dev Note: Gives vehicle 1st openers slightly better viability. Bot speed is still 16, and metal cost 150 vs 200 for distinct differences. May increase energy drain or reduce health of vehicle fabs slightly.)
 
+Basic Air Fabricator
+-Health increased 25 to 80
+(Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over completely)
+
 ~Naval Basic Fabricator
 -Health increased 100 to 200
 -Move speed increased 10 to 12
@@ -63,6 +67,10 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -Metal Cost reduced 450 to 250
 -Storage increased 300,000 to 250,000
   (Dev Idea: Decrease cost so its easier to build earlier on)
+
+~Basic Metal Extractor
+-Vision decreased 100 to 80
+(Helps with raiding/snipes and extractors covering too much area to sneak things in)
 
 Advanced Metal Extractor (T2 Economy)
 -Health increased 3000 to 5000
@@ -136,9 +144,15 @@ Update:  Uses old numbers before april balance patch)
 ~Orbital Launcher (T1)
 -Cost increased 600 to 1000
 
+(Dev Note: Reduce Boosting)
+
 ~Orbital Factory
 -Cost reduced 6000 to 4000
-  (Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though)
+-Metal Buildrate increased 60 to 72
+-Energy demand increased 2000 to 2400
+-Factory cooldown increased 4 to 6
+  (Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though
+Dev Note 2: Reduce Boosting)
 
 ~T2 factories. (Vehicle/Bot/Air/Naval)
 -All Advanced Factory costs reduced from 4800 to 4400

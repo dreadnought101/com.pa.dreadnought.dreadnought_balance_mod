@@ -21,7 +21,7 @@ Atlas
 
 Basic Air Fabricator
 -Health increased 25 to 80
-(Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over)
+(Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over completely)
 
 Basic Metal Extractor
 -Vision decreased 100 to 80

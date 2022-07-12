@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 115854]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.53]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
@@ -228,11 +228,6 @@ Update: Major changes made hornets essentially double in strength for double the
   (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
 (Dev Note: 5 to 4 shot typhoon and 6 to 5 leviathan. Does not change 4 shot omega nor 3 shot wyrm)
 
-~Atlas (Titan)
--full Damage radius decreased 80 to 60
--splash damage raidus decreased 135 to 120 (damage still 8000)
-  (Dev Idea: General buffs to health but makes them slightly less devestating when they reach your frontline, would love to give more options of attacking later)
-
 ~ARES (Titan)
 [TLDR: Weakened it mostly, Ground Pound only damages structures, secondary weapons buffed however]
 -Health decreased 50000 to 40000
@@ -267,6 +262,8 @@ Update: Major changes made hornets essentially double in strength for double the
 
 ~ARKYD (basic orbital radar)
 -Speed/break/accel 15 to 20
+-Decreased health 1000 to 800
+(Speed changes and general power requires a tone down in health)
 
 ~Artemis (advanced orbital railgun)
 -Speed 30 to 50 (brake/accel 10 to 20)
@@ -274,6 +271,10 @@ Update: Major changes made hornets essentially double in strength for double the
 
 ~SXX (orbital anti-ground laser)
 -Speed/break/accel 25 to 45
+
+~Advanced Radar Satellite
+-Increased health 5000 to 5600
+(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
 
 ~Omega (Advanced Orbital Battleship)
 [TLDR: Its laser guns can hit ground and general quality of life buffs]
