@@ -1,0 +1,140 @@
+FULL LEGION CHANGES
+
+Commander
+-Move Speed 6 to 8
+-Torpedo damage vs comms 50%
+-Uber cannon 72% against structures (25% against comms unchanged) 
+
+Support Commander (Praetorian)
+-Cost reduced 7000 to 6500
+-Build range increased 30 to 35
+-Turn in place set to true 
+-Turn speed 90 to 180 
+-(Health unchanged at 8000)
+(Interestingly Praetorian wasn't updated like the Colonel.  It also shoots twice as fast for half damage, and at 110 range compared to colonel's 100 range.  Added turn rate/break rate/turn in place for Quality of Life)
+
+T2 Legion Scout (Infiltrator)
+-Added Orbital system multi 15.0 
+-Added 50 vertical speed
+(Hemogenized with T2 fighters, I think these were overlooked stats and not reported)
+
+Rig
+-HP increased 3000 to 6000 
+-Metal Cost increased 3000 to 3750 [MLA 4000 to 3750]
+-Removed 3750 Energy Production
+-Added 10,000 metal storage
+-(Shares Jig explosion)
+
+Advanced Mass Extractor
+-HP 3000 to 5000 
+-Metal Production 18 to 17
+
+OmniSilo Storage
+-Energy Storage increased 75k to 200k
+
+Armor Fabricator
+-Speed increased 11 to 12 
+
+Fabrication Vessel
+-Move Speed Increased 9 to 11 
+-HP increased 180 to 360 
+(Dev Note: I will return to these numbers later and likely decrease health of Legion vessel)
+
+Advanced Fabrication Vessel
+-Added Water Hover (movespeed unchanged)
+-(ignored 50 build range, MLA's is 30 to 50)
+
+All Advanced Fabricators
+-All Advanced Fabricators can construct the Loki/Odin/Thor
+-Adv Walker 2000 to 1900
+-Adv Armor 2250 to 2100
+-Adv Flyer 2400 to 2250 
+-Adv Vessel 2700 to 2500  
+
+Advanced Factories
+-Cost reduced 4800 to 4400
+
+Adv Walker Factory
+-Metal Build Rate 50 to 60 
+-Energy Consumption 1650 to 1800 
+-33 energy per metal to 30 
+-Roll Off Time 3 to 5
+
+Adv Armor Factory
+-Metal Build Rate 50 to 60 
+-Energy 1650 to 1800 
+33 to 30 E/M
+-Roll off time 4 to 6.5
+
+Adv Flyer Factory
+-Metal Build Rate 50 to 60 
+-Energy 1650 to 1800
+-33 to 30 E/M
+-Roll off time 2 to 5
+
+Adv Ship Factory
+-Metal Build Rate 65 to 72 
+-Energy 1900 to 2015
+-29.2 to 28 E/M
+-Roll off time 6 to 9
+
+(I decided to hemogenize all factories to 60, instead of increase Legion's by a factor of 25% which would have brought it to 62.5)
+
+~Anti-nuke launcher
+-Decreased building cost from 15600 to 6000 
+-Increased anti-missile cost from 5000 to 9000
+-Increased Build rate from 60 to 92
+-Increased Energy Drain from 4000 to 6120
+
+~Nuke Launcher
+-Structure cost reduced 14400 to 9600
+-Missile cost increased 30000 to 34000
+-Metal Build Rate increased 90 to 120
+-Energy draw increased 6000 to 7500
+
+-(Changed Orbital movement/spread/arrival, see orbital notes for more details)
+
+Centurion (Orbital Defense)
+-Orbital range 150 to 200
+
+Chariot (transport)
+-System_Multi 10.0 to 16.75
+-Gravwell 5.0 to 7.0
+-Speed/brake/accel 25 to 50
+-Orbital arrival delay decreased 4.0 to 2.0 (base game 3.0 to 4.0)
+
+Spectre (Scout)
+-Speed/brake/accel 75 to 100
+-Orbital arrival delay decreased 4.0 to 2.0 (base game 3.0 to 4.0)
+-System Multi 15.0 to 22.0 
+-Gravwell_veloc 50.0 to 9.0
+
+Viper (fighter)
+-Speed/Accel Increased 65 to 90 (Break 20 to 25)
+-Projectile speed increased 300 to 400
+-Range increased 100+200 to 200+280 [Viper has 2 weapons of the same type, different range] 
+-Orbital arrival delay decreased 4.0 to 2.0 (base game 3.0 to 4.0)
+-gravwell 6.0 to 8.0
+-System_multi 15.0 to 19.0
+
+Sputnik (Orbital Radar)
+-Speed/break/accel 15 to 20
+
+Paladin (Advanced orbital railgun)
+-Speed 30 to 50 (brake/accel 10 to 20)
+-350 range to 450
+
+Black Knight (Orbital to ground laser)
+-Speed/break/accel 20 to 40 
+-(Interestingly, the black-knight has a dedicated cooldown time of 5.0 seconds above regular default 3.0.  My default is 4.0)
+
+Imperator (Orbital battleship)
+-Speed 20 to 30 (brake 80 to 120, acceleration 30 to 45)
+[MLA Speed 15 to 25, brake/accel same]
+-Metal Cost 14000 to 12500
+-Orbital Beam Weapons damage (3x) 65x1 damage to 45x1 
+-Orbital Beam Weapons Firerate decreased 1.0 to 0.75 
+-Orbital Beam Weapons can target ground targets (Will prioritise orbital first)
+-Orbital Beam Weapons pitch range increased 60 to 92.5
+-Main anti-ground beam-gun can now targets seafloor units.
+(May increase range of the large orbital gun and figure out what its purpose is)

@@ -121,7 +121,7 @@ Update:  Uses old numbers before april balance patch)
 ~Advanced Torpedo Launcher (T2)
 -metal cost reduced 1000 to 950
 -range increased 210 to 300
--Rate of fire decreased 2.5 to 2.0/s
+-Rate of fire decreased 2.0 to 1.5/s
 -torpedo lifetime increased 5 to 7
 -Vision radius increased from 210 to 260
 -Underwater vision radius increased 200 to 260

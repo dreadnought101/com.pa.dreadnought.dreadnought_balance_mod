@@ -1,0 +1,16 @@
+Odin 50k health (Changing) [45k] 
+Ares 40k health
+
+Ares DPS = 960 (1 shot every 3.33 seconds)
+Ares+guns DPS = 1160 (+200 damage every 1 second)
+Odin DPS = 1120 (1 shot every 5 seconds)
+[5600 damage to 4900 damage]  DPS = 980
+
+--
+Ares vs Odin TOK = 54 seconds [50]
+Ares+guns vs Odin TOK = 44 seconds [40]
+
+Odin vs Ares TOK = 40 seconds [45]
+--
+
+(Aim for Odin killing Ares in between Ares no extra guns and Ares with extra guns)

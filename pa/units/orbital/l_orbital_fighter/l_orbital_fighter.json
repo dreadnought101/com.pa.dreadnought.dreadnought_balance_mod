@@ -50,7 +50,7 @@
     ],
     "guard_layer": "WL_Orbital",
     "guard_radius": 60,
-    "max_health": 180,
+    "max_health": 80,
     "mesh_bounds": [
         12,
         11,
@@ -70,7 +70,7 @@
         "circle_max_time": 4,
         "circle_min_time": 2,
         "move_speed": 90,
-        "turn_speed": 200
+        "turn_speed": 100
     },
     "physics": {
         "radius": 5

@@ -3,7 +3,7 @@
     "unit_name": "Advanced Radar Satellite",
     "display_name": "!LOC:Advanced Radar Satellite",
     "description": "!LOC:Advanced Radar - Detects a vast area for enemy land, sea, and air units.",
-    "max_health": 5000,
+    "max_health": 5600,
     "build_metal_cost": 4800,
     "spawn_layers": "WL_Orbital",
 	"system_velocity_multiplier": 15.0,

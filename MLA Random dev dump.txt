@@ -1,8 +1,43 @@
 --Dev done
 
+Orbital Factory
+-Metal Buildrate increased 60 to 72
+-Energy demand increased 2000 to 2400
+-Factory cooldown increased 4 to 6
+(Dev Note: Reduce Boosting)
+
+ARKYD 
+-Decreased health 1000 to 800
+(Speed changes and general power requires a tone down)
+
+Advanced Radar Satellite
+-Increased health 5000 to 5600
+(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
+
+Atlas
+-Removed damage nerfs coupled with health buffs and return Atlas to its original state
+
+Basic Air Fabricator
+-Health increased 25 to 80
+(Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over)
+
+Basic Metal Extractor
+-Vision decreased 100 to 80
+(Helps with raiding/snipes and extractors covering too much area to sneak things in)
 
 --Todo
 
+Add Nuke Explode death Vision
+
+Mex Vision 100 to 80
+
+Air Fab 25 to 100 (watch custom tag)
+
+Single/double turret vision reductions? (Woud be interesting if double turret range was bigger than vision, and single turret had 130 vision) (or maybe not, shit idea)
+
+
+
+Add aim turrets to Drifter + Leveler and Sheller?
 
 Typhoon changes to torpedos
 
@@ -25,7 +60,7 @@ Increase Omega range? Has direct impact on ground however
 
 Perhaps Hemogenize Hermes/Avenger/Astraeus to 8.0 gravwell and 19.0 System Multi for simplicity, instead of the upscaling 7.0/8.0/9.0 and 16.75/18.75/22.0 which has compelling tactical dynamics, but may be superfluous to most except high levels for those in the know.
 
-Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
+Orbital Movement Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
 --
 
 KNOWN ISSUES

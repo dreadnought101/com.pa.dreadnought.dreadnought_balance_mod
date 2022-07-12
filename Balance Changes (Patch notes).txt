@@ -1,46 +1,144 @@
-Patch 1.51  Missile Patch
+Patch 1.53  More Legion Hemogenization and some MLA/Legion tuning, with better air fabs and lower mex vision range
 
-Jig 
--HP increased 3000 to 6000
--Cost decreased 4000 to 3750
-(Helps pad against orbital units, especially given their recent buffs where 25 avengers were able to kill a jig in 1 pass and also don't risk Jig explosion damage.  Will still cost slightly more than an advanced metal mex per production point at 125/m vs 106/m [and T1 still at the great 24/m])
+--MLA
 
-Solar Array 
--Energy Production 9000 to 11000
--health increased 6000 to 7000
-(Metal cost is 5000 in my version, so gives a 2.2 ratio of metal to energy production.  Advanced energy is 1.875, and Legion's is 2.4.  The slight health buff is in response to improved orbital mechanics)
+Orbital Factory
+-Metal Buildrate increased 60 to 72
+-Energy demand increased 2000 to 2400
+-Factory cooldown increased 4 to 6
+(Dev Note: Reduce Boosting)
 
-(Dev Note: I had been meaning to adjust these missiles for awhile, but the orbital speed buff has made it convenient.  The hornet, while not affecting orbital, has been too fast and will be reduced as well as my hornets being half cost/half fire-rate so overkill mechanics matter less.  Hemogenized missile stages to bluehawk stats as that does best in managing orbital dynamics fluidly)
+ARKYD 
+-Decreased health 1000 to 800
+(Speed changes and general power requires a tone down)
 
-Hornet
--Missile velocity increased 80 to 100 [Vanilla 160]
--Missile lifetimes reduced 15 to 8
+Advanced Radar Satellite
+-Increased health 5000 to 5600
+(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
 
-Bluehawk 
--Missile velocity increased 80 to 100
--Missile lifetime reduced 15 to 8
--Missile Cruise Height increased 20 to 65
-(Hopefully fixes a bug where bluehawk missiles would hover over a target, as well as allows pelicans to pick up units and dodge a missile immediately as it explodes beneath rather than circles below, allowing for specific counterplay with pickup/drops)
+Atlas
+-Removed damage nerfs coupled with health buffs and return Atlas to its original state
 
-Catapult 
--Metal 2000 to 1750
--Health 1500 to 1000
--Missile velocity increased 80 to 100
--Missile lifetime reduced 15 to 8
--Firerate 0.4 to 0.2857 (Fires once every 3.5 seconds instead of 2.5)
-(Helps discourage constant catapult spam, but also allows for more strategic positions to be built with a metal cost reduction, and perhaps a vehicle push counter strategy)
+Basic Air Fabricator
+-Health increased 25 to 80
+(Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over)
 
-Stingray
--Missile velocity increased 80 to 100
--Missile lifetime reduced 15 to 8
--Missile turn rate 0 to 45
--Missile damage increased 1000 to 1250
-(5 to 4 shot typhoon and 6 to 5 leviathan.  Does not change 4 shot omega nor 3 shot wyrm)
+Basic Metal Extractor
+-Vision decreased 100 to 80
+(Helps with raiding/snipes and extractors covering too much area to sneak things in)
 
-Umbrella 
--Bullet Velocity increased 1000 to 1250
--Lifetime 3 to 2.4
 
-Basic Vehicle Fab
--Speed increased 12 to 13
-(Dev Note: Gives vehicle 1st openers slightly better viability. Bot speed is still 16, and metal cost 150 vs 200 for distinct differences.  May increase energy drain or reduce health of vehicle fabs slightly.)
+--LEGION
+
+Thor (Walker Titan)
+-Thor health increased 60000 to 95000
+-Thor Movespeed increased 11 to 13
+-Cannon range reduced 400 to 270
+-Cannon damage reduced 2x600 to 2x200 (+splash)
+-Cannon firerate increased 3.03 to 2 seconds per shot
+-Cannon splash radius reduced 15 to 5
+-Laser range reduced 250 to 200
+-Laser damage reduced 175 to 100 (+splash 150 to 100)
+-Laser splash radius reduced 5 to 0.5
+-Laser spread fire set to true
+-Missile Range increased 170 to 180
+-Missile splash radius reduced 12 to 5
+-Missile damage increased 100x16 to 140x16 (+splash 100 to 140)
+-Missile Firerate increased from 11.11 to 8.0 seconds per shot
+-Crush damage (Stomp) reduced 500 to 400
+-Crush damage only damages buildings. 
+-Crush damage fire rate increased 0.76 to 0.5 (fires more often
+(Dev Note: I want to increase Thor's ability to survive and tank on the frontline as an assault bot, and in turn reduce its damage so a singular thor cant wipe out armies but allows supporting armies to do the damage for it)
+
+Odin (Armor Titan)
+-Health 50000 to 45000
+-Main gun damage decreased 5600 to 4900
+-Main gun AOE reduced 30 to 20 (partial damage 600, full damage radius reduced 10 to 5)
+-Odin stomp/crush now deals full structure to buildings, and aprox 0.1% or 2-3 damage to nearby units.
+-Increased crush fire-rate from 1 to 2 attacks a second [Same as Ares, and now matches its dps as well]
+(Note 1: I enjoy the crush mechanics of the Ares and Odin. I think it should do inconsequential damage to nearby units, but be significant against structures.  
+Note 2: I also decreased its health, but tweeked damage as compensation for Ares vs Odin matchups so that the Ares wins when using secondary guns but loses when it does not. Note 3: I decreased main damage radius and partial damage so that targetting high health targets matter more, but increased partial damage radius for now as compensation, however I may nerf it if the Odin performs too well against T2 compositions compared to Ares)
+
+
+Catfish
+-Changed from Deepwater to water-hover
+-Torpedo damage reduced 250 to 150
+(Allows Legion to function on maps with shallows, as well as handle stoke spam that plagues Legion v Legion games. Torpedo reduction is compensation)
+
+Akula
+-Firing arc increased 60 to 360
+-Torpedo turn rate reduced 120 to 75 (Lifetime 4.0)
+(This helps Akulas be utilized as the model is difficult to view at a glance where it is pointed and if its firing. The turn rate and lifetime makes it difficult to hit things from behind)
+
+Bowhead
+-Adjusted turret positions to face directly left/right
+-Adjusted yaw range from 120 to 135 [turrets can turn further]
+
+Add Lynx as an anti-air armor
+-Health 155
+-Metal Cost 170
+-Speed 13
+-Vision 100
+Lynx Weapon fires a salvo of 2 shots near instantly, then 1 shot every 0.5 seconds
+-25 damage (Splash radius 1.5)
+-Range 110
+-Velocity 200
+-Ammo capacity 1
+-Ammo drain per shot 0.5
+-Rate of fire 4.0 (fires 4 shots a second [however ammo recharge makes the Lynx fire twice a second after initial salvo])
+-Gave Lynx standard Air Targetting priorities (focuses transports, bombers, gunships first)
+
+Orbital Launcher
+-Metal cost increased 600 to 1000
+
+Orbital Factory
+-Metal cost reduced 6000 to 4000
+-Build rate increased 60 to 72
+-Energy demand increased 2000 to 2400
+-Factory cooldown increased 4 to 6
+
+Viper
+-Reduced health from 180 to 80 [Base 100 health]
+-Increase Main weapon Yaw-Range from 75 to 90 (180 degree firing arc) [base 280 range weapon]
+-Increase Secondary Weapon yaw_range from 75 to 360 [base 140 range weapon]
+-Decreased turn rate from 200 to 100
+(The 180 health was a pure hemogenization moment.  This is an actual balance change.  Gets 2 shot by avenger, 1 shot by omegas/imperators. More changes may come to make the matchup more dynamic, but for now this will be a simple reduction to get things in shape)
+
+Patriot (Walker AA)  
+-Metal cost 100 to 150
+-Health 100 to 120
+-Move speed 15 to 14
+-Vision Radius 100 to 90
+-Increased Model size by 50%
+-Damage 25 to 35
+-Bullet Lifetime 1.0 to 1.2
+-Added 1.5 splash radius
+-Rate of fire increased 4 to 5
+-Fires 3 shots a salvo.  Takes 3.6 seconds to recharge.  Does not recharge while firing
+-Range 100 to 190
+-DPS aprox 32
+
+Overseer (T2 Radar)
+-Added 100 radius jamming
+
+Scythe
+-Firing arc increased 89 to 105
+-Health increased 120 to 150 [MLA 120 to 150]
+-damage increased 29x2 to 32x2 
+(Helps maintain the 3 shot ratio of Scythe against Corsair and added slight QOL in arc radius with regular Legion arc overhaul)
+
+Firebird
+-Health decreased 240 to 225 [MLA 240 to 225]
+
+Corsair
+-Partial Splash radius reduced 10 to 5
+-Full Splash radius reduced 2 to 1
+
+Basic Air Fabricator
+-Health decreased 85 to 80
+-Speed increased 30 to 35 (+30 brake/accel to 35)
+(While I generally still want differences between Legion and MLA fabbers, the case of air fabs needs to be very narrow)
+
+Basic Metal Extractor
+-Vision decreased 100 to 80
+(Helps with raiding/snipes and extractors covering too much area to sneak things in)

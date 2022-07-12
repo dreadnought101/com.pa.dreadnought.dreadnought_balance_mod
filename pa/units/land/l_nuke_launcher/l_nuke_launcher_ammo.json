@@ -7,7 +7,7 @@
     "AT_Orbital": 0.33
   },
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
-  "build_metal_cost": 30000,
+  "build_metal_cost": 34000,
   "burn_damage": 200,
   "burn_radius": 137,
   "collision_check": "ground",
