@@ -1,37 +1,16 @@
 --Dev done
 
-Orbital Factory
--Metal Buildrate increased 60 to 72
--Energy demand increased 2000 to 2400
--Factory cooldown increased 4 to 6
-(Dev Note: Reduce Boosting)
-
-ARKYD 
--Decreased health 1000 to 800
-(Speed changes and general power requires a tone down)
-
-Advanced Radar Satellite
--Increased health 5000 to 5600
-(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
-
-Atlas
--Removed damage nerfs coupled with health buffs and return Atlas to its original state
-
-Basic Air Fabricator
--Health increased 25 to 80
-(Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over)
-
-Basic Metal Extractor
--Vision decreased 100 to 80
-(Helps with raiding/snipes and extractors covering too much area to sneak things in)
 
 --Todo
 
+-Lob as unit cannon
+-Nuke explosion leaves vision for 2 seconds, showcasing what it destroys
+-Spark projectile always explodes
+-Transport adjustments
+-Leveler+Drifter turret holds (sheller?)  Either idle aim delay or dummy weapon
+
 Add Nuke Explode death Vision
 
-Mex Vision 100 to 80
-
-Air Fab 25 to 100 (watch custom tag)
 
 Single/double turret vision reductions? (Woud be interesting if double turret range was bigger than vision, and single turret had 130 vision) (or maybe not, shit idea)
 

@@ -1,0 +1,9 @@
+{
+  "base_spec": "/pa/ammo/base_beam/base_beam.json",
+  "collision_check": "enemies",
+  "damage": 12,
+  "fx_beam_spec": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_beam.pfx",
+  "fx_collision_spec": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_beam_hit.pfx",
+  "splash_damage": 12,
+  "splash_radius": 15
+}

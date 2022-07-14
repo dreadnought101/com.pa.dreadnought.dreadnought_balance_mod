@@ -1,0 +1,31 @@
+{
+    "ammo_capacity": 2000,
+    "ammo_demand": 200,
+    "ammo_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_ammo.json",
+    "ammo_per_shot": 1000,
+    "ammo_source": "energy",
+    "auto_attack": true,
+    "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
+    "carpet_fire": false,
+    "carpet_wait_for_full_ammo": false,
+    "firing_arc_pitch": 20,
+    "firing_arc_yaw": 5,
+    "firing_standard_deviation": 20,
+    "max_firing_velocity": 80,
+    "max_range": 240,
+    "min_firing_velocity": 5,
+    "pitch_range": 89.9,
+    "pitch_rate": 50,
+    "rate_of_fire": 1.0,
+    "spread_fire": true,
+    "target_priorities": [
+        "Air & (Transport | Bomber | Gunship | Titan)",
+        "(Air | Orbital) & Mobile"
+    ],
+    "target_layers": [
+        "WL_Air",
+        "WL_Orbital"
+    ],
+    "yaw_range": 180,
+    "yaw_rate": 120
+}

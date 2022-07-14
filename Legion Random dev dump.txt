@@ -1,128 +1,78 @@
 --DONE
 
-Thor (Walker Titan)
--Thor health increased 60000 to 95000
--Thor Movespeed increased 11 to 13
--Cannon range reduced 400 to 270
--Cannon damage reduced 2x600 to 2x200 (+splash)
--Cannon firerate increased 3.03 to 2 seconds per shot
--Cannon splash radius reduced 15 to 5
--Laser range reduced 250 to 200
--Laser damage reduced 175 to 100 (+splash 150 to 100)
--Laser splash radius reduced 5 to 0.5
--Laser spread fire set to true
--Missile Range increased 170 to 180
--Missile splash radius reduced 12 to 5
--Missile damage increased 100x16 to 140x16 (+splash 100 to 140)
--Missile Firerate increased from 11.11 to 8.0 seconds per shot
--Crush damage (Stomp) reduced 500 to 400
--Crush damage only damages buildings. 
--Crush damage fire rate increased 0.76 to 0.5 (fires more often
-(Dev Note: I want to increase Thor's ability to survive and tank on the frontline as an assault bot, and in turn reduce its damage so a singular thor cant wipe out armies but allows supporting armies to do the damage for it)
+Legion Air Fab
+-Health 90 to 120
+-speed 35 to 32 (+accel/break)
+-Metal cost 225 to 245
+-Build rate 9 to 11
+-energy draw 800 to 975
 
-Odin (Armor Titan)
--Health 50000 to 45000
--Main gun damage decreased 5600 to 4900
--Main gun AOE reduced 30 to 20 (partial damage 600, full damage radius reduced 10 to 5)
--Odin stomp/crush now deals full structure to buildings, and aprox 0.1% or 2-3 damage to nearby units.
--Increased crush fire-rate from 1 to 2 attacks a second [Same as Ares, and now matches its dps as well]
-(Note 1: I enjoy the crush mechanics of the Ares and Odin. I think it should do inconsequential damage to nearby units, but be significant against structures.  
-Note 2: I also decreased its health, but tweeked damage as compensation for Ares vs Odin matchups so that the Ares wins when using secondary guns but loses when it does not. Note 3: I decreased main damage radius and partial damage so that targetting high health targets matter more, but increased partial damage radius for now as compensation, however I may nerf it if the Odin performs too well against T2 compositions compared to Ares)
+Purger (T1 Boombot)
+-HP 20 to 10
+-Speed 30 to 35
+-Metal 50 to 60
+-Vision 50 to 85 (+85 vision in ammo utility+death)
+-Death Jump range 40 to 30 (Utility jump untouched)
+(Legion having vision on units where the other factions dont? Lets go!)
 
+Peacekeeper (T1 Bot)
+-Movespeed 15 to 18
+-vision 105 to 100
+-damage 19.5 to 18
+-Projectile speed reduced 150 to 130 (Muzzle/Max Velocity)
+(Peacekeepers were balanced towards 18 speed dox originally, and now have to keep up with 20 speed dox, as well as whatever bugs is throwing around)
 
-Catfish
--Changed from Deepwater to water-hover
--Torpedo damage reduced 250 to 150
-(Allows Legion to function on maps with shallows, as well as handle stoke spam that plagues Legion v Legion games. Torpedo reduction is compensation)
+Lancer (T1 Bot)
+-Health reduced 120 to 90
+-vision 100 to 130
+-166 damage to 165   (???) 
+-Fire-rate 0.61 to 0.38 (Fires 1 every 2.63 secons - 105 dps to 63) 
+-range increased 70 to 75
+(100 dps on a 150 metal unit is insane.  Making it more burst orientated.  I want range higher than peacekeeper's 70 in order to maintain the combo identity and help lancers stay behind peacekeepers)
 
-Akula
--Firing arc increased 60 to 360
--Torpedo turn rate reduced 120 to 75 (Lifetime 4.0)
-(This helps Akulas be utilized as the model is difficult to view at a glance where it is pointed and if its firing. The turn rate and lifetime makes it difficult to hit things from behind)
+Orbweaver (T2 Bot AA)
+-HP 400 to 300
+-4x20 damage to 4x12 (20 to +12 splash)
+-AOE increased 10 to 15
 
-Bowhead
--Adjusted turret positions to face directly left/right
--Adjusted yaw range from 120 to 135 [turrets can turn further]
+Panzer (T2 Armor...something)
+-Move Speed 14 to 10
+-cost 1200 to 1900
+-Health 200 to 1300
+-Vision 100 to 200
+-Removed Weapon Ground/Sea. -Added AA.  
+-Removed 0.5 Orbital damage modifier
+-range 180 to 240
+-Projectile lifetime increased 5.5 to 7.5
+-damage 50x6 to 75x6
+-Changed Ammo type from time to energy (essentially added two 0s to capacity/demand/ammo_per_shot)
+-Reduced fire-rate from 1.5 to 1.0
+-Ammo_capacity 6 to 2000
+-Ammo_demand 1 to 200
+-Ammo_per_shot 2 to 1000
+-Switched Carpet modes off
+-Gave it air targetting priorities (it will target transports+bombers+gunships+titans, but will randomly choose between orbital and air afterwards)
+(Weapon works by firing 2 shots within 2 seconds, but then fires 1 shot every 5 seconds, can bank 2 shots)
+(I want to try a tanky single target T2 AA. I also think Armor has so many units that attack ground, and this just cluttered their roster. Its also at 1900 metal cost, much higher than any other T2 AA)
 
-Add Lynx as an anti-air armor
--Health 155
--Metal Cost 170
--Speed 13
--Vision 100
-Lynx Weapon fires a salvo of 2 shots near instantly, then 1 shot every 0.5 seconds
--25 damage (Splash radius 1.5)
--Range 110
--Velocity 200
--Ammo capacity 1
--Ammo drain per shot 0.5
--Rate of fire 4.0 (fires 4 shots a second [however ammo recharge makes the Lynx fire twice a second after initial salvo])
--Gave Lynx standard Air Targetting priorities (focuses transports, bombers, gunships first)
-
-Orbital Launcher
--Metal cost increased 600 to 1000
-
-Orbital Factory
--Metal cost reduced 6000 to 4000
--Build rate increased 60 to 72
--Energy demand increased 2000 to 2400
--Factory cooldown increased 4 to 6
-
-Viper
--Reduced health from 180 to 80 [Base 100 health]
--Increase Main weapon Yaw-Range from 75 to 90 (180 degree firing arc) [base 280 range weapon]
--Increase Secondary Weapon yaw_range from 75 to 360 [base 140 range weapon]
--Decreased turn rate from 200 to 100
-(The 180 health was a pure hemogenization moment.  This is an actual balance change.  Gets 2 shot by avenger, 1 shot by omegas/imperators. More changes may come to make the matchup more dynamic, but for now this will be a simple reduction to get things in shape)
-
-
-Patriot (Walker AA)  
--Metal cost 100 to 150
--Health 100 to 120
--Move speed 15 to 14
--Vision Radius 100 to 90
--Increased Model size by 50%
--Damage 25 to 35
--Bullet Lifetime 1.0 to 1.2
--Added 1.5 splash radius
--Rate of fire increased 4 to 5
--Fires 3 shots a salvo.  Takes 3.6 seconds to recharge.  Does not recharge while firing
--Range 100 to 190
--DPS aprox 32
-
-Overseer (T2 Radar)
--Added 100 radius jamming
-
-Scythe
--Firing arc increased 89 to 105
--Health increased 120 to 150 [MLA 120 to 150]
--damage increased 29x2 to 32x2 
-(Helps maintain the 3 shot ratio of Scythe against Corsair and added slight QOL in arc radius with regular Legion arc overhaul)
-
-Firebird
--Health decreased 240 to 225 [MLA 240 to 225]
-
-Corsair
--Partial Splash radius reduced 10 to 5
--Full Splash radius reduced 2 to 1
-
-Basic Air Fabricator
--Health decreased 85 to 80
--Speed increased 30 to 35 (+30 brake/accel to 35)
-(While I generally still want differences betwene Legion and MLA fabbers, the case of air fabs needs to be very narrow)
-
-Basic Metal Extractor
--Vision decreased 100 to 80
-(Helps with raiding/snipes and extractors covering too much area to sneak things in)
 
 --TODO
+
+
+
+
+
+
+
+
+
+Comet (Demi-Titan teleporter)
+-Metal cost 4000 to 1000
+-HP 1900 to 3800
 
 Increase air fab buildrate+cost+slight hp buff
 
 Nerf that marauder
-
-Peacekeeper/Lancer changes
-
-Purger air hit by AA?
 
 Reduce bomber speed, projectile? Also make it work in naval (orbital thing)
 
@@ -130,42 +80,32 @@ Transport reduction?
 
 Reduce T1 turret significantly perhaps in cost/damage
 
+Buff that locust spawn thingy speed
+
 Change T1 AA structure to not target icarus...add AOE?
 
 Catfish change laser guns to projectiles (perhaps more of an arc 
 
 Advanced Torp changes perhaps
 
-Nuke Silo (Supernova) (added in notes already?)
--Structure cost reduced 14400 to 9600
--Missile cost increased 30000 to 34000
--Metal Build Rate increased 90 to 120
--Energy draw increased 6000 to 7500
-
-Anti-nuke launcher (Iron Dome) (added in notes already?)
--Decreased building cost from 15600 to 6000
--Increased anti-missile cost from 5000 to 9000
--Increased Build rate from 60 to 92
--Increased Energy Drain from 4000 to 6120
 
 Odin has 20 splash radius (20 damage down from 40) of AA...wat
 
-AA Icarus Removals (So far) - Odin, Lynx, Patriot
+AA Icarus Removals (So far) - Odin, Lynx, Patriot, Orbweaver, Panzer
 
 (Interestingly Praetorian wasn't updated like the Colonel.  It also shoots twice as fast for half damage, and at 110 range compared to colonel's 100 range.  ALso has 90 turn rate to colonel's 180)
 
 
-Building/Base unit hemoginization with MLA
--T2 Extractor Y
--Factory+Adv costs Y
--Adv Factory  Y
--Adv fabricator cost reduction 10%  Y
--Remove energy/energy storage from rigs  Y
--AA priorities and AOE 0.75 to 1.5  N
--Add energy storage component to T2 power catalyst (No solar array equivelent for Legion) N (prob wont do)
+
 
 
 Nerf guardian health/build rate perhaps
+
+Nova
+-AOE mode health 500 to 550
+-AOE damage 6 damage to 8
+-Death explosion damage 35 to 10
+-Death explosioin radius 70 to 80
 
 Stoke
 (early raiding unit rework)
@@ -193,50 +133,7 @@ Shank
 -Firerate 0.9 to 0.6  
 -Projectile Velocity 150 to 140
 
-
-Peacekeeper
-(Faster)
--speed 15 to 18
--damage 19.5 to 18
--vision 105 to 100
--projectile speed 150 to 135
-
-Lancer
-(nerf but add some utility)
--firerate 1.64 seconds to 2.1 seconds
--vision 100 to 130
-
 Scythe
 -metal 240 to 235
 
-Nova
--AOE mode health 500 to 550
--AOE damage 6 damage to 8
--Death explosion damage 35 to 10
--Death explosioin radius 70 to 80
 
-Purger
--Health 40 to 10
--Death Jump range 40 to 30
--Speed 30 to 35
-
---IDEAS
-
-Building/Base unit hemoginization with MLA
--T2 Extractor
--Factory+Adv costs
--Adv Factory
--Adv fabricator cost reduction 10%
--Remove energy/energy storage from rigs
--AA priorities and AOE 0.75 to 1.5
--Add energy storage component to T2 power catalyst (No solar array equivelent for Legion)
-
-Armor
-Stoke to raiding unit
-Add armor AA heavy
-Shank to drifter status
-
-Walker
-Change patriot size/damage/output/cost
-Lancer changes
-Peacekeeper speed buff/projectile changes
