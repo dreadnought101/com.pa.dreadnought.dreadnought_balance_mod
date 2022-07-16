@@ -6,6 +6,7 @@ Legion Air Fab
 -Metal cost 225 to 245
 -Build rate 9 to 11
 -energy draw 800 to 975
+(Makes it more unique compared to MLA air fabs with the general concept of concept of costing more, building better.  However I think I'll be looking at speed across the board as that can massively impact a unit and pacing in the early stages)
 
 Purger (T1 Boombot)
 -HP 20 to 10
@@ -33,7 +34,9 @@ Lancer (T1 Bot)
 Orbweaver (T2 Bot AA)
 -HP 400 to 300
 -4x20 damage to 4x12 (20 to +12 splash)
+-range 140 to 110
 -AOE increased 10 to 15
+(These seem like giga-nerfs until you realize this unit costs 750 and is hitscan AOE.  I would like to increase its AOE, but sacrifice raw punching damage)
 
 Panzer (T2 Armor...something)
 -Move Speed 14 to 10

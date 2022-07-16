@@ -9,10 +9,9 @@
     "target_priorities": [
         "Orbital", "Air & Land & Naval & Structure"
     ],
-    "auto_attack": true,
     "target_layers": [
         "WL_Orbital", "WL_Air", "WL_LandHorizontal", "WL_WaterSurface"
-    ]
+    ],
     "yaw_range": 120,
     "yaw_rate": 45
 }

@@ -5,7 +5,7 @@
     "description": "Makes various balance changes to units for testing and theory crafting, specific details on forums or in notepad info",
     "author": "Dreadnought",
     "version": "1.54",
-    "date": "2022-07-12",
+    "date": "2022-07-16",
     "build": "115853",
     "signature": " meh ",
     "priority": 92,
@@ -25,9 +25,16 @@
     "authors": [
 		"Dreadnought"
     ],
+	"scenes": {
+		"shared_build": [
+			"coui://ui/mods/mla.unit.addon/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
+		]
+	},
     "dependencies": [],
     "companions": [],
-    "scenes": {},
     "framework": false,
     "available": true,
     "titansOnly": true,
