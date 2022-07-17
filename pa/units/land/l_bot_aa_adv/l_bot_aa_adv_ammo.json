@@ -5,5 +5,5 @@
   "fx_beam_spec": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_beam.pfx",
   "fx_collision_spec": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_beam_hit.pfx",
   "splash_damage": 12,
-  "splash_radius": 15
+  "splash_radius": 20
 }

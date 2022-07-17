@@ -35,7 +35,7 @@ Orbweaver (T2 Bot AA)
 -HP 400 to 300
 -4x20 damage to 4x12 (20 to +12 splash)
 -range 140 to 110
--AOE increased 10 to 15
+-AOE increased 10 to 20
 (These seem like giga-nerfs until you realize this unit costs 750 and is hitscan AOE.  I would like to increase its AOE, but sacrifice raw punching damage)
 
 Panzer (T2 Armor...something)
@@ -58,6 +58,12 @@ Panzer (T2 Armor...something)
 (Weapon works by firing 2 shots within 2 seconds, but then fires 1 shot every 5 seconds, can bank 2 shots)
 (I want to try a tanky single target T2 AA. I also think Armor has so many units that attack ground, and this just cluttered their roster. Its also at 1900 metal cost, much higher than any other T2 AA)
 
+Marauder 
+-Health 50 to 20
+-Vision 250 to 200
+-Range 60 to 50
+(The fact this gunship has 100 speed with huge vision allows it to operate independently is crazy, however its 240 cost [compared to Icarus 125] is significant but this will still allow fast and attentative Legion players to pick off undefended fabs/raiding forces and hopefully not nerf it too much but keep it balanced)
+
 
 --TODO
 
@@ -68,12 +74,10 @@ Panzer (T2 Armor...something)
 
 
 
-
 Comet (Demi-Titan teleporter)
--Metal cost 4000 to 1000
--HP 1900 to 3800
-
-Increase air fab buildrate+cost+slight hp buff
+-Metal cost 4000 to 8000
+-HP 1900 to 4000
+(Delays the timing of Comets but makes them last longer when they arive to a planet)
 
 Nerf that marauder
 
