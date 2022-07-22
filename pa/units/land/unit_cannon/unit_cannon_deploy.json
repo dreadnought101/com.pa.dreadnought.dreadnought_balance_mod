@@ -61,6 +61,7 @@
     "stages": [{
             "ignores_gravity": true,
             "ignores_LOS": true,
+			"release_payload_on_impact": true,
             "stage_duration": 0,
             "stage_turn_rate": 0,
             "stage_change_height": 300,
@@ -76,7 +77,6 @@
             "ignores_gravity": false,
             "ignores_LOS": false,
             "stage_turn_rate": 90,
-            "release_payload_on_impact": true,
             "rotates_to_velocity": true
         }
     ],

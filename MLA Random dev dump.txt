@@ -1,9 +1,37 @@
 --Dev done
 
+Commander
+-Increase Commander AA AOE from 0.75 to 1.5
+-No longer auto targets icarus
+-[Added general PEWPEWPEW effects]
+
+Lob (Transformed into a Unit Cannon)
+-Range 240 to 480 (no orbital.  Will likely be 360 after buffed testing)
+-Metal Cost 1200 to 900 (Will likely be 1200 after buffed testing)
+-Vision 100 
+-Health 1000 
+-Metal Draw 13 to 20 (Will likely be 18 after buffed testing)
+-Energy Draw 0 to 900 
+-Unit Capacity 13 to 20 
+-2.0 Factory roll off timer added
+-Buildable Units > Skitter, Stryker, Dox, Boombot, vehicle fab, bot fab, grenadier, spinner, stinger, stitch (No Spark, Ant, Drifters, Infernos)
+(I want an OP state to see what makes players hurt, and tone back to given numbers above afterwards. In terms of Unit Capacity, I will likely be buffing Starcannon and maybe the Unit Cannon to similar Lob numbers)
+
+Drifter
+-Increased idle aim delay from 3 to 5
+
+Leveler
+-Increased idle aim delay from 3 to 5
+
+Orca
+-Increases turn_accel from 15 to 60
+(Some tests to improve Naval navigation)
 
 --Todo
 
--Lob as unit cannon
+
+
+
 -Nuke explosion leaves vision for 2 seconds, showcasing what it destroys
 -Spark projectile always explodes
 -Transport adjustments
@@ -45,6 +73,7 @@ Orbital Movement Perhaps tone down Nuke speed, perhaps keep unit cannon high spe
 KNOWN ISSUES
 
 Grenadier torpedos sometimes firing in a random direction when coming in range of a naval unit.
+Lob projectiles can go all over the place when fired at close range
 
 CONSIDERING (some ideas that may or not be implemented)
 

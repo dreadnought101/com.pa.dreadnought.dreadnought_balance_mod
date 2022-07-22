@@ -18,12 +18,20 @@
     "max_velocity": 75.0,
     "turn_rate": 120,
     "cruise_height": 2,
-	"armor_damage_map": {
-        "AT_Commander": 0.50
-    },
     "events": {
         "spawned": {
             "audio_cue": "/SE/Weapons/commander/Commander_gun_fire_torpedo"
         }
+    },
+    "armor_damage_map": {
+        "AT_Commander": 0.50
+    },
+    "fx_trail": {
+        "filename": "/pa/units/commanders/base_commander/base_commander_torpedo_ammo_trail.pfx",
+        "offset": [
+            0.0,
+            0.8,
+            0.0
+        ]
     }
 }

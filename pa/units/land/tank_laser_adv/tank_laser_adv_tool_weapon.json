@@ -2,7 +2,7 @@
     "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
     "ammo_id": "/pa/units/land/tank_laser_adv/tank_laser_adv_ammo.json",
     "rate_of_fire": 1,
-    "idle_aim_delay": 3,
+    "idle_aim_delay": 5,
     "max_range": 135,
     "yaw_rate": 30,
     "pitch_rate": 360,

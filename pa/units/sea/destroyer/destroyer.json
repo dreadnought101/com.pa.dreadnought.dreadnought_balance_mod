@@ -14,7 +14,7 @@
         "brake": 90,
         "move_speed": 12,
         "turn_speed": 45,
-        "turn_accel": 15,
+        "turn_accel": 69,
         "park_stamp_type": "box",
         "park_stamp_cost": 20
     },
