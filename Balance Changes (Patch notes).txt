@@ -45,8 +45,8 @@ Orbital Fab
 (Helps Legion get into Starcannon tech. Build rate reduced below 38 equivelent number as compensation)
 
 Starcannon 
--Remove all T2 units (Fabs+Scorpion+Orbweaver)
--Remove Some T1 units (Shank, Maul)
+-Removed all T2 units (Fabs+Scorpion+Orbweaver)
+-Removed Some T1 units (Shank, Maul)
 -14 Capacity to 20
 -Metal Cost reduced 2400 to 650
 -Health reduced 3000 to 600

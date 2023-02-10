@@ -1,29 +1,6 @@
 --DONE
 
-OmniSilo
--Energy storage increased 200,000 to 225,000
-(Matches recent Legion patch)
 
-T2 Air Stealth Scout
--Removed my own changes to update with Legion's recent base changes
-
-Orbital Fab
--Metal Cost 1300 to 1100
--Metal build rate reduced 45 to 37
--Energy draw reduced 1500 to 1250
-(Helps Legion get into Starcannon tech. Build rate reduced below 38 equivelent number as compensation)
-
-Starcannon 
--Remove all T2 units (Fabs+Scorpion+Orbweaver)
--Remove Some T1 units (Shank, Maul)
--14 Capacity to 20
--Metal Cost reduced 2400 to 650
--Health reduced 3000 to 600
--Roll-off delay reduced 4.0 to 2.0
--Ground Vision reduced 150 to 100
--Metal Build rate 45 to 18
--Energy Draw 2250 to 700
-(The cheaper cost compared to the Lob's 1200 is due to orbital launchers costing 1000, and orb fabbers at 1300.  I also feel starcannon power will be reduced over time so late game spamming isn't as big an issue)
 
 
 
@@ -65,7 +42,7 @@ Nerf guardian health/build rate perhaps
 Nova
 -AOE mode health 500 to 550
 -AOE damage 6 damage to 8
--Death explosion damage 35 to 10
+-Death explosion damage 35 to 20
 -Death explosioin radius 70 to 80
 
 Stoke

@@ -1,6 +1,6 @@
 {
     "TEMP_texelinfo": 12.901,
-    "display_name": "Lob Cannon",
+    "display_name": "Lob",
     "description": "!LOC:Small Unit Cannon.  Builds basic units and fires them at a location. Does not fire to other planets",
     "alt_area_build_pattern": [
         [
