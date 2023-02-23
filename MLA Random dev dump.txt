@@ -7,6 +7,8 @@
 
 
 
+--LONG TERM Todo
+
 -Nuke explosion leaves vision for 2 seconds, showcasing what it destroys
 -Spark projectile always explodes
 -Transport adjustments

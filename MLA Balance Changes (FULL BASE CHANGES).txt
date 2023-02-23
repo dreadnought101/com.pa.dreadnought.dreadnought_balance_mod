@@ -1,8 +1,10 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.53]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.55]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
 -Increased move speed from 6 to 8
+-Increase Commander AA AOE from 0.75 to 1.5
+-No longer auto targets icarus
 -increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot. Commander vs commander 0.25 is unchanged)
 -decreased commander Torpedo weapon vs commanders from 100% to 50%
   (Note: Allows commander walking to be more common and push out on the map. I also want to put wall damage to 150% but WIP.) 
@@ -42,6 +44,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.53]
 -HP reduced 250 to 225
 -Damage increased 120 to 160
 -Range increased 110 to 115
+-Increased idle aim delay from 3 to 5
 -Decreased firerate from 2.5 to 3.2 (Fires once every 3.2 seconds)
 -Bullet velocity decreased 150 to 140
 -Vision range reduced 100 to 90
@@ -67,6 +70,7 @@ Dev Update 2: Muzzle velocity to match strykers)
 ~Main Weapon
 - -Firerate decreased 2.00 to 4.20 seconds
 - -dps increased from roughly 40 to 57
+- -Firing Deviation 0 to 1.5
 - -Fires 4 shots instead of 2 a volley
 - -Damage increased 40x2 to 60x4
 - -Splash damage increased 30x2 to 24x4
@@ -111,7 +115,9 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 [Split Laser beam into two separate weapons, removed targetting from AA sources such as spinners and galata]
 -Metal Cost increased 125 to 130
 -Movement Speed Decreased 50 to 45
+-Break 30 to 20
 -Ground Damage decreased from 25 to 20
+-Aggressive range 60 to 70
 -Air Damage unchanged [25]
 -Air gun range increased 70 to 150
 -Air gun fires 1 every 3 seconds
@@ -119,10 +125,6 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 -Added Guardlayer + All to improve Icarus performance
 -Removed Icarus from AA targetting
 (Dev Note: Gives MLA a new option with Air to Air engagements, especially against Legion.  Allows Icarus skill play to work around enemey AA, and vice-versa)
-
-~Pelican (T1 Air Transport)
--Decreased metal cost from 160 to 140
-  (Dev Idea: Transports are a utility based unit, and are difficult to use and mass up in most parts of the game. I am concerned with their early game potential in rushing, so I am starting with a smaller tweak first)
 
 ~Piranha (T1 Naval)
 -range increased 105 to 110
@@ -142,6 +144,8 @@ Update: Patch decreased )
   (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
 
 ~Orca (T1 Naval)
+-Increases turn_accel from 15 to 60
+(Some tests to improve Naval navigation)
 -Added torpedo component
   -100 damage
   -AOE radius 25
@@ -153,8 +157,15 @@ Update: Patch decreased )
 -Deleted from the game
 ...kidding.
 -build cost increased 260 metal to 250
--health increased 60 to 80
   (Dev Note: Adjusted for factory changes weakening the unit incidentally)
+
+~Gille (T2 Bot)
+-Range increased 180 to 200
+(Range was reduced in a recent patch, but makes it more difficult to utilize fragile, ranged units in most skill brackets)
+
+~Bluehawk (T2 Bot)
+-Missile Velocity 80 to 100
+-Range increased 200 to 220
 
 ~Colonel (T2 Bot)
 -Metal cost increased 6000 to 6500
@@ -163,8 +174,10 @@ Update: Patch decreased )
   (Dev Note: Older vanilla stats but combined with a build arm range buff)
 
 ~Leveler (T2 Vehicle)
+-Increased idle aim delay from 3 to 5
 -Decreased damaged from 300x2 to 225x2
 -Decreased partial AOE radius from 3 to 2 (full damage AOE 1 radius unchanged)
+-Increased Range from 120 to 130
 (Dev Comment: I may prefer 250x2 so that ants+drifters will still get 1 shot even if partially hit, but I want to see a lowering of leveler damage overall as their dps is insane against high health targets, but still maintain that they can 1 shot many T1s, and easily kill slammers and other soft T2. I don't like that their AOE makes them good at handling groups as well and want to reduce it slightly)
 
 ~Storm (T2 Vehicle)
@@ -202,10 +215,10 @@ Update: Patch decreased )
    (Dev Note: This is an older version from before a patch in the base game.  I prefer this over the new one as the range makes kestrals feel better, as well as prefer more consistency instead of snowballing)
 
 ~Hornet (T2 Air bomber)
--health reduced 600 to 250
+-health reduced 500 to 250
 -move speed increased 30 to 40
 -metal cost 3200 to 1500
--fire rate reduced in half from 0.5 to 0.25
+-fire rate reduced in half from 0.4 to 0.25
 -range increase 190 to 200
 -Missile velocity decreased 160 to 100
 -Missile lifetimes reduced 15 to 8

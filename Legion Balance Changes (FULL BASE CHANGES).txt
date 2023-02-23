@@ -27,6 +27,36 @@ Patriot (T1 Bot AA)
 -Range 100 to 190
 -DPS aprox 32
 
+Purger (T1 Boombot)
+-HP 20 to 10
+-Speed 30 to 35
+-Metal 50 to 60
+-Vision 50 to 85 (+85 vision in ammo utility+death)
+-Death Jump range 40 to 30 (Utility jump untouched)
+(Legion having vision on units where the other factions dont? Lets go!)
+
+Peacekeeper (T1 Bot)
+-Movespeed 15 to 18
+-vision 105 to 100
+-damage 19.5 to 18
+-Projectile speed reduced 150 to 130 (Muzzle/Max Velocity)
+(Peacekeepers were balanced towards 18 speed dox originally, and now have to keep up with 20 speed dox, as well as whatever bugs is throwing around)
+
+Lancer (T1 Bot)
+-Health reduced 120 to 90
+-vision 100 to 130
+-166 damage to 165 (???)
+-Fire-rate 0.61 to 0.38 (Fires 1 every 2.63 secons - 105 dps to 63)
+-range increased 70 to 75
+(100 dps on a 150 metal unit is insane. Making it more burst orientated. I want range higher than peacekeeper's 70 in order to maintain the combo identity and help lancers stay behind peacekeepers)
+
+Orbweaver (T2 Bot AA)
+-HP 400 to 300
+-4x20 damage to 4x12 (20 to +12 splash)
+-range 140 to 110
+-AOE increased 10 to 20
+(These seem like giga-nerfs until you realize this unit costs 750 and is hitscan AOE. I would like to increase its AOE, but sacrifice raw punching damage)
+
 Corsair (T1 Vehicle Artillery)
 -Partial Splash radius reduced 10 to 5
 -Full Splash radius reduced 2 to 1
@@ -51,6 +81,12 @@ Scythe (T1 Air Fighter)
 -damage increased 29x2 to 32x2 
 (Helps maintain the 3 shot ratio of Scythe against Corsair and added slight QOL in arc radius with regular Legion arc overhaul)
 
+Marauder (T1 Gunship)
+-Health 50 to 20
+-Vision 250 to 200
+-Range 60 to 50
+(The fact this gunship has 100 speed with huge vision allows it to operate independently is crazy, however its 240 cost [compared to Icarus 125] is significant but this will still allow fast and attentative Legion players to pick off undefended fabs/raiding forces and hopefully not nerf it too much but keep it balanced)
+
 Bowhead (T1 Naval Battleship)
 -Adjusted turret positions to face directly left/right
 -Adjusted yaw range from 120 to 135 [turrets can turn further]
@@ -65,13 +101,33 @@ Catfish (T1 Naval Raider)
 -Torpedo damage reduced 250 to 150
 (Allows Legion to function on maps with shallows, as well as handle stoke spam that plagues Legion v Legion games. Torpedo reduction is compensation)
 
+Panzer (T2 Armor...something)
+-Move Speed 14 to 10
+-cost 1200 to 1900
+-Health 200 to 1300
+-Vision 100 to 200
+-Removed Weapon Ground/Sea. -Added AA.
+-Removed 0.5 Orbital damage modifier
+-range 180 to 240
+-Projectile lifetime increased 5.5 to 7.5
+-damage 50x6 to 75x6
+-Changed Ammo type from time to energy (essentially added two 0s to capacity/demand/ammo_per_shot)
+-Reduced fire-rate from 1.5 to 1.0
+-Ammo_capacity 6 to 2000
+-Ammo_demand 1 to 200
+-Ammo_per_shot 2 to 1000
+-Switched Carpet modes off
+-Gave it air targetting priorities (it will target transports+bombers+gunships+titans, but will randomly choose between orbital and air afterwards)
+(Weapon works by firing 2 shots within 2 seconds, but then fires 1 shot every 5 seconds, can bank 2 shots)
+(I want to try a tanky single target T2 AA. I also think Armor has so many units that attack ground, and this just cluttered their roster. Its also at 1900 metal cost, much higher than any other T2 AA)
+
 Firebird (T2 Air Fighter) 
 -Health decreased 240 to 225 [MLA 240 to 225]
 
-Infiltrator (T2 Air Scout)
--Added Orbital system multi 15.0 
--Added 50 vertical speed
-(Hemogenized with T2 fighters, I think these were overlooked stats and not reported)
+Comet (Demi-Titan teleporter)
+-Metal cost 4000 to 8000
+-HP 1900 to 4000
+(Delays the timing of Comets for invasions but makes them last longer when they actually arive to a planet. Interestingly, their planetary arrival cooldown is 8.0 seconds, far above the 3/4 seconds of everything else)
 
 Thor (Walker Titan)
 -Thor health increased 60000 to 95000
@@ -156,6 +212,20 @@ Imperator (Orbital battleship)
 
 --Structures and Fabricators
 
+Legion Air Fab
+-Health 90 to 120
+-speed 35 to 32 (+accel/break)
+-Metal cost 225 to 245
+-Build rate 9 to 11
+-energy draw 800 to 975
+(Makes it more unique compared to MLA air fabs with the general concept of concept of costing more, building better. However I think I'll be looking at speed across the board as that can massively impact a unit and pacing in the early stages)
+
+Orbital Fab
+-Metal Cost 1300 to 1100
+-Metal build rate reduced 45 to 37
+-Energy draw reduced 1500 to 1250
+(Helps Legion get into Starcannon tech. Build rate reduced below 38 equivelent number as compensation)
+
 Orbital Launcher
 -Metal cost increased 600 to 1000
 
@@ -164,6 +234,18 @@ Orbital Factory
 -Build rate increased 60 to 72
 -Energy demand increased 2000 to 2400
 -Factory cooldown increased 4 to 6
+
+Starcannon
+-Remove all T2 units (Fabs+Scorpion+Orbweaver)
+-Remove Some T1 units (Shank, Maul)
+-14 Capacity to 20
+-Metal Cost reduced 2400 to 650
+-Health reduced 3000 to 600
+-Roll-off delay reduced 4.0 to 2.0
+-Ground Vision reduced 150 to 100
+-Metal Build rate 45 to 18
+-Energy Draw 2250 to 700
+(The cheaper cost compared to the Lob's 1200 is due to orbital launchers costing 1000, and orb fabbers at 1300. I also feel starcannon power will be reduced over time so late game spamming isn't as big an issue)
 
 Rig
 -HP increased 3000 to 6000 
@@ -181,7 +263,7 @@ Advanced Mass Extractor
 -Metal Production 18 to 17
 
 OmniSilo Storage
--Energy Storage increased 75k to 200k
+-Energy Storage increased 75k to 225k
 
 Armor Fabricator (T1 Vehicle Fab)
 -Speed increased 11 to 12 

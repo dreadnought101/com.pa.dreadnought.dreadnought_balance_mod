@@ -73,7 +73,7 @@
     ],
     "useable": {
         "type": "transport",
-        "range": 10
+        "range": 20
     },
     "transporter": {
         "capacity": 1,
@@ -84,7 +84,7 @@
     "navigation": {
         "type": "orbital",
         "acceleration": 50,
-        "brake": 50,
+        "brake": 30,
         "move_speed": 50,
         "turn_speed": 360,
         "hover_time": -1.0,

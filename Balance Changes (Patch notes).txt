@@ -1,57 +1,93 @@
-Patch 1.55  Updating Lob/Starcannon + adjusting a little to the Legion changes.  Some tests on Orca+Bowhead to see if I can improve naval navigation, especially Legion.
+Maintenence 1.55 UPDATE Patch on Live 
 
 --MLA
 
-Commander
--Increase Commander AA AOE from 0.75 to 1.5
--No longer auto targets icarus
--[Added general PEWPEWPEW effects]
+Angel
+  - anti_entity_targets updated to include Narwhal AA (pa/units/sea/frigate/frigate_ammo_aa.json)
+  - anti_entity_targets updated to include Stingray AA (pa/units/sea/missile_ship/missile_ship_aa_ammo.json)
+Hornet
+  - max_health reduced from 600 to 500
+  - rate_of_fire reduced from 0.5 to 0.4
+Icarus
+  - aggressive_distance reduced from 70 to 60
+  - brake increased from 20 to 30
+Pelican
+  - build_metal_cost reduced from 160 to 140
+  - brake increased from 20 to 60
+Phoenix
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10 
+Land
 
-Lob (Transformed into a Unit Cannon)
--Range 240 to 480 (no orbital.  Will likely be 360 after buffed testing)
--Metal Cost 1200 to 900 (Will likely be 1200 after buffed testing)
--Vision 100 
--Health 1000 
--Metal Draw 13 to 20 (Will likely be 18 after buffed testing)
--Energy Draw 0 to 900 
--Unit Capacity 13 to 20 
--2.0 Factory roll off timer added
--Buildable Units > Skitter, Stryker, Dox, Boombot, vehicle fab, bot fab, grenadier, spinner, stinger, stitch (No Spark, Ant, Drifters, Infernos)
-(I want an OP state to see what makes players hurt, and tone back to given numbers above afterwards. In terms of Unit Capacity, I will likely be buffing Starcannon and maybe the Unit Cannon to similar Lob numbers)
-
-Drifter
--Increased idle aim delay from 3 to 5
-
+Advanced Laser Tower
+  - max_range reduced from 130 to 120
+  - rate_of_fire reduced from 5 to 3 shots/sec
+  - damage increased from 150 to 250
+Advanced Metal Extractor
+  - observer items radius reduced from 100 to 75 for surface_and_air
+  - observer items radius reduced from 100 to 75 for underwater
+Bluehawk
+  - max_range reduced from 220 to 200
+Colonel
+  - max_health increased from 6000 to 8000
+  - target_priorities updated to:
+    - Mobile - Air
+    - Air & ( EnergyProduction | Transport | Bomber | Gunship | Titan )
+    - Structure - Wall
+    - Mobile & Air
+    - Wall
+Gil-E
+  - max_range reduced from 200 to 180
+  - target_priorities updated to:
+    - Air & (Tactical | Heavy | MissileDefense)
+    - Mobile - Air
+    - Structure - Wall
+    - Mobile & Air
+    - Wall
+Grenadier
+  - firing_standard_deviation reduced from 1.5 to 0
 Leveler
--Increased idle aim delay from 3 to 5
+  - max_range reduced from 130 to 120
+Locust
+  - max_health increased from 60 to 80
+Metal Extractor
+  - observer items radius reduced from 100 to 75 for surface_and_air
+  - observer items radius reduced from 100 to 75 for underwater
+Nuclear Missile Launcher
+  - system_velocity_multiplier increased from 20 to 30
+Unit Cannon
+  - system_velocity_multiplier increased from 20 to 30 
+Naval
 
-Orca
--Increases turn_accel from 15 to 60
-(Some tests to improve Naval navigation)
+Stingray
+  - target_priorities for the tactical missile updated to include the Angel (MissileDefense) as a top priority
+  - Added UNITTYPE_AirDefense to unit_types 
+Orbital
 
---Legion
-
-OmniSilo
--Energy storage increased 200,000 to 225,000
-(Matches recent Legion patch)
-
-T2 Air Stealth Scout
--Removed my own changes to update with Legion's recent base changes
-
-Orbital Fab
--Metal Cost 1300 to 1100
--Metal build rate reduced 45 to 37
--Energy draw reduced 1500 to 1250
-(Helps Legion get into Starcannon tech. Build rate reduced below 38 equivelent number as compensation)
-
-Starcannon 
--Removed all T2 units (Fabs+Scorpion+Orbweaver)
--Removed Some T1 units (Shank, Maul)
--14 Capacity to 20
--Metal Cost reduced 2400 to 650
--Health reduced 3000 to 600
--Roll-off delay reduced 4.0 to 2.0
--Ground Vision reduced 150 to 100
--Metal Build rate 45 to 18
--Energy Draw 2250 to 700
-(The cheaper cost compared to the Lob's 1200 is due to orbital launchers costing 1000, and orb fabbers at 1300.  I also feel starcannon power will be reduced over time so late game spamming isn't as big an issue)
+Advanced Radar Satellite
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10
+ARKYD
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10
+Artemis
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10
+Astraeus
+  - useable range increased from 10 to 20
+  - move_speed increased from 25 to 50
+  - brake increased from 25 to 30
+Avenger
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10
+Helios
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10
+Hermes
+  - system_velocity_multiplier increased from 22 to 30
+  - gravwell_velocity_multiplier increased from 9 to 10
+Orbital Factory
+  - build_metal_cost reduced from 6000 to 4200
+SXX-1304 Laser Platform
+  - system_velocity_multiplier increased from 15 to 30
+  - gravwell_velocity_multiplier increased from 6 to 10 

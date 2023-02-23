@@ -13,5 +13,5 @@
     "spread_fire": true,
     "auto_attack": true,
     "target_layers": ["WL_LandHorizontal", "WL_WaterSurface", "Orbital", "WL_Air"],
-    "target_priorities": ["Air & (Tactical | Heavy)", "Mobile - Air", "Structure - Wall", "Mobile & Air", "Wall"]
+    "target_priorities": ["Air & (Tactical | Heavy | MissileDefense)", "Mobile - Air", "Structure - Wall", "Mobile & Air", "Wall"]
 }

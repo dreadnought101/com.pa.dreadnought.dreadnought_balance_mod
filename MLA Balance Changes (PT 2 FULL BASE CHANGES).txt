@@ -69,13 +69,14 @@ Basic Air Fabricator
   (Dev Idea: Decrease cost so its easier to build earlier on)
 
 ~Basic Metal Extractor
--Vision decreased 100 to 80
-(Helps with raiding/snipes and extractors covering too much area to sneak things in)
+-Vision decreased 75 to 80
+(Vision used to be 100 in base game, and I just haven't bothered to change it to the new 75 variant.  I do think 80 is actually the sweet spot)
 
 Advanced Metal Extractor (T2 Economy)
 -Health increased 3000 to 5000
 -Metal production decreased 18 to 17
-  (Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment
+-Vision decreased 100 to 80
+  (Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment)
 
 ~Galata (T1 AA structure)
 -Increased AA Splash Radius from 0.75 to 1.5
