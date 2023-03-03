@@ -168,10 +168,8 @@ Update: Patch decreased )
 -Range increased 200 to 220
 
 ~Colonel (T2 Bot)
--Metal cost increased 6000 to 6500
--Health increased 6000 to 8000
 -build arm range 30->35
-  (Dev Note: Older vanilla stats but combined with a build arm range buff)
+-Changed armor type of AT_Commander to Bot
 
 ~Leveler (T2 Vehicle)
 -Increased idle aim delay from 3 to 5
@@ -271,7 +269,7 @@ Update: Major changes made hornets essentially double in strength for double the
 (gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
 
 ~Hermes (Orbital Probe)
--Speed/brake/accel 75 to 100
+-Speed 75 to 100 (brake/accel 75 to 100)
 
 ~ARKYD (basic orbital radar)
 -Speed/break/accel 15 to 20
@@ -283,7 +281,7 @@ Update: Major changes made hornets essentially double in strength for double the
 -350 range to 450
 
 ~SXX (orbital anti-ground laser)
--Speed/break/accel 25 to 45
+-Speed 25 to 45 (break/accel 25 to 45)
 
 ~Advanced Radar Satellite
 -Increased health 5000 to 5600
@@ -299,5 +297,5 @@ Update: Major changes made hornets essentially double in strength for double the
 -Decreased Laser Turret Pitch Range from 120 to 92.5
 -Omega will now prioritize other orbital units first.
 -Laser Firerate decreased 2.0 to 1.5 (fires 1.5 times a second)
--Main anti-ground beam-gun can now targets seafloor units.
+-Main anti-ground beam-gun can now target seafloor units.
 (Dev Idea: Reduces cost slightly due to increased orbital factory cost. Adds quality of life changes)
