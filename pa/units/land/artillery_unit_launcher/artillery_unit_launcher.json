@@ -16,7 +16,7 @@
         }
     },
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "build_metal_cost": 900,
+    "build_metal_cost": 1200,
     "buildable_types": "(CannonBuildable & Bot | CannonBuildable & Vehicle | CannonBuildable & Fabber & Construction) - Advanced - Heavy - Hover - Custom1 - Custom2 - Custom3 - Custom4",
     "command_caps": [
         "ORDER_FactoryBuild",
@@ -153,9 +153,9 @@
     "unit_types": [
         "UNITTYPE_Structure",
         "UNITTYPE_Artillery",
-        "UNITTYPE_Orbital",
         "UNITTYPE_Factory",
-        "UNITTYPE_Advanced",
+        "UNITTYPE_Basic",
+		"UNITTYPE_FabBuild",
         "UNITTYPE_FabOrbBuild"
     ],
     "wait_to_rolloff_time": 2.0

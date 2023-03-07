@@ -12,6 +12,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.55]
 
 ~Firefly (T1 Air Scout)
 -Added Radar Stealth 
+-Metal cost increased 60 to 90
 (Note: Same as Skitter Note 1)
 
 ~Skitter (T1 Vehicle Scout)

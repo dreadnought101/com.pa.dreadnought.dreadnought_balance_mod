@@ -90,13 +90,9 @@ Advanced Metal Extractor (T2 Economy)
   (Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
 
 ~Lob (T1 Defense Structure)
--Fire rate increased 3 to 4.5
--Metal Cost per shot increased 50 to 60
--Ammo capacity increased 445 to 500
--Ammo demand increased 13 to 15
--Uses Squals (Drone) instead of Dox
-  (Dev Idea: Turns the lob into a proper defensive structure instead of a makeshift factory.  Will likely change squal's effectivness or cost soon.
-Update:  Uses old numbers before april balance patch)
+[turned Lob into a unit-cannon like structure with limited range, builds Vehicle fabs/Spinners/Strykers, and bot Fabbers/Boombots/Sparks/Stingers/Dox/Grenadiers]
+-range increased 240 to 360 
+-Ammo capacity 15
 
 ~Umbrella (Anti-Orbital Gun)
 -Bullet Velocity increased 1000 to 1250

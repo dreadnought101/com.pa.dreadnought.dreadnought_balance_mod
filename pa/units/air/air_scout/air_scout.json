@@ -3,7 +3,7 @@
     "display_name": "Firefly",
     "description": "!LOC:Scout - Fast. Can see far away. Does not attack.  Radar Stealth",
     "max_health": 20,
-    "build_metal_cost": 60,
+    "build_metal_cost": 90,
     "unit_types": ["UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Air", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist"],
     "navigation": {

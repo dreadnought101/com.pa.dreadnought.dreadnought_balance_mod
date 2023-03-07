@@ -3,8 +3,8 @@
     "description": "!LOC:Interplanetary Transport - Moves land and air units between planets.",
     "TEMP_texelinfo": 23.9658,
     "planetary_arrival_cooldown_time": 2.0,
-    "gravwell_velocity_multiplier": 7.0,
-	"system_velocity_multiplier": 16.75,
+    "gravwell_velocity_multiplier": 12.0,
+	"system_velocity_multiplier": 36.0,
     "attachable": {
         "offsets": {
             "root": [

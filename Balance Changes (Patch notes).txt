@@ -1,93 +1,16 @@
-Maintenence 1.55 UPDATE Patch on Live 
+Maintenence 1.55c UPDATE Patch on Live 
 
---MLA
+Firefly (air scout)
+-metal cost increased 60 to 90
 
-Angel
-  - anti_entity_targets updated to include Narwhal AA (pa/units/sea/frigate/frigate_ammo_aa.json)
-  - anti_entity_targets updated to include Stingray AA (pa/units/sea/missile_ship/missile_ship_aa_ammo.json)
-Hornet
-  - max_health reduced from 600 to 500
-  - rate_of_fire reduced from 0.5 to 0.4
-Icarus
-  - aggressive_distance reduced from 70 to 60
-  - brake increased from 20 to 30
-Pelican
-  - build_metal_cost reduced from 160 to 140
-  - brake increased from 20 to 60
-Phoenix
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10 
-Land
+Orbital Celestial Movements between planets
+-Adjusted orbital speeds to match live patch (were originally slower)
+-Nukes/Unit cannons/fighters/legion scouts hemogenized
+-Astraeus/Avenger/Hermes and Legion variants Chariot/Viper/Spectre will move faster than regular orbital units 
+  >System_Velocity increased 30.0 to 36.0
+  >Gravwell increased 10.0 to 12.0
 
-Advanced Laser Tower
-  - max_range reduced from 130 to 120
-  - rate_of_fire reduced from 5 to 3 shots/sec
-  - damage increased from 150 to 250
-Advanced Metal Extractor
-  - observer items radius reduced from 100 to 75 for surface_and_air
-  - observer items radius reduced from 100 to 75 for underwater
-Bluehawk
-  - max_range reduced from 220 to 200
-Colonel
-  - max_health increased from 6000 to 8000
-  - target_priorities updated to:
-    - Mobile - Air
-    - Air & ( EnergyProduction | Transport | Bomber | Gunship | Titan )
-    - Structure - Wall
-    - Mobile & Air
-    - Wall
-Gil-E
-  - max_range reduced from 200 to 180
-  - target_priorities updated to:
-    - Air & (Tactical | Heavy | MissileDefense)
-    - Mobile - Air
-    - Structure - Wall
-    - Mobile & Air
-    - Wall
-Grenadier
-  - firing_standard_deviation reduced from 1.5 to 0
-Leveler
-  - max_range reduced from 130 to 120
-Locust
-  - max_health increased from 60 to 80
-Metal Extractor
-  - observer items radius reduced from 100 to 75 for surface_and_air
-  - observer items radius reduced from 100 to 75 for underwater
-Nuclear Missile Launcher
-  - system_velocity_multiplier increased from 20 to 30
-Unit Cannon
-  - system_velocity_multiplier increased from 20 to 30 
-Naval
-
-Stingray
-  - target_priorities for the tactical missile updated to include the Angel (MissileDefense) as a top priority
-  - Added UNITTYPE_AirDefense to unit_types 
-Orbital
-
-Advanced Radar Satellite
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10
-ARKYD
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10
-Artemis
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10
-Astraeus
-  - useable range increased from 10 to 20
-  - move_speed increased from 25 to 50
-  - brake increased from 25 to 30
-Avenger
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10
-Helios
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10
-Hermes
-  - system_velocity_multiplier increased from 22 to 30
-  - gravwell_velocity_multiplier increased from 9 to 10
-Orbital Factory
-  - build_metal_cost reduced from 6000 to 4200
-SXX-1304 Laser Platform
-  - system_velocity_multiplier increased from 15 to 30
-  - gravwell_velocity_multiplier increased from 6 to 10 
+~Lob (T1 Defense Structure)
+[turned Lob into a unit-cannon like structure with limited range, builds Vehicle fabs/Spinners/Strykers, and bot Fabbers/Boombots/Sparks/Stingers/Dox/Grenadiers]
+-range increased 240 to 360 
+-Ammo capacity 15

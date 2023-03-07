@@ -4,7 +4,6 @@
 	"description": "!LOC:Orbital Battleship-  Rapid-Fire. Very durable. Heavy damage. Attacks everything.",
 	"build_metal_cost": 12500,
 	"max_health": 4000,
-	"gravwell_velocity_multiplier": 6.0,
 	"wreckage_health_frac": 0.0,
 	"spawn_layers": "WL_Orbital",
 	"attachable": {

@@ -1,5 +1,13 @@
 Orbital notes
 
+Orbital Celestial Movements between planets
+-Adjusted orbital speeds to match live patch (were originally slower)
+-Nukes/Unit cannons/fighters/legion scouts hemogenized
+-Astraeus/Avenger/Hermes and Legion variants Chariot/Viper/Spectre will move faster than regular orbital units 
+  >System_Velocity increased 30.0 to 36.0
+  >Gravwell increased 10.0 to 12.0
+
+
 Base specs state 
     "planetary_arrival_cooldown_time": 3.0,  !!
     "gravwell_velocity_multiplier": 3.0,
@@ -115,6 +123,10 @@ Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
 
 --Done
 
+Base Orbital 
+Gravwell 10.0
+System_velocity 30.0
+
 Orbital Navigation (Increases arrival spread to a planet)
 -"orbital_arrival_radius": 100, to 300
 -"orbital_arrival_unit_radius": 7.5, to 22.5
@@ -173,7 +185,7 @@ Advanced Radar Sattelite
 (Unchanged)
 
 Solar Array
--Gravwell_veloc 3.0 to 6.0
+(Unchanged)
 
 Helios
 (Unchanged)

@@ -6,7 +6,6 @@
     "max_health": 1100,
     "build_metal_cost": 4000,
     "spawn_layers": "WL_Orbital",
-    "gravwell_velocity_multiplier": 6.0,
     "attachable": {
         "offsets": {
             "root": [0, 0, 0]

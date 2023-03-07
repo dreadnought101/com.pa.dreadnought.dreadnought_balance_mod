@@ -12,7 +12,7 @@
     "force_fire_from_muzzle": true,
     "idle_aim_delay": 15,
     "manual_fire": true,
-    "max_range": 480,
+    "max_range": 360,
     "pitch_range": 180,
     "pitch_rate": 40,
     "rate_of_fire": 3,

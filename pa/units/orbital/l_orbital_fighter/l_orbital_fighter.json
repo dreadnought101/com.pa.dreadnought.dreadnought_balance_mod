@@ -3,8 +3,8 @@
     "description": "!LOC:Orbital Fighter - Fast. Attacks orbital targets only.",
     "TEMP_texelinfo": 17.7177,
     "planetary_arrival_cooldown_time": 2.0,
-    "gravwell_velocity_multiplier": 8.0,
-    "system_velocity_multiplier": 19.00,
+    "gravwell_velocity_multiplier": 12.0,
+    "system_velocity_multiplier": 36.00,
     "attachable": {
         "offsets": {
             "root": [

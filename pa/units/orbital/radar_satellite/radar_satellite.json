@@ -4,7 +4,6 @@
     "description": "!LOC:Basic Radar - Detects a large area for enemy land, sea, and air units.",
     "max_health": 800,
     "build_metal_cost": 800,
-    "gravwell_velocity_multiplier": 6.0,
     "attachable": {
         "offsets": {
             "root": [0, 0, 0]

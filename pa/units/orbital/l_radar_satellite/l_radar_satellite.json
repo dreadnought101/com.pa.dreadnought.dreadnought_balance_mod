@@ -70,7 +70,6 @@
       "type": "energy"
     }
   ],
-  "gravwell_velocity_multiplier": 6.0,
   "max_health": 1000,
   "mesh_bounds": [
     20,
