@@ -112,8 +112,8 @@ Advanced Metal Extractor (T2 Economy)
 ~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
 -Metal cost reduced 900 to 875
 -Health increased 4000 to 3500
--Range increased 130 to 135
--Damage increased 150 to 200
+-Range increased 120 to 135
+-Damage decreased 250 to 200
 -Fire-rate decreased 5.0 to 3.5
   (Dev Idea: I feel this turret obsoletes other turrets with its fire-rate, and would prefer it hurt higher health targets, while mass attacks favors a comprehensive turret line)
 
