@@ -30,10 +30,10 @@
     "flight_type": "Staged",
     "ground_target_area_spread": 30,
     "influence_radius": 400,
-    "initial_velocity": 150.0,
+    "initial_velocity": 80.0,
     "lifetime": 0,
     "max_health": 1,
-    "max_velocity": 100.0,
+    "max_velocity": 80.0,
     "model": {
         "filename": "/pa/units/air/unit_shell/unit_shell.papa"
     },
