@@ -1,43 +1,38 @@
 {
-  "display_name": "!LOC:Armour Fabricator",
-  "description": "!LOC:Builder - Builds basic structures. Durable. More powerful than other basic land and air builders.",
-  "TEMP_texelinfo": 6.20134,
+  "display_name": "!LOC:Fabrication Walker",
+  "description": "!LOC:Builder - Builds basic structures. Cheap. Less powerful than other builders.",
+  "TEMP_texelinfo": 5,
   "attachable": {
     "offsets": {
-      "head": [
-        0,
-        0,
-        2.7
-      ],
-      "root": [
-        0,
-        0,
-        0
-      ]
+      "head": [0, 0, 3.6],
+      "root": [0, 0, 0]
     }
   },
   "audio": {
+    "command_response": {
+      "cue": "/SE/Confirmation/bot/fab"
+    },
     "loops": {
       "build": {
-        "cue": "/SE/Construction/Fab_contruction_beam_loop",
+        "cue": "/SE/Construction/Fab_bot_contruction_beam_loop",
         "flag": "build_target_changed",
         "should_start_func": "has_build_target",
         "should_stop_func": "no_build_target"
       },
       "move": {
-        "cue": "/SE/Movement/veh/fab_loop",
+        "cue": "/SE/Movement/bot/fab_loop",
         "flag": "vel_changed",
         "should_start_func": "is_moving",
         "should_stop_func": "is_not_moving"
       }
     },
     "selection_response": {
-      "cue": "/SE/Selection/veh/fab"
+      "cue": "/SE/Selection/bot/fab"
     }
   },
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 200,
-  "buildable_types": "Custom1 & (Land & Structure & Basic | Factory & Basic | Factory & Land & Tank & Advanced | FabBuild )",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "build_metal_cost": 150,
+  "buildable_types": "Custom1 & ( Land & Structure & Basic | Factory & Basic | Factory & Advanced & Bot & Land | FabBuild )",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -52,38 +47,38 @@
       "audio_cue": "/SE/Build_Complete/fab"
     },
     "died": {
-      "effect_scale": 1.5
+      "effect_scale": 0.8
     }
   },
   "fx_offsets": [
     {
-      "bone": "socket_lathe",
+      "bone": "muzzle00",
       "filename": "/pa/effects/specs/legion_fab_spray.pfx",
       "type": "build"
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 185,
-  "mesh_bounds": [
-    4.925,
-    7.123,
-    3.68
-  ],
+  "max_health": 65,
+  "mesh_bounds": [3, 2, 4.5],
   "model": {
-    "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
-    "arrows": 5,
-    "filename": "/pa/units/land/l_fabrication_vehicle/l_fabrication_vehicle.papa"
+    "animations": {
+      "idle": "/pa/units/land/l_fabrication_bot/l_fabrication_bot_idle.papa",
+      "walk": "/pa/units/land/l_fabrication_bot/l_fabrication_bot_walk.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/l_fabrication_bot_anim_tree.json",
+    "filename": "/pa/units/land/l_fabrication_bot/l_fabrication_bot.papa",
+    "walk_speed": 2.75
   },
   "navigation": {
-    "acceleration": 180,
-    "brake": 180,
+    "acceleration": 240,
+    "brake": -1,
     "group_preference": "back",
-    "move_speed": 12,
+    "move_speed": 14,
     "turn_speed": 360
   },
   "physics": {
     "allow_pushing": true,
-    "radius": 3
+    "radius": 2
   },
   "recon": {
     "observer": {
@@ -91,29 +86,25 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 135,
+          "radius": 120,
           "shape": "capsule"
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 135,
+          "radius": 120,
           "shape": "capsule"
         }
       ]
     }
   },
-  "scrolling_uv": {
-    "scroll_rate": 0.5,
-    "uv_split": 0.875
-  },
   "selection_icon": {
-    "diameter": -12
+    "diameter": -8
   },
   "tools": [
     {
-      "aim_bone": "bone_root",
-      "spec_id": "/pa/units/land/l_fabrication_vehicle/l_fabrication_vehicle_build_arm.json"
+      "aim_bone": "turret00",
+      "spec_id": "/pa/units/land/l_fabrication_bot/l_fabrication_bot_build_arm.json"
     }
   ],
   "transportable": {
@@ -122,10 +113,10 @@
   "unit_types": [
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",
-    "UNITTYPE_Tank",
+    "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Basic",
     "UNITTYPE_Land",
+    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Custom1"

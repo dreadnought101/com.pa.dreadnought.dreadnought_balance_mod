@@ -4,10 +4,17 @@
 
 --Todo
 
+Vanguard changes
+Vehicle fab range
+Naval fab range
+Slammer torpedoes, regular dps
+Fab vision increase
 
 
 
 --LONG TERM Todo
+
+
 
 -Nuke explosion leaves vision for 2 seconds, showcasing what it destroys
 -Spark projectile always explodes

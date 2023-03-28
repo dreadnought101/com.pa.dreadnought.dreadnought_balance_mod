@@ -10,7 +10,7 @@
             "head": [0, 0, 2.7]
         }
     },
-    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
+    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Vehicle"],
     "transportable": {
         "size": 1
     },
@@ -20,7 +20,7 @@
         "acceleration": 100,
         "brake": 100,
         "move_speed": 10,
-        "turn_speed": 90
+        "turn_speed": 120
     },
     "physics": {
         "radius": 4

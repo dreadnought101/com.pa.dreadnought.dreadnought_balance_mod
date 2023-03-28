@@ -17,7 +17,7 @@
     },
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "build_metal_cost": 1200,
-    "buildable_types": "(CannonBuildable & Bot | CannonBuildable & Vehicle | CannonBuildable & Fabber & Construction) - Advanced - Heavy - Hover - Custom1 - Custom2 - Custom3 - Custom4",
+    "buildable_types": "(CannonBuildable & Bot | CannonBuildable & Vehicle | CannonBuildable & Fabber & Construction) - Advanced - Hover - SelfDestruct - Custom1 - Custom2 - Custom3 - Custom4",
     "command_caps": [
         "ORDER_FactoryBuild",
         "ORDER_Attack"

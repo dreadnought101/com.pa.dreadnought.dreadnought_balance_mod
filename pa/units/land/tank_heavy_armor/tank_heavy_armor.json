@@ -3,7 +3,7 @@
     "display_name": "Vanguard",
     "description": "!LOC:Heavy Tank - Advanced short range, heavily armored vehicle with mobile radar and radar jamming.",
     "max_health": 5000,
-    "build_metal_cost": 1500,
+    "build_metal_cost": 1600,
     "energy_efficiency_requirement": 0.9,
     "attachable": {
         "offsets": {

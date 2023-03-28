@@ -18,7 +18,7 @@
     "lifetime": 0,
     "show_strategic_icon": true,
     "interplanetary_type": "INTER_System",
-    "system_velocity_multiplier": 20.0,
+    "system_velocity_multiplier": 30.0,
     "gravwell_velocity_multiplier": 10.0,
     "spawn_layers": "WL_Air",
     "show_in_orbital_layer": true,

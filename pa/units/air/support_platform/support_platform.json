@@ -3,19 +3,22 @@
     "display_name": "Angel",
     "description": "!LOC:Support Platform - Repairs nearby units and auto reclaims wreckage. Intercepts homing missiles. Does not attack.",
     "max_health": 1200,
-    "build_metal_cost": 5000,
+    "build_metal_cost": 5200,
+    "system_velocity_multiplier": 30.0,
+    "gravwell_velocity_multiplier": 10.0,
     "attachable": {
         "offsets": {
             "root": [0, 0, 0]
         }
     },
-    "unit_types": ["UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_MissileDefense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense"],
+    "unit_types": ["UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_MissileDefense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Repair", "ORDER_Assist", "ORDER_Reclaim"],
     "navigation": {
         "type": "air",
-        "acceleration": 40,
-        "brake": 30,
-        "move_speed": 40,
+        "inter_planetary_type": "system",
+        "acceleration": 70,
+        "brake": 50,
+        "move_speed": 70,
         "turn_speed": 180,
         "vertical_speed": 100,
         "hover_time": -1.0

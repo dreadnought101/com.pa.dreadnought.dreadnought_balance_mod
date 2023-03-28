@@ -1,10 +1,10 @@
 {
     "context": "server",
-    "identifier": "com.pa.dreadnought.dreadnought_balance_mod",
+    "identifier": "com.pa.dreadnought.dreadnought_balance_mod-dev",
     "display_name": "Dreadnought Balance Mod",
     "description": "Makes various balance changes to units for testing and theory crafting, specific details on forums or in notepad info",
     "author": "Dreadnought",
-    "version": "1.56a",
+    "version": "1.58",
     "date": "2023-03-5",
     "build": "115853",
     "signature": " meh ",

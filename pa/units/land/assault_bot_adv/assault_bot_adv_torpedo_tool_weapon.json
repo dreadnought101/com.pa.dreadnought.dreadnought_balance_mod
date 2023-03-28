@@ -10,5 +10,6 @@
     "pitch_range": 180,
     "auto_attack": true,
     "spread_fire": true,
+    "exclude_unit_types": "Hover | WaterHover",
     "target_layers": ["WL_WaterSurface", "WL_Underwater", "WL_Seafloor"]
 }

@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.55]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.57]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
@@ -34,7 +34,6 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.55]
   (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 
 ~Ant (T1 Vehicle)
--Turn rate decreased 120 to 90
 -Vision radius increased 100 to 130
 -Weapon firerate increased 0.55 to 0.525 (1 shot every 2 seconds to 1.9 seconds, 42 to 44 dps)
   (Dev Idea: Matches spark vision and better supports high range+low vision units)
@@ -160,6 +159,10 @@ Update: Patch decreased )
 -build cost increased 260 metal to 250
   (Dev Note: Adjusted for factory changes weakening the unit incidentally)
 
+~Slammer (T2 Bot)
+-Torpedos no longer target Hover and Water_Hover targets
+-Increased speed 14 to 15
+
 ~Gille (T2 Bot)
 -Range increased 180 to 200
 (Range was reduced in a recent patch, but makes it more difficult to utilize fragile, ranged units in most skill brackets)
@@ -188,9 +191,12 @@ Update: Patch decreased )
   (Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
 
 ~Vanguard (T2 Vehicle)
--Increased range 50 to 60
--Decreased damage from 2000 to 750 (Including splash)
--Increased fire rate from 0.5 to 1.0 (Fires 1 shot vvvvvvvvvvvvvvvvevery 1 second, instead of 1 shot every 2 seconds)
+-Metal cost increased 1500 to 1600
+-Increased range 50 to 55
+-Decreased damage from 1000 to 1250 (Including splash)
+-Decreased fire rate from 1.0 to 0.75 (Fires 1 shot every 1 second, instead of 1 shot every 2 seconds)
+-Decreased bullet velocity 100 to 80
+-Decreased turret rotation speed [Yaw_rate] 360 to 120] (2x faster than drifter, 4x faster than leveler)
 -Radar increased 260 to 300
 -Jamming removed
   (Dev Idea: Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base as well as remove jamming and give them a little more of a defined radar role in ranged warfare)
@@ -230,6 +236,13 @@ Update: Major changes made hornets essentially double in strength for double the
 -Added Anti-Air component to flak cannon [Prioritises Anti-Air ground units first]
 -Changed air damage modifier from 0.5 to 1.0 [Horseflies do full damage vs air]
   (Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
+
+~Angel (T2 Air support platform)
+-metal cost increased 5000 to 5200
+-Speed increased 40 to 70 (Accel 30 to 50, acceleration 40 to 70)
+-Added interplanetary (Can move between planets)
+-Vertical speed decreased 100 to 50
+(Add more utility to an already massive utility hog, as well as allow it to keep up and play a role in fighter v fighter engagements)
 
 -Stingray (T2 Naval)
 -Missile velocity increased 80 to 100
@@ -288,15 +301,3 @@ Update: Major changes made hornets essentially double in strength for double the
 -Increased health 5000 to 5600
 (No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
 
-~Omega (Advanced Orbital Battleship)
-[TLDR: Its laser guns can hit ground and general quality of life buffs]
--Metal cost reduced 14000 to 12500
--Speed increased 15 to 25 (brake 80 to 120, acceleration 30 to 45)
->Orbital Guns (4 turrets, 2 barrels each)
--added ammo file (it currently uses the same file associated with the Anchor)
--Decreased Laser-Weapons 65x2 to 45x2
--Decreased Laser Turret Pitch Range from 120 to 92.5
--Omega will now prioritize other orbital units first.
--Laser Firerate decreased 2.0 to 1.5 (fires 1.5 times a second)
--Main anti-ground beam-gun can now target seafloor units.
-(Dev Idea: Reduces cost slightly due to increased orbital factory cost. Adds quality of life changes)

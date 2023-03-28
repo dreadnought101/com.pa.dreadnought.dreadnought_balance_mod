@@ -124,8 +124,8 @@ Perhaps tone down Nuke speed, perhaps keep unit cannon high speed.
 --Done
 
 Base Orbital 
-Gravwell 10.0
-System_velocity 30.0
+Gravwell 10.0  (12 for light orbital)
+System_velocity 30.0 (36 for light orbital)
 
 Orbital Navigation (Increases arrival spread to a planet)
 -"orbital_arrival_radius": 100, to 300

@@ -62,7 +62,7 @@
       "type": "moving_forward"
     }
   ],
-  "gravwell_velocity_multiplier": 6.0,
+  "gravwell_velocity_multiplier": 10.0,
   "guard_layer": "WL_Orbital",
   "max_health": 100,
   "mesh_bounds": [20, 10, 21],

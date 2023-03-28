@@ -1,16 +1,72 @@
-Maintenence 1.56 UPDATE Patch on Live 
+Patch 1.58 UPDATE Patch on Live 
 
-Firefly (air scout)
--metal cost increased 60 to 90
+~Vanguard (T2 Vehicle)
+-Increased metal cost 1500 to 1600
+-Decreased range 60 to 55 [Vanilla 50]
+-Increased damage 750 to 1250 [Vanilla 1000]
+-Decreased firerate 1.0 to 0.75
+-Decreased weapon velocity 100 to 80
+-Decreased turret rotation speed [Yaw_rate] 360 to 120 (2x faster than drifter, 4x faster than leveler)
+(Changes to be less anti-swarm, more costly for 1st few vanguards entering the field)
 
-Orbital Celestial Movements between planets
--Adjusted orbital speeds to match live patch (were originally slower)
--Nukes/Unit cannons/fighters/legion scouts hemogenized
--Astraeus/Avenger/Hermes and Legion variants Chariot/Viper/Spectre will move faster than regular orbital units 
-  >System_Velocity increased 30.0 to 36.0
-  >Gravwell increased 10.0 to 12.0
+~Slammer (T2 Bot)
+-Torpedos no longer target Hover and Water_Hover targets
+-Increased speed 14 to 15
 
-~Lob (T1 Defense Structure)
-[turned Lob into a unit-cannon like structure with limited range, builds Vehicle fabs/Spinners/Strykers, and bot Fabbers/Boombots/Sparks/Stingers/Dox/Grenadiers]
--range increased 240 to 360 
--Ammo capacity 15
+~Bot Fab
+-Vision increased 100 to 120
+(Allows for slightly more reaction time against incoming raids in the early game) 
+
+~Vehicle Fab
+-Increase build range 45 to 50
+-Vision increased 100 to 120
+(Allows more stackability when assisting with fabs+vehicles, and ever so slight increase to uptime when mex expanding)
+
+~Air Fab
+-Vision increased 100 to 120
+
+~Naval Fab
+-Increased build range 45 to 50
+-Vision increased 100 to 120
+
+~Advanced bot Fab
+-Increased build range 45 to 50
+
+~Advanced Vehicle Fab
+-Increased build range 45 to 55
+
+~Advanced Naval Fab
+-Increased build range 50 to 55 [Vanilla 45] 
+
+--
+
+LEGION
+
+~Walker Fab
+-Vision increased 100 to 120
+
+~Armor Fab
+-Increase build range 45 to 50
+-Vision increased 125 to 135 (curious that it was 125 already)
+
+~Flyer Fab
+-Vision increased 100 to 120
+-Health 120 to 160  [Vanilla 85]
+-speed 35 to 32 (+accel/break) [Vanilla 30]
+-Metal cost 225 to 285
+-Build rate 10 to 12
+-energy draw 800 to 975
+(Making it more unique compared to MLA fab
+
+~Vessel Fab
+-Increased build range 45 to 50
+-Vision increased 100 to 120
+
+~Advanced Walker Fab
+-Increased build range 45 to 50
+
+~Advanced Armor Fab
+-Increased build range 45 to 55
+
+~Advanced Naval Fab
+-Increased build range 50 to 55 [Vanilla 45] 

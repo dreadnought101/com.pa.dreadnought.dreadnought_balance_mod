@@ -60,7 +60,7 @@
       "type": "idle"
     }
   ],
-  "gravwell_velocity_multiplier": 6.0,
+  "gravwell_velocity_multiplier": 10.0,
   "guard_layer": "WL_Orbital",
   "max_health": 350,
   "mesh_bounds": [

@@ -98,13 +98,13 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
+          "radius": 120,
           "shape": "capsule"
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 100,
+          "radius": 120,
           "shape": "capsule"
         }
       ]

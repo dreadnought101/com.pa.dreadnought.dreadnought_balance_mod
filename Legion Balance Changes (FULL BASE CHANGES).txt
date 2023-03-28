@@ -212,14 +212,6 @@ Imperator (Orbital battleship)
 
 --Structures and Fabricators
 
-Legion Air Fab
--Health 90 to 120
--speed 35 to 32 (+accel/break)
--Metal cost 225 to 245
--Build rate 9 to 11
--energy draw 800 to 975
-(Makes it more unique compared to MLA air fabs with the general concept of concept of costing more, building better. However I think I'll be looking at speed across the board as that can massively impact a unit and pacing in the early stages)
-
 Orbital Fab
 -Metal Cost 1300 to 1100
 -Metal build rate reduced 45 to 37
@@ -265,29 +257,44 @@ Advanced Mass Extractor
 OmniSilo Storage
 -Energy Storage increased 75k to 225k
 
-Armor Fabricator (T1 Vehicle Fab)
--Speed increased 11 to 12 
+~Walker Fab (T1 Bot Fab)
+-Vision increased 100 to 120
 
-Air Fabricator (T1 Air Fab)
--Health decreased 85 to 80
--Speed increased 30 to 35 (+30 brake/accel to 35)
-(While I generally still want differences between Legion and MLA fabbers, the case of air fabs needs to be very narrow)
+Armor Fabricator (T1 Vehicle Fab)
+-Speed increased 11 to 12
+-Increase build range 45 to 50
+-Vision increased 125 to 135 (curious that it was 125 already)
+
+Flyer Fab (T1 Air Fab)
+-Health 85 to 160
+-speed 30 to 32 (+accel/break)
+-Metal cost 225 to 285
+-Build rate 10 to 12
+-energy draw 800 to 975
+-vision range 100 to 120
+(Makes it more unique compared to MLA air fabs with the general concept of concept of costing more, building better)
 
 Fabrication Vessel (T1 Naval Fab)
 -Move Speed Increased 9 to 11 
 -HP increased 180 to 360 
+-Vision increased 100 to 120
 (Dev Note: I will return to these numbers later and likely decrease health of Legion vessel)
 
 Advanced Fabrication Vessel (T2 Naval Fab)
 -Added Water Hover (movespeed unchanged)
--(ignored 50 build range, MLA's is 30 to 50)
 
 All Advanced Fabricators
 -All Advanced Fabricators can construct the Loki/Odin/Thor
--Adv Walker 2000 to 1900
--Adv Armor 2250 to 2100
--Adv Flyer 2400 to 2250 
--Adv Vessel 2700 to 2500  
+-Adv Walker metal 2000 to 1900
+            range 45 to 50
+
+-Adv Armor metal 2250 to 2100
+           range 45 to 55
+
+-Adv Flyer metal 2400 to 2250 
+
+-Adv Vessel metal 2700 to 2500  
+            range 45 to 50
 
 All Advanced Factories
 -Cost reduced 4800 to 4400
