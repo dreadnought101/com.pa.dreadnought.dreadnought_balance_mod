@@ -40,10 +40,10 @@ AA Icarus Removals (So far) - Odin, Lynx, Patriot, Orbweaver, Panzer
 Nerf guardian health/build rate perhaps
 
 Nova
--AOE mode health 500 to 550
+-AOE mode health 500 to 450
 -AOE damage 6 damage to 8
 -Death explosion damage 35 to 20
--Death explosioin radius 70 to 80
+-Death explosion radius 70 to 80
 
 Stoke
 (early raiding unit rework)

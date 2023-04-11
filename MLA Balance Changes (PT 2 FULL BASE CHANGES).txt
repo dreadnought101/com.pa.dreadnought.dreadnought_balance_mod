@@ -1,5 +1,9 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS
 
+~Advanced Radar Satellite
+-Increased health 5000 to 5600
+(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
+
 ~Omega (Advanced Orbital Battleship)
 [TLDR: Its laser guns can hit ground and general quality of life buffs]
 -Metal cost reduced 14000 to 12500

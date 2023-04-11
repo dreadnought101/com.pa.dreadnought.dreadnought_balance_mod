@@ -100,7 +100,6 @@
       "type": "idle"
     }
   ],
-  "gravwell_velocity_multiplier": 9.0,
   "max_health": 50,
   "mesh_bounds": [
     9.4,

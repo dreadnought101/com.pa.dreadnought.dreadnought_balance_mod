@@ -164,16 +164,16 @@ Centurion (Orbital Defense)
 -Orbital range 150 to 200
 
 Chariot (transport)
--System_Multi 10.0 to 16.75
--Gravwell 5.0 to 7.0
 -Speed/brake/accel 25 to 50
--Orbital arrival delay decreased 4.0 to 2.0 (base game 3.0 to 4.0)
+-Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
 
 Spectre (Scout)
 -Speed/brake/accel 75 to 100
--Orbital arrival delay decreased 4.0 to 2.0 (base game 3.0 to 4.0)
--System Multi 15.0 to 22.0 
--Gravwell_veloc 50.0 to 9.0
+-Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
 
 Viper (Orbital fighter)
 -Health Reduced 100 to 80
@@ -183,9 +183,9 @@ Viper (Orbital fighter)
 -Range increased 100+200 to 200+280 [Viper has 2 weapons of the same type, different range] 
 -Increase Main weapon Yaw-Range from 75 to 90 (180 degree firing arc) [base 280 range weapon]
 -Increase Secondary Weapon yaw_range from 75 to 360 [base 140 range weapon]
--Orbital arrival delay decreased 4.0 to 2.0 (base game 3.0 to 4.0)
--gravwell 6.0 to 8.0
--System_multi 15.0 to 19.0
+-Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
 (Gets 2 shot by avenger, 1 shot by omegas/imperators. More changes to make the matchup more dynamic as well as some quality of life changes)
 
 Sputnik (Orbital Radar)

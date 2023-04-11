@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.57]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.58]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
@@ -79,7 +79,7 @@ Dev Update 2: Muzzle velocity to match strykers)
 -Torpedo Weapon added (Attacks water units, excluding hover units)
 - -Damage 50
 - -Firerate 0.5 (Fires 1 shot every 2 seconds)
-- -Range 60
+- -Range 160
 - -Land speed Velocity 70
 - - Water speed Velocity 40
   (Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more against large or static units, and less powerful against small, fast units)
@@ -271,19 +271,26 @@ Update: Major changes made hornets essentially double in strength for double the
 
 ~Astraeus (Orbital Transport)
 -Speed increased 25 to 50
--Increased orbital speed
+-Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
   (Dev Note: Intended to change capacity from 1 to 5. Despite actually working, was causing problems and was clunky)
 
 ~Avenger (Orbital Fighter)
 -HP increased 50 to 90
--Speed/Accel 65 to 90 (brake 20 to 25)
--Increased orbital speed
 -100 weapon range to 135 (36%)
 -weapon projectile speed increased 300 to 400
+-Speed/Accel 65 to 90 (brake 20 to 25)
+-Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
 (gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
 
 ~Hermes (Orbital Probe)
 -Speed 75 to 100 (brake/accel 75 to 100)
+-Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
 
 ~ARKYD (basic orbital radar)
 -Speed/break/accel 15 to 20
@@ -296,8 +303,3 @@ Update: Major changes made hornets essentially double in strength for double the
 
 ~SXX (orbital anti-ground laser)
 -Speed 25 to 45 (break/accel 25 to 45)
-
-~Advanced Radar Satellite
--Increased health 5000 to 5600
-(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
-

@@ -10,6 +10,7 @@ Naval fab range
 Slammer torpedoes, regular dps
 Fab vision increase
 
+Drifter metal cost reduction by 5
 
 
 --LONG TERM Todo
