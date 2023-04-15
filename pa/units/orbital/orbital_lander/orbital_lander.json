@@ -73,17 +73,17 @@
     ],
     "useable": {
         "type": "transport",
-        "range": 20
+        "range": 2000
     },
     "transporter": {
-        "capacity": 1,
+        "capacity": 6,
         "transportable_unit_types": "(Mobile & Land) | (Fabber & (Air | Naval))",
         "transporter_attach_bone": "bone_payload",
         "transportable_attach_offset": "head"
     },
     "navigation": {
         "type": "orbital",
-        "acceleration": 50,
+        "acceleration": 25,
         "brake": 30,
         "move_speed": 50,
         "turn_speed": 360,

@@ -129,8 +129,8 @@
         "filename": "/pa/units/orbital/l_orbital_lander/l_orbital_lander.papa"
     },
     "navigation": {
-        "acceleration": 50,
-        "brake": 50,
+        "acceleration": 25,
+        "brake": 30,
         "move_speed": 50,
         "turn_speed": 360,
         "vertical_speed": 200
@@ -163,7 +163,7 @@
         "diameter": -39
     },
     "transporter": {
-        "capacity": 1,
+        "capacity": 6,
         "transportable_attach_offset": "head",
         "transportable_unit_types": "(Mobile & Land) | (Fabber & (Air | Naval))",
         "transporter_attach_bone": "bone_root"
@@ -179,7 +179,7 @@
     ],
     "usable": true,
     "useable": {
-        "range": 10,
+        "range": 2000,
         "type": "transport"
     }
 }

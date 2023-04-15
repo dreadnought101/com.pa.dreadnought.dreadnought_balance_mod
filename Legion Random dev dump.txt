@@ -9,7 +9,7 @@
 
 
 
-
+Deathmark+Scorpion speed increase 8 to 10.  Perhaps a small range decrease to Scorpion to compensate
 
 
 Reduce bomber speed, projectile? Also make it work in naval (orbital thing)

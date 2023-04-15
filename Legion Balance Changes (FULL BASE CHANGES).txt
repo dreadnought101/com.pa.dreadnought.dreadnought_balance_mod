@@ -25,7 +25,7 @@ Patriot (T1 Bot AA)
 -Rate of fire increased 4 to 5
 -Fires 3 shots a salvo.  Takes 3.6 seconds to recharge.  Does not recharge while firing
 -Range 100 to 190
--DPS aprox 32
+-DPS aprox 27
 
 Purger (T1 Boombot)
 -HP 20 to 10

@@ -1,0 +1,58 @@
+{
+    "display_name": "Nuke Fallout",
+    "unit_name": "nuke_fallout",
+    "description": "gives tiny temp vision.",
+    "TEMP_texelinfo": 2.37699,
+    "area_build_separation": 1.0,
+    "area_build_type": "Sphere",
+    "build_metal_cost": 20,
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/barrier"
+        }
+
+    },
+    "max_health": 1000,
+    "passive_health_regen": -100,
+    "physics": {
+        "type": "Structure",
+        "collision_layers": "WL_Orbital",
+        "shape": "Box",
+        "radius": 1,
+        "air_friction": 1.0,
+        "gravity_scalar": 0.001,
+        "allow_pushing": false,
+        "push_sideways": false,
+        "allow_underground": true,
+        "add_to_spatial_db": false
+
+    },
+    "recon": {
+        "observable": {
+            "ignore_radar": true,
+            "ignore_sight": true,
+            "layer": "surface_and_air"
+        },
+        "observer": {
+            "items": [{
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 170
+                }
+            ]
+        }
+    },
+    "selection_icon": {
+        "diameter": -9
+    },
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "strategic_icon_priority": 3,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land",
+        "UNITTYPE_NoBuild"
+
+    ],
+    "wreckage_health_frac": 0.0
+}

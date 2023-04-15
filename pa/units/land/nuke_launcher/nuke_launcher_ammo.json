@@ -2,6 +2,7 @@
     "display_name": "!LOC:LR-96 Pacifier Nuclear Missile",
     "description": "!LOC:Nuclear missile - Long range interplanetary, large area damage, projectile",
     "si_name": "nuke_launcher_ammo",
+    "spawn_unit_on_death": "/pa/units/land/nuke_fallout/nuke_fallout.json",
     "has_notifications": true,
     "ammo_type": "Projectile",
     "build_metal_cost": 34000,

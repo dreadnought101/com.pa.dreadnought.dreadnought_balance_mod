@@ -4,7 +4,7 @@
     "si_name": "ls_lynx",
     "strategic_icon_priority": 2,
     "description": "!LOC:Mobile missile launcher - Equipped with homing missiles. Only attacks air.",
-    "max_health": 155,
+    "max_health": 150,
     "build_metal_cost": 170,
     "attachable": {
         "offsets": {

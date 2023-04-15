@@ -126,6 +126,16 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 -Removed Icarus from AA targetting
 (Dev Note: Gives MLA a new option with Air to Air engagements, especially against Legion.  Allows Icarus skill play to work around enemey AA, and vice-versa)
 
+~Pelican (Transport)
+-HP reduced 150 to 100
+-Increase metal cost 140 to 155
+-Transport Pickup range increased 10 to 30
+-Movespeed increased 70 to 75
+-Acceleration increased 30 to 100
+-Break increased 60 to 100
+-Turn rate increased 180 to 270
+(Still takes 2 shots from air, but increases Time to Kill for ground AA as well as improve its functionality for skilled play)
+
 ~Piranha (T1 Naval)
 -range increased 105 to 110
 -metal cost increased 150 to 160
@@ -226,9 +236,10 @@ Update: Patch decreased )
 -fire rate reduced in half from 0.4 to 0.25
 -range increase 190 to 200
 -Missile velocity decreased 160 to 100
--Missile lifetimes reduced 15 to 8
--vision radius increase 200 to 210
+-Missile lifetime reduced 15 to 8
+-Bision radius increase 200 to 210
 -underwater vision radius 200 to 210
+-Damage reduced 1000 to 750
   (Dev Idea: Gives some small buffs to ease this paper-plane into prominence
 Update: Major changes made hornets essentially double in strength for double the cost.  This version makes for a more precise macro element on how many a player uses and lets them get into hornets more quickly, as well as not overlap the Wyrm as much.  However the projectile speed is nice, so that is added in.)
 
@@ -269,37 +280,4 @@ Update: Major changes made hornets essentially double in strength for double the
 -  -Does full damage to structures only [does inconsequential 2 damage to other things]
   (Dev Idea: Makes killing it easier, yet also gives a real use to secondary guns, ground pound only affecting structures allows melee units to counter ares)
 
-~Astraeus (Orbital Transport)
--Speed increased 25 to 50
--Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
--gravwell 10.0 to 12.0
--System_multi 30.0 to 36.0
-  (Dev Note: Intended to change capacity from 1 to 5. Despite actually working, was causing problems and was clunky)
 
-~Avenger (Orbital Fighter)
--HP increased 50 to 90
--100 weapon range to 135 (36%)
--weapon projectile speed increased 300 to 400
--Speed/Accel 65 to 90 (brake 20 to 25)
--Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
--gravwell 10.0 to 12.0
--System_multi 30.0 to 36.0
-(gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
-
-~Hermes (Orbital Probe)
--Speed 75 to 100 (brake/accel 75 to 100)
--Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
--gravwell 10.0 to 12.0
--System_multi 30.0 to 36.0
-
-~ARKYD (basic orbital radar)
--Speed/break/accel 15 to 20
--Decreased health 1000 to 800
-(Speed changes and general power requires a tone down in health)
-
-~Artemis (advanced orbital railgun)
--Speed 30 to 50 (brake/accel 10 to 20)
--350 range to 450
-
-~SXX (orbital anti-ground laser)
--Speed 25 to 45 (break/accel 25 to 45)

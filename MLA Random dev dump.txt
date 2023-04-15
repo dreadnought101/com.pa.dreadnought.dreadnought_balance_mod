@@ -4,11 +4,9 @@
 
 --Todo
 
-Vanguard changes
-Vehicle fab range
-Naval fab range
-Slammer torpedoes, regular dps
-Fab vision increase
+
+reduce spinner by 5 health
+reduce lynx health by 5
 
 Drifter metal cost reduction by 5
 
@@ -20,7 +18,6 @@ Drifter metal cost reduction by 5
 -Nuke explosion leaves vision for 2 seconds, showcasing what it destroys
 -Spark projectile always explodes
 -Transport adjustments
--Leveler+Drifter turret holds (sheller?)  Either idle aim delay or dummy weapon
 
 Add Nuke Explode death Vision
 
