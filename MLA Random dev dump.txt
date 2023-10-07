@@ -6,7 +6,7 @@
 
 
 Change transporter range from 2000 to 4084
-Slammer changes
+Slammer changes (Speed 14 to 15)  Dox and Stryker to 21 Speed
 Unit cannon units not deploying bug
 Nuke not showing up bug
 Lob doing SXX sounds?
@@ -16,11 +16,8 @@ Lob doing SXX sounds?
 
 
 
--Nuke explosion leaves vision for 2 seconds, showcasing what it destroys
 -Spark projectile always explodes
 -Transport adjustments
-
-Add Nuke Explode death Vision
 
 
 Single/double turret vision reductions? (Woud be interesting if double turret range was bigger than vision, and single turret had 130 vision) (or maybe not, shit idea)

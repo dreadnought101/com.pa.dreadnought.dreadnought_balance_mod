@@ -1,71 +1,14 @@
-Patch 1.59 
+Patch 1.60
 
-Spinner (Vehicle AA)
--Health Reduced 130 to 125 [Vanilla 160]
+Added Custom58 tags to MLA Units
 
-Drifter
--Metal cost reduced 235 to 230 [Vanilla 225]
+Patch 1.61
 
-Astraeus (orbital Transport)
--Pickup range increased 20 to 2000
--Transport capacity increased 1 to 6
-(Changes the dynamic so that when a unit clicks on a transport, the transport will go to the unit, instead of the unit going to the transport)
-(More multi-unit transportation testing.  Will not touch unit weights for now)
+Stryker (T1 Vehicle)
+-Speed increased 20 to 21 [Vanilla 17]
 
-Pelican (Transport)
--HP reduced 150 to 100
--Increase metal cost 140 to 155
--Transport Pickup range increased 10 to 30
--Acceleration increased 30 to 100
--Break increased 60 to 100
--Turn rate increased 180 to 270
--Pickup range increased 20 to 2000
-(Still takes 2 shots from air, but increases Time to Kill for ground AA as well as improve its functionality for skilled play)
+Dox (T1 Bot)
+-Speed increased 20 to 21
 
-Hornet (T2 Air Bomber)
--Damage reduced 1000 to 750
-(Improves defensive AA structure lifetime and reduce comm snipe capabilities specifically)
-
-Advanced Metal Extractor
--Metal cost reduced 1800 to 1750
-
-Locust
--Health reduced 80 to 70
-(Doesn't change interactions from much else besides single laser turrets 2 shotting instead of 3 shotting)
-
-Nuke
--Leaves a 10s 175 vision radius on detonation (does not show vision if taken down by anti-nuke-missile)
-(Showcases what destruction you wrought!)
-
-LEGION
-
-Lynx (Vehicle AA)
--Health reduced 155 to 150
-
-Patriot (Bot AA)
--damage increased 35 to 45
--Recharge rate increased 3.6 seconds to 5.1 seconds
-
-Chariot (orbital Transport)
--Accerelation reduced 50 to 25
--Break speed reduced 50 to 30 
--Transport capacity increased 1 to 6
--Pickup range increased 20 to 2000
-(Matches Astraeus handling, these two units are exact mirrors of eachother unlike most other faction equivalents)
-
-Osprey (Air Transport)
--Pickup range increased 20 to 2000
--Metal cost increased 100 to 150
--Speed increased 100 to 105
--Health decreased 55 to 50
--Turn Rate increased 180 to 270
--Acceleration increased 30 to 35
--Break increased 40 to 150
-(Kept the low acceleration for a different transport feel of high speed, low warmup unit, but increased turn rate/brake for unloading responsiveness and quality of life)
-
-Advanced Metal Extractor
--Metal cost reduced 1800 to 1750
-
-Nuke
--Leaves a 10s 175 vision radius on detonation (does not show vision if taken down by anti-nuke-missile)
-(Showcases what destruction you wrought!)
+Slammer (T2 Bot)
+-Speed increased 14 to 15

@@ -50,7 +50,7 @@
     "navigation": {
         "acceleration": 150,
         "brake": 150,
-        "move_speed": 20,
+        "move_speed": 21,
         "turn_speed": 180,
         "type": "land-small"
     },

@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.58]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.61]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
@@ -29,7 +29,7 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.58]
 ~Stryker (T1 Vehicle)
 -Health decreased 60 to 50
 -Damage decreased 15x2 to 13x2
--Movement Speed Increased 17 to 20
+-Movement Speed Increased 17 to 21
 -Weapon Muzzle Velocity Decreased 140 to 135
   (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 
@@ -58,8 +58,8 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.58]
 
 ~Dox (T1 Bot)
 -Weapon Muzzle Velocity Increased 130 to 135
-  (Dev Idea: Allows for more smooth micro and dox will have near 100% uptime when heavily microd
-Dev Update 2: Muzzle velocity to match strykers)
+-Speed Increased 20 to 21
+Dev Note: Muzzle velocity to match strykers, speed to add late game flanking potential, am concerned about early game rush distances though
 
 ~Grenadier (T1 Bot)
 [TLDR: They get torpedos, are more expensive and bigger, small aoe and fires 4 projectiles, hit harder]
