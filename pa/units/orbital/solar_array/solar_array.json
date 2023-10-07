@@ -69,5 +69,6 @@
     },
     "spawn_layers": "WL_Orbital",
     "unit_name": "Solar Array",
-    "unit_types": ["UNITTYPE_Mobile", "UNITTYPE_Orbital", "UNITTYPE_EnergyProduction", "UNITTYPE_Economy", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"]
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Mobile", "UNITTYPE_Orbital", "UNITTYPE_EnergyProduction", "UNITTYPE_Economy", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"]
 }

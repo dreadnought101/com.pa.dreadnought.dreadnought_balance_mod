@@ -10,7 +10,8 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "alt_area_build_type": "Sphere",
     "alt_area_build_pattern": [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
-    "unit_types": ["UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Land", "UNITTYPE_AirDefense", "UNITTYPE_Defense", "UNITTYPE_FabAdvBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Land", "UNITTYPE_AirDefense", "UNITTYPE_Defense", "UNITTYPE_FabAdvBuild"],
     "command_caps": ["ORDER_Attack"],
     "guard_layer": "WL_Air",
     "recon": {

@@ -12,7 +12,8 @@
             "head": [0, 0, 2.7]
         }
     },
-    "unit_types": ["UNITTYPE_Air", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Air", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
         "size": 1

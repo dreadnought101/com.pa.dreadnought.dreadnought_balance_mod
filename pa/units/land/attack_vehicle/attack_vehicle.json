@@ -86,5 +86,6 @@
     "transportable": {
         "size": 1
     },
-    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Offense"]
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Offense"]
 }

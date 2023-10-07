@@ -14,7 +14,8 @@
             "root": [0, 0, 0]
         }
     },
-    "unit_types": ["UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Orbital", "UNITTYPE_LaserPlatform", "UNITTYPE_Advanced", "UNITTYPE_Titan", "UNITTYPE_FabOrbBuild", "UNITTYPE_Important", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Orbital", "UNITTYPE_LaserPlatform", "UNITTYPE_Advanced", "UNITTYPE_Titan", "UNITTYPE_FabOrbBuild", "UNITTYPE_Important", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Attack"],
     "guard_layer": "WL_AnySurface",
     "navigation": {

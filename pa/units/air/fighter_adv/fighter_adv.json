@@ -6,7 +6,8 @@
     "max_health": 225,
     "system_velocity_multiplier": 30.0,
     "gravwell_velocity_multiplier": 10.0,
-    "unit_types": ["UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],
     "guard_layer": "WL_Air",
     "navigation": {
         "type": "air",

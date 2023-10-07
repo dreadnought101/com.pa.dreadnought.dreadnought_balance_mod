@@ -5,7 +5,8 @@
     "max_health": 550,
     "build_metal_cost": 500,
     "spawn_layers": "WL_Underwater",
-    "unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_Sub", "UNITTYPE_FactoryBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_Sub", "UNITTYPE_FactoryBuild"],
     "guard_layer": "WL_AnyWater",
     "navigation": {
         "type": "underwater",

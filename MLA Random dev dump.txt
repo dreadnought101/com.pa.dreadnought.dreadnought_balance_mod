@@ -5,10 +5,11 @@
 --Todo
 
 
-reduce spinner by 5 health
-reduce lynx health by 5
-
-Drifter metal cost reduction by 5
+Change transporter range from 2000 to 4084
+Slammer changes
+Unit cannon units not deploying bug
+Nuke not showing up bug
+Lob doing SXX sounds?
 
 
 --LONG TERM Todo

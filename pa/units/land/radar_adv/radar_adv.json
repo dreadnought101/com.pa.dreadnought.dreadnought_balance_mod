@@ -14,7 +14,8 @@
     "spawn_layers": "WL_AnySurface",
     "area_build_type": "Sphere",
     "area_build_separation": 200,
-    "unit_types": ["UNITTYPE_Land", "UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Recon", "UNITTYPE_FabAdvBuild", "UNITTYPE_Radar", "UNITTYPE_RadarJammer"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Land", "UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Recon", "UNITTYPE_FabAdvBuild", "UNITTYPE_Radar", "UNITTYPE_RadarJammer"],
     "physics": {
         "collision_layers": "WL_AnySurface"
     },

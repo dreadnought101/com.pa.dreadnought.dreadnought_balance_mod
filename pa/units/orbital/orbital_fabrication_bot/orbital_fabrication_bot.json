@@ -7,7 +7,8 @@
     "build_metal_cost": 1300,
     "spawn_layers": "WL_Orbital",
     "buildable_types": "(FabOrbBuild) - Custom1 - Custom2 - Custom3 - Custom4",
-    "unit_types": ["UNITTYPE_Orbital", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Orbital", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "attachable": {
         "offsets": {

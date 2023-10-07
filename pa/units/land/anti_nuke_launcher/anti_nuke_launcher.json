@@ -20,7 +20,8 @@
         "initial_build_spec": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json",
         "default_build_stance": "Continuous"
     },
-    "unit_types": ["UNITTYPE_Land", "UNITTYPE_Structure", "UNITTYPE_Defense", "UNITTYPE_NukeDefense", "UNITTYPE_Advanced", "UNITTYPE_Factory", "UNITTYPE_FabAdvBuild", "UNITTYPE_CombatFabAdvBuild", "UNITTYPE_Important"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Land", "UNITTYPE_Structure", "UNITTYPE_Defense", "UNITTYPE_NukeDefense", "UNITTYPE_Advanced", "UNITTYPE_Factory", "UNITTYPE_FabAdvBuild", "UNITTYPE_CombatFabAdvBuild", "UNITTYPE_Important"],
     "command_caps": ["ORDER_FactoryBuild"],
     "recon": {
         "observer": {

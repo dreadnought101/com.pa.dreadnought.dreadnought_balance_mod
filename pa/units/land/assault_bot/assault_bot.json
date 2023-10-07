@@ -10,7 +10,8 @@
             "head": [0, 0, 3.5]
         }
     },
-    "unit_types": ["UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Amphibious"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Amphibious"],
     "transportable": {
         "size": 1
     },

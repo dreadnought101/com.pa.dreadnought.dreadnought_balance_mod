@@ -12,7 +12,8 @@
         }
     },
     "buildable_types": "(Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & Bot | Titan & (Tank | Bot | Air | Naval)) - Custom1 - Custom2 - Custom3 - Custom4",
-    "unit_types": ["UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
         "size": 1

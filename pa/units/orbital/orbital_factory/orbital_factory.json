@@ -14,7 +14,8 @@
     "spawn_layers": "WL_Orbital",
     "wait_to_rolloff_time": 0,
     "factory_cooldown_time": 4,
-    "unit_types": ["UNITTYPE_Factory", "UNITTYPE_Construction", "UNITTYPE_Orbital", "UNITTYPE_FabOrbBuild", "UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Important"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Factory", "UNITTYPE_Construction", "UNITTYPE_Orbital", "UNITTYPE_FabOrbBuild", "UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Important"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_FactoryBuild", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Attack", "ORDER_Assist"],
     "recon": {
         "observer": {

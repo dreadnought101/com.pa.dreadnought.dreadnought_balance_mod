@@ -22,7 +22,7 @@
         "energy": 45000,
         "metal": 1500
     },
-    "unit_types": ["UNITTYPE_Commander", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Amphibious", "UNITTYPE_NoBuild"],
+    "unit_types": ["UNITTYPE_Custom58", "UNITTYPE_Commander", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Amphibious", "UNITTYPE_NoBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Attack", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use", "ORDER_FireSecondaryWeapon"],
     "transportable": {
         "size": 1

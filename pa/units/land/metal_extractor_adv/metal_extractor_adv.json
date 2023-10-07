@@ -18,7 +18,8 @@
     "consumption": {
         "energy": 0
     },
-    "unit_types": ["UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_MetalProduction", "UNITTYPE_FabAdvBuild", "UNITTYPE_Economy"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_MetalProduction", "UNITTYPE_FabAdvBuild", "UNITTYPE_Economy"],
     "recon": {
         "observer": {
             "items": [{

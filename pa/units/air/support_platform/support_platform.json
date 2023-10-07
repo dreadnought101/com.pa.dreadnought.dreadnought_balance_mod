@@ -11,7 +11,8 @@
             "root": [0, 0, 0]
         }
     },
-    "unit_types": ["UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_MissileDefense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_MissileDefense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Repair", "ORDER_Assist", "ORDER_Reclaim"],
     "navigation": {
         "type": "air",

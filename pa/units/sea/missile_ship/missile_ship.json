@@ -6,7 +6,8 @@
     "build_metal_cost": 3200,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [7, 36, 7],
-    "unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Tactical", "UNITTYPE_FactoryBuild", "UNITTYPE_Radar", "UNITTYPE_AirDefense"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Tactical", "UNITTYPE_FactoryBuild", "UNITTYPE_Radar", "UNITTYPE_AirDefense"],
     "physics": {
         "shape": "sphere",
         "radius": 3

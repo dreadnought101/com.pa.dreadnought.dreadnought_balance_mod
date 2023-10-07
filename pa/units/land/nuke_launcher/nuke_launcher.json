@@ -17,7 +17,8 @@
         "initial_build_spec": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
         "default_build_stance": "Continuous"
     },
-    "unit_types": ["UNITTYPE_Land", "UNITTYPE_Structure", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Nuke", "UNITTYPE_Factory", "UNITTYPE_FabAdvBuild", "UNITTYPE_Important", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Land", "UNITTYPE_Structure", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Nuke", "UNITTYPE_Factory", "UNITTYPE_FabAdvBuild", "UNITTYPE_Important", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_FactoryBuild", "ORDER_Attack"],
     "recon": {
         "observer": {

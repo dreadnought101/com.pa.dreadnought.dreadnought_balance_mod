@@ -1,4 +1,4 @@
-Patch 1.59 UPDATE Patch on Live 
+Patch 1.59 
 
 Spinner (Vehicle AA)
 -Health Reduced 130 to 125 [Vanilla 160]

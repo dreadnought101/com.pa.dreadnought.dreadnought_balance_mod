@@ -6,7 +6,8 @@
     "build_metal_cost": 1800,
     "spawn_layers": "WL_Underwater",
     "mesh_bounds": [5, 35, 5],
-    "unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Sub", "UNITTYPE_FactoryBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Sub", "UNITTYPE_FactoryBuild"],
     "navigation": {
         "type": "underwater",
         "acceleration": 40,

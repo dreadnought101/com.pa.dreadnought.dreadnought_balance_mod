@@ -6,7 +6,8 @@
     "max_health": 1500,
     "spawn_layers": "WL_DeepWater",
     "mesh_bounds": [4, 24, 7],
-    "unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],
     "guard_layer": "WL_AnySurface",
     "navigation": {
         "type": "deepwater",

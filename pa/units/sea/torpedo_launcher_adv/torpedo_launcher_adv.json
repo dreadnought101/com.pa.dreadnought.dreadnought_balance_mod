@@ -9,7 +9,8 @@
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_separation": 18,
-    "unit_types": ["UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Naval", "UNITTYPE_Defense", "UNITTYPE_FabAdvBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Naval", "UNITTYPE_Defense", "UNITTYPE_FabAdvBuild"],
     "guard_layer": "WL_AnySurface",
     "command_caps": ["ORDER_Attack"],
     "events": {

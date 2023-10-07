@@ -15,7 +15,8 @@
         "deploy_projectile": "/pa/units/orbital/orbital_launcher/orbital_launcher_deploy.json",
         "spawn_points": ["bone_missile01"]
     },
-    "unit_types": ["UNITTYPE_Orbital", "UNITTYPE_Factory", "UNITTYPE_Construction", "UNITTYPE_Structure", "UNITTYPE_Land", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_Basic", "UNITTYPE_Important", "UNITTYPE_CmdBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Orbital", "UNITTYPE_Factory", "UNITTYPE_Construction", "UNITTYPE_Structure", "UNITTYPE_Land", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_Basic", "UNITTYPE_Important", "UNITTYPE_CmdBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_FactoryBuild", "ORDER_Attack", "ORDER_Assist"],
     "recon": {
         "observer": {

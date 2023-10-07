@@ -13,7 +13,8 @@
             "root": [0, 0, 0]
         }
     },
-    "unit_types": ["UNITTYPE_Orbital", "UNITTYPE_Mobile", "UNITTYPE_Transport", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Orbital", "UNITTYPE_Mobile", "UNITTYPE_Transport", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Load", "ORDER_Unload", "ORDER_SpecialMove"],
     "events": {
         "build_complete": {

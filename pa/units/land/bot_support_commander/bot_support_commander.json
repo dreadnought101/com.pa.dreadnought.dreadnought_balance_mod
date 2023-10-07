@@ -16,7 +16,8 @@
             "head": [0, 0, 10]
         }
     },
-    "unit_types": ["UNITTYPE_Bot", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_SupportCommander", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Bot", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_SupportCommander", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Attack", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
         "size": 1

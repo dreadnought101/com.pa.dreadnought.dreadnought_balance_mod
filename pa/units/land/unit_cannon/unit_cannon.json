@@ -19,7 +19,8 @@
         "hide_deploy_projectile": true,
         "hide_stored_units": true
     },
-    "unit_types": ["UNITTYPE_Structure", "UNITTYPE_Factory", "UNITTYPE_Advanced", "UNITTYPE_Artillery", "UNITTYPE_FabAdvBuild", "UNITTYPE_Important", "UNITTYPE_Interplanetary"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Structure", "UNITTYPE_Factory", "UNITTYPE_Advanced", "UNITTYPE_Artillery", "UNITTYPE_FabAdvBuild", "UNITTYPE_Important", "UNITTYPE_Interplanetary"],
     "command_caps": ["ORDER_FactoryBuild", "ORDER_Attack"],
     "model": {
         "filename": "/pa/units/land/unit_cannon/unit_cannon.papa",

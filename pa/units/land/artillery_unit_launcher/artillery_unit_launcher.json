@@ -145,7 +145,8 @@
             "spec_id": "/pa/units/land/artillery_unit_launcher/artillery_unit_build_arm.json"
         }
     ],
-    "unit_types": [
+     "unit_types": [
+ "UNITTYPE_Custom58",
         "UNITTYPE_Structure",
         "UNITTYPE_Artillery",
         "UNITTYPE_Factory",

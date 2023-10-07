@@ -12,7 +12,8 @@
     "storage": {
         "energy": 250000
     },
-    "unit_types": ["UNITTYPE_Structure", "UNITTYPE_Basic", "UNITTYPE_CmdBuild", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_Economy"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Structure", "UNITTYPE_Basic", "UNITTYPE_CmdBuild", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_Economy"],
     "recon": {
         "observer": {
             "items": [{

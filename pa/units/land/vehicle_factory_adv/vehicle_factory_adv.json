@@ -11,7 +11,8 @@
     "rolloff_dirs": [[0, 1, 0], [0, -1, 0]],
     "wait_to_rolloff_time": 0,
     "factory_cooldown_time": 6.5,
-    "unit_types": ["UNITTYPE_Factory", "UNITTYPE_Construction", "UNITTYPE_Land", "UNITTYPE_Tank", "UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Important"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Factory", "UNITTYPE_Construction", "UNITTYPE_Land", "UNITTYPE_Tank", "UNITTYPE_Structure", "UNITTYPE_Advanced", "UNITTYPE_Important"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_FactoryBuild", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Attack", "ORDER_Assist", "ORDER_Use"],
     "recon": {
         "observer": {

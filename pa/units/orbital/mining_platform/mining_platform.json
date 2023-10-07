@@ -16,7 +16,8 @@
     "storage": {
         "metal": 10000
     },
-    "unit_types": ["UNITTYPE_Orbital", "UNITTYPE_FabOrbBuild", "UNITTYPE_EnergyProduction", "UNITTYPE_MetalProduction", "UNITTYPE_Structure", "UNITTYPE_Economy"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Orbital", "UNITTYPE_FabOrbBuild", "UNITTYPE_EnergyProduction", "UNITTYPE_MetalProduction", "UNITTYPE_Structure", "UNITTYPE_Economy"],
     "physics": {
         "radius": 20,
         "collision_layers": "WL_Orbital",

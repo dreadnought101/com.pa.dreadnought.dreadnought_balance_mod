@@ -48,7 +48,8 @@
     },
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "strategic_icon_priority": 3,
-    "unit_types": [
+     "unit_types": [
+ "UNITTYPE_Custom58",
         "UNITTYPE_Structure",
         "UNITTYPE_Land",
         "UNITTYPE_NoBuild"

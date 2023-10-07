@@ -11,7 +11,8 @@
             "head": [0, 0, 2.7]
         }
     },
-    "unit_types": ["UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_Hover", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
+     "unit_types": [
+ "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_Hover", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "transportable": {
         "size": 1
     },
