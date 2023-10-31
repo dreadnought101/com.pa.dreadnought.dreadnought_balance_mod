@@ -1,14 +1,35 @@
-Patch 1.60
+Patch 1.62
 
-Added Custom58 tags to MLA Units
+Single Laser Turret
+-health decreased 350 to 325
+-damage decreased 35 to 25
+-turret rotation increased 90 to 120 (Yaw rate)
+(Still 2 shots strykers and dox, increased rotation for more effectiveness against those units as well as boombots+locusts, health+damage nerf against ants+sparks)
 
-Patch 1.61
+Locust
+-Increase attack range 30 to 35
+-Increase vision 40 to 45
+-Added radar vision 75
+(Adjusted true vision to ensure a player can see the destruction wrought by their locust attacks.  Added radar to allow a player imperfect vision to work with, though combod with other units still is important)
 
-Stryker (T1 Vehicle)
--Speed increased 20 to 21 [Vanilla 17]
+Omega
+-Laser turret damage decreased 90 to 50 [Vanilla 130 or 65x2]
+-Laser turret firerate increased 1.5 to 2.5 [Vanilla 2.0] 
+(Reworked the omega to be more devestating against avengers while its DPS overall is relatively the same)
 
-Dox (T1 Bot)
--Speed increased 20 to 21
+Avenger
+-Health reduced 90 to 50
+(The 90 health test made it too snowbally against other players with less avengers in the early game, and the 50 variant serves to help improve omegas)
 
-Slammer (T2 Bot)
--Speed increased 14 to 15
+Transports
+-Adjusted all Air/Orbital transports [Pelican/Osprey/Astraeus/Chariot] transporter range from 2000 to 4084 [old vanilla 20, new vanilla 4084] 
+(More just under the hood dev stuff)
+
+Legion
+-Implemented all Legion changes from Patch 1.29.0 excluding Jeagers (Still cannot travel through teleporters due to the MLA/Bug equivelent Kaijus unable to do so as well)
+-Added a fix to MLA mine detecting units to also detect deployed infiltrators [Stitches/Mends/Skitters/Barnacles]
+(There is also currently an issue where Legion shields will not block MLA units, but that requires modifying a hundred MLA units' ammo files which boggles my mind, perhaps I'll fix that later)
+
+Viper (T1 Orbital Fighter)
+-Decreased secondary (close range) weapon damage 40 to 15
+(Combos with Avenger changes, will watch matchup closely on long range+short range engagement outcomes)

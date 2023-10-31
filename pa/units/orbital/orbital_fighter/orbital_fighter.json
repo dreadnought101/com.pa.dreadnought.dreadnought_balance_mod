@@ -3,7 +3,7 @@
     "display_name": "Avenger",
     "description": "!LOC:Orbital Fighter - Fast moving orbital fighter for offense and defense.",
     "build_metal_cost": 300,
-    "max_health": 90,
+    "max_health": 50,
     "gravwell_velocity_multiplier": 12.0,
     "system_velocity_multiplier": 36.0,
     "planetary_arrival_cooldown_time": 2.0,

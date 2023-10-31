@@ -2,19 +2,20 @@
 
 
 
+
 --Todo
 
 
-Change transporter range from 2000 to 4084
-Slammer changes (Speed 14 to 15)  Dox and Stryker to 21 Speed
+
 Unit cannon units not deploying bug
-Nuke not showing up bug
+Nuke icon (sound?) not showing up bug
 Lob doing SXX sounds?
 
 
 --LONG TERM Todo
 
 
+remove use command from orbital fabbers?
 
 -Spark projectile always explodes
 -Transport adjustments

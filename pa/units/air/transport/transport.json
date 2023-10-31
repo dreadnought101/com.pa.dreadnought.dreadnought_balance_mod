@@ -39,7 +39,7 @@
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Load", "ORDER_Unload"],
     "useable": {
         "type": "transport",
-        "range": 2000
+        "range": 4084
     },
     "transporter": {
         "capacity": 1,

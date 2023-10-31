@@ -183,6 +183,7 @@ Viper (Orbital fighter)
 -Range increased 100+200 to 200+280 [Viper has 2 weapons of the same type, different range] 
 -Increase Main weapon Yaw-Range from 75 to 90 (180 degree firing arc) [base 280 range weapon]
 -Increase Secondary Weapon yaw_range from 75 to 360 [base 140 range weapon]
+-Decreased Secondary Weapon Damage 50 to 15 
 -Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0

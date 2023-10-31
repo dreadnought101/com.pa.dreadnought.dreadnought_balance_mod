@@ -13,8 +13,8 @@
         }
     },
     "buildable_types": "(CombatFabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
-     "unit_types": [
- "UNITTYPE_Custom58","UNITTYPE_Offense", "UNITTYPE_Construction", "UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_WaterHover"],
+    "unit_types": [
+        "UNITTYPE_Custom58", "UNITTYPE_Offense", "UNITTYPE_Construction", "UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_WaterHover"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist"],
     "navigation": {
         "type": "water-hover",
@@ -51,6 +51,12 @@
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 150
+                }, {
+                    "channel": "radar",
+                    "layer": "surface_and_air",
+                    "radius": 150,
+                    "shape": "capsule",
+                    "uses_energy": true
                 }
             ]
         }

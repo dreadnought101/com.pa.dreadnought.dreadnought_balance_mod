@@ -11,8 +11,8 @@
         }
     },
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist", "ORDER_Use"],
-     "unit_types": [
- "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Offense"],
+    "unit_types": [
+        "UNITTYPE_Custom58", "UNITTYPE_Tank", "UNITTYPE_Vehicle", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable", "UNITTYPE_Offense"],
     "transportable": {
         "size": 1
     },
@@ -28,7 +28,7 @@
     "physics": {
         "radius": 3
     },
-	"tools": [{
+    "tools": [{
             "spec_id": "/pa/units/land/land_scout/land_scout_weapon"
         }
     ],
@@ -52,6 +52,12 @@
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 200
+                }, {
+                    "channel": "radar",
+                    "layer": "surface_and_air",
+                    "radius": 200,
+                    "shape": "capsule",
+                    "uses_energy": true
                 }
             ]
         }

@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.61]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.62]
 
 ~Commander
 [TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
@@ -167,7 +167,11 @@ Update: Patch decreased )
 -Deleted from the game
 ...kidding.
 -build cost increased 260 metal to 250
-  (Dev Note: Adjusted for factory changes weakening the unit incidentally)
+-health decreased 80 to 70
+-Increase attack range 30 to 35
+-Increase vision 40 to 45
+-given 75 radius radar
+  (Dev Note: Adjusted for factory changes weakening the unit incidentally. Radar allows locusts to operate more on their own with imperfect information.)
 
 ~Slammer (T2 Bot)
 -Torpedos no longer target Hover and Water_Hover targets
