@@ -2,8 +2,8 @@
     "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
     "display_name": "Angel",
     "description": "!LOC:Support Platform - Repairs nearby units and auto reclaims wreckage. Intercepts homing missiles. Does not attack.",
-    "max_health": 1200,
-    "build_metal_cost": 5200,
+    "max_health": 1400,
+    "build_metal_cost": 5150,
     "system_velocity_multiplier": 30.0,
     "gravwell_velocity_multiplier": 10.0,
     "attachable": {
@@ -19,7 +19,7 @@
         "inter_planetary_type": "system",
         "acceleration": 70,
         "brake": 50,
-        "move_speed": 70,
+        "move_speed": 60,
         "turn_speed": 180,
         "vertical_speed": 100,
         "hover_time": -1.0
@@ -47,17 +47,19 @@
         },
         "animtree": "/pa/anim/anim_trees/support_platform_anim_tree.json"
     },
-    "tools": [{
+    "tools": [
+        {
             "spec_id": "/pa/units/air/support_platform/support_platform_tool_interception.json",
-            "record_index": 0,
-            "fire_event": "fired0",
-            "aim_bone": "bone_pitch",
-            "muzzle_bone": "socket_muzzle01"
-        }, {
-            "spec_id": "/pa/units/air/support_platform/support_platform_build_arm.json",
             "record_index": 1,
-            "muzzle_bone": "socket_muzzle02",
-            "aim_bone": "bone_root"
+            "fire_event": "fired0",
+            "aim_bone": "bone_root",
+            "muzzle_bone": "socket_muzzle02"
+        },
+        {
+            "spec_id": "/pa/units/air/support_platform/support_platform_build_arm.json",
+            "record_index": 0,
+            "muzzle_bone": "socket_muzzle01",
+            "aim_bone": "bone_pitch"
         }
     ],
     "events": {

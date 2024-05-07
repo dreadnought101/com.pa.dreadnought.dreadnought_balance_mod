@@ -1,7 +1,7 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS
 
 ~Astraeus (Orbital Transport)
--Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
 -Pickup range increased 20 to 60
@@ -12,14 +12,14 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -100 weapon range to 135 (36%)
 -weapon projectile speed increased 300 to 400
 -Speed/Accel 65 to 90 (brake 20 to 25)
--Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
 (gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
 
 ~Hermes (Orbital Probe)
 -Speed 75 to 100 (brake/accel 75 to 100)
--Orbital arrival delay decreased 4.0 to 2.0[Vanilla 3.0]
+-Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
 
@@ -250,18 +250,20 @@ Roll off time - 6 to 9
   (Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
 
 ~Unit Cannon (T2 Launcher Factory)
--Metal cost increased 6800 to 7200
--HP increased 18000 to 40000
--Added Drifters, Infernos
-  (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games)
-  (Dev Note: -Testing filling out a roster for unit cannon, will look at the addition of storms and especially infernos closely)
+-Metal cost 5600 to 6000 
+-HP 18000 to 32000
+-Added Drifters, Skitters to build list
+-Increased Pod Capacity 16 to 20
+-Pod Speed decreased 250 to 200
+-Stingray/Umbrella/Catapult anti-pod missiles speed increased 200 to 400 [Bluehawk anti-pod component removed entirely]
+   (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games.  Other general buffs, helps T1 units)
 
 ~Anti-nuke launcher
 -Decreased building cost from 12000 to 5000
 -Increased anti-missile cost from 5000 to 9000
 -Increased Build rate from 60 to 92
 -Increased Energy Drain from 4000 to 6120 (roughly the same 66.7 energy per metal)
-  (Dev Comment: Helps decrease reaction time/cost for the first missile from 17000 to 14000 but increases fully 3 equipped from 27000 to 32000. Also buildrate is increased to keep non-boosted silo build-times the same at around 80 seconds per shot)
+  (Dev Idea: Helps decrease reaction time/cost for the first missile from 17000 to 14000 but increases fully 3 equipped from 27000 to 32000. Also buildrate is increased to keep non-boosted silo build-times the same at around 80 seconds per shot)
 
 ~Nuke Launcher
 -Structure cost reduced 14400 to 9600

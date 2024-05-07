@@ -1,35 +1,116 @@
-Patch 1.62
+Patch 1.63
 
-Single Laser Turret
--health decreased 350 to 325
--damage decreased 35 to 25
--turret rotation increased 90 to 120 (Yaw rate)
-(Still 2 shots strykers and dox, increased rotation for more effectiveness against those units as well as boombots+locusts, health+damage nerf against ants+sparks)
+#### MLA
 
-Locust
--Increase attack range 30 to 35
--Increase vision 40 to 45
--Added radar vision 75
-(Adjusted true vision to ensure a player can see the destruction wrought by their locust attacks.  Added radar to allow a player imperfect vision to work with, though combod with other units still is important)
+Commander
+-Torpedo AT damage against commanders increased 50% to %75 [Vanilla 100%]
+-Build Range increased from 30 to 45 [Vanilla 30 to 45]
+-Metal Amount reduced 25000 to 15000
+(Dev: Metal amount helps heal the commander HP back to full)
 
-Omega
--Laser turret damage decreased 90 to 50 [Vanilla 130 or 65x2]
--Laser turret firerate increased 1.5 to 2.5 [Vanilla 2.0] 
-(Reworked the omega to be more devestating against avengers while its DPS overall is relatively the same)
+Locust (T2 bot)
+-radar reduced 75 to 70 [Vanilla: no radar]
 
-Avenger
--Health reduced 90 to 50
-(The 90 health test made it too snowbally against other players with less avengers in the early game, and the 50 variant serves to help improve omegas)
+Angel (T2 Air Support Platform)
+-Decreased health 1700 to 1400 [Vanilla 2000]
+-Speed reduced 70 to 60 (Brake/accel not adjusted) [Vanilla 40] 
+-Decreased metal cost 5250 to 5150 [Vanilla 5000 to 4000]
+-Missile Interception Range increased 160 to 200
+(Dev: Broad health buff for this utility unit for surviving planetary incursions, and slightly better offsets its metal to health ratio)
 
-Transports
--Adjusted all Air/Orbital transports [Pelican/Osprey/Astraeus/Chariot] transporter range from 2000 to 4084 [old vanilla 20, new vanilla 4084] 
-(More just under the hood dev stuff)
+Manhattan (T2 vehicle)
+-Health 16000 to 10500 [Vanilla 15000]
+-Metal Cost reduced 8000 to 7250
+-Damage reduced from 33000 to 18000
+-Manhatten now leaves a 10 second visual on death
+-Move Speed increased 10 to 15
+-Acceleration Rate increased 70 to 110
+-Breaking Rate increased 70 to 110
+-Turn Speed increased 60 to 95 (turn+accel 30 to 50)
+-Other units being able to push Manhatten removed  [Added Amphibious-Large to navigation]
 
-Legion
--Implemented all Legion changes from Patch 1.29.0 excluding Jeagers (Still cannot travel through teleporters due to the MLA/Bug equivelent Kaijus unable to do so as well)
--Added a fix to MLA mine detecting units to also detect deployed infiltrators [Stitches/Mends/Skitters/Barnacles]
-(There is also currently an issue where Legion shields will not block MLA units, but that requires modifying a hundred MLA units' ammo files which boggles my mind, perhaps I'll fix that later)
 
-Viper (T1 Orbital Fighter)
--Decreased secondary (close range) weapon damage 40 to 15
-(Combos with Avenger changes, will watch matchup closely on long range+short range engagement outcomes)
+Unit Cannon
+-Cost reduced 7200 to 6000 [Vanilla 6800 to 5600]
+-HP reduced 40000 to 32000 [Vanilla 18000]
+-Rolloff/Cooldown timer reduced 3 to 2 seconds [Vanilla 3.0 to 2.0]
+-Removed Inferno from build list [Skitter/Drifter not in Vanilla roster]
+-Increased Pod Capacity 12 to 20 [Vanilla 12 to 16] 
+-Pod Speed increased 150 to 200 [Vanilla 150 to 250]
+-Stingray/Umbrella/Catapult anti-pod missiles speed increased 200 to 400 (Bluehawk anti-pod component removed entirely)
+
+Vanguard (T2 vehicle)
+-Added 100 energy drain to power radar [Vanilla 0 to 150]
+-Added Unittype Radar
+(Dev Note: Had a 90% energy requirement already)
+
+Stingray (T2 naval)
+-Added 90% energy effeciency requirement to power radar [Vannilla adjusted]
+-Added 200 energy drain to power radar [Vanilla 0 to 150]
+-Radar range increased 350 to 375 
+
+Colonel (T2 bot commander)
+-Build range 35 to 45 [Vanilla 30 to 45]
+-Weapon range increased 100 to 115
+
+Hermes (T1 orbital scout)
+-90% energy requirement removed
+(Dev Note: Did not drain energy to begin with, only used true vision, no radar)
+
+Firely (T1 air scout)
+-Metal 90 to 115 [Vanilla 60]
+-Health 25 to 80
+(Dev Note: Soaks 2 fighter shots, 3 spinner+galata shots)
+
+Skitter (T1 vehicle scout)
+-Metal Cost 55 to 65 [Vanilla 45]
+-Move Speed 35 to 36 [Vanilla 25]
+-Added Attack order command
+-Added 150 Observe range to prevent skitter from running into enemy units during attack move [Vanilla 100]
+(Dev note: Quality of life change to prevent skitters from running into enemies so easily, Higher range than slammers/levelers and T1 units but lower than the longer range T2 units)
+
+Barnacle (T1 naval combat fab)
+-Build range 90 to 80 [Vanille 65]
+-Speed 12 to 14 [Vanilla 12 to 14]
+-Can now auto-reclaim (This mechanic can apply while unit is moving) [Vanilla auto-reclaim component added]
+
+Stitch (T1 bot combat fab)
+-Can now auto reclaim
+(Trying out auto reclaim with basic combat fabs. All advanced combat fabs have this mechanic already)
+
+Kaiju (T2 naval hover ship)
+-Can now use teleporter
+
+Leveler (T2 Vehicle)
+-Partial AOE damage radius 2 [Vanilla 3 to removed entirely] 
+
+Spark (T1 bot)
+-Projectile Lifetime maintained 0.55 [vanilla 1.0 to 0.5]
+
+Bluehawk
+-Live version target priorities added (Shameful display of low skill but oh well)
+
+Energy Storage
+-Health unchanged 5000 [Vanilla 7500 to 3500]
+
+Metal Storage
+-Health unchanged 7500 [Vanilla 7500 to 3500]
+
+Slammer
+-Torpedo turn rate increased 120 to 150 [Vanilla 120 to 150]
+-Includes various torpedo QoL improvements from Vanilla
+
+Kestral
+-Health 300 unchanged [Vanilla 250 to 300]
+(Ya but modded variation has reduced damage, live is increased damage, less range...odd)
+
+#### LEGION
+
+
+Commander 
+-metal cost 25000 to 15000 (makes repairing lost health easier)
+-Inherents other torpedo fixes/changes in base game's patch notes and 0.75% anti-commander rating from mod
+
+Support Commander
+-Build range increased 35 to 45 [Vanilla 30 to 45]
+-Weapon Range increased 115 to 125 [Vanilla 110]

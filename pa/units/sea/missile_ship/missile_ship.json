@@ -5,9 +5,13 @@
     "max_health": 3000,
     "build_metal_cost": 3200,
     "spawn_layers": "WL_WaterSurface",
+    "consumption": {
+        "energy": 200
+    },
+    "energy_efficiency_requirement": 0.9,
     "mesh_bounds": [7, 36, 7],
-     "unit_types": [
- "UNITTYPE_Custom58","UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Tactical", "UNITTYPE_FactoryBuild", "UNITTYPE_Radar", "UNITTYPE_AirDefense"],
+    "unit_types": [
+        "UNITTYPE_Custom58", "UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Tactical", "UNITTYPE_FactoryBuild", "UNITTYPE_Radar", "UNITTYPE_AirDefense"],
     "physics": {
         "shape": "sphere",
         "radius": 3
@@ -38,12 +42,14 @@
                     "shape": "capsule",
                     "layer": "surface_and_air",
                     "channel": "radar",
-                    "radius": 350
+                    "radius": 375,
+					"uses_energy": true
                 }, {
                     "shape": "capsule",
                     "layer": "underwater",
                     "channel": "radar",
-                    "radius": 350
+                    "radius": 375,
+					"uses_energy": true
                 }
             ]
         }

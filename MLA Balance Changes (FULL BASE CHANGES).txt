@@ -1,14 +1,10 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.62]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.63]
 
 ~Commander
-[TLDR: Increased Move speed, Uber Cannons hit harder, Torpedos less damage against commanders specifically]
--Increased move speed from 6 to 8
 -Increase Commander AA AOE from 0.75 to 1.5
 -No longer auto targets icarus
--increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot. Commander vs commander 0.25 is unchanged)
--decreased commander Torpedo weapon vs commanders from 100% to 50%
-  (Note: Allows commander walking to be more common and push out on the map. I also want to put wall damage to 150% but WIP.) 
-  (Note2: The torpedo change increases commander kill time for sea based engagements, due to it being significantly higher than land engagements that are around 204 dps including uber cannons, while sea based engagements are at 400 dps)
+-increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot. Commander vs commander AT 25% is unchanged)
+-decreased commander Torpedo weapon vs commanders from 100% to 75%
 
 ~Firefly (T1 Air Scout)
 -Added Radar Stealth 
@@ -17,9 +13,10 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.62]
 
 ~Skitter (T1 Vehicle Scout)
 -Added Radar Stealth
--Move speed 25 to 35
--Metal cost 75 to 55
+-Move speed 25 to 36
+-Metal cost 75 to 65
 -Health 10 to 15
+-Observe range 100 to 150
   (Note 1: Rewards lone positioning and scouting in mid to late game)
 (Note 2 The movespeed buff allows skitters when built before the first fabs to reach the enemy base on small, and some medium maps before an air scout and icarus can be built and makes a ground only opener struggle.
 ~the health increase is to tank a shot from dox or strykers [they fire 2, so its only for partial hits],
@@ -170,31 +167,32 @@ Update: Patch decreased )
 -health decreased 80 to 70
 -Increase attack range 30 to 35
 -Increase vision 40 to 45
--given 75 radius radar
+-given 70 radius radar
   (Dev Note: Adjusted for factory changes weakening the unit incidentally. Radar allows locusts to operate more on their own with imperfect information.)
 
 ~Slammer (T2 Bot)
 -Torpedos no longer target Hover and Water_Hover targets
 -Increased speed 14 to 15
 
-~Gille (T2 Bot)
+~Gil-E (T2 Bot)
 -Range increased 180 to 200
 (Range was reduced in a recent patch, but makes it more difficult to utilize fragile, ranged units in most skill brackets)
 
 ~Bluehawk (T2 Bot)
 -Missile Velocity 80 to 100
+-Missile Lifetime reduced 15 to 8
 -Range increased 200 to 220
 
 ~Colonel (T2 Bot)
--build arm range 30->35
+-Weapon range increased 100 to 115
 -Changed armor type of AT_Commander to Bot
 
 ~Leveler (T2 Vehicle)
 -Increased idle aim delay from 3 to 5
 -Decreased damaged from 300x2 to 225x2
--Decreased partial AOE radius from 3 to 2 (full damage AOE 1 radius unchanged)
--Increased Range from 120 to 130
-(Dev Comment: I may prefer 250x2 so that ants+drifters will still get 1 shot even if partially hit, but I want to see a lowering of leveler damage overall as their dps is insane against high health targets, but still maintain that they can 1 shot many T1s, and easily kill slammers and other soft T2. I don't like that their AOE makes them good at handling groups as well and want to reduce it slightly)
+-Added partial AOE radius of 2.0 (full damage AOE 1.0 radius)
+-Increased Range from 120 to 135
+(Dev Comment: I may prefer 250x2 so that ants+drifters will still get 1 shot even if partially hit, but I want to see a lowering of leveler damage overall as their dps is insane against high health targets, but still maintain that they can 1 shot many T1s, and easily kill slammers and other soft T2)
 
 ~Storm (T2 Vehicle)
 -range increased 100 to 120
@@ -212,8 +210,21 @@ Update: Patch decreased )
 -Decreased bullet velocity 100 to 80
 -Decreased turret rotation speed [Yaw_rate] 360 to 120] (2x faster than drifter, 4x faster than leveler)
 -Radar increased 260 to 300
--Jamming removed
-  (Dev Idea: Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base as well as remove jamming and give them a little more of a defined radar role in ranged warfare)
+-Energy drain 150 to 100
+  (Dev Idea: Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base)
+
+Manhatten
+-no longer pushable by other units
+-HP decreased 15000 to 10500
+-Metal Cost reduced 8000 to 7500
+-Damage reduced from 33000 to 18000
+-Manhatten now leaves a 10 second visual on death
+-Move Speed increased 10 to 15
+-Acceleration Rate increased 70 to 110
+-Breaking Rate increased 70 to 110
+-Turn Speed increased 60 to 95 (turn+accel 30 to 50)
+-Turn speed increased 60 to 70 (turn-accel 30 to 35)
+(Was weak without pushing, but was too cheesy and powerful with push mechanics)
 
 ~Pheonix (T2 Air Fighter)
 [TLDR: Longer range, fires 4 individual shots instead of 1]
@@ -253,7 +264,7 @@ Update: Major changes made hornets essentially double in strength for double the
   (Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
 
 ~Angel (T2 Air support platform)
--metal cost increased 5000 to 5200
+-health increased 1200 to 1700
 -Speed increased 40 to 70 (Accel 30 to 50, acceleration 40 to 70)
 -Added interplanetary (Can move between planets)
 -Vertical speed decreased 100 to 50
@@ -261,7 +272,7 @@ Update: Major changes made hornets essentially double in strength for double the
 
 -Stingray (T2 Naval)
 -Missile velocity increased 80 to 100
--Missile lifetime reduced 15 to 8
+-Missile lifetime reduced 60 to 8
 -Missile turn rate 0 to 45
 -Missile damage increased 1000 to 1250
 -Increased AA-weapon (not cruise weapon) splash radius from 0.75 to 1.5

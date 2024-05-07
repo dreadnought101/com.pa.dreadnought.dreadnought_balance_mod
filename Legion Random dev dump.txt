@@ -1,8 +1,12 @@
 --DONE
 
+Commander 
+-metal cost 25000 to 15000 (makes repairing lost health easier)
+-Inherents other torpedo fixes/changes in base game's patch notes and 0.75% anti-commander rating from mod
 
-
-
+Support Commander
+-Build range increased 35 to 45 [Vanilla 30 to 45]
+-Weapon Range increased 115 to 125 [Vanilla 110]
 
 
 --TODO

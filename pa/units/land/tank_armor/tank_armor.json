@@ -11,7 +11,7 @@
         }
     },
      "unit_types": [
- "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Heavy", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
+ "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Heavy", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],
     "transportable": {
         "size": 1
     },

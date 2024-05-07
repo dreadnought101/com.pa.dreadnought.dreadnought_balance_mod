@@ -4,8 +4,8 @@
     "damage": 0,
     "splash_damage": 0,
     "splash_radius": 0,
-    "initial_velocity": 150.0,
-    "max_velocity": 150.0,
+    "initial_velocity": 200.0,
+    "max_velocity": 200.0,
     "turn_rate": 90,
     "lifetime": 0,
     "interplanetary_type": "INTER_System",
@@ -43,7 +43,7 @@
         "allow_underground": true
     },
     "fx_trail": {
-        "filename": "/pa/units/air/unit_shell/unit_cannon_deploy_trail.pfx"
+        "filename": "/pa/units/land/unit_cannon/unit_cannon_deploy_trail.pfx"
     },
     "events": {
         "collided": {
@@ -61,10 +61,10 @@
     "stages": [{
             "ignores_gravity": true,
             "ignores_LOS": true,
-			"release_payload_on_impact": true,
             "stage_duration": 0,
             "stage_turn_rate": 0,
             "stage_change_height": 300,
+            "release_payload_on_impact": true,
             "rotates_to_velocity": true
         }, {
             "ignores_gravity": true,
@@ -72,11 +72,13 @@
             "stage_duration": 0,
             "stage_turn_rate": 90,
             "stage_change_range": 150,
+            "release_payload_on_impact": true,
             "rotates_to_velocity": true
         }, {
             "ignores_gravity": false,
             "ignores_LOS": false,
             "stage_turn_rate": 90,
+            "release_payload_on_impact": true,
             "rotates_to_velocity": true
         }
     ],

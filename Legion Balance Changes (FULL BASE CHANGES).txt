@@ -2,12 +2,14 @@ FULL LEGION CHANGES
 
 Commander
 -Move Speed 6 to 8
--Torpedo damage vs comms 50%
+-Metal cost 25000 to 15000 (Makes it easier to repair health)
+-Torpedo damage vs comms 75%
 -Uber cannon 72% against structures (25% against comms unchanged) 
 
 Praetorian (Support Commander)
 -Cost reduced 7000 to 6500
 -Build range increased 30 to 35
+-Weapon range increased 110 to 125
 -Turn in place set to true 
 -Turn speed 90 to 180 
 -(Health unchanged at 8000)

@@ -1,8 +1,13 @@
 {
     "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
-    "ammo_id": [{
+    "ammo_id": [
+        {
             "layer": "WL_Seafloor",
-            "id": "/pa/units/commanders/base_commander/base_commander_torpedo_ammo.json"
+            "id": "/pa/units/commanders/base_commander/base_commander_torpedo_ammo_water.json"
+        },
+        {
+            "layer": "WL_LandHorizontal",
+            "id": "/pa/units/commanders/base_commander/base_commander_torpedo_ammo_land.json"
         }
     ],
     "rate_of_fire": 1.0,
@@ -13,6 +18,12 @@
     "pitch_range": 40,
     "auto_attack": true,
     "spread_fire": true,
-    "target_layers": ["WL_WaterSurface", "WL_Seafloor", "WL_Underwater"],
-    "target_priorities": ["Mobile"]
+    "target_layers": [
+        "WL_WaterSurface",
+        "WL_Seafloor",
+        "WL_Underwater"
+    ],
+    "target_priorities": [
+        "Mobile"
+    ]
 }

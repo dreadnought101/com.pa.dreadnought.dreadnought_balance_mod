@@ -1,18 +1,18 @@
 {
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Barnacle",
-    "description": "!LOC:Support Barge - Repairs damaged ships. Builds and detects mines. Cannot help build units. Water hover.",
+    "description": "!LOC:Support Barge - Repairs damaged ships and auto reclaims wreckage. Builds and detects mines. Cannot help build units. Water hover.",
     "max_health": 500,
     "build_metal_cost": 550,
     "spawn_layers": "WL_WaterSurface",
-    "mesh_bounds": [4, 10, 5],
+    "mesh_bounds": [8, 15, 5],
     "attachable": {
         "offsets": {
             "root": [0, 0, 0],
             "head": [0, 0, 4]
         }
     },
-    "buildable_types": "(CombatFabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+    "buildable_types": "CombatFabBuild & Custom58",
     "unit_types": [
         "UNITTYPE_Custom58", "UNITTYPE_Offense", "UNITTYPE_Construction", "UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_WaterHover"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist"],
@@ -20,7 +20,7 @@
         "type": "water-hover",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 12,
+        "move_speed": 14,
         "turn_speed": 90,
         "turn_accel": 45,
         "park_stamp_type": "sphere",

@@ -8,11 +8,6 @@
     "max_velocity": 180.0,
     "lifetime": 0.55,
     "fx_trail": {
-      "offset": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "filename": "/pa/units/land/bot_tesla/bot_tesla_ammo_trail.pfx"
     },
     "events": {

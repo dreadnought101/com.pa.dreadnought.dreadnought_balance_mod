@@ -7,11 +7,16 @@
     "collision_check": "target",
     "collision_response": "destroy",
     "initial_velocity": 10.0,
-    "max_velocity": 200.0,
+    "max_velocity": 400.0,
     "lifetime": 3,
     "turn_rate": 720,
     "fx_trail": {
-        "filename": "/pa/units/orbital/ion_defense/ion_defense_antidrop_ammo_trail.pfx"
+        "filename": "/pa/units/orbital/ion_defense/ion_defense_antidrop_ammo_trail.pfx",
+        "offset": [
+            0.0,
+            1.4,
+            0.0
+        ]
     },
     "model": {
         "filename": "/pa/units/air/missile/missile.papa"

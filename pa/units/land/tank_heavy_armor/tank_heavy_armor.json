@@ -5,14 +5,18 @@
     "max_health": 5000,
     "build_metal_cost": 1600,
     "energy_efficiency_requirement": 0.9,
+    "consumption": {
+        "energy": 100
+    },
     "attachable": {
         "offsets": {
             "root": [0, 0, 0],
             "head": [0, -0.5, 6.1]
         }
     },
-     "unit_types": [
- "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Heavy", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
+    "unit_types": [
+        "UNITTYPE_Custom58", "UNITTYPE_Tank", "UNITTYPE_Heavy", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild",
+        "UNITTYPE_Radar"],
     "transportable": {
         "size": 1
     },
