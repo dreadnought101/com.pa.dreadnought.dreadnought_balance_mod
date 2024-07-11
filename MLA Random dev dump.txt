@@ -1,118 +1,82 @@
 --Dev done
 
-Commander
--Torpedo AT damage against commanders increased 50% to %75 [Vanilla 100%]
--Build Range increased from 30 to 45 [Vanilla 30 to 45]
--Metal Amount reduced 25000 to 15000
-(Dev: Metal amount helps heal the commander HP back to full)
-
-Locust (T2 bot)
--radar reduced 75 to 70 [Vanilla: no radar]
-
-Angel (T2 Air Support Platform)
--Decreased health 1700 to 1400 [Vanilla 2000]
--Speed reduced 70 to 60 (Brake/accel not adjusted) [Vanilla 40] 
--Decreased metal cost 5250 to 5150 [Vanilla 5000 to 4000]
--Missile Interception Range increased 160 to 200
-(Dev: Broad health buff for this utility unit for surviving planetary incursions, and slightly better offsets its metal to health ratio)
-
-Manhattan (T2 vehicle)
--Health 16000 to 10500 [Vanilla 15000]
--Metal Cost reduced 8000 to 7250
--Damage reduced from 33000 to 18000
--Manhatten now leaves a 10 second visual on death
--Move Speed increased 10 to 15
--Acceleration Rate increased 70 to 110
--Breaking Rate increased 70 to 110
--Turn Speed increased 60 to 95 (turn+accel 30 to 50)
--Other units being able to push Manhatten removed  [Added Amphibious-Large to navigation]
-
-
 Unit Cannon
--Cost reduced 7200 to 6000 [Vanilla 6800 to 5600]
--HP reduced 40000 to 32000 [Vanilla 18000]
--Rolloff/Cooldown timer reduced 3 to 2 seconds [Vanilla 3.0 to 2.0]
--Removed Inferno from build list [Skitter/Drifter not in Vanilla roster]
--Increased Pod Capacity 12 to 20 [Vanilla 12 to 16] 
--Pod Speed increased 150 to 200 [Vanilla 150 to 250]
--Stingray/Umbrella/Catapult anti-pod missiles speed increased 200 to 400 (Bluehawk anti-pod component removed entirely)
+-Adjusted Pod Capacity from 1 to 100 (fixes bug with scaling up size of units for the transport system, does not affect actual gameplay)
 
-Vanguard (T2 vehicle)
--Added 100 energy drain to power radar [Vanilla 0 to 150]
--Added Unittype Radar
-(Dev Note: Had a 90% energy requirement already)
+Pelican (Air transport)
+-Weight Capacity 1 to 8
+-HP 100 to 225 [Vanilla 150] 
+-Metal Cost 155 to 240 [Vanilla 140]
+-Movespeed reduced 75 to 70 [Vanilla 70]
+-Added load range 15 
+-Added chase range 5
+-Usable range 30 to 4084 (Matches Vanilla bug fix)
+(Can now essentially transport naval t1 fabs/Pirhannas/Barnacles and more of T1/T2 ground units, see weights for more details)
 
-Stingray (T2 naval)
--Added 90% energy effeciency requirement to power radar [Vannilla adjusted]
--Added 200 energy drain to power radar [Vanilla 0 to 150]
--Radar range increased 350 to 375 
+Astraeus (Orbital Transport)
+-Weight Capacity 1 to 10
+-Added load range 50
+-Added chase range 20
+-pickup range 60 to 4048 (Matches Vanilla bug fix)
+(Can now essentially transport naval Pirhannas/Barnacles/orcas/narwhals alongside pirhannas as well as T2 air fabs+Kestrels as well as carry more T1/T2 ground units, see weights for more details)
 
-Colonel (T2 bot commander)
--Build range 35 to 45 [Vanilla 30 to 45]
--Weapon range increased 100 to 115
+Orbital Launcher
+-Rolloff timer decreased 3 to 2 seconds
+(Allows more spam of avengers, especially when offsetting its increased cost and building size)
 
-Hermes (T1 orbital scout)
--90% energy requirement removed
-(Dev Note: Did not drain energy to begin with, only used true vision, no radar)
+T1 Naval Fab
+-Turn rate increased 90 to 120
+(Makes them a tad more manueverable and survivable)
 
-Firely (T1 air scout)
--Metal 90 to 115 [Vanilla 60]
--Health 25 to 80
-(Dev Note: Soaks 2 fighter shots, 3 spinner+galata shots)
+Single Laser Defense Tower (T1 Turret)
+-Turret Rotation increased 120 to 135 [Vanilla 90]
 
-Skitter (T1 vehicle scout)
--Metal Cost 55 to 65 [Vanilla 45]
--Move Speed 35 to 36 [Vanilla 25]
--Added Attack order command
--Added 150 Observe range to prevent skitter from running into enemy units during attack move [Vanilla 100]
-(Dev note: Quality of life change to prevent skitters from running into enemies so easily, Higher range than slammers/levelers and T1 units but lower than the longer range T2 units)
+Stryker
+-Reduced Speed 21 to 20 [Vanilla 17]
 
-Barnacle (T1 naval combat fab)
--Build range 90 to 80 [Vanille 65]
--Speed 12 to 14 [Vanilla 12 to 14]
--Can now auto-reclaim (This mechanic can apply while unit is moving) [Vanilla auto-reclaim component added]
+Dox
+-Reduced Speed 21 to 20 [Vanilla 20]
 
-Stitch (T1 bot combat fab)
--Can now auto reclaim
-(Trying out auto reclaim with basic combat fabs. All advanced combat fabs have this mechanic already)
+Piranha
+-Metal Cost increased 160 to 165 [Vanilla 150]
 
-Kaiju (T2 naval hover ship)
--Can now use teleporter
-
-Leveler (T2 Vehicle)
--Partial AOE damage radius 2 [Vanilla 3 to removed entirely] 
-
-Spark (T1 bot)
--Projectile Lifetime maintained 0.55 [vanilla 1.0 to 0.5]
-
-Bluehawk
--Live version target priorities added (Shameful display of low skill but oh well)
-
-Energy Storage
--Health unchanged 5000 [Vanilla 7500 to 3500]
-
-Metal Storage
--Health unchanged 7500 [Vanilla 7500 to 3500]
-
-Slammer
--Torpedo turn rate increased 120 to 150 [Vanilla 120 to 150]
--Includes various torpedo QoL improvements from Vanilla
-
-Kestral
--Health 300 unchanged [Vanilla 250 to 300]
-(Ya but modded variation has reduced damage, live is increased damage, less range...odd)
-
-Stinger
--Unchanged stats [Vanilla changed health, damage, fire-rate]
+Typhoon
+-Squal drone laser air/ground weapon damage reduced 50 to 40
+  >Splash radius 0.75 and 20 damage component removed
 
 
 --Todo
 
-(Comm done, Air+Orbital+Naval done, land done, but update ALL CHANGE notes!)
+Weight for
+1 - Dox/Stryker/Skitter
+2 - *Grenadier/Ant/Boombot
+3 - *Slammer/Gille/Bluehawk
+4 - *T1 Bot/Vehicle/Air Fab/Locust/Drifter/Spinner/Stinger
+5 - *T1 Naval/Barnacle/Spark/Combat Fab/Leveler/Sheller/Storm/Pirhana
+8 - *Inferno/T2 Bot Fab/T2 Combat Fab/T2 Vehicle Fab/Vangaurd
+10 - Orca/Narwhwal/Colonel/Kestrel/T2 Naval Fab*/T2 Air Fab*
+20 - Kaiju
+40 - Leviathan, Typhoon, Stingray
+(General ideas are that it doesn't change units much that are already strong like inferno+spark+vangaurd, but increases others that are weaker though fabs and AA are a higher weight class due to potential.  Will keep an eye on boombots as well) 
+
+(Boombot, Sheller, added only for weights for now)
+
+
+Nerf T2 orbital radar vision 600 to 500
+radar 1200 to 1000
+
+Seperate Catapult/Stingray/Bluehawk missiles
+
+
+Work on omega
+
+Make ARKYD and Solar Array structures
+
 
 SXX comm damage reduce, other increases
 
 SXX hitting underwater
+
 
 
 
@@ -124,20 +88,18 @@ WIP Manhatten explosion (got small fallout in already)
 Legion Combat fabs auto reclaim
 Legion support commander build range 45
 
+Legion Naval fab, weights+Transports, Launcher rolloff
+Legion Radar (Sputnik) and Adv Radar (Cosmos)
+
 Increase Nuke cruise height
 
 
 
-Skitter dummy wep
-Stinger/Spinnder/Storm dummy wep
 
 
 
 
 
-
-
-Nuke icon (sound?) not showing up bug
 Lob doing SXX sounds?
 
 
@@ -181,9 +143,7 @@ CONSIDERING (some ideas that may or not be implemented)
 
 -Horsefly buffs and nerfs
 -Omega AOE component
--Jig explosion only affects buildings, Ares ground pound only affects buildings
 -Spark projectile always explodes
 
 (Under the hood dev stuff)
 -Added combat tags to Icarus, Angel, Air Scout
--Legion Combatible

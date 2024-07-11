@@ -11,10 +11,7 @@
             0
         ]
     },
-    "damage": 50,
-    "splash_damage": 20,
-    "splash_radius": 0.75,
-    "full_damage_splash_radius": 0.75,
+    "damage": 40,
     "initial_velocity": 150,
     "max_velocity": 150,
     "turn_rate": 360,

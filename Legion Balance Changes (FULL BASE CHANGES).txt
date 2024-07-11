@@ -1,4 +1,4 @@
-FULL LEGION CHANGES
+FULL LEGION CHANGES  (Patch 1.64)
 
 Commander
 -Move Speed 6 to 8
@@ -8,7 +8,7 @@ Commander
 
 Praetorian (Support Commander)
 -Cost reduced 7000 to 6500
--Build range increased 30 to 35
+-Build range increased 30 to 45
 -Weapon range increased 110 to 125
 -Turn in place set to true 
 -Turn speed 90 to 180 

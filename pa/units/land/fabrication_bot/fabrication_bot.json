@@ -41,7 +41,7 @@
     "ORDER_Use"
   ],
   "transportable": {
-    "size": 1
+    "size": 4
   },
   "guard_layer": "WL_LandHorizontal",
   "navigation": {

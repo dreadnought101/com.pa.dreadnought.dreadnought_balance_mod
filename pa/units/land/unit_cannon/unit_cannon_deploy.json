@@ -26,7 +26,7 @@
         }
     },
     "transporter": {
-        "capacity": 1,
+        "capacity": 100,
         "transportable_unit_types": "CannonBuildable",
         "transporter_attach_bone": "bone_root",
         "transportable_attach_offset": "root"

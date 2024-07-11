@@ -3,7 +3,7 @@
     "ammo_id": "/pa/units/land/laser_defense_single/laser_defense_single_ammo.json",
     "rate_of_fire": 2,
     "max_range": 90,
-    "yaw_rate": 120,
+    "yaw_rate": 135,
     "pitch_rate": 180,
     "yaw_range": 180,
     "pitch_range": 90,

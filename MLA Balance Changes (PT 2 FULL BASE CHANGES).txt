@@ -1,14 +1,15 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS
 
-~Astraeus (Orbital Transport)
+Astraeus (Orbital Transport)
 -Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
--Pickup range increased 20 to 60
--Transport capacity increased 1 to 6
-(Multi-unit transportation testing.  Will not touch unit weights for now.  Will try to sort out clunkiness)
+-Load range added 50
+-Chase range added 20
+-Transport capacity increased 1 to 10
+(Multi-unit transportation testing)
 
-~Avenger (Orbital Fighter)
+Avenger (Orbital Fighter)
 -100 weapon range to 135 (36%)
 -weapon projectile speed increased 300 to 400
 -Speed/Accel 65 to 90 (brake 20 to 25)
@@ -17,29 +18,29 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -System_multi 30.0 to 36.0
 (gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
 
-~Hermes (Orbital Probe)
+Hermes (Orbital Probe)
 -Speed 75 to 100 (brake/accel 75 to 100)
 -Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
 
-~ARKYD (basic orbital radar)
+ARKYD (basic orbital radar)
 -Speed/break/accel 15 to 20
 -Decreased health 1000 to 800
 (Speed changes and general power requires a tone down in health)
 
-~Artemis (advanced orbital railgun)
+Artemis (advanced orbital railgun)
 -Speed 30 to 50 (brake/accel 10 to 20)
 -350 range to 450
 
-~SXX (orbital anti-ground laser)
+SXX (orbital anti-ground laser)
 -Speed 25 to 45 (break/accel 25 to 45)
 
-~Advanced Radar Satellite
+Advanced Radar Satellite
 -Increased health 5000 to 5600
 (No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
 
-~Omega (Advanced Orbital Battleship)
+Omega (Advanced Orbital Battleship)
 [TLDR: Its laser guns can hit ground and general quality of life buffs]
 -Metal cost reduced 14000 to 12500
 -Speed increased 15 to 25 (brake 80 to 120, acceleration 30 to 45)
@@ -52,26 +53,15 @@ FULL MLA BASE CHANGES STRUCTURES/FABS
 -Main anti-ground beam-gun can now target seafloor units.
 (Dev Idea: Reduces cost slightly due to increased orbital factory cost. Adds quality of life changes. Only 2 laser targets can attack a surface target at once unless directly underneath, but all 4 lasers can target in any orbital direction)
 
-~Orbital Navigation
-(Increases arrival spread to a planet)
--"orbital_arrival_radius": 100, to 300
--"orbital_arrival_unit_radius": 7.5, to 22.5-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
--Most units have been hemogenized to have identical movement between planets with some exceptions.
->Hermes and Nuke remains extremely fast
->Avenger/Astraeus have been increased to be faster than normal
->Solar array has been increased to average speed
->Unit Cannon has been slowed to average speed
->Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
-
-~Barnacle (T1 Naval)
+Barnacle (T1 Naval)
 -build range increased 65 to 95
   (Dev Idea:  allows it to repair more safely and consistently)
 
-~Stitch (Combat Fab)
+Stitch (Combat Fab)
 -Increased health from 50 to 65
   (Dev Idea: Lets them take 2 stray shots from grenadier and slightly bulks up the unit but is still fragile to most things directly)
 
-~Bot Basic Fabricator
+Bot Basic Fabricator
 -Vision increased 100 to 120
 (Vision increase helps with reaction speeds against raiding forces early on)
 
@@ -86,15 +76,16 @@ Basic Air Fabricator
 -Vision increased 100 to 120
 (Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over completely)
 
-~Naval Basic Fabricator
+Naval Basic Fabricator
 -Health increased 100 to 200
 -Move speed increased 10 to 12
+-Turn rate increased 90 to 120
 -Vision increased 100 to 120
 -Increased build range 45 to 50
   (Dev Note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
   (Dev Note2: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point
 
-~Naval Advanced Fabricator
+Naval Advanced Fabricator
 -Build range increased 45 to 55
 -Changed deepwater to water-hover
   (Dev Note: This is mostly intended to be a quality of life change to help the adv ship build structures on land, as it does not have water-hover and can't get as close to shore as its basic naval fabricator counterpart)
@@ -115,14 +106,14 @@ Basic Air Fabricator
 (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
   (Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
 
-~Solar Array (Advanced Orbital energy producer)
+Solar Array (Advanced Orbital energy producer)
 -HP Increase 1000 to 7000
 -Metal cost increased 1600 to 5000
 -Energy production increased 3200/s to 11000/s
 -Added 100,000 energy storage (from 0)
   (Dev Idea: Solar-power is GREEN! and best!  Basically this is the T3 energy producer, much like the Jig)
 
-~Jig (Orbital Gas Giant Extractor)
+Jig (Orbital Gas Giant Extractor)
 -HP increased 3000 to 6000
 -Metal Cost decreased 4000 to 3750
 -Removed 3,750 energy production (to 0)
@@ -130,13 +121,13 @@ Basic Air Fabricator
 -Jig Explosion mainly affects buildings (units take 4 damage, structures take 4000)
   (Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and were too strong for its value)
 
-~Energy Storage
+Energy Storage
 -HP Reduced from 7500 to 5000
 -Metal Cost reduced 450 to 250
 -Storage increased 300,000 to 250,000
   (Dev Idea: Decrease cost so its easier to build earlier on)
 
-~Basic Metal Extractor
+Basic Metal Extractor
 -Vision decreased 75 to 80
 (Vision used to be 100 in base game, and I just haven't bothered to change it to the new 75 variant.  I do think 80 is actually the sweet spot)
 
@@ -146,31 +137,31 @@ Advanced Metal Extractor (T2 Economy)
 -Vision decreased 100 to 80
   (Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment)
 
-~Galata (T1 AA structure)
+Galata (T1 AA structure)
 -Increased AA Splash Radius from 0.75 to 1.5
 
-~Single Laser Defense Tower (1 barrel)
+Single Laser Defense Tower (T1 turret)
 -Metal Cost decreased 225 to 165
 -Health Decreased 400 to 325
 -Range decreased 100 to 90
 -Damage decreased 60 to 25
--Turret rotation increased 90 to 120 (Yaw rate)
+-Turret rotation increased 90 to 135 (Yaw rate)
 -Vision radius (+underwater vision) reduced from 130 to 110
   (Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
 
-~Lob (T1 Defense Structure)
+Lob (T1 Defense Structure)
 [turned Lob into a unit-cannon like structure with limited range, builds Vehicle fabs/Spinners/Strykers, and bot Fabbers/Boombots/Sparks/Stingers/Dox/Grenadiers]
 -range increased 240 to 360 
 -Ammo capacity 15
 
-~Umbrella (Anti-Orbital Gun)
+Umbrella (Anti-Orbital Gun)
 -Bullet Velocity increased 1000 to 1250
 -Lifetime 3 to 2.4
 
-~Anchor (Orbital Defense)
+Anchor (Orbital Defense)
 -150 orbital range increased 150 to 200 (ground variant unchanged)
 
-~Catapult (Advanced Missile Defense)
+Catapult (Advanced Missile Defense)
 -Metal 2000 to 1750
 -Health 1500 to 1000
 -Missile velocity increased 80 to 100
@@ -178,7 +169,7 @@ Advanced Metal Extractor (T2 Economy)
 -Firerate 0.4 to 0.2857 (Fires once every 3.5 seconds instead of 2.5)
   (Helps discourage constant catapult spam, but also allows for more strategic positions to be built with a metal cost reduction, and perhaps a vehicle push counter strategy)
 
-~Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
+Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
 -Metal cost reduced 900 to 875
 -Health increased 4000 to 3500
 -Range increased 120 to 135
@@ -186,13 +177,13 @@ Advanced Metal Extractor (T2 Economy)
 -Fire-rate decreased 5.0 to 3.5
   (Dev Idea: I feel this turret obsoletes other turrets with its fire-rate, and would prefer it hurt higher health targets, while mass attacks favors a comprehensive turret line)
 
-~Flak Cannon (T2 AA)
+Flak Cannon (T2 AA)
 -HP reduced 2000 to 1700
 -Metal cost reduced 900 to 750
 -Range increased 120 to 150
   (Dev Idea: General T2 defense buffs)
 
-~Advanced Torpedo Launcher (T2)
+Advanced Torpedo Launcher (T2)
 -metal cost reduced 1000 to 950
 -range increased 210 to 300
 -Rate of fire decreased 2.0 to 1.5/s
@@ -203,16 +194,15 @@ Advanced Metal Extractor (T2 Economy)
 -Sonar radius increased 210 to 310
   (Dev Idea: General T2 defense buffs)
 
-~Advanced Radar (T2)
+Advanced Radar (T2)
 -Added 100 radius jamming
   (Dev Comment: Allows T2 radar to have a unique impact compared to spamming T1 Radar or having orbital radar. Also increases decision making in placement and can give consideration to building more than 1-2 of these in a game)
 
-~Orbital Launcher (T1)
+Orbital Launcher (T1)
 -Cost increased 600 to 1000
+-Rolloff timer decreased 3 to 2 seconds
 
-(Dev Note: Reduce Boosting)
-
-~Orbital Factory
+Orbital Factory
 -Cost reduced 6000 to 4000
 -Metal Buildrate increased 60 to 72
 -Energy demand increased 2000 to 2400
@@ -220,36 +210,35 @@ Advanced Metal Extractor (T2 Economy)
   (Dev Note: The reduction is quite high, but still accounts for 1000 launcher, and 1300 orbital fab, and the units themselves are mostly cost-prohibitive to get early. I'm hesitant to reduce it all the way to 3600 though
 Dev Note 2: Reduce Boosting)
 
-~T2 factories. (Vehicle/Bot/Air/Naval)
+T2 factories. (Vehicle/Bot/Air/Naval)
 -All Advanced Factory costs reduced from 4800 to 4400
 
 Adv Bot Factory
 -Metal Build Rate increased 45 to 60
-Energy draw per second 1500 to 1800
-30 energy per metal
-Roll off timer increased 3 seconds to 5
+-Energy draw per second 1500 to 1800
+-30 energy per metal
+-Roll off timer increased 3 seconds to 5
 
 Adv Vehicle Factory
-Metal build rate (60) unchanged
-Energy 2025 to 1800
-30 E/M
-Roll off time - 4 to 6.5
+-Metal build rate (60) unchanged
+-Energy 2025 to 1800
+-30 E/M
+-Roll off time - 4 to 6.5
 
 Adv Air Factory
-Metal 45 to 60
-Energy 1500 to 1800
-30 E/M
-Roll off time - 2 to 5
+-Metal 45 to 60
+-Energy 1500 to 1800
+-30 E/M
+-Roll off time - 2 to 5
 
 Adv Naval Factory
-Metal 60 to 72
-Energy 1750 to 2015
-28 E/M
-Roll off time - 6 to 9
-
+-Metal 60 to 72
+-Energy 1750 to 2015
+-28 E/M
+-Roll off time - 6 to 9
   (Dev Note: I'm looking to have factories work better on their own without having to rely heavily on boosting, but not remove that mechanic entirely. I want to give players a reason to build multiple T2 factories, at least on medium and large maps)
 
-~Unit Cannon (T2 Launcher Factory)
+Unit Cannon (T2 Launcher Factory)
 -Metal cost 5600 to 6000 
 -HP 18000 to 32000
 -Added Drifters, Skitters to build list
@@ -258,14 +247,14 @@ Roll off time - 6 to 9
 -Stingray/Umbrella/Catapult anti-pod missiles speed increased 200 to 400 [Bluehawk anti-pod component removed entirely]
    (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games.  Other general buffs, helps T1 units)
 
-~Anti-nuke launcher
+Anti-nuke launcher
 -Decreased building cost from 12000 to 5000
 -Increased anti-missile cost from 5000 to 9000
 -Increased Build rate from 60 to 92
 -Increased Energy Drain from 4000 to 6120 (roughly the same 66.7 energy per metal)
   (Dev Idea: Helps decrease reaction time/cost for the first missile from 17000 to 14000 but increases fully 3 equipped from 27000 to 32000. Also buildrate is increased to keep non-boosted silo build-times the same at around 80 seconds per shot)
 
-~Nuke Launcher
+Nuke Launcher
 -Structure cost reduced 14400 to 9600
 -Missile cost increased 30000 to 34000
 -Metal Build Rate increased 90 to 120

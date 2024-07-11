@@ -10,7 +10,7 @@
     "buildable_types": "(Orbital & FactoryBuild & Basic)- Custom1 - Custom2 - Custom3 - Custom4",
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "enable_orbital_shell": true,
-    "wait_to_rolloff_time": 3,
+    "wait_to_rolloff_time": 2,
     "factory": {
         "deploy_projectile": "/pa/units/orbital/orbital_launcher/orbital_launcher_deploy.json",
         "spawn_points": ["bone_missile01"]

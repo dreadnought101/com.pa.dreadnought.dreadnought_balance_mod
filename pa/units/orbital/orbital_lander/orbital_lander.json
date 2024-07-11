@@ -77,8 +77,8 @@
         "range": 4084
     },
     "transporter": {
-        "capacity": 6,
-        "transportable_unit_types": "(Mobile & Land) | (Fabber & (Air | Naval))",
+        "capacity": 10,
+        "transportable_unit_types": "(Mobile & (Land | Naval) | (Fabber & (Air | Naval))",
         "transporter_attach_bone": "bone_payload",
         "transportable_attach_offset": "head"
     },

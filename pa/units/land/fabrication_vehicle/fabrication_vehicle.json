@@ -16,7 +16,7 @@
  "UNITTYPE_Custom58","UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_Land", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
-        "size": 1
+        "size": 4
     },
     "guard_layer": "WL_LandHorizontal",
     "navigation": {

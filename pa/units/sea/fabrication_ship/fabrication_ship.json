@@ -22,7 +22,7 @@
         "acceleration": 100,
         "brake": 100,
         "move_speed": 12,
-        "turn_speed": 90,
+        "turn_speed": 120,
         "park_stamp_type": "sphere",
         "park_stamp_cost": 10
     },
@@ -32,7 +32,7 @@
         "allow_pushing": true
     },
     "transportable": {
-        "size": 1
+        "size": 5
     },
     "recon": {
         "observer": {

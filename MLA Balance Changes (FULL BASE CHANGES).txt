@@ -1,17 +1,29 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.63]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.64]
 
-~Commander
+Commander
+-Metal Cost 25000 to 15000 (Makes repairing lost health easier)
 -Increase Commander AA AOE from 0.75 to 1.5
 -No longer auto targets icarus
 -increased uber cannon damage against structures from 25% to 72% (Roughly 500 damage a shot. Commander vs commander AT 25% is unchanged)
 -decreased commander Torpedo weapon vs commanders from 100% to 75%
 
-~Firefly (T1 Air Scout)
+Orbital Navigation
+(Increases arrival spread to a planet)
+-"orbital_arrival_radius": 100, to 300
+-"orbital_arrival_unit_radius": 7.5, to 22.5-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
+-Most units have been hemogenized to have identical movement between planets with some exceptions.
+>Hermes and Nuke remains extremely fast
+>Avenger/Astraeus have been increased to be faster than normal
+>Solar array has been increased to average speed
+>Unit Cannon has been slowed to average speed
+>Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
+
+Firefly (T1 Air Scout)
 -Added Radar Stealth 
 -Metal cost increased 60 to 90
 (Note: Same as Skitter Note 1)
 
-~Skitter (T1 Vehicle Scout)
+Skitter (T1 Vehicle Scout)
 -Added Radar Stealth
 -Move speed 25 to 36
 -Metal cost 75 to 65
@@ -23,20 +35,20 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.63]
 ~the metal cost is to bring it below the firefly, and between dox and stryker.
 ~Overall buffs to skitters are generally risk free due to the utility, non-combat nature of this unit and I want to reward positioning and scouting after the early game.)
 
-~Stryker (T1 Vehicle)
+Stryker (T1 Vehicle)
 -Health decreased 60 to 50
 -Damage decreased 15x2 to 13x2
 -Movement Speed Increased 17 to 21
 -Weapon Muzzle Velocity Decreased 140 to 135
   (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 
-~Ant (T1 Vehicle)
+Ant (T1 Vehicle)
 -Vision radius increased 100 to 130
 -Weapon firerate increased 0.55 to 0.525 (1 shot every 2 seconds to 1.9 seconds, 42 to 44 dps)
   (Dev Idea: Matches spark vision and better supports high range+low vision units)
   (Dev Idea: Ants a long time ago had a turn rate of 90. I intend to do 105, but want to see how this old, more predictive type of micro handles in the modern era. At the moment I believe ants are too responsive and reactive for the lumbering tank persona, and in gameplay terms they are good at kiting backwards quickly and I want to see if this helps fast units+projectiles catch out ants better)
 
-~Drifter (T1 Vehicle)
+Drifter (T1 Vehicle)
 -Metal cost increased 225 to 235
 -HP reduced 250 to 225
 -Damage increased 120 to 160
@@ -47,18 +59,18 @@ FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.63]
 -Vision range reduced 100 to 90
   (Dev Idea: Mostly designed around ants to survive 3 shots from drifters. HP reduced to give grenediers slightly more power against Drifters, and maintains the 2 shot kill of drifter vs drifter action.  Overall goal is to make them less able to operate alone, and be more reliant on support units)
 
-~Spinner (T1 Vehicle)
+Spinner (T1 Vehicle)
 -health reduced 160 to 130
 -Speed increased from 10 to 13
 -Increased Splash Radius from 0.75 to 1.5
 (Dev Comment: General AA speed increases to help with non-air oponer viability with health, damage, vision nerfs as compensation.  The AOE aspect is for anti-icarus)
 
-~Dox (T1 Bot)
+Dox (T1 Bot)
 -Weapon Muzzle Velocity Increased 130 to 135
 -Speed Increased 20 to 21
 Dev Note: Muzzle velocity to match strykers, speed to add late game flanking potential, am concerned about early game rush distances though
 
-~Grenadier (T1 Bot)
+Grenadier (T1 Bot)
 [TLDR: They get torpedos, are more expensive and bigger, small aoe and fires 4 projectiles, hit harder]
 -Metal cost increased 100 to 150
 -HP increased 80 to 120
@@ -81,12 +93,12 @@ Dev Note: Muzzle velocity to match strykers, speed to add late game flanking pot
 - - Water speed Velocity 40
   (Dev Idea: Makes Grenadiers less spammy in both unit amounts and how often they fire, and make their shots matter more against large or static units, and less powerful against small, fast units)
 
-~Spark (T1 assault bot)
+Spark (T1 assault bot)
 -Vision increased 120 to 130
 -Projectile lifetime decreased 1.0 to 0.55
   (Dev Idea: Allows sparks to have some use later in the game with a small edge in utility)
 
-~Stinger (T1 AA Bot)
+Stinger (T1 AA Bot)
 [TLDR: Makes it a stronger, long range, high damage yet low firerate AA]
 -HP 130 to 115
 -Metal Cost 120 to 140
@@ -102,13 +114,13 @@ Dev Note: Muzzle velocity to match strykers, speed to add late game flanking pot
 -Stinger selection icon Increased from 10 to 12)
   (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
 
-~Hummingbird (T1 Air Fighter)
+Hummingbird (T1 Air Fighter)
 -reduced damage from 80 to 75.
 -Increased health 120 to 150
   (Dev Idea: Allows for easier partial heals from damage for both fireflies and Pheonix and reduces Fireflies impact slightly on heavy health T2 Air and Titan.  May change to 70 which will have more significant ramifications for air fights.
 Update: Base game reduced from 150 to 120, rejected change as it felt it made an already fragile air problematic)
 
-~Icarus  (T1 Solar Gunship)
+Icarus  (T1 Solar Gunship)
 [Split Laser beam into two separate weapons, removed targetting from AA sources such as spinners and galata]
 -Metal Cost increased 125 to 130
 -Movement Speed Decreased 50 to 45
@@ -123,7 +135,7 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 -Removed Icarus from AA targetting
 (Dev Note: Gives MLA a new option with Air to Air engagements, especially against Legion.  Allows Icarus skill play to work around enemey AA, and vice-versa)
 
-~Pelican (Transport)
+Pelican (Transport)
 -HP reduced 150 to 100
 -Increase metal cost 140 to 155
 -Transport Pickup range increased 10 to 30
@@ -133,9 +145,9 @@ Update: Base game reduced from 150 to 120, rejected change as it felt it made an
 -Turn rate increased 180 to 270
 (Still takes 2 shots from air, but increases Time to Kill for ground AA as well as improve its functionality for skilled play)
 
-~Piranha (T1 Naval)
+Piranha (T1 Naval)
 -range increased 105 to 110
--metal cost increased 150 to 160
+-metal cost increased 150 to 165
 -damage increased 20 to 24
   (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent
 Update: Patch decreased )
@@ -150,7 +162,7 @@ Update: Patch decreased )
 -Torpedo Weapon damage decreased 250 to 150
   (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
 
-~Orca (T1 Naval)
+Orca (T1 Naval)
 -Increases turn_accel from 15 to 60
 (Some tests to improve Naval navigation)
 -Added torpedo component
@@ -160,7 +172,7 @@ Update: Patch decreased )
   -Firerate 0.2 (1 every 5 seconds)
   (Dev Idea: Allows Orcas to hit Barracudas, but only trades in large numbers)
 
-~Locust (T2 Bot)
+Locust (T2 Bot)
 -Deleted from the game
 ...kidding.
 -build cost increased 260 metal to 250
@@ -170,31 +182,31 @@ Update: Patch decreased )
 -given 70 radius radar
   (Dev Note: Adjusted for factory changes weakening the unit incidentally. Radar allows locusts to operate more on their own with imperfect information.)
 
-~Slammer (T2 Bot)
+Slammer (T2 Bot)
 -Torpedos no longer target Hover and Water_Hover targets
 -Increased speed 14 to 15
 
-~Gil-E (T2 Bot)
+Gil-E (T2 Bot)
 -Range increased 180 to 200
 (Range was reduced in a recent patch, but makes it more difficult to utilize fragile, ranged units in most skill brackets)
 
-~Bluehawk (T2 Bot)
+Bluehawk (T2 Bot)
 -Missile Velocity 80 to 100
 -Missile Lifetime reduced 15 to 8
 -Range increased 200 to 220
 
-~Colonel (T2 Bot)
+Colonel (T2 Bot)
 -Weapon range increased 100 to 115
 -Changed armor type of AT_Commander to Bot
 
-~Leveler (T2 Vehicle)
+Leveler (T2 Vehicle)
 -Increased idle aim delay from 3 to 5
 -Decreased damaged from 300x2 to 225x2
 -Added partial AOE radius of 2.0 (full damage AOE 1.0 radius)
 -Increased Range from 120 to 135
 (Dev Comment: I may prefer 250x2 so that ants+drifters will still get 1 shot even if partially hit, but I want to see a lowering of leveler damage overall as their dps is insane against high health targets, but still maintain that they can 1 shot many T1s, and easily kill slammers and other soft T2)
 
-~Storm (T2 Vehicle)
+Storm (T2 Vehicle)
 -range increased 100 to 120
 -damage decreased 4x15 to 4x10
 -Splash decreased 10 to 7
@@ -202,31 +214,28 @@ Update: Patch decreased )
 -lifetime increased 15 to 18
   (Dev Idea: takes 3 shots to kill bombers instead of 2, but increase range for more coverage and utility for larger armies present in later stages of game)
 
-~Vanguard (T2 Vehicle)
+Vanguard (T2 Vehicle)
 -Metal cost increased 1500 to 1600
 -Increased range 50 to 55
--Decreased damage from 1000 to 1250 (Including splash)
--Decreased fire rate from 1.0 to 0.75 (Fires 1 shot every 1 second, instead of 1 shot every 2 seconds)
+-Increased damage from 1000 to 1250 (Including splash)
+-Decreased fire rate from 1.0 to 0.75 (Fires 1 shot every 1.5 second, instead of 1 shot every 1 seconds)
 -Decreased bullet velocity 100 to 80
 -Decreased turret rotation speed [Yaw_rate] 360 to 120] (2x faster than drifter, 4x faster than leveler)
 -Radar increased 260 to 300
 -Energy drain 150 to 100
   (Dev Idea: Makes it so Vanguards have a better role on the frontlines of an army, but also makes them less devestating if they are inside an enemy base)
 
-Manhatten
+Manhatten (T2 Nuke Vehicle)
 -no longer pushable by other units
+-Move Speed increased 10 to 15 (Accel+Break 70 to 110)
+-Turn Speed increased 60 to 95 (turn accel 30 to 50)
 -HP decreased 15000 to 10500
 -Metal Cost reduced 8000 to 7500
 -Damage reduced from 33000 to 18000
 -Manhatten now leaves a 10 second visual on death
--Move Speed increased 10 to 15
--Acceleration Rate increased 70 to 110
--Breaking Rate increased 70 to 110
--Turn Speed increased 60 to 95 (turn+accel 30 to 50)
--Turn speed increased 60 to 70 (turn-accel 30 to 35)
 (Was weak without pushing, but was too cheesy and powerful with push mechanics)
 
-~Pheonix (T2 Air Fighter)
+Pheonix (T2 Air Fighter)
 [TLDR: Longer range, fires 4 individual shots instead of 1]
 -health decreased 240 to 225
 -range increased 120 to 150
@@ -238,13 +247,13 @@ Manhatten
 -range increased 120 to 150 
   (Dev Notes: I want to differentiate the T2 fighter more from its T1 counterpart and give it cleave, as the T2 fighter feels like a direct upgrade upgrade without its own quirks unlike most other T1 to T2 versions)
 
-~Kestral (T2 Gunship)
+Kestral (T2 Gunship)
 -Increased health 250 to 300
 -Range increased 60 to 80
 -Damage reduced 20 to 15
    (Dev Note: This is an older version from before a patch in the base game.  I prefer this over the new one as the range makes kestrals feel better, as well as prefer more consistency instead of snowballing)
 
-~Hornet (T2 Air bomber)
+Hornet (T2 Air bomber)
 -health reduced 500 to 250
 -move speed increased 30 to 40
 -metal cost 3200 to 1500
@@ -258,19 +267,19 @@ Manhatten
   (Dev Idea: Gives some small buffs to ease this paper-plane into prominence
 Update: Major changes made hornets essentially double in strength for double the cost.  This version makes for a more precise macro element on how many a player uses and lets them get into hornets more quickly, as well as not overlap the Wyrm as much.  However the projectile speed is nice, so that is added in.)
 
-~Horsefly (T2 Air strafer)
+Horsefly (T2 Air strafer)
 -Added Anti-Air component to flak cannon [Prioritises Anti-Air ground units first]
 -Changed air damage modifier from 0.5 to 1.0 [Horseflies do full damage vs air]
   (Dev Idea: The AA component is mostly for taking out slow, wide-hitbox targets like hornets, wyrms, angels, and other horseflies.  Horseflies also have potency against Zues Titans now)
 
-~Angel (T2 Air support platform)
+Angel (T2 Air support platform)
 -health increased 1200 to 1700
 -Speed increased 40 to 70 (Accel 30 to 50, acceleration 40 to 70)
 -Added interplanetary (Can move between planets)
 -Vertical speed decreased 100 to 50
 (Add more utility to an already massive utility hog, as well as allow it to keep up and play a role in fighter v fighter engagements)
 
--Stingray (T2 Naval)
+Stingray (T2 Naval AA)
 -Missile velocity increased 80 to 100
 -Missile lifetime reduced 60 to 8
 -Missile turn rate 0 to 45
@@ -279,7 +288,12 @@ Update: Major changes made hornets essentially double in strength for double the
   (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
 (Dev Note: 5 to 4 shot typhoon and 6 to 5 leviathan. Does not change 4 shot omega nor 3 shot wyrm)
 
-~ARES (Titan)
+Typhoon (T2 Naval carrier)
+-Squal drone laser air/ground weapon damage reduced 50 to 40
+  >Splash radius 0.75 and 20 damage component removed
+
+
+ARES (Titan)
 [TLDR: Weakened it mostly, Ground Pound only damages structures, secondary weapons buffed however]
 -Health decreased 50000 to 40000
 -main guns
@@ -294,5 +308,4 @@ Update: Major changes made hornets essentially double in strength for double the
 -ground crush (aoe around Titan)
 -  -Does full damage to structures only [does inconsequential 2 damage to other things]
   (Dev Idea: Makes killing it easier, yet also gives a real use to secondary guns, ground pound only affecting structures allows melee units to counter ares)
-
 

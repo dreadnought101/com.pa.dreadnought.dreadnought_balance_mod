@@ -2,8 +2,8 @@
     "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
     "display_name": "Pelican",
     "description": "!LOC:Air Transport - Load a land unit to transport for snipes or expansions.",
-    "max_health": 100,
-    "build_metal_cost": 155,
+    "max_health": 225,
+    "build_metal_cost": 240,
     "usable": true,
     "attachable": {
         "offsets": {
@@ -42,10 +42,12 @@
         "range": 4084
     },
     "transporter": {
-        "capacity": 1,
-        "transportable_unit_types": "Mobile & Land - Commander",
+        "capacity": 8,
+        "transportable_unit_types": "Mobile & (Land | Naval) - Commander",
         "transporter_attach_bone": "bone_payload",
-        "transportable_attach_offset": "head"
+        "transportable_attach_offset": "head",
+		"load_range": 15,
+		"chase_range": 5
     },
     "navigation": {
         "type": "air",

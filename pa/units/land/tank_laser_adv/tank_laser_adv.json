@@ -13,7 +13,7 @@
      "unit_types": [
  "UNITTYPE_Custom58","UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
     "transportable": {
-        "size": 1
+        "size": 5
     },
     "guard_layer": "WL_AnySurface",
     "navigation": {

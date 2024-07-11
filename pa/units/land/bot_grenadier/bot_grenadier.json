@@ -13,7 +13,7 @@
      "unit_types": [
  "UNITTYPE_Custom58","UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Artillery", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "transportable": {
-        "size": 1
+        "size": 2
     },
     "guard_layer": "WL_AnySurface",
     "navigation": {

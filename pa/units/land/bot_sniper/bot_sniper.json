@@ -21,7 +21,7 @@
         "group_preference": "back"
     },
     "transportable": {
-        "size": 1
+        "size": 3
     },
     "physics": {
         "radius": 3.5

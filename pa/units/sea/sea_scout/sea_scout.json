@@ -3,10 +3,10 @@
     "display_name": "Piranha",
     "description": "!LOC:Gunboat - Cheap. Fast. Expendable. Water Hover (Torpedoes do not target, can move closer to shorelines) Attacks land and sea targets.",
     "max_health": 175,
-    "build_metal_cost": 160,
+    "build_metal_cost": 165,
     "spawn_layers": "WL_WaterSurface",
-     "unit_types": [
- "UNITTYPE_Custom58","UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_WaterHover"],
+    "unit_types": [
+        "UNITTYPE_Custom58", "UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_WaterHover"],
     "navigation": {
         "type": "water-hover",
         "acceleration": 75,
@@ -14,6 +14,23 @@
         "move_speed": 20,
         "turn_speed": 180,
         "turn_in_place": false
+    },
+    "attachable": {
+        "offsets": {
+            "root": [
+                0,
+                0,
+                0
+            ],
+            "head": [
+                0,
+                0,
+                3.5
+            ]
+        }
+    },
+    "transportable": {
+        "size": 5
     },
     "physics": {
         "radius": 6
@@ -50,7 +67,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/sea/sea_scout_fire",
-			"effect_spec": "/pa/units/sea/sea_scout/sea_scout_muzzle_flash.pfx socket_muzzle"
+            "effect_spec": "/pa/units/sea/sea_scout/sea_scout_muzzle_flash.pfx socket_muzzle"
         },
         "died": {
             "audio_cue": "/SE/Death/Sea",

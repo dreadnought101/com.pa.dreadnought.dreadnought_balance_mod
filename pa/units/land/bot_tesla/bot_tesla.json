@@ -30,7 +30,7 @@
         "UNITTYPE_CannonBuildable"
     ],
     "transportable": {
-        "size": 1
+        "size": 5
     },
     "guard_layer": "WL_AnySurface",
     "navigation": {
