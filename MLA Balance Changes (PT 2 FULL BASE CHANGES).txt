@@ -1,6 +1,7 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS
 
 Astraeus (Orbital Transport)
+-Weight Capacity 1 to 10
 -Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
@@ -248,7 +249,7 @@ Unit Cannon (T2 Launcher Factory)
    (Dev Idea: -Increased HP to be more in line with advanced factory HP for such a significant metal investment.  Allows it to survive 1 nuke in orbital games.  Other general buffs, helps T1 units)
 
 Anti-nuke launcher
--Decreased building cost from 12000 to 5000
+-Decreased building cost from 12000 to 6000
 -Increased anti-missile cost from 5000 to 9000
 -Increased Build rate from 60 to 92
 -Increased Energy Drain from 4000 to 6120 (roughly the same 66.7 energy per metal)

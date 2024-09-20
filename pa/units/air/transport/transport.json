@@ -3,7 +3,7 @@
     "display_name": "Pelican",
     "description": "!LOC:Air Transport - Load a land unit to transport for snipes or expansions.",
     "max_health": 225,
-    "build_metal_cost": 240,
+    "build_metal_cost": 180,
     "usable": true,
     "attachable": {
         "offsets": {
@@ -42,7 +42,7 @@
         "range": 4084
     },
     "transporter": {
-        "capacity": 8,
+        "capacity": 5,
         "transportable_unit_types": "Mobile & (Land | Naval) - Commander",
         "transporter_attach_bone": "bone_payload",
         "transportable_attach_offset": "head",

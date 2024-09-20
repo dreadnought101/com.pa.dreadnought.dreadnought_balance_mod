@@ -136,21 +136,23 @@ Icarus  (T1 Solar Gunship)
 (Dev Note: Gives MLA a new option with Air to Air engagements, especially against Legion.  Allows Icarus skill play to work around enemey AA, and vice-versa)
 
 Pelican (Transport)
--HP reduced 150 to 100
--Increase metal cost 140 to 155
--Transport Pickup range increased 10 to 30
--Movespeed increased 70 to 75
+-HP increased 150 to 225
+-Metal Cost increased 140 to 215
+-Transport Pickup range increased 10 to 30 [Load range 15, chase range 5]
 -Acceleration increased 30 to 100
 -Break increased 60 to 100
 -Turn rate increased 180 to 270
 (Still takes 2 shots from air, but increases Time to Kill for ground AA as well as improve its functionality for skilled play)
 
-Piranha (T1 Naval)
--range increased 105 to 110
--metal cost increased 150 to 165
--damage increased 20 to 24
-  (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent
-Update: Patch decreased )
+Weight for
+1 - Dox/Stryker/Skitter
+2 - *Grenadier/Ant/Boombot
+3 - *Slammer/Gille/Bluehawk
+4 - *T1 Bot/Vehicle/Air Fab/Locust/Drifter/Spinner/Stinger
+5 - *T1 Naval/Barnacle/Spark/Combat Fab/Leveler/Sheller/Storm/Pirhana
+8 - *Inferno/T2 Bot Fab/T2 Combat Fab/T2 Vehicle Fab/Vangaurd
+(General ideas are that it doesn't change units much that are already strong like inferno+spark+vangaurd, but increases others that are weaker though fabs and AA are a higher weight class due to potential.  Will keep an eye on boombots as well) 
+
 
 ~Narwhal (T1 Naval)
 [TLDR: Narwhals get cost reduction and nerfs, making them more spammable and better to afford early game]
@@ -161,6 +163,14 @@ Update: Patch decreased )
 -AA Weapon AOE radius increased from 0.75 to 1.5
 -Torpedo Weapon damage decreased 250 to 150
   (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
+
+Piranha (T1 Naval)
+-range increased 105 to 110
+-metal cost increased 150 to 165
+-damage increased 20 to 24
+  (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent
+Update: Patch decreased )
+
 
 Orca (T1 Naval)
 -Increases turn_accel from 15 to 60

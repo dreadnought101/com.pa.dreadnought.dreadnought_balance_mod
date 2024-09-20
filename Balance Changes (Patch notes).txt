@@ -4,21 +4,30 @@ Unit Cannon
 -Adjusted Pod Capacity from 1 to 100 (fixes bug with scaling up size of units for the transport system, does not affect actual gameplay)
 
 Pelican (Air transport)
--Weight Capacity 1 to 8
+-Weight Capacity 1 to 5
 -HP 100 to 225 [Vanilla 150] 
 -Metal Cost 155 to 240 [Vanilla 140]
--Movespeed reduced 75 to 70 [Vanilla 70]
+-Turn Rate increased 180 to 270
 -Added load range 15 
 -Added chase range 5
 -Usable range 30 to 4084 (Matches Vanilla bug fix)
 (Can now essentially transport naval t1 fabs/Pirhannas/Barnacles and more of T1/T2 ground units, see weights for more details)
 
 Astraeus (Orbital Transport)
--Weight Capacity 1 to 10
+-Weight Capacity 1 to 6
 -Added load range 50
 -Added chase range 20
 -pickup range 60 to 4048 (Matches Vanilla bug fix)
 (Can now essentially transport naval Pirhannas/Barnacles/orcas/narwhals alongside pirhannas as well as T2 air fabs+Kestrels as well as carry more T1/T2 ground units, see weights for more details)
+
+Weight for
+1 - Dox/Stryker/Skitter
+2 - *Grenadier/Ant/Boombot
+3 - *Slammer/Gille/Bluehawk
+4 - *T1 Bot/Vehicle/Air Fab/Locust/Drifter/Spinner/Stinger
+5 - *T1 Naval/Barnacle/Spark/Combat Fab/Leveler/Sheller/Storm/Pirhana
+8 - *Inferno/T2 Bot Fab/T2 Combat Fab/T2 Vehicle Fab/Vangaurd
+(General ideas are that it doesn't change units much that are already strong like inferno+spark+vangaurd, but increases others that are weaker though fabs and AA are a higher weight class due to potential.  Will keep an eye on boombots as well) 
 
 Orbital Launcher
 -Rolloff timer decreased 3 to 2 seconds
