@@ -6,7 +6,7 @@ Unit Cannon
 Pelican (Air transport)
 -Weight Capacity 1 to 5
 -HP 100 to 225 [Vanilla 150] 
--Metal Cost 155 to 240 [Vanilla 140]
+-Metal Cost 155 to 215 [Vanilla 140]
 -Turn Rate increased 180 to 270
 -Added load range 15 
 -Added chase range 5
