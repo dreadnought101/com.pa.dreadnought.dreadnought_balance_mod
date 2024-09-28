@@ -194,6 +194,7 @@ Locust (T2 Bot)
 
 Slammer (T2 Bot)
 -Increased Health 360 to 400
+-Damage decreased 
 -Torpedos no longer target Hover and Water_Hover targets
 -Increased speed 14 to 15
 
