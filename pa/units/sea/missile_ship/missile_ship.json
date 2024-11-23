@@ -64,24 +64,46 @@
         "animtree": "/pa/anim/anim_trees/missile_ship_anim_tree.json"
     },
     "nearby_target_tick_update_interval": 20,
-    "tools": [{
+    "tools": [
+        {
             "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_weapon.json",
             "aim_bone": "socket_missile_muzzle01",
             "record_index": 0,
             "fire_event": "fired0",
-            "muzzle_bone": ["socket_missile_muzzle01", "socket_missile_muzzle02"]
-        }, {
+            "muzzle_bone": [
+                "socket_missile_muzzle01",
+                "socket_missile_muzzle02"
+            ]
+        },
+        {
+            "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_weapon_orbital.json",
+            "aim_bone": "socket_missile_muzzle01",
+            "record_index": 0,
+            "fire_event": "fired0",
+            "muzzle_bone": [
+                "socket_missile_muzzle01",
+                "socket_missile_muzzle02"
+            ]
+        },
+        {
             "spec_id": "/pa/units/sea/missile_ship/missile_ship_aa_tool_weapon.json",
             "aim_bone": "socket_missile_muzzle03",
             "record_index": 1,
             "fire_event": "fired1",
-            "muzzle_bone": ["socket_missile_muzzle03", "socket_missile_muzzle04"]
-        }, {
+            "muzzle_bone": [
+                "socket_missile_muzzle03",
+                "socket_missile_muzzle04"
+            ]
+        },
+        {
             "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_antidrop.json",
             "aim_bone": "socket_missile_muzzle01",
             "record_index": 0,
             "fire_event": "fired0",
-            "muzzle_bone": ["socket_missile_muzzle01", "socket_missile_muzzle02"]
+            "muzzle_bone": [
+                "socket_missile_muzzle01",
+                "socket_missile_muzzle02"
+            ]
         }
     ],
     "events": {

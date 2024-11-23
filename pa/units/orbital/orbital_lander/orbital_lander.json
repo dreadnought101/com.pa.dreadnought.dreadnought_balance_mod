@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
     "display_name": "Astraeus",
-    "description": "!LOC:Orbital Lander - Load it up and transport a unit to other planets.",
+    "description": "!LOC:Orbital Lander - Load it up and transport a unit to other planets. Capacity 6",
     "max_health": 150,
     "build_metal_cost": 200,
     "planetary_arrival_cooldown_time": 2.0,

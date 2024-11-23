@@ -21,7 +21,7 @@
     },
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "build_metal_cost": 55,
-    "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface targets.",
+    "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface targets. Weight 1",
     "display_name": "Stryker",
     "events": {
         "build_complete": {

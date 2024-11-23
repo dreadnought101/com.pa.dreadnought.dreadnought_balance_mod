@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Stitch",
-    "description": "!LOC:Combat Fabricator - Repairs damaged units. Can build and detect mines. Can build teleporters. Can't help build other structures.",
+    "description": "!LOC:Combat Fabricator - Repairs damaged units. Can build and detect mines. Can build teleporters. Can't help build other structures. Weight 5",
     "max_health": 65,
     "build_metal_cost": 250,
     "attachable": {

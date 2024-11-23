@@ -2,8 +2,8 @@
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "unit_name": "Fabrication Ship",
     "display_name": "!LOC:Fabrication Ship",
-    "description": "!LOC:Basic Fabricator - Builds basic naval structures. Water hover.",
-    "max_health": 200,
+    "description": "!LOC:Basic Fabricator - Builds basic naval structures. Water hover. Weight 3",
+    "max_health": 125,
     "build_metal_cost": 200,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [4, 10, 5],
@@ -21,7 +21,7 @@
         "type": "water-hover",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 12,
+        "move_speed": 13,
         "turn_speed": 120,
         "park_stamp_type": "sphere",
         "park_stamp_cost": 10
@@ -32,7 +32,7 @@
         "allow_pushing": true
     },
     "transportable": {
-        "size": 5
+        "size": 3
     },
     "recon": {
         "observer": {
@@ -40,12 +40,12 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
+                    "radius": 140
                 }, {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
+                    "radius": 140
                 }
             ]
         }

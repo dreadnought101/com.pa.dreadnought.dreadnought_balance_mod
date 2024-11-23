@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Grenadier",
-    "description": "!LOC:Fire Support - Medium range. Can fire over walls. Attacks land and sea targets.",
+    "description": "!LOC:Fire Support - Medium range. Can fire over walls. Attacks land and sea targets. Weight 2",
     "max_health": 120,
     "build_metal_cost": 150,
     "attachable": {

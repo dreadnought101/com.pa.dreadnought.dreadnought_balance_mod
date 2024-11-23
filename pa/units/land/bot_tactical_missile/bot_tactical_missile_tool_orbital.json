@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
-    "ammo_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
+    "ammo_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo_orbital.json",
     "rate_of_fire": 0.2,
     "max_range": 220,
     "yaw_rate": 0,
@@ -12,14 +12,11 @@
     "auto_attack": true,
     "spread_fire": true,
     "target_layers": [
-        "WL_LandHorizontal",
-        "WL_WaterSurface"
+        "WL_Orbital"
     ],
     "target_priorities": [
-        "Structure & Defense",
-        "Commander",
-        "Mobile - Air",
-        "Structure - Wall",
-        "Wall"
-      ]
+        "Orbital & (Heavy | LaserPlatform | Transport | OrbitalDefense)",
+        "Orbital & (Offense | Scout | Radar)",
+        "Orbital"
+    ]
 }

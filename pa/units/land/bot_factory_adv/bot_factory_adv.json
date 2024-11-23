@@ -4,7 +4,7 @@
     "display_name": "!LOC:Advanced Bot Factory",
     "description": "!LOC:Advanced Manufacturing - Builds basic and advanced bots.",
     "max_health": 30000,
-    "build_metal_cost": 4400,
+    "build_metal_cost": 4500,
     "atrophy_rate": 80.0,
     "atrophy_cool_down": 15.0,
     "buildable_types": "(Bot & Mobile & FactoryBuild) - Custom1 - Custom2 - Custom3 - Custom4",

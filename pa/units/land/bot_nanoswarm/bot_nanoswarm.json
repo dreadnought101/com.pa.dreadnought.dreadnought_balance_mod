@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Locusts",
-    "description": "!LOC:Nanobot Swarm - Extremely Fast. Cheap. Close range. Devastating damage. Hover. Attacks land and sea targets.",
+    "description": "!LOC:Nanobot Swarm - Extremely Fast. Cheap. Close range. Devastating damage. Hover. Attacks land and sea targets. Weight 3",
     "max_health": 70,
     "spawn_layers": "WL_LandHorizontal",
     "build_metal_cost": 250,
@@ -15,7 +15,7 @@
      "unit_types": [
  "UNITTYPE_Custom58","UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Deconstruction", "UNITTYPE_FactoryBuild", "UNITTYPE_Hover", "UNITTYPE_CannonBuildable"],
     "transportable": {
-        "size": 4
+        "size": 3
     },
     "guard_layer": "WL_AnySurface",
     "navigation": {
@@ -47,7 +47,7 @@
                     "layer": "surface_and_air",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 70,
+                    "radius": 80,
                     "uses_energy": true
                 }
             ]

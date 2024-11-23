@@ -5,10 +5,10 @@
     "splash_damage": 0,
     "splash_radius": 0,
     "cruise_height": 75,
-    "initial_velocity": 100,
-    "max_velocity": 100,
+    "initial_velocity": 200,
+    "max_velocity": 200,
     "turn_rate": 45,
-    "lifetime": 8,
+    "lifetime": 6,
     "influence_radius": 400,
     "events": {
         "died": {
@@ -37,7 +37,7 @@
             "ignores_LOS": true,
             "stage_duration": 0,
             "stage_turn_rate": 120,
-            "stage_change_range": 50,
+            "stage_change_range": 80,
             "rotates_to_velocity": true
         },
         {

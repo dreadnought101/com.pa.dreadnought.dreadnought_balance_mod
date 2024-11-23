@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Spark",
-    "description": "!LOC:Tesla Bot - Very high damage over a short range area. Uses energy. Attacks land targets.",
+    "description": "!LOC:Tesla Bot - Very high damage over a short range area. Uses energy. Attacks land targets. Weight 3",
     "max_health": 130,
     "build_metal_cost": 105,
     "attachable": {
@@ -30,7 +30,7 @@
         "UNITTYPE_CannonBuildable"
     ],
     "transportable": {
-        "size": 5
+        "size": 3
     },
     "guard_layer": "WL_AnySurface",
     "navigation": {

@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "!LOC:Boom",
-    "description": "!LOC:Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.",
+    "description": "!LOC:Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast. Weight 2",
     "max_health": 10,
     "build_metal_cost": 45,
     "wreckage_health_frac": 0.0,

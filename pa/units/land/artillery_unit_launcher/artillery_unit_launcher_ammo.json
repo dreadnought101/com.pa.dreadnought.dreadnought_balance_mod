@@ -46,12 +46,12 @@
     },
     "recon": {
         "observable": {
-            "always_visible": true,
+            "always_visible": false,
             "ignore_radar": false,
             "layer": "surface_and_air"
         }
     },
-    "show_in_orbital_layer": true,
+    "show_in_orbital_layer": false,
     "show_strategic_icon": true,
     "splash_damage": 0,
     "splash_damages_allies": "false",

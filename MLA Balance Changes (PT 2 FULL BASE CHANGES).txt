@@ -1,14 +1,4 @@
-FULL MLA BASE CHANGES STRUCTURES/FABS [1.64]
-
-Astraeus (Orbital Transport)
--Weight Capacity 1 to 10
--Orbital arrival delay decreased 3.0 to 2.0
--gravwell 10.0 to 12.0
--System_multi 30.0 to 36.0
--Load range added 50
--Chase range added 20
--Transport capacity increased 1 to 10
-(Multi-unit transportation testing)
+FULL MLA BASE CHANGES STRUCTURES/FABS [1.65]
 
 Avenger (Orbital Fighter)
 -100 weapon range to 135 (36%)
@@ -20,7 +10,7 @@ Avenger (Orbital Fighter)
 (gets 3 shot by other avengers, 1 shot by everything else anti-orbital, next minimum is Omega at 65x2=130 [my version 45x2=90] and anchors at 200, Umbrella is 100)
 
 Hermes (Orbital Probe)
--Speed 75 to 100 (brake/accel 75 to 100)
+-Speed 75 to 90 (brake/accel 75 to 90)
 -Orbital arrival delay decreased 3.0 to 2.0
 -gravwell 10.0 to 12.0
 -System_multi 30.0 to 36.0
@@ -30,16 +20,21 @@ ARKYD (basic orbital radar)
 -Decreased health 1000 to 800
 (Speed changes and general power requires a tone down in health)
 
+Advanced Radar Satellite
+-Increased health 5000 to 5600
+-Vision Radius 600 to 500
+-Radar Radius 1000 to 800
+(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
+
 Artemis (advanced orbital railgun)
 -Speed 30 to 50 (brake/accel 10 to 20)
 -350 range to 450
 
 SXX (orbital anti-ground laser)
 -Speed 25 to 45 (break/accel 25 to 45)
-
-Advanced Radar Satellite
--Increased health 5000 to 5600
-(No speed changes, coupled with increased orbital delay means it needs to survive longer on well defended planets)
+-Can now attack underwater and seafloor targets
+-Damage against commanders specifically reduced by 50%
+(Allows more usefulness on water planets, but also reduces their main power in killing commanders)
 
 Omega (Advanced Orbital Battleship)
 [TLDR: Its laser guns can hit ground and general quality of life buffs]
@@ -63,33 +58,29 @@ Stitch (Combat Fab)
   (Dev Idea: Lets them take 2 stray shots from grenadier and slightly bulks up the unit but is still fragile to most things directly)
 
 Bot Basic Fabricator
--Vision increased 100 to 120
+-Vision increased 100 to 140
 (Vision increase helps with reaction speeds against raiding forces early on)
 
 ~Vehicle Basic Fabricator
 -Speed increased 12 to 13
--Vision increased 100 to 120
+-Vision increased 100 to 140
 -Increased build range 45 to 50
   (Dev Note: Gives vehicle 1st openers slightly better viability. Bot speed is still 16, and metal cost 150 vs 200 for distinct differences. May increase energy drain or reduce health of vehicle fabs slightly.)
 
 Basic Air Fabricator
 -Health increased 25 to 80
--Vision increased 100 to 120
 (Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over completely)
 
 Naval Basic Fabricator
--Health increased 100 to 200
--Move speed increased 10 to 12
+-Health increased 100 to 125
+-Move speed increased 10 to 13
 -Turn rate increased 90 to 120
--Vision increased 100 to 120
+-Vision increased 100 to 140
 -Increased build range 45 to 50
+-Build rate decreased 14 to 13 m/s 
+-Energy rate decreased 800 to 750 (57.1 energy per metal to 57.7)
   (Dev Note: The naval fab has less health than the vehicle fab at 200, despite costing more, having less speed, and more threatening enemy units, not to mention T2 naval fab has more health than T2 vehicle)
-  (Dev Note2: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point
-
-Naval Advanced Fabricator
--Build range increased 45 to 55
--Changed deepwater to water-hover
-  (Dev Note: This is mostly intended to be a quality of life change to help the adv ship build structures on land, as it does not have water-hover and can't get as close to shore as its basic naval fabricator counterpart)
+  (Dev Note2: Allows for faster openings to cut down on the slow nature of early naval, as well as be less punishing when killing fabs that are far away from a factory spawn point)
 
 ~Advanced Fabricators [Vehicle/Bot/Air/Naval] 
 ~Bot - Metal 1800 to 1700
@@ -102,13 +93,16 @@ Naval Advanced Fabricator
 
 ~Nav - Metal 2400 to 2225
      - Build range 45 to 55
+     - Changed deepwater to water-hover
 
 ~Each can now build all types of Titans [Atlas/Ares/Zues]
-(Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
-  (Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
 
-Solar Array (Advanced Orbital energy producer)
--HP Increase 1000 to 7000
+ (Dev Idea: Quality of life change, most players just relied on orbital fabs to build the desired titan)
+ (Dev Note: Metal cost reduced rougly 10% across the board, more favoring naval, slightly less favoring bot)
+
+Solar Array (Advanced Orbital Energy Producer)
+-Changed from unit to structure (from buildable by orbital factory to buildable by orbital fabber)
+-HP Increase 1000 to 8000
 -Metal cost increased 1600 to 5000
 -Energy production increased 3200/s to 11000/s
 -Added 100,000 energy storage (from 0)
@@ -151,7 +145,7 @@ Single Laser Defense Tower (T1 turret)
   (Dev Idea: Adds more support against dox/strykers early game but is vulnerable to stronger T1 units, now 2 shots dox like it 2 shots strykers)
 
 Lob (T1 Defense Structure)
-[turned Lob into a unit-cannon like structure with limited range, builds Vehicle fabs/Spinners/Strykers, and bot Fabbers/Boombots/Sparks/Stingers/Dox/Grenadiers]
+[turned Lob into a unit-cannon like structure with limited range, builds Vehicle fabs/Spinners/Strykers, and bot Fabbers/Sparks/Stingers/Dox/Grenadiers]
 -range increased 240 to 360 
 -Ammo capacity 15
 
@@ -168,6 +162,12 @@ Catapult (Advanced Missile Defense)
 -Missile velocity increased 80 to 100
 -Missile lifetime reduced 15 to 8
 -Firerate 0.4 to 0.2857 (Fires once every 3.5 seconds instead of 2.5)
+-Anti-ground and Anti-Orbital weapons split into 2 different parts
+-Anti-ground missile unchanged
+-Anti-orbital missile velocity increased 100 to 200 [Vanilla 80]
+-Anti-orbital missile lifetime increased 8 to 6 [Vanilla 15]
+-Fire-rate of 0.2857 maintained [Vanilla 0.4]
+-Added targetting priorities for specific orbital anti-ground units and transport units, then combat units, then non-combat orbital units 
   (Helps discourage constant catapult spam, but also allows for more strategic positions to be built with a metal cost reduction, and perhaps a vehicle push counter strategy)
 
 Advanced Laser Defense Tower (T2 Defense Structure - triple barrel)
@@ -204,7 +204,7 @@ Orbital Launcher (T1)
 -Rolloff timer decreased 3 to 2 seconds
 
 Orbital Factory
--Cost reduced 6000 to 4000
+-Cost reduced 4200 to 3800
 -Metal Buildrate increased 60 to 72
 -Energy demand increased 2000 to 2400
 -Factory cooldown increased 4 to 6
@@ -212,7 +212,7 @@ Orbital Factory
 Dev Note 2: Reduce Boosting)
 
 T2 factories. (Vehicle/Bot/Air/Naval)
--All Advanced Factory costs reduced from 4800 to 4400
+-All Advanced Factory costs reduced from 4800 to 4500
 
 Adv Bot Factory
 -Metal Build Rate increased 45 to 60

@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "Colonel",
-    "description": "!LOC:Proxy Commander - Builds advanced structures. Amphibious. Durable. High damage. Attacks everything but orbital.",
+    "description": "!LOC:Proxy Commander - Builds advanced structures. Amphibious. Durable. High damage. Attacks everything but orbital. Weight 5",
     "strategic_icon_priority": 0,
     "max_health": 8000,
     "build_metal_cost": 6000,
@@ -20,7 +20,7 @@
  "UNITTYPE_Custom58","UNITTYPE_Bot", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_SupportCommander", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Attack", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
-        "size": 1
+        "size": 5
     },
     "navigation": {
         "type": "amphibious",

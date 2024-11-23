@@ -1,9 +1,9 @@
 {
     "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
     "display_name": "Pelican",
-    "description": "!LOC:Air Transport - Load a land unit to transport for snipes or expansions.",
-    "max_health": 225,
-    "build_metal_cost": 180,
+    "description": "!LOC:Air Transport - Load a land unit to transport for snipes or expansions. Capacity 5",
+    "max_health": 210,
+    "build_metal_cost": 215,
     "usable": true,
     "attachable": {
         "offsets": {

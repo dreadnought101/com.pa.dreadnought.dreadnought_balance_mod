@@ -1,4 +1,4 @@
-FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.64]
+FULL BASE CHANGES  (Changes from current base game) [Updated as of patch 1.65]
 
 Commander
 -Metal Cost 25000 to 15000 (Makes repairing lost health easier)
@@ -10,18 +10,14 @@ Commander
 Orbital Navigation
 (Increases arrival spread to a planet)
 -"orbital_arrival_radius": 100, to 300
--"orbital_arrival_unit_radius": 7.5, to 22.5-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
+-"orbital_arrival_unit_radius": 7.5, to 22.5
+-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
 -Most units have been hemogenized to have identical movement between planets with some exceptions.
 >Hermes and Nuke remains extremely fast
 >Avenger/Astraeus have been increased to be faster than normal
 >Solar array has been increased to average speed
 >Unit Cannon has been slowed to average speed
 >Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
-
-Firefly (T1 Air Scout)
--Added Radar Stealth 
--Metal cost increased 60 to 90
-(Note: Same as Skitter Note 1)
 
 Skitter (T1 Vehicle Scout)
 -Added Radar Stealth
@@ -35,10 +31,15 @@ Skitter (T1 Vehicle Scout)
 ~the metal cost is to bring it below the firefly, and between dox and stryker.
 ~Overall buffs to skitters are generally risk free due to the utility, non-combat nature of this unit and I want to reward positioning and scouting after the early game.)
 
+Firefly (T1 Air Scout)
+-Added Radar Stealth 
+-Metal cost increased 60 to 90
+(Note: Same as Skitter Note 1)
+
 Stryker (T1 Vehicle)
 -Health decreased 60 to 50
 -Damage decreased 15x2 to 13x2
--Movement Speed Increased 17 to 21
+-Movement Speed Increased 17 to 20
 -Weapon Muzzle Velocity Decreased 140 to 135
   (Dev Idea: Gives them more dart in-dart out mechanics, changes up the gameplay between them and dox and against other units)
 
@@ -67,8 +68,7 @@ Spinner (T1 Vehicle)
 
 Dox (T1 Bot)
 -Weapon Muzzle Velocity Increased 130 to 135
--Speed Increased 20 to 21
-Dev Note: Muzzle velocity to match strykers, speed to add late game flanking potential, am concerned about early game rush distances though
+Dev Note: Muzzle velocity to match strykers
 
 Grenadier (T1 Bot)
 [TLDR: They get torpedos, are more expensive and bigger, small aoe and fires 4 projectiles, hit harder]
@@ -100,19 +100,19 @@ Spark (T1 assault bot)
 
 Stinger (T1 AA Bot)
 [TLDR: Makes it a stronger, long range, high damage yet low firerate AA]
--HP 130 to 115
+-Model size increased by 50%
+-HP 55 to 115
 -Metal Cost 120 to 140
 -Move Speed 16 to 13
 -Vision 100 to 90 
 -Range 90 to 180
 -Damage 30 damage to 95
--Rate of Fire 1.0 reduced to 0.33 (1 shot every 1 second to every 3 seconds)
+-Rate of Fire 1.5 reduced to 0.33 (1 shot every 0.67 seconds to 1 shot every 3 seconds)
 -Added splash damage with radius of 1.5 and 35 damage
 -DPS 30 dps to 32
 -Bullet lifetime increase 1.0 to 1.1
--Model size increased by 50%
--Stinger selection icon Increased from 10 to 12)
-  (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but lower dps overall.)
+-Stinger selection circle increased from 10 to 12
+  (Dev Idea: Alternate approach to anti-air with higher range and more upfront damage but also overkills more often, affecting scalability.)
 
 Hummingbird (T1 Air Fighter)
 -reduced damage from 80 to 75.
@@ -136,7 +136,8 @@ Icarus  (T1 Solar Gunship)
 (Dev Note: Gives MLA a new option with Air to Air engagements, especially against Legion.  Allows Icarus skill play to work around enemey AA, and vice-versa)
 
 Pelican (Transport)
--HP increased 150 to 225
+-Transport Weight Capacity increased 1 to 5
+-HP increased 150 to 210
 -Metal Cost increased 140 to 215
 -Transport Pickup range increased 10 to 30 [Load range 15, chase range 5]
 -Acceleration increased 30 to 100
@@ -144,19 +145,29 @@ Pelican (Transport)
 -Turn rate increased 180 to 270
 (Still takes 2 shots from air, but increases Time to Kill for ground AA as well as improve its functionality for skilled play)
 
+Astraeus (Orbital Transport)
+-Weight Capacity 1 to 6
+-Orbital arrival delay decreased 3.0 to 2.0
+-gravwell 10.0 to 12.0
+-System_multi 30.0 to 36.0
+-Load range added 50
+-Chase range added 20
+-Transport capacity increased 1 to 8
+(Multi-unit transportation testing)
+
 Weight for
 1 - Dox/Stryker/Skitter
-2 - *Grenadier/Ant/Boombot
-3 - *Slammer/Gille/Bluehawk
-4 - *T1 Bot/Vehicle/Air Fab/Locust/Drifter/Spinner/Stinger
-5 - *T1 Naval/Barnacle/Spark/Combat Fab/Leveler/Sheller/Storm/Pirhana
-8 - *Inferno/T2 Bot Fab/T2 Combat Fab/T2 Vehicle Fab/Vangaurd
-(General ideas are that it doesn't change units much that are already strong like inferno+spark+vangaurd, but increases others that are weaker though fabs and AA are a higher weight class due to potential.  Will keep an eye on boombots as well) 
-
+2 - Grenadier/Ant/Boombot/Pirhanna
+3 - Spark/Drifter/Spinner/Stinger/Slammer/Gille/Bluehawk/Locust/T1 Bot+Vehicle+Naval+Air Fab
+5 - Inferno/Leveler/Sheller/Storm/T2 Bot+Vehicle+Naval Fab/T1+T2 Combat Fab/Colonel/Barnacle
+6 - Vangaurd/T2 Air Fab
+(Will keep an eye on boombots, but for now, 2 per pelican transport)
+(General ideas are that it doesn't change units much that are already strong like inferno+spark, but increases others that are weaker though fabs and AA are a higher weight class due to potential. Vangaurds are too powerful in pelicans and generally unfun to play against. Will keep an eye on boombots as well. Will add more naval units soon.) 
 
 ~Narwhal (T1 Naval)
 [TLDR: Narwhals get cost reduction and nerfs, making them more spammable and better to afford early game]
 -Health reduced 750 to 525
+-Speed increased 12 to 13
 -Metal cost decreased 450 to 350
 -AA Weapon firerate 3.0/s to 2.4/s
 -AA Weapon damage decerased 25 to 20
@@ -165,12 +176,10 @@ Weight for
   (Dev Idea: Allows for air to play better around Narwhals but doesn't punish players for building narwhals early and getting caught out by early naval aggression)
 
 Piranha (T1 Naval)
--range increased 105 to 110
+-range increased 105 to 109
 -metal cost increased 150 to 165
 -damage increased 20 to 24
-  (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent
-Update: Patch decreased )
-
+  (Dev Idea: Piranhas with torpedo changes lock down shorelines even against defense structures and grenediar/drifter retakes, this will reduce that power but increase their early game presence in naval engagements and raiding, metal increase is to slightly slow down overwhelming an opponent.  109 range is to resolve a very specific bug of pirhannas being able to fire on double laser turrets without getting shot back)
 
 Orca (T1 Naval)
 -Increases turn_accel from 15 to 60
@@ -185,16 +194,15 @@ Orca (T1 Naval)
 Locust (T2 Bot)
 -Deleted from the game
 ...kidding.
--build cost increased 260 metal to 250
--health decreased 80 to 70
--Increase attack range 30 to 35
--Increase vision 40 to 45
--given 70 radius radar
+-Metal cost 260 to 250
+-Health decreased 80 to 70
+-Vision increased 40 to 45
+-Given 80 radius radar
   (Dev Note: Adjusted for factory changes weakening the unit incidentally. Radar allows locusts to operate more on their own with imperfect information.)
 
 Slammer (T2 Bot)
 -Increased Health 360 to 400
--Damage decreased 
+-Damage decreased 100 to 90
 -Torpedos no longer target Hover and Water_Hover targets
 -Increased speed 14 to 15
 
@@ -206,12 +214,18 @@ Bluehawk (T2 Bot)
 -Missile Velocity 80 to 100
 -Missile Lifetime reduced 15 to 8
 -Range increased 200 to 220
+-Anti-ground and Anti-Orbital weapons split into 2 different parts
+-Anti-ground missile unchanged
+-Anti-orbital missile velocity increased 100 to 200 [Vanilla 80]
+-Anti-orbital missile lifetime increased 8 to 6 [Vanilla 15]
+-Added targetting priorities for specific orbital anti-ground units and transport units, then combat units, then non-combat orbital units 
 
 Colonel (T2 Bot)
 -Weapon range increased 100 to 115
 -Changed armor type of AT_Commander to Bot
 
 Leveler (T2 Vehicle)
+-Health reduced 1500 to 1250
 -Increased idle aim delay from 3 to 5
 -Decreased damaged from 300x2 to 225x2
 -Added partial AOE radius of 2.0 (full damage AOE 1.0 radius)
@@ -259,8 +273,7 @@ Pheonix (T2 Air Fighter)
 -range increased 120 to 150 
   (Dev Notes: I want to differentiate the T2 fighter more from its T1 counterpart and give it cleave, as the T2 fighter feels like a direct upgrade upgrade without its own quirks unlike most other T1 to T2 versions)
 
-Kestral (T2 Gunship)
--Increased health 250 to 300
+Kestrel (T2 Gunship)
 -Range increased 60 to 80
 -Damage reduced 20 to 15
    (Dev Note: This is an older version from before a patch in the base game.  I prefer this over the new one as the range makes kestrals feel better, as well as prefer more consistency instead of snowballing)
@@ -269,11 +282,12 @@ Hornet (T2 Air bomber)
 -health reduced 500 to 250
 -move speed increased 30 to 40
 -metal cost 3200 to 1500
--fire rate reduced in half from 0.4 to 0.25
+-fire rate reduced from 0.4 to 0.25
 -range increase 190 to 200
+-Firing arc increased from 240 to 270 (Yaw 120 to 135)
 -Missile velocity decreased 160 to 100
 -Missile lifetime reduced 15 to 8
--Bision radius increase 200 to 210
+-Vision radius increase 200 to 210
 -underwater vision radius 200 to 210
 -Damage reduced 1000 to 750
   (Dev Idea: Gives some small buffs to ease this paper-plane into prominence
@@ -296,6 +310,11 @@ Stingray (T2 Naval AA)
 -Missile lifetime reduced 60 to 8
 -Missile turn rate 0 to 45
 -Missile damage increased 1000 to 1250
+-Anti-ground and Anti-Orbital weapons split into 2 different parts
+-Anti-ground missile unchanged
+-Anti-orbital missile velocity increased 100 to 200 [Vanilla 80]
+-Anti-orbital missile lifetime increased 8 to 7 [Vanilla 60]
+-Added targetting priorities for specific orbital anti-ground units and transport units, then combat units, then non-combat orbital units 
 -Increased AA-weapon (not cruise weapon) splash radius from 0.75 to 1.5
   (Dev Idea: Gives naval units an answer to the long range hornet, as well as more potent damage against wyrms and horseflies)
 (Dev Note: 5 to 4 shot typhoon and 6 to 5 leviathan. Does not change 4 shot omega nor 3 shot wyrm)
@@ -303,7 +322,6 @@ Stingray (T2 Naval AA)
 Typhoon (T2 Naval carrier)
 -Squal drone laser air/ground weapon damage reduced 50 to 40
   >Splash radius 0.75 and 20 damage component removed
-
 
 ARES (Titan)
 [TLDR: Weakened it mostly, Ground Pound only damages structures, secondary weapons buffed however]

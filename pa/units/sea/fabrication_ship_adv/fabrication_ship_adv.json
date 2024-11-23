@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "unit_name": "Advanced Fabrication Ship",
     "display_name": "!LOC:Advanced Fabrication Ship",
-    "description": "!LOC:Advanced Fabricator - Builds basic and advanced naval structures.",
+    "description": "!LOC:Advanced Fabricator - Builds basic and advanced naval structures. Weight 5",
     "max_health": 600,
     "build_metal_cost": 2225,
     "spawn_layers": "WL_WaterSurface",
@@ -16,7 +16,7 @@
  "UNITTYPE_Custom58","UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist"],
     "transportable": {
-        "size": 10
+        "size": 5
     },
     "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Bot | Air | Naval)) - Custom1 - Custom2 - Custom3 - Custom4",
     "physics": {

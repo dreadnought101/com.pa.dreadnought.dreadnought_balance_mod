@@ -13,7 +13,7 @@
         "type": "deepwater",
         "acceleration": 30,
         "brake": 90,
-        "move_speed": 12,
+        "move_speed": 13,
         "turn_speed": 60,
         "turn_accel": 30
     },

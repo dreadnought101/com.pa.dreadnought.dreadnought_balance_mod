@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "unit_name": "Fabrication Vehicle",
     "display_name": "!LOC:Fabrication Vehicle",
-    "description": "!LOC:Basic Fabricator - Builds basic structures. Durable. More powerful than other fabricators.",
+    "description": "!LOC:Basic Fabricator - Builds basic structures. Durable. More powerful than other fabricators. Weight 3",
     "max_health": 150,
     "build_metal_cost": 200,
     "buildable_types": "(Land & Structure & Basic | Factory & Basic | Factory & Land & Tank & Advanced | FabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
@@ -16,7 +16,7 @@
  "UNITTYPE_Custom58","UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Basic", "UNITTYPE_Land", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
-        "size": 4
+        "size": 3
     },
     "guard_layer": "WL_LandHorizontal",
     "navigation": {
@@ -37,12 +37,12 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 120
+                    "radius": 140
                 }, {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 120
+                    "radius": 140
                 }
             ]
         }

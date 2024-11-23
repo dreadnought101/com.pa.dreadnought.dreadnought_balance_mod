@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
     "unit_name": "Advanced Fab Aircraft",
     "display_name": "!LOC:Advanced Fab Aircraft",
-    "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures.",
+    "description": "!LOC:Advanced Fabricator - Builds basic and advanced structures. Weight 6",
     "max_health": 100,
     "build_metal_cost": 2075,
     "buildable_types": "(Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & (Tank | Bot | Air | Naval))- Custom1 - Custom2 - Custom3 - Custom4",
@@ -16,7 +16,7 @@
  "UNITTYPE_Custom58","UNITTYPE_Air", "UNITTYPE_Fabber", "UNITTYPE_Construction", "UNITTYPE_Mobile", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Reclaim", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
     "transportable": {
-        "size": 10
+        "size": 6
     },
     "guard_layer": "WL_LandHorizontal",
     "navigation": {

@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Piranha",
-    "description": "!LOC:Gunboat - Cheap. Fast. Expendable. Water Hover (Torpedoes do not target, can move closer to shorelines) Attacks land and sea targets.",
+    "description": "!LOC:Gunboat - Cheap. Fast. Expendable. Water Hover (Torpedoes do not target, can move closer to shorelines) Attacks land and sea targets. Weight 2",
     "max_health": 175,
     "build_metal_cost": 165,
     "spawn_layers": "WL_WaterSurface",
@@ -30,7 +30,7 @@
         }
     },
     "transportable": {
-        "size": 5
+        "size": 2
     },
     "physics": {
         "radius": 6

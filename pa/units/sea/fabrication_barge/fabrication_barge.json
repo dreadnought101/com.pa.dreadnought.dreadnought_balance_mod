@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Barnacle",
-    "description": "!LOC:Support Barge - Repairs damaged ships and auto reclaims wreckage. Builds and detects mines. Cannot help build units. Water hover.",
+    "description": "!LOC:Support Barge - Repairs damaged ships and auto reclaims wreckage. Builds and detects mines. Cannot help build units. Water hover. Weight 5",
     "max_health": 500,
     "build_metal_cost": 550,
     "spawn_layers": "WL_WaterSurface",

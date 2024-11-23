@@ -17,9 +17,9 @@
     "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Assist"],
     "navigation": {
         "type": "orbital",
-        "acceleration": 100,
-        "brake": 100,
-        "move_speed": 100,
+        "acceleration": 90,
+        "brake": 90,
+        "move_speed": 90,
         "turn_speed": 75,
         "hover_time": -1.0
     },
