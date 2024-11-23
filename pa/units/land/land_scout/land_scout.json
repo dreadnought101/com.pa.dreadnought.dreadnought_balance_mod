@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Skitter",
-    "description": "!LOC:Scout - Fast. Can see far away and detects mines. Does not attack.",
+    "description": "!LOC:Scout - Fast. Can see far away and detects mines. Does not attack. Weight 1",
     "max_health": 15,
     "build_metal_cost": 65,
     "guard_layer": "WL_AnySurface",
