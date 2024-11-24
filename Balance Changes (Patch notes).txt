@@ -1,55 +1,105 @@
-Patch 1.64
+Patch 1.65
 
-Unit Cannon
--Adjusted Pod Capacity from 1 to 100 (fixes bug with scaling up size of units for the transport system, does not affect actual gameplay)
+Locust
+-Attack range decreased 35 to 30 [Vanilla 30]
+-Radar increased 70 to 80 [Vanilla 0]
 
-Pelican (Air transport)
--Weight Capacity 1 to 5
--HP 100 to 225 [Vanilla 150] 
--Metal Cost 155 to 215 [Vanilla 140]
--Turn Rate increased 180 to 270
--Added load range 15 
--Added chase range 5
--Usable range 30 to 4084 (Matches Vanilla bug fix)
-(Can now essentially transport naval t1 fabs/Pirhannas/Barnacles and more of T1/T2 ground units, see weights for more details)
+Solar Array
+-Changed from unit to structure (from buildable by orbital factory to buildable by orbital fabber)
+-Health increased 7000 to 8000 [Vanilla 1000]
 
-Astraeus (Orbital Transport)
--Weight Capacity 1 to 6
--Added load range 50
--Added chase range 20
--pickup range 60 to 4048 (Matches Vanilla bug fix)
-(Can now essentially transport naval Pirhannas/Barnacles/orcas/narwhals alongside pirhannas as well as T2 air fabs+Kestrels as well as carry more T1/T2 ground units, see weights for more details)
+Lob
+-Changed unit pods from being globally visible to locally visible 
+("observable": {"always_visible": false})
 
+Hermes (orbital probe)
+-Speed 100 to 90 (Brake/Accel 100 to 90) [Vanilla 75]
+
+Leveler
+-Health reduced 1500 to 1250
+
+T2 Factories [Bot/Vehicle/Air/Naval]
+-Metal Cost 4400 to 4500 [Vanilla 4800] 
+
+Bot, Vehicle, Naval fabricator
+-Vision radius 120 to 140 [Vanilla 100]
+Air fabricator 
+-Vision 120 to 100 [Vanilla 100]
+
+Orbital Factory
+-metal cost 4000 to 3800 [Vanilla 4200]
+
+Advanced Radar Satellite
+-Vision Radius 600 to 500
+-Radar Radius 1000 to 800
+
+Bluehawk
+-Anti-ground and Anti-Orbital weapons split into 2 different parts
+-Anti-ground missile unchanged
+-Anti-orbital missile velocity increased 100 to 200 [Vanilla 80]
+-Anti-orbital missile lifetime increased 8 to 6 [Vanilla 15]
+-Added targetting priorities for specific orbital anti-ground units and transport units, then combat units, then non-combat orbital units 
+
+Catapult
+-Anti-ground and Anti-Orbital weapons split into 2 different parts
+-Anti-ground missile unchanged
+-Anti-orbital missile velocity increased 100 to 200 [Vanilla 80]
+-Anti-orbital missile lifetime increased 8 to 6 [Vanilla 15]
+-Fire-rate of 0.2857 maintained [Vanilla 0.4]
+-Added targetting priorities for specific orbital anti-ground units and transport units, then combat units, then non-combat orbital units 
+
+Stingray
+-Anti-ground and Anti-Orbital weapons split into 2 different parts
+-Anti-ground missile unchanged
+-Anti-orbital missile velocity increased 100 to 200 [Vanilla 80]
+-Anti-orbital missile lifetime increased 8 to 7 [Vanilla 60]
+-Added targetting priorities for specific orbital anti-ground units and transport units, then combat units, then non-combat orbital units 
+
+SXX Laser Platform
+-Can now attack underwater and seafloor targets
+-Damage against commanders specifically reduced by 50%
+(Allows more usefulness on water planets, but also reduces their main power in killing commanders, very hesitant in general to do specific damage reductions like so but commanders are an exception.  Will probably be reworking SXX to be more resilient against anti-orbital guns but less damaging overall)
+
+Naval Basic Fabricator
+-Health decreased 200 to 125 [Vanilla 100]
+-Speed increased 12 to 13 [Vanilla 10]
+-Build rate decreased 14 to 13 m/s 
+-Energy rate decreased 800 to 750 (57.1 energy per metal to 57.7)
+(Dev note: The naval fab was a bit too powerful overall but still suffered from snipes being too punishing when out on the map)
+
+Pirhanna 
+-range decreased 110 to 109 [Vanilla 105]
+(Resolves a very specific bug with double laser turrets sometimes not firing at pirhannas.  I normally prefer divisions of 5 but this will be an exception) 
+
+Barracuda
+-Speed increased 14 to 15
+(General naval speed buffs)
+
+Narwhal
+-Speed increased 12 to 13
+(General naval speed buffs)
+
+Pelican
+-Weight capacity reduced 6 to 5 [Vanilla 1 - Beta 10]
+
+Astraeus
+-Transport capacity reduced 10 to 6 [Vanilla 6 - Beta 18]
+
+Transport Weights
+-T2 Naval Fab can now be transported at a weight of 5
+-Pirhanna weight reduced 5 to 2
+-Inferno weight reduced 8 to 5
+-T1 Naval Fab weight reduced 5 to 3
+-Spark reduced 5 to 3
+-T1 Bot/Vehicle/Air Fab/Locust/Drifter/Spinner/Stinger reduced 4 to 3
+-T2 Bot Fab/T2 Combat Fab/T2 Vehicle Fab/Colonel reduced 8 to 5
+(Simplified and readded some T2 units to pelican transport.  Will add naval units that can be transported by Astraeus soon.  Updated all unit info cards [English] with the weight size for units) 
+
+[Final list]
 Weight for
 1 - Dox/Stryker/Skitter
-2 - *Grenadier/Ant/Boombot
-3 - *Slammer/Gille/Bluehawk
-4 - *T1 Bot/Vehicle/Air Fab/Locust/Drifter/Spinner/Stinger
-5 - *T1 Naval/Barnacle/Spark/Combat Fab/Leveler/Sheller/Storm/Pirhana
-8 - *Inferno/T2 Bot Fab/T2 Combat Fab/T2 Vehicle Fab/Vangaurd
-(General ideas are that it doesn't change units much that are already strong like inferno+spark+vangaurd, but increases others that are weaker though fabs and AA are a higher weight class due to potential.  Will keep an eye on boombots as well) 
-
-Orbital Launcher
--Rolloff timer decreased 3 to 2 seconds
-(Allows more spam of avengers, especially when offsetting its increased cost and building size)
-
-T1 Naval Fab
--Turn rate increased 90 to 120
-(Makes them a tad more manueverable and survivable)
-
-Single Laser Defense Tower (T1 Turret)
--Turret Rotation increased 120 to 135 [Vanilla 90]
-
-Stryker
--Reduced Speed 21 to 20 [Vanilla 17]
-
-Dox
--Reduced Speed 21 to 20 [Vanilla 20]
-
-Piranha
--Metal Cost increased 160 to 165 [Vanilla 150]
-
-Typhoon
--Squal drone laser air/ground weapon damage reduced 50 to 40
-  >Splash radius 0.75 and 20 damage component removed
-
+2 - Grenadier/Ant/Boombot/Pirhanna
+3 - Spark/Drifter/Spinner/Stinger/Slammer/Gille/Bluehawk/Locust/T1 Bot+Vehicle+Naval+Air Fab
+5 - Inferno/Leveler/Sheller/Storm/T2 Bot+Vehicle+Naval Fab/T1+T2 Combat Fab/Colonel/Barnacle
+6 - Vangaurd/T2 Air Fab
+(Will keep an eye on boombots, but for now, 2 per pelican transport)
