@@ -45,9 +45,8 @@ Stryker (T1 Vehicle)
 
 Ant (T1 Vehicle)
 -Vision radius increased 100 to 130
--Weapon firerate increased 0.55 to 0.525 (1 shot every 2 seconds to 1.9 seconds, 42 to 44 dps)
+-Weapon firerate decreased 0.55 to 0.525 (1 shot every 1.8 seconds to 1.9 seconds, 42 to 44 dps)
   (Dev Idea: Matches spark vision and better supports high range+low vision units)
-  (Dev Idea: Ants a long time ago had a turn rate of 90. I intend to do 105, but want to see how this old, more predictive type of micro handles in the modern era. At the moment I believe ants are too responsive and reactive for the lumbering tank persona, and in gameplay terms they are good at kiting backwards quickly and I want to see if this helps fast units+projectiles catch out ants better)
 
 Drifter (T1 Vehicle)
 -Metal cost increased 225 to 235

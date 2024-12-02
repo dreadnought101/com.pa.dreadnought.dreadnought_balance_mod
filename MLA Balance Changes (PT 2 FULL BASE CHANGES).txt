@@ -117,10 +117,14 @@ Jig (Orbital Gas Giant Extractor)
   (Dev Idea: Refocuse orbital energy production to Solar Arrays, Jigs cover to many roles and were too strong for its value)
 
 Energy Storage
--HP Reduced from 7500 to 5000
+-HP increased 3500 to 5000
 -Metal Cost reduced 450 to 250
--Storage increased 300,000 to 250,000
+-Storage decreased 300,000 to 250,000
   (Dev Idea: Decrease cost so its easier to build earlier on)
+
+Metal Storage
+-HP increased 3500 to 7500
+  (HP numbers from an older version of live PA)
 
 Basic Metal Extractor
 -Vision decreased 75 to 80
