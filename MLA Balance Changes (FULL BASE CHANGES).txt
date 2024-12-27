@@ -142,7 +142,7 @@ Pelican (Transport)
 -Acceleration increased 30 to 100
 -Break increased 60 to 100
 -Turn rate increased 180 to 270
-(Still takes 2 shots from air, but increases Time to Kill for ground AA as well as improve its functionality for skilled play)
+(Makes it more expensive getting that first pelican up for that spark+boombot drop, but adds more dynamics for mid+late game potential as well as QOL changes)
 
 Astraeus (Orbital Transport)
 -Weight Capacity 1 to 6

@@ -124,7 +124,7 @@ Energy Storage
 
 Metal Storage
 -HP increased 3500 to 7500
-  (HP numbers from an older version of live PA)
+  (HP numbers from an older version of live PA.  Prefer hardened storages, good for fab blocking and secondary walls)
 
 Basic Metal Extractor
 -Vision decreased 75 to 80
