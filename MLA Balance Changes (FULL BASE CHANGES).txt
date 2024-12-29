@@ -33,7 +33,8 @@ Skitter (T1 Vehicle Scout)
 
 Firefly (T1 Air Scout)
 -Added Radar Stealth 
--Metal cost increased 60 to 90
+-Metal cost increased 60 to 105
+-Health increased 25 to 80
 (Note: Same as Skitter Note 1)
 
 Stryker (T1 Vehicle)
