@@ -18,10 +18,6 @@ Teleporter
 -Health decreased from 9750 to 9000    
 -Metal Cost increased from 800 to 1000
 
-Teleporter
--Health decreased from 9750 to 9000    
--Metal Cost increased from 800 to 1000
-
 T2 Metal Extractor
 -Increased Selection Radius from 28 to 36
 (Quality of Life test: Purpose is to help select a T2 extractor when both a T1 extractor [currently at 24 selection diameter] and it are on the same metal node)

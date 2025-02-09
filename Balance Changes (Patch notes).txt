@@ -1,3 +1,5 @@
+Patch 1.66
+
 Naval Fab
 -Health increased 125 to 150 [Vanilla 100]
 
@@ -11,10 +13,6 @@ Commander
 -Death nuke Damage increased from 2000 to 3000
 -Death nuke Splash Radius increased from 110 to 130
 -Death buke Burn Radius increased from 137 to 157 (only affects trees)
-
-Teleporter
--Health decreased from 9750 to 9000    
--Metal Cost increased from 800 to 1000
 
 Teleporter
 -Health decreased from 9750 to 9000    
