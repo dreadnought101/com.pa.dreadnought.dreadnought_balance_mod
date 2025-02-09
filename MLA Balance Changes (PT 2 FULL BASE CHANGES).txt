@@ -1,5 +1,17 @@
 FULL MLA BASE CHANGES STRUCTURES/FABS [1.65]
 
+Orbital Navigation
+(Increases arrival spread to a planet)
+-"orbital_arrival_radius": 100, to 300
+-"orbital_arrival_unit_radius": 7.5, to 22.5
+-"planetary_arrival_cooldown_time": has been increased from 3.0 to 4.0 for most units, and 2.0 for Avenger/Hermes/Astraeus
+-Most units have been hemogenized to have identical movement between planets with some exceptions.
+>Hermes and Nuke remains extremely fast
+>Avenger/Astraeus have been increased to be faster than normal
+>Solar array has been increased to average speed
+>Unit Cannon has been slowed to average speed
+>Orbital Fab/ARKYD/Artemis/SXX/Omega/Advanced Radar/Helios/T2 Air fighter remain unchanged
+
 Avenger (Orbital Fighter)
 -100 weapon range to 135 (36%)
 -weapon projectile speed increased 300 to 400
@@ -72,7 +84,6 @@ Basic Air Fabricator
 (Can take 2 fighter shots, hopefully this gives air openers a slightly better use case without taking over completely)
 
 Naval Basic Fabricator
--Health increased 100 to 125
 -Move speed increased 10 to 13
 -Turn rate increased 90 to 120
 -Vision increased 100 to 140
@@ -134,6 +145,8 @@ Advanced Metal Extractor (T2 Economy)
 -Health increased 3000 to 5000
 -Metal production decreased 18 to 17
 -Vision decreased 100 to 80
+-Increased Selection Radius from 28 to 36
+  (Quality of Life test: Purpose is to help select a T2 extractor when both a T1 extractor [currently at 24 selection diameter] and it are on the same metal node)
   (Dev Note: I think production is slightly too strong, but at 1800 metal cost, it should have some strong health for its heavy investment)
 
 Galata (T1 AA structure)
