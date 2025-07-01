@@ -6,7 +6,7 @@
           "id": "/pa/units/land/land_scout/land_scout_dummy_ammo.json"
       }
   ],
-  "rate_of_fire": 1.0,
+  "rate_of_fire": 0.01,
   "idle_aim_delay": 1.0,
   "max_range": 150,
   "yaw_rate": 360,
